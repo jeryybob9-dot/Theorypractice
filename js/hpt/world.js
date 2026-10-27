@@ -198,6 +198,7 @@ export function buildWorld(clip, { quality = 'auto' } = {}) {
     lamp: new THREE.MeshLambertMaterial({ vertexColors: true, emissive: night || dusk ? '#ffcf7a' : '#000000', emissiveIntensity: night ? 1.2 : 0.4 }),
     litwin: new THREE.MeshLambertMaterial({ vertexColors: true, emissive: night || dusk ? '#c88a40' : '#000000', emissiveIntensity: night ? 0.55 : 0.35 }),
     decal: new THREE.MeshLambertMaterial({ vertexColors: true, polygonOffset: true, polygonOffsetFactor: -2, polygonOffsetUnits: -2 }),
+    shopwin: new THREE.MeshLambertMaterial({ vertexColors: true, emissive: night || dusk ? '#8a6a45' : '#000000', emissiveIntensity: night ? 0.5 : 0.25 }),
   };
   if (wet) {
     for (const k of ['pavement', 'grass']) materials[k].color = new THREE.Color('#9a9a9a');
@@ -605,7 +606,7 @@ class Scenery {
       add('brick', new THREE.BoxGeometry(w, h, depth), 0, h / 2, 0, wc);
       const [bg, fg] = r.pick(fronts);
       add('vc', new THREE.BoxGeometry(w - 0.3, 0.7, 0.2), 0, 3.4, depth / 2 + 0.1, bg);
-      add(this.env.night || this.env.dusk ? 'litwin' : 'vc', new THREE.BoxGeometry(w - 2.4, 2.4, 0.1), 0.6, 1.6, depth / 2 + 0.05, '#2a3846');
+      add(this.env.night || this.env.dusk ? (r.chance(0.6) ? 'shopwin' : 'vc') : 'vc', new THREE.BoxGeometry(w - 2.4, 2.4, 0.1), 0.6, 1.6, depth / 2 + 0.05, '#2a3846');
       add('vc', new THREE.BoxGeometry(1.0, 2.3, 0.12), -w / 2 + 0.9, 1.15, depth / 2 + 0.06, bg);
       for (const x of [-w / 4, w / 4]) for (const y of [5.2, h > 9.5 ? 8 : null]) {
         if (y == null) continue;

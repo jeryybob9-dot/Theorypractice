@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<base href="../">
+<title>Model showroom</title>
+<style>html,body{margin:0;background:#9ab}</style>
+</head>
+<body>
+<script type="module">
+// Developer view of the road-user models: tools/showroom.html
+import * as THREE from './vendor/three.module.min.js';
+import * as M from './js/hpt/models.js';
+const r = new THREE.WebGLRenderer({ antialias: true });
+r.setSize(1200, 600);
+r.outputColorSpace = THREE.SRGBColorSpace;
+r.toneMapping = THREE.ACESFilmicToneMapping;
+document.body.appendChild(r.domElement);
+const scene = new THREE.Scene();
+scene.background = new THREE.Color('#cfdde8');
+scene.add(new THREE.HemisphereLight('#dfefff', '#4a5a3a', 0.9));
+const sun = new THREE.DirectionalLight('#fff4e0', 1.6); sun.position.set(-5, 10, 6); scene.add(sun);
+const ground = new THREE.Mesh(new THREE.PlaneGeometry(80, 40), new THREE.MeshLambertMaterial({ color: '#55585c' }));
+ground.rotation.x = -Math.PI / 2; scene.add(ground);
+const items = [
+  M.makeCar({ color: '#9b1c1c', style: 'hatch' }), M.makeCar({ color: '#2d4b7a', style: 'saloon' }), M.makeCar({ color: '#c9ccd1', style: 'estate' }),
+  M.makeCar({ color: '#1c1f24', style: 'suv' }), M.makeCar({ color: '#f2f2f0', style: 'van' }), M.makeBus({ decks: 2 }), M.makeLorry(), M.makeTractor(),
+  M.makeCyclist({ rnd: () => 0.3 }), M.makePerson({ rnd: () => 0.2 }), M.makePerson({ child: true, rnd: () => 0.6 }), M.makeHorse({ rnd: () => 0.1 }), M.makeDog({ rnd: () => 0.2 }), M.makeDeer(), M.makeMotorbike({ rnd: () => 0.4 }),
+];
+let x = -26;
+for (const it of items) {
+  const len = it.userData.parts && it.userData.parts.length ? it.userData.parts.length : 2;
+  it.position.set(x, 0, 0);
+  it.rotation.y = Math.PI * 0.8;
+  scene.add(it);
+  x += Math.max(2.4, Math.min(5.5, len * 0.6 + 1.6));
+}
+const cam = new THREE.PerspectiveCamera(32, 2, 0.1, 200);
+cam.position.set(0, 9, 34); cam.lookAt(0, 1, 0);
+r.render(scene, cam);
+window.ready = true;
+</script>
+</body>
+</html>

@@ -46,15 +46,28 @@ export function makeCar({ color = '#c9ccd1', style = 'hatch', parts = true } = {
   const S = BODY_STYLES[style] || BODY_STYLES.hatch;
   const g = new THREE.Group();
   const paint = mat(color);
-  const glass = mat('#1d252d');
+  const glass = mat('#56697a'); // windows reflect the sky, so read lighter than black
   const dark = mat('#191a1c');
   const body = mesh(profileGeo(S.body, S.wid), paint);
   g.add(body);
   if (S.cabin) {
     g.add(mesh(profileGeo(S.cabin, S.wid - 0.16, 0.03), glass));
-    // roof skin
+    // roof skin and pillars in body colour
     const roofZ0 = S.cabin[1][0], roofZ1 = S.cabin[2][0], roofY = S.cabin[2][1];
-    g.add(mesh(box(S.wid - 0.22, 0.05, roofZ1 - roofZ0 - 0.1), paint, 0, roofY + 0.005, -(roofZ0 + roofZ1) / 2));
+    g.add(mesh(box(S.wid - 0.2, 0.06, roofZ1 - roofZ0 - 0.05), paint, 0, roofY + 0.01, -(roofZ0 + roofZ1) / 2));
+    const beltY = S.cabin[0][1];
+    const bz = -(roofZ0 + roofZ1) / 2 + 0.15;
+    g.add(mesh(box(S.wid - 0.13, roofY - beltY, 0.12), paint, 0, (roofY + beltY) / 2, bz)); // B-pillar
+    // A-pillars follow the windscreen rake
+    const [wz0, wy0] = S.cabin[2], [wz1, wy1] = S.cabin[3];
+    const aLen = Math.hypot(wz1 - wz0, wy1 - wy0);
+    for (const sx of [-1, 1]) {
+      const a = mesh(box(0.08, aLen, 0.08), paint, sx * (S.wid / 2 - 0.1), (wy0 + wy1) / 2, -(wz0 + wz1) / 2);
+      a.rotation.x = Math.atan2(wz1 - wz0, wy0 - wy1);
+      g.add(a);
+    }
+    // black window trim along the sides
+    g.add(mesh(box(S.wid - 0.12, 0.035, Math.abs(S.cabin[3][0] - S.cabin[0][0])), dark, 0, beltY + 0.02, -(S.cabin[3][0] + S.cabin[0][0]) / 2));
   } else {
     // van: windscreen and side windows
     g.add(mesh(box(S.wid + 0.01, 0.55, 0.8), glass, 0, 1.6, -1.1));

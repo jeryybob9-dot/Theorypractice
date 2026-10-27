@@ -66,6 +66,13 @@ export class ClipPlayer {
     await new Promise((res) => setTimeout(res, 30));
     const q = store.settings().quality;
     this.world = buildWorld(clip, { quality: q });
+    if (clip.weather === 'rain') {
+      if (!this.wipers) {
+        this.wipers = document.createElement('canvas');
+        Object.assign(this.wipers.style, { position: 'absolute', inset: '0', width: '100%', height: '100%', pointerEvents: 'none' });
+        this.frame.appendChild(this.wipers);
+      }
+    } else if (this.wipers) { this.wipers.remove(); this.wipers = null; }
     this.r.shadowMap.enabled = this.world.shadows;
     this.resize();
     this.t = 0;
@@ -78,6 +85,34 @@ export class ClipPlayer {
   render() {
     if (!this.world) return;
     this.r.render(this.world.scene, this.world.camera);
+    if (this.wipers) this.drawWipers(this.t);
+  }
+
+  // Rain clips: windscreen wipers sweeping across the view.
+  drawWipers(t) {
+    const c = this.wipers;
+    const w = this.r.domElement.clientWidth || 640, hgt = this.r.domElement.clientHeight || 360;
+    if (c.width !== w || c.height !== hgt) { c.width = w; c.height = hgt; }
+    const g = c.getContext('2d');
+    g.clearRect(0, 0, w, hgt);
+    const period = 2.4, sweep = 1.3;
+    const ph = (t % period) / sweep;
+    let a = 0;
+    if (ph < 1) a = Math.sin(ph * Math.PI); // out and back
+    const ang = (-8 + a * 150) * Math.PI / 180;
+    g.strokeStyle = 'rgba(12,12,12,0.92)';
+    g.lineCap = 'round';
+    for (const [px, len] of [[0.22, 0.62], [0.62, 0.58]]) {
+      const x0 = w * px, y0 = hgt * 1.04, L = hgt * len * 1.35;
+      g.lineWidth = Math.max(3, w * 0.008);
+      g.beginPath();
+      g.moveTo(x0, y0);
+      g.lineTo(x0 + Math.cos(Math.PI - ang) * -L * -1, y0 - Math.sin(ang) * L);
+      g.stroke();
+    }
+    // a light film of water on the glass
+    g.fillStyle = 'rgba(180,195,210,0.06)';
+    g.fillRect(0, 0, w, hgt);
   }
 
   seek(t) {
@@ -138,6 +173,7 @@ export class ClipPlayer {
       window.removeEventListener('resize', this.resize);
       window.removeEventListener('orientationchange', this.resize);
       if (this.r.domElement.parentNode === this.frame) this.frame.removeChild(this.r.domElement);
+      if (this.wipers) { this.wipers.remove(); this.wipers = null; }
       this.r.renderLists.dispose();
     }
   }
