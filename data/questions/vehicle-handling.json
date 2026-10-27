@@ -314,7 +314,7 @@
       "The engine, headlights and fog lights",
       "Only the engine, as lights don't matter",
       "Only the fog lights, if they're on",
-      "Only the headlights and the radio"
+      "Nothing, if you'll be back in minutes"
     ],
     "answer": 0,
     "explain": "If you stop on the roadside, you MUST switch off the engine, headlights and fog lights, and you MUST apply the handbrake before leaving the vehicle.",
@@ -535,7 +535,7 @@
     "id": "HAN-039",
     "q": "You come to a level crossing with user-operated gates but no lights. There's a railway telephone beside it. What should you do before crossing?",
     "options": [
-      "Open the gates and cross quickly",
+      "Wait for the gates to open by themselves",
       "Sound your horn and wait for a reply",
       "Cross if you can't hear a train",
       "Phone the signal operator"
@@ -647,9 +647,9 @@
     "id": "HAN-047",
     "q": "You're driving along a road with tram tracks. Where should you take extra care?",
     "options": [
-      "Only at the tram stops",
-      "Only where trams have their own lane",
-      "Only when a tram is in sight",
+      "On long straight sections of track",
+      "Where the road is at its widest",
+      "Where the tracks are furthest from the kerb",
       "Where the tracks cross the road"
     ],
     "answer": 3,

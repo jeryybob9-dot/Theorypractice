@@ -258,7 +258,8 @@
     "explain": "Certain tank vehicles carrying dangerous goods must display hazard information panels. This diamond symbol shows a corrosive substance. If such a vehicle is involved in an incident, keep well away.",
     "ref": [
       "HC Vehicle markings",
-      "HC 284"
+      "HC 284",
+      "HC 285"
     ],
     "sign": "hazard-warning-corrosive-plate"
   },
