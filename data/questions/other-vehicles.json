@@ -1,0 +1,575 @@
+[
+  {
+    "id": "OTH-001",
+    "q": "You're following a long lorry. As it approaches a junction on the left, it moves out towards the centre of the road. What should you do?",
+    "options": [
+      "Pass it on the left while there's room",
+      "Stay back, as it may be turning left",
+      "Overtake it quickly on the right",
+      "Sound your horn to warn the driver"
+    ],
+    "answer": 1,
+    "explain": "Long vehicles may need extra road space to turn, and may move over to the right before turning left. Stay back and be prepared to stop and wait if it needs room or time to turn.",
+    "ref": [
+      "HC 221",
+      "HC 170",
+      "HC 76"
+    ],
+    "sign": null
+  },
+  {
+    "id": "OTH-002",
+    "q": "You're approaching a roundabout behind a long vehicle that is straddling both lanes. What should you do?",
+    "options": [
+      "Stay back and watch for its signals",
+      "Pass it on the left as you enter",
+      "Sound your horn so it picks a lane",
+      "Overtake it before the roundabout"
+    ],
+    "answer": 0,
+    "explain": "Because of their length, long vehicles (including those towing trailers) might have to take a different course or straddle lanes, either approaching or on the roundabout. Give them plenty of room and watch out for their signals.",
+    "ref": [
+      "HC 187"
+    ],
+    "sign": null
+  },
+  {
+    "id": "OTH-003",
+    "q": "At a mini-roundabout, which vehicles may drive over the central markings?",
+    "options": [
+      "Cars that are turning right at them",
+      "Any vehicle that's making a U-turn",
+      "Large vehicles unable to get round them",
+      "Cars that are towing small trailers"
+    ],
+    "answer": 2,
+    "explain": "All vehicles MUST pass round the central markings at a mini-roundabout, except large vehicles which are physically incapable of doing so. Avoid making U-turns at mini-roundabouts.",
+    "ref": [
+      "HC 188"
+    ],
+    "sign": null
+  },
+  {
+    "id": "OTH-004",
+    "q": "You're thinking of overtaking a long lorry on a single carriageway road. What should you bear in mind?",
+    "options": [
+      "Its driver must slow down for you",
+      "You can cut in sharply once past",
+      "Lorries must pull over to let you by",
+      "It'll take longer to pass than a car"
+    ],
+    "answer": 3,
+    "explain": "Overtaking large vehicles is more difficult. It takes longer to pass a large vehicle, so make sure you have enough room to complete the manoeuvre before committing yourself. If in doubt, don't overtake.",
+    "ref": [
+      "HC 164"
+    ],
+    "sign": null
+  },
+  {
+    "id": "OTH-005",
+    "q": "The car in front of you pulls out to overtake a long lorry. You also want to overtake. What should you do?",
+    "options": [
+      "Follow the car closely past the lorry",
+      "Flash the car ahead to make it hurry",
+      "Wait until you can see it's safe yourself",
+      "Pull out alongside the car"
+    ],
+    "answer": 2,
+    "explain": "Don't assume you can follow a vehicle ahead which is overtaking a long vehicle. If a problem develops, the driver may abort overtaking and pull back in.",
+    "ref": [
+      "HC 164",
+      "HC 163"
+    ],
+    "sign": null
+  },
+  {
+    "id": "OTH-006",
+    "q": "You're following a tractor towing a trailer along a country road. Why should you stay well back?",
+    "options": [
+      "Tractors aren't fitted with brake lights",
+      "There may be another slow vehicle ahead",
+      "Its driver will wave you past soon",
+      "Tractors can't use indicators"
+    ],
+    "answer": 1,
+    "explain": "Getting too close to large vehicles, including agricultural vehicles such as a tractor with a trailer, will obscure your view of the road ahead, and there may be another slow-moving vehicle in front. Dropping back also helps the driver see you in their mirrors.",
+    "ref": [
+      "HC 164"
+    ],
+    "sign": null
+  },
+  {
+    "id": "OTH-007",
+    "q": "You're driving on a wet dual carriageway behind a lorry that's throwing up a lot of spray. What should you do?",
+    "options": [
+      "Move closer to get out of the spray",
+      "Switch to main beam to see through it",
+      "Drop back to improve your view",
+      "Overtake it on the left"
+    ],
+    "answer": 2,
+    "explain": "Rain and spray from vehicles can make it difficult to see and be seen. In wet weather keep well back from the vehicle in front; pulling back from a large vehicle improves your ability to see and plan ahead.",
+    "ref": [
+      "HC 227",
+      "HC 222"
+    ],
+    "sign": null
+  },
+  {
+    "id": "OTH-008",
+    "q": "Many large vehicles are fitted with speed limiting devices. What speed do these restrict them to, even on a motorway?",
+    "options": [
+      "50 mph",
+      "56 mph",
+      "60 mph",
+      "70 mph"
+    ],
+    "answer": 1,
+    "explain": "Many large vehicles may be fitted with speed limiters which restrict their speed to 56 mph (90 km/h), even on a motorway. Be patient, as larger vehicles are subject to lower speed limits than cars.",
+    "ref": [
+      "HC 222"
+    ],
+    "sign": null
+  },
+  {
+    "id": "OTH-009",
+    "q": "It's a very windy day. Which of these vehicles is most likely to be affected by the wind?",
+    "options": [
+      "A small hatchback",
+      "A low sports car",
+      "A high-sided lorry",
+      "A family saloon"
+    ],
+    "answer": 2,
+    "explain": "High-sided vehicles are most affected by windy weather, but strong gusts can also blow a car, cyclist, motorcyclist or horse rider off course.",
+    "ref": [
+      "HC 232"
+    ],
+    "sign": null
+  },
+  {
+    "id": "OTH-010",
+    "q": "You're following a goods vehicle of more than 7.5 tonnes on a dual carriageway in England. The national speed limit applies. What's the lorry's speed limit?",
+    "options": [
+      "40 mph",
+      "50 mph",
+      "60 mph",
+      "70 mph"
+    ],
+    "answer": 2,
+    "explain": "On a dual carriageway in England and Wales, the national speed limit for goods vehicles of more than 7.5 tonnes maximum laden weight is 60 mph. Be patient, as larger vehicles are subject to lower speed limits than cars.",
+    "ref": [
+      "GOV.UK speed-limits",
+      "HC 222"
+    ],
+    "sign": null
+  },
+  {
+    "id": "OTH-011",
+    "q": "You're driving along a town road. A bus ahead at a bus stop signals to pull out. What should you do?",
+    "options": [
+      "Speed up to pass before it moves",
+      "Sound your horn to warn the driver",
+      "Flash your lights to keep it waiting",
+      "Give way to it if it's safe to do so"
+    ],
+    "answer": 3,
+    "explain": "Give priority to buses, coaches and trams when you can do so safely, especially when they signal to pull away from stops.",
+    "ref": [
+      "HC 223"
+    ],
+    "sign": null
+  },
+  {
+    "id": "OTH-012",
+    "q": "You're driving in a city where trams run along the road. Why do you need to take extra care near them?",
+    "options": [
+      "They're quiet and can't steer around you",
+      "They must always give way to cars",
+      "They only ever travel very slowly",
+      "They can swerve to avoid other traffic"
+    ],
+    "answer": 0,
+    "explain": "Be careful of electric vehicles such as trams and milk floats. Trams move quickly but silently and cannot steer to avoid you.",
+    "ref": [
+      "HC 224"
+    ],
+    "sign": null
+  },
+  {
+    "id": "OTH-013",
+    "q": "You're driving along a street where trams share the road with other traffic. Which of these should you do?",
+    "options": [
+      "Race trams away from traffic lights",
+      "Pass moving trams on the inside",
+      "Always give way to trams",
+      "Drive along on top of the rails"
+    ],
+    "answer": 2,
+    "explain": "Always give way to trams. Don't try to race or overtake them, or pass them on the inside, unless they're at tram stops or stopped by tram signals and there's a designated tram lane for you to pass. Avoid driving directly on top of the rails.",
+    "ref": [
+      "HC 301",
+      "HC 300"
+    ],
+    "sign": null
+  },
+  {
+    "id": "OTH-014",
+    "q": "A tram has stopped at a stop with no platform to pick up passengers. No other route is signed. What should you do?",
+    "options": [
+      "Pass between it and the left kerb",
+      "Wait until the tram moves off",
+      "Overtake it on the right",
+      "Sound your horn and pass slowly"
+    ],
+    "answer": 1,
+    "explain": "At stops without platforms you MUST NOT drive between a tram and the left-hand kerb when it has stopped to pick up passengers. If there's no alternative route signed, don't overtake the tram – wait until it moves off.",
+    "ref": [
+      "HC 303"
+    ],
+    "sign": null
+  },
+  {
+    "id": "OTH-015",
+    "q": "A tram is signalling to pull away from a stop. Why should you give it priority if it's safe to do so?",
+    "options": [
+      "Trams aren't fitted with brakes",
+      "Tram drivers can't see other traffic",
+      "It's an offence to follow a tram",
+      "Standing passengers could be injured"
+    ],
+    "answer": 3,
+    "explain": "Always give priority to trams, especially when they signal to pull away from stops, unless it would be unsafe. They may be carrying large numbers of standing passengers who could be injured if the tram had to make an emergency stop.",
+    "ref": [
+      "HC 305"
+    ],
+    "sign": null
+  },
+  {
+    "id": "OTH-016",
+    "q": "You see a diamond-shaped sign beside a tramway. Who does it give instructions to?",
+    "options": [
+      "All drivers",
+      "Cyclists only",
+      "Bus drivers only",
+      "Tram drivers only"
+    ],
+    "answer": 3,
+    "explain": "Diamond-shaped signs and white light signals give instructions to tram drivers only.",
+    "ref": [
+      "HC 300"
+    ],
+    "sign": null
+  },
+  {
+    "id": "OTH-017",
+    "q": "You're following a motorcyclist on a wet road where there are tram rails. Why should you take extra care?",
+    "options": [
+      "They may need more space to cross",
+      "They must ride between the rails",
+      "Motorcycles must stop when trams pass",
+      "They're not allowed to cross the rails"
+    ],
+    "answer": 0,
+    "explain": "Cyclists and motorcyclists should take extra care near tram tracks, especially when the rails are wet, and it's safest to cross them at right angles. Be aware that they may need more space to cross the tracks safely.",
+    "ref": [
+      "HC 306"
+    ],
+    "sign": null
+  },
+  {
+    "id": "OTH-018",
+    "q": "A bus has stopped at a bus stop on your left, leaving a gap between it and the kerb. What should you do?",
+    "options": [
+      "Pass it on the right when it's safe",
+      "Drive through the gap on its left",
+      "Sound your horn and pass either side",
+      "Flash your lights so it pulls in"
+    ],
+    "answer": 0,
+    "explain": "Don't overtake between the kerb and a bus or tram when it's at a stop. Look out for people getting off the bus and crossing the road, and give priority to the bus if it signals to pull away.",
+    "ref": [
+      "HC 167",
+      "HC 223"
+    ],
+    "sign": null
+  },
+  {
+    "id": "OTH-019",
+    "q": "You're in a queue of slow-moving traffic on a town road. What should you be especially aware of?",
+    "options": [
+      "Traffic lights changing more slowly",
+      "Motorcyclists passing on either side",
+      "Cars being allowed to use bus lanes",
+      "Oncoming traffic having to stop"
+    ],
+    "answer": 1,
+    "explain": "In slow-moving traffic, be aware of cyclists and motorcyclists who may be passing on either side. They're more difficult to see than larger vehicles and their riders are particularly vulnerable.",
+    "ref": [
+      "HC 151",
+      "HC 160"
+    ],
+    "sign": null
+  },
+  {
+    "id": "OTH-020",
+    "q": "You're approaching a roundabout when an ambulance with flashing blue lights comes up behind you. Why shouldn't you brake harshly?",
+    "options": [
+      "A vehicle behind may not have the same view",
+      "Ambulances must give way at roundabouts",
+      "The ambulance will always go round you",
+      "It's an offence to stop near a roundabout"
+    ],
+    "answer": 0,
+    "explain": "When an emergency vehicle approaches, don't panic: consider its route and take appropriate action to let it pass. Don't brake harshly on approach to a junction or roundabout, as a following vehicle may not have the same view as you.",
+    "ref": [
+      "HC 219"
+    ],
+    "sign": null
+  },
+  {
+    "id": "OTH-021",
+    "q": "You're waiting at a red traffic light beside a tramway. The tram next to you moves off while your light is still red. What's the most likely reason?",
+    "options": [
+      "Trams usually have their own signals",
+      "Trams can ignore all traffic signals",
+      "Your traffic light has stopped working",
+      "The tram is answering an emergency call"
+    ],
+    "answer": 0,
+    "explain": "Tram drivers usually have their own traffic signals and may be permitted to move when you're not. Always give way to trams, and don't try to race them.",
+    "ref": [
+      "HC 301"
+    ],
+    "sign": null
+  },
+  {
+    "id": "OTH-022",
+    "q": "A powered mobility scooter is being used on the pavement beside the road. What's the maximum speed it may travel at on the pavement?",
+    "options": [
+      "4 mph",
+      "6 mph",
+      "8 mph",
+      "12 mph"
+    ],
+    "answer": 0,
+    "explain": "Powered wheelchairs and mobility scooters MUST NOT travel faster than 4 mph (6 km/h) on pavements or in pedestrian areas. Class 3 vehicles, which can also be used on the road, are restricted to 8 mph (12 km/h).",
+    "ref": [
+      "HC 39",
+      "HC 36"
+    ],
+    "sign": null
+  },
+  {
+    "id": "OTH-023",
+    "q": "Powered wheelchairs and mobility scooters can be used on some roads. Where MUST they NOT be used?",
+    "options": [
+      "On motorways",
+      "On dual carriageways",
+      "On roads without a pavement",
+      "On roads with a 40 mph limit"
+    ],
+    "answer": 0,
+    "explain": "Powered wheelchairs and mobility scooters MUST NOT be used on motorways. They shouldn't be used on unrestricted dual carriageways where the speed limit exceeds 50 mph, but if they are, they MUST have a flashing amber beacon.",
+    "ref": [
+      "HC 46",
+      "HC 253"
+    ],
+    "sign": null
+  },
+  {
+    "id": "OTH-024",
+    "q": "You're driving along a main road and see a vehicle ahead showing a flashing amber beacon. What does this usually warn you of?",
+    "options": [
+      "An ambulance on an emergency call",
+      "A police car about to stop you",
+      "A slow-moving or stationary vehicle",
+      "A doctor on an emergency call"
+    ],
+    "answer": 2,
+    "explain": "Flashing amber beacons warn of a slow-moving or stationary vehicle, such as a traffic officer vehicle, salt spreader, snow plough or recovery vehicle, or an abnormal load. Approach with caution.",
+    "ref": [
+      "HC 225"
+    ],
+    "sign": null
+  },
+  {
+    "id": "OTH-025",
+    "q": "On an unrestricted dual carriageway, which of these vehicles MUST use a flashing amber beacon?",
+    "options": [
+      "Tractors limited to 25 mph or less",
+      "Cars towing caravans or trailers",
+      "Vans carrying heavy loads",
+      "Lorries over 7.5 tonnes"
+    ],
+    "answer": 0,
+    "explain": "On unrestricted dual carriageways, motor vehicles first used on or after 1 January 1947 with a maximum speed of 25 mph or less, such as tractors, MUST use a flashing amber beacon.",
+    "ref": [
+      "HC 225"
+    ],
+    "sign": null
+  },
+  {
+    "id": "OTH-026",
+    "q": "You're driving behind a snowplough on a dual carriageway. When may you overtake it?",
+    "options": [
+      "As soon as there's a gap",
+      "Once your intended lane is cleared",
+      "Whenever it drops below 20 mph",
+      "When it flashes its headlights"
+    ],
+    "answer": 1,
+    "explain": "Watch out for snowploughs, which may throw out snow on either side. Don't overtake them unless the lane you intend to use has been cleared.",
+    "ref": [
+      "HC 230"
+    ],
+    "sign": null
+  },
+  {
+    "id": "OTH-027",
+    "q": "You're driving on a dual carriageway and see this sign on the back of a slow-moving works vehicle. What MUST you do?",
+    "options": [
+      "Stop behind it until it moves off",
+      "Pass it on the side the arrow shows",
+      "Pass it on whichever side is clearer",
+      "Overtake it using the hard shoulder"
+    ],
+    "answer": 1,
+    "explain": "Works vehicles may be used to close lanes for repairs. Where 'Keep Left' or 'Keep Right' signs are displayed on the back, you MUST pass the vehicle on the side indicated and not return to the closed lane until you can see it's safe.",
+    "ref": [
+      "HC 289",
+      "HC Traffic signs"
+    ],
+    "sign": "road-work-sign-back-vehicle-direction-arrow"
+  },
+  {
+    "id": "OTH-028",
+    "q": "You're on a motorway behind a works vehicle displaying the sign 'CONVOY VEHICLE NO OVERTAKING'. What MUST you do?",
+    "options": [
+      "Stay behind it and don't pass",
+      "Overtake it on the right",
+      "Pass it only if it's slowing",
+      "Use the hard shoulder to get by"
+    ],
+    "answer": 0,
+    "explain": "Where a vehicle displays the sign 'CONVOY VEHICLE NO OVERTAKING', you MUST NOT pass it.",
+    "ref": [
+      "HC 289"
+    ],
+    "sign": null
+  },
+  {
+    "id": "OTH-029",
+    "q": "You're driving along a narrow road. An ambulance using flashing blue lights and its siren comes up behind you. What should you do?",
+    "options": [
+      "Brake hard and stop at once",
+      "Mount the pavement to let it pass",
+      "Find a safe place to let it pass",
+      "Speed up to stay ahead of it"
+    ],
+    "answer": 2,
+    "explain": "Consider the route of the emergency vehicle and take appropriate action to let it pass, while complying with traffic signs. If necessary pull to the side and stop, but avoid stopping before the brow of a hill, a bend or a narrow section of road, and avoid mounting the kerb.",
+    "ref": [
+      "HC 219"
+    ],
+    "sign": null
+  },
+  {
+    "id": "OTH-030",
+    "q": "What colour flashing lights are used by traffic officer and incident support vehicles?",
+    "options": [
+      "Blue",
+      "Green",
+      "Amber",
+      "Red"
+    ],
+    "answer": 2,
+    "explain": "Traffic officer and incident support vehicles use flashing amber lights. Ambulances, fire engines, police, doctors and other emergency vehicles may use flashing blue, red or green lights.",
+    "ref": [
+      "HC 219"
+    ],
+    "sign": null
+  },
+  {
+    "id": "OTH-031",
+    "q": "A police car behind you is flashing its blue lights and headlights, and the officer points for you to pull over. What MUST you do?",
+    "options": [
+      "Stop at once, wherever you happen to be",
+      "Stop when safe, then switch off your engine",
+      "Drive to the nearest police station",
+      "Keep driving until you reach a car park"
+    ],
+    "answer": 1,
+    "explain": "If the police want to stop you, they'll attract your attention by flashing blue lights or headlights or sounding their siren or horn, usually from behind. You MUST pull over and stop as soon as it's safe to do so, then switch off your engine.",
+    "ref": [
+      "HC 106"
+    ],
+    "sign": null
+  },
+  {
+    "id": "OTH-032",
+    "q": "Rear marking boards are required on large goods vehicles over 7,500 kg. Where else are the vertical versions of these markings required?",
+    "options": [
+      "On taxis and private hire cars",
+      "On powered mobility scooters",
+      "On all horse-drawn vehicles",
+      "On builders' skips in the road"
+    ],
+    "answer": 3,
+    "explain": "Large goods vehicle rear markings are fitted to motor vehicles over 7,500 kg and trailers over 3,500 kg. The vertical markings are also required on builders' skips placed in the road and on commercial vehicles or combinations longer than 13 metres.",
+    "ref": [
+      "HC Vehicle markings"
+    ],
+    "sign": null
+  },
+  {
+    "id": "OTH-033",
+    "q": "You see this marker on a lorry's load. What does it tell you?",
+    "options": [
+      "Its load overhangs by over 2 metres",
+      "The lorry is carrying dangerous goods",
+      "The lorry weighs more than 7,500 kg",
+      "The lorry is towing a long trailer"
+    ],
+    "answer": 0,
+    "explain": "Side and end projection markers are required when a load or equipment, such as a crane jib, overhangs the front or rear of a vehicle by more than two metres.",
+    "ref": [
+      "HC Vehicle markings"
+    ],
+    "sign": "projection-marker-side"
+  },
+  {
+    "id": "OTH-034",
+    "q": "You see a plain orange reflective plate like this on the back of a lorry. What does it mean?",
+    "options": [
+      "It's an abnormal load",
+      "It's carrying livestock",
+      "It's a slow-moving vehicle",
+      "It's carrying dangerous goods"
+    ],
+    "answer": 3,
+    "explain": "Vehicles carrying dangerous goods in packages are marked with plain orange reflective plates. Road tankers and vehicles carrying tank containers of dangerous goods have hazard warning plates.",
+    "ref": [
+      "HC 284",
+      "HC Vehicle markings"
+    ],
+    "sign": "hazard-warning-dangerous-goods"
+  },
+  {
+    "id": "OTH-035",
+    "q": "You're driving on a motorway and see this sign on the back of a works vehicle. What does it mean?",
+    "options": [
+      "A works vehicle has closed a lane ahead",
+      "The road works end in 800 yards",
+      "A contraflow system starts in 800 yards",
+      "All lanes are closed for 800 yards"
+    ],
+    "answer": 0,
+    "explain": "This sign on the back of a works vehicle warns that a lane ahead has been closed by a works vehicle, without cones. Works vehicles may be used to close lanes for repairs on motorways and other high-speed roads, so take special care.",
+    "ref": [
+      "HC Traffic signs",
+      "HC 289"
+    ],
+    "sign": "road-work-sign-back-vehicle-800-yards"
+  }
+]

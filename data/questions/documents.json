@@ -1,0 +1,585 @@
+[
+  {
+    "id": "DOC-001",
+    "q": "You want to start learning to drive a car. What's the youngest age at which you can apply for a provisional driving licence?",
+    "options": [
+      "16 years",
+      "15 years and 9 months",
+      "17 years",
+      "16 years and 9 months"
+    ],
+    "answer": 1,
+    "explain": "You can apply for a provisional driving licence when you're 15 years and 9 months old. You can usually start driving a car when you're 17.",
+    "ref": [
+      "GOV.UK driving-lessons-learning-to-drive"
+    ],
+    "sign": null
+  },
+  {
+    "id": "DOC-002",
+    "q": "A friend has offered to supervise you while you practise driving. What are the minimum requirements they must meet?",
+    "options": [
+      "Aged 18 or over, and held a full licence for 1 year",
+      "Aged 21 or over, and held a full licence for 1 year",
+      "Aged 21 or over, and held a full licence for 3 years",
+      "Aged 18 or over, and held a full licence for 3 years"
+    ],
+    "answer": 2,
+    "explain": "Learners MUST be supervised by someone at least 21 years old who holds a full licence for that type of car (automatic or manual) and has held one for at least 3 years.",
+    "ref": [
+      "HC Annex 3",
+      "GOV.UK driving-lessons-learning-to-drive"
+    ],
+    "sign": null
+  },
+  {
+    "id": "DOC-003",
+    "q": "Your mother has held a full licence for automatic cars only for 10 years. Can she supervise you while you learn in a manual car?",
+    "options": [
+      "No, she needs a manual car licence",
+      "Yes, as long as she's over 21",
+      "Yes, as she's held her licence for over 3 years",
+      "Yes, if the car has dual controls"
+    ],
+    "answer": 0,
+    "explain": "Anyone supervising you must be qualified to drive the type of vehicle you're learning in. For example, they must have a manual car licence if they're supervising you in a manual car.",
+    "ref": [
+      "GOV.UK driving-lessons-learning-to-drive",
+      "HC Annex 3"
+    ],
+    "sign": null
+  },
+  {
+    "id": "DOC-004",
+    "q": "You're supervising a learner driver. Which of these would be illegal for you to do?",
+    "options": [
+      "Give the learner directions",
+      "Sit in the front passenger seat",
+      "Point out hazards ahead",
+      "Use a hand-held mobile phone"
+    ],
+    "answer": 3,
+    "explain": "You MUST NOT use a hand-held mobile phone or similar device when driving or when supervising a learner driver.",
+    "ref": [
+      "HC 149",
+      "GOV.UK driving-lessons-learning-to-drive"
+    ],
+    "sign": null
+  },
+  {
+    "id": "DOC-005",
+    "q": "You're a learner driver in England. When are you allowed to drive on a motorway?",
+    "options": [
+      "Once you've passed your theory test",
+      "With an approved instructor in a dual-control car",
+      "With a family member who's held a licence for 3 years",
+      "Whenever you're displaying L plates"
+    ],
+    "answer": 1,
+    "explain": "Learners can only drive on motorways in England, Scotland or Wales if they're with an approved driving instructor and the car is fitted with dual controls. It's illegal to drive on a motorway when practising with family or friends.",
+    "ref": [
+      "GOV.UK driving-lessons-learning-to-drive"
+    ],
+    "sign": null
+  },
+  {
+    "id": "DOC-006",
+    "q": "You're learning to drive in your family's car. Where must the L plates be displayed?",
+    "options": [
+      "On the back only",
+      "On the front only",
+      "On the front and back",
+      "In the rear side windows"
+    ],
+    "answer": 2,
+    "explain": "You must put an L plate on the front and back of your vehicle so they can be seen easily. L plates must have a red L on a white background and be the right size. In Wales, you can use a D plate instead.",
+    "ref": [
+      "GOV.UK driving-lessons-learning-to-drive",
+      "HC Annex 3"
+    ],
+    "sign": null
+  },
+  {
+    "id": "DOC-007",
+    "q": "A learner driver is caught driving without the right supervision. What's the maximum number of penalty points they could get on their provisional licence?",
+    "options": [
+      "Up to 3",
+      "Up to 8",
+      "Up to 11",
+      "Up to 6"
+    ],
+    "answer": 3,
+    "explain": "You can be fined up to £1,000 and get up to 6 penalty points on your provisional licence if you drive without the right supervision.",
+    "ref": [
+      "GOV.UK driving-lessons-learning-to-drive"
+    ],
+    "sign": null
+  },
+  {
+    "id": "DOC-008",
+    "q": "What must you have before you can book your car theory test?",
+    "options": [
+      "A provisional driving licence",
+      "A minimum of 10 driving lessons",
+      "A certificate from your instructor",
+      "Your own insured car"
+    ],
+    "answer": 0,
+    "explain": "You must have a provisional driving licence to book your theory test. There's no minimum number of lessons you must have.",
+    "ref": [
+      "GOV.UK theory-test",
+      "GOV.UK driving-lessons-learning-to-drive"
+    ],
+    "sign": null
+  },
+  {
+    "id": "DOC-009",
+    "q": "You've just passed your theory test. How long is your pass certificate number valid for?",
+    "options": [
+      "6 months",
+      "1 year",
+      "2 years",
+      "3 years"
+    ],
+    "answer": 2,
+    "explain": "Your theory test pass certificate number lasts for 2 years. You must pass your driving test in that time, otherwise you'll have to pass the theory test again.",
+    "ref": [
+      "GOV.UK theory-test"
+    ],
+    "sign": null
+  },
+  {
+    "id": "DOC-010",
+    "q": "What's the minimum type of motor insurance you must have by law?",
+    "options": [
+      "Comprehensive",
+      "Third party",
+      "Third party, fire and theft",
+      "Personal accident cover"
+    ],
+    "answer": 1,
+    "explain": "Third-party insurance is the minimum cover required by law. It covers anyone you might injure or whose property you might damage.",
+    "ref": [
+      "HC Annex 3",
+      "GOV.UK vehicle-insurance"
+    ],
+    "sign": null
+  },
+  {
+    "id": "DOC-011",
+    "q": "Your car is insured for third party only. You lose control and hit a neighbour's garden wall, damaging both the wall and your car. What will your insurance cover?",
+    "options": [
+      "Damage to your own car only",
+      "Damage to both the wall and your car",
+      "Nothing, as no other vehicle was involved",
+      "Damage to the wall only"
+    ],
+    "answer": 3,
+    "explain": "Third-party insurance covers anyone you might injure or whose property you might damage. It doesn't cover damage to your own vehicle or injury to yourself.",
+    "ref": [
+      "HC Annex 3",
+      "GOV.UK vehicle-insurance"
+    ],
+    "sign": null
+  },
+  {
+    "id": "DOC-012",
+    "q": "Which type of insurance would cover damage to your own car, up to its market value, after a collision that was your fault?",
+    "options": [
+      "Comprehensive",
+      "Third party only",
+      "Third party, fire and theft",
+      "Breakdown cover"
+    ],
+    "answer": 0,
+    "explain": "Comprehensive insurance is the most expensive but the best cover. As well as covering other people and property, it covers damage to your own vehicle, up to its market value, and personal injury to yourself.",
+    "ref": [
+      "HC Annex 3"
+    ],
+    "sign": null
+  },
+  {
+    "id": "DOC-013",
+    "q": "The police catch you driving a car that you're not insured to drive. What fixed penalty could they give you?",
+    "options": [
+      "£100 and 3 penalty points",
+      "£200 and 4 penalty points",
+      "£300 and 6 penalty points",
+      "£1,000 and 11 penalty points"
+    ],
+    "answer": 2,
+    "explain": "The police could give you a fixed penalty of £300 and 6 penalty points for driving a vehicle you're not insured to drive. If the case goes to court you could get an unlimited fine and be disqualified, and the police can seize the vehicle.",
+    "ref": [
+      "GOV.UK vehicle-insurance"
+    ],
+    "sign": null
+  },
+  {
+    "id": "DOC-014",
+    "q": "A police officer asks to see your driving documents, but you don't have them with you. Within how many days may you be asked to take them to a police station?",
+    "options": [
+      "3 days",
+      "7 days",
+      "14 days",
+      "28 days"
+    ],
+    "answer": 1,
+    "explain": "You MUST be able to produce your driving licence, a valid insurance certificate and (if appropriate) a valid MOT certificate when asked by a police officer. If you can't, you may be asked to take them to a police station within 7 days.",
+    "ref": [
+      "HC Annex 3",
+      "GOV.UK legal-obligations-drivers-riders"
+    ],
+    "sign": null
+  },
+  {
+    "id": "DOC-015",
+    "q": "A police officer stops you and asks to see your documents. Which of these could they ask you to produce?",
+    "options": [
+      "Your vehicle's service history",
+      "Your theory test pass certificate",
+      "Your vehicle tax reminder letter",
+      "Your driving licence"
+    ],
+    "answer": 3,
+    "explain": "If a police officer asks, you must be able to show your driving licence, a valid insurance certificate and a valid MOT certificate (if your vehicle needs one).",
+    "ref": [
+      "HC Annex 3",
+      "GOV.UK legal-obligations-drivers-riders"
+    ],
+    "sign": null
+  },
+  {
+    "id": "DOC-016",
+    "q": "You've bought a brand-new car for private use. By when must it have its first MOT?",
+    "options": [
+      "The first anniversary of its registration",
+      "The second anniversary of its registration",
+      "The third anniversary of its registration",
+      "The fifth anniversary of its registration"
+    ],
+    "answer": 2,
+    "explain": "You must get an MOT for your car by the third anniversary of its registration, and then by the anniversary of its last MOT.",
+    "ref": [
+      "GOV.UK getting-an-mot",
+      "HC Annex 3"
+    ],
+    "sign": null
+  },
+  {
+    "id": "DOC-017",
+    "q": "Your car is 5 years old. How often must it have an MOT?",
+    "options": [
+      "Every year",
+      "Every 2 years",
+      "Every 3 years",
+      "Every 6 months"
+    ],
+    "answer": 0,
+    "explain": "Cars must normally pass an MOT test 3 years from the date of first registration and every year after that. An MOT lasts for a year.",
+    "ref": [
+      "HC Annex 3",
+      "GOV.UK getting-an-mot"
+    ],
+    "sign": null
+  },
+  {
+    "id": "DOC-018",
+    "q": "Your car's MOT certificate has run out. When may you drive it on the road?",
+    "options": [
+      "At any time, as long as it's taxed",
+      "To a pre-arranged MOT test appointment",
+      "For up to 7 days after it runs out",
+      "To work, if you've booked a test"
+    ],
+    "answer": 1,
+    "explain": "You can't drive your vehicle on the road if the MOT has run out. The only exceptions are driving it to or from somewhere to be repaired, or to a pre-arranged MOT test. You can be fined up to £1,000 for driving without a valid MOT.",
+    "ref": [
+      "GOV.UK getting-an-mot",
+      "HC Annex 3"
+    ],
+    "sign": null
+  },
+  {
+    "id": "DOC-019",
+    "q": "Your car's MOT has expired and its vehicle tax is due to run out. What does this mean?",
+    "options": [
+      "You can tax it now and book an MOT later",
+      "Your tax will be extended automatically",
+      "You'll get a 14-day grace period for both",
+      "You can't renew the tax until it has a valid MOT"
+    ],
+    "answer": 3,
+    "explain": "You can't renew your vehicle tax if your MOT has expired. If your tax is due to run out, register the vehicle as off the road (SORN), book an MOT and tax the vehicle once it has passed.",
+    "ref": [
+      "GOV.UK getting-an-mot"
+    ],
+    "sign": null
+  },
+  {
+    "id": "DOC-020",
+    "q": "Your car is exempt from vehicle tax, so there's nothing to pay. What must you still do?",
+    "options": [
+      "Declare it off the road",
+      "Nothing at all",
+      "Tax it as normal",
+      "Tell your insurer it's exempt"
+    ],
+    "answer": 2,
+    "explain": "You must tax your vehicle even if you don't have to pay anything because it's exempt from vehicle tax.",
+    "ref": [
+      "GOV.UK vehicle-tax"
+    ],
+    "sign": null
+  },
+  {
+    "id": "DOC-021",
+    "q": "You're keeping a car in your garage and won't be taxing or insuring it. What must you do?",
+    "options": [
+      "Make a SORN with DVLA",
+      "Send the log book back to DVLA",
+      "Remove its number plates",
+      "Tell your local council"
+    ],
+    "answer": 0,
+    "explain": "If you're the keeper and want to keep a vehicle untaxed and off the public road, you MUST make a Statutory Off Road Notification (SORN). It's an offence not to, and the vehicle stays SORN until you tax, sell or scrap it.",
+    "ref": [
+      "HC Annex 3",
+      "GOV.UK sorn-statutory-off-road-notification"
+    ],
+    "sign": null
+  },
+  {
+    "id": "DOC-022",
+    "q": "You've made a SORN for your car. When may you drive it on a public road?",
+    "options": [
+      "For short journeys of under 5 miles",
+      "Whenever it's insured",
+      "At weekends only",
+      "To a pre-booked MOT test"
+    ],
+    "answer": 3,
+    "explain": "You can only drive a vehicle with a SORN on a public road to go to or from a pre-booked MOT or other testing appointment. Using it for any other reason could lead to prosecution and a fine of up to £2,500.",
+    "ref": [
+      "GOV.UK sorn-statutory-off-road-notification"
+    ],
+    "sign": null
+  },
+  {
+    "id": "DOC-023",
+    "q": "You made a SORN for your car last year. You now want to start using it on the road again. What must you do?",
+    "options": [
+      "Renew the SORN",
+      "Tax and insure it",
+      "Send the V5C to DVLA",
+      "Wait for the SORN to expire"
+    ],
+    "answer": 1,
+    "explain": "A SORN is cancelled automatically when you tax your vehicle again, and you don't need to renew it. You must insure and tax a vehicle that doesn't have a SORN, and it must have a current MOT if it needs one.",
+    "ref": [
+      "GOV.UK sorn-statutory-off-road-notification",
+      "GOV.UK legal-obligations-drivers-riders"
+    ],
+    "sign": null
+  },
+  {
+    "id": "DOC-024",
+    "q": "You've sold your car privately. Who is responsible for sending the completed registration certificate (V5C) to DVLA?",
+    "options": [
+      "The buyer",
+      "The buyer's insurer",
+      "The seller",
+      "The police"
+    ],
+    "answer": 2,
+    "explain": "You MUST tell DVLA as soon as possible when you buy or sell a vehicle. The buyer and seller complete the registration certificate, and the seller is responsible for sending it to DVLA.",
+    "ref": [
+      "HC Annex 3",
+      "GOV.UK legal-obligations-drivers-riders"
+    ],
+    "sign": null
+  },
+  {
+    "id": "DOC-025",
+    "q": "What information does a vehicle registration certificate (V5C) give?",
+    "options": [
+      "The registered keeper's details",
+      "Proof that the car is roadworthy",
+      "Proof that the car is insured",
+      "The car's full service history"
+    ],
+    "answer": 0,
+    "explain": "Registration certificates are issued for all motor vehicles used on the road. They describe the vehicle (make, model, etc) and give details of the registered keeper.",
+    "ref": [
+      "HC Annex 3"
+    ],
+    "sign": null
+  },
+  {
+    "id": "DOC-026",
+    "q": "You've just moved house. What must you do about your driving licence?",
+    "options": [
+      "Nothing until your licence needs renewing",
+      "Tell your local police station",
+      "Apply for a new provisional licence",
+      "Tell DVLA your new address"
+    ],
+    "answer": 3,
+    "explain": "You MUST tell DVLA if you change your address. It doesn't cost anything, and you can be fined up to £1,000 if you don't. You must also change the address on your vehicle log book (V5C).",
+    "ref": [
+      "HC Annex 3",
+      "GOV.UK change-address-driving-licence"
+    ],
+    "sign": null
+  },
+  {
+    "id": "DOC-027",
+    "q": "You passed your driving test 18 months ago. How many penalty points would lead to your licence being revoked?",
+    "options": [
+      "3 or more",
+      "6 or more",
+      "9 or more",
+      "12 or more"
+    ],
+    "answer": 1,
+    "explain": "Under the New Drivers Act, your licence will be revoked if you get 6 or more penalty points within 2 years of passing your first driving test. This applies even if you pay for offences by fixed penalty.",
+    "ref": [
+      "HC Annex 8",
+      "HC Annex 5",
+      "GOV.UK penalty-points-endorsements"
+    ],
+    "sign": null
+  },
+  {
+    "id": "DOC-028",
+    "q": "A new driver's licence has been revoked under the New Drivers Act. What must they do to get a full licence again?",
+    "options": [
+      "Pass both the theory and practical tests again",
+      "Retake only the practical driving test",
+      "Wait 12 months and then reapply",
+      "Complete a Pass Plus course"
+    ],
+    "answer": 0,
+    "explain": "If your licence is revoked within 2 years of passing, you'll have to apply and pay for a new provisional licence and pass both the theory and practical tests again to get a full licence.",
+    "ref": [
+      "GOV.UK penalty-points-endorsements",
+      "HC Annex 8"
+    ],
+    "sign": null
+  },
+  {
+    "id": "DOC-029",
+    "q": "You got 3 penalty points while you were a learner driver. You've now passed your test. What happens to those points?",
+    "options": [
+      "They're wiped when you pass your test",
+      "They're doubled on your full licence",
+      "They're carried over to your full licence",
+      "They only count if you fail a test"
+    ],
+    "answer": 2,
+    "explain": "Any penalty points on your provisional licence that haven't expired are carried over to your full licence. If further points take you to a total of 6 or more within 2 years of passing, your licence will be revoked.",
+    "ref": [
+      "GOV.UK penalty-points-endorsements",
+      "HC Annex 5"
+    ],
+    "sign": null
+  },
+  {
+    "id": "DOC-030",
+    "q": "A driver who passed their test many years ago keeps getting penalty points. Under the 'totting-up' rules, how many points within 3 years mean they MUST be disqualified?",
+    "options": [
+      "6 or more",
+      "9 or more",
+      "15 or more",
+      "12 or more"
+    ],
+    "answer": 3,
+    "explain": "A driver who builds up 12 or more penalty points within 3 years MUST be disqualified. This will be for a minimum of 6 months, or longer if they've been disqualified before.",
+    "ref": [
+      "HC Annex 5",
+      "GOV.UK driving-disqualifications"
+    ],
+    "sign": null
+  },
+  {
+    "id": "DOC-031",
+    "q": "A driver is convicted of driving with alcohol above the legal limit (code DR10). How long must the endorsement stay on their driving record?",
+    "options": [
+      "4 years from the date of the offence",
+      "11 years from the date of conviction",
+      "3 years from the date of conviction",
+      "5 years from the date of the offence"
+    ],
+    "answer": 1,
+    "explain": "Endorsements stay on your driving record for 4 or 11 years, depending on the offence. Drink-driving endorsements (codes DR10 to DR61) must stay on your record for 11 years from the date of conviction.",
+    "ref": [
+      "GOV.UK penalty-points-endorsements"
+    ],
+    "sign": null
+  },
+  {
+    "id": "DOC-032",
+    "q": "You get penalty points for exceeding the speed limit on a public road (code SP30). How long must the endorsement stay on your driving record?",
+    "options": [
+      "4 years from the date of the offence",
+      "11 years from the date of conviction",
+      "2 years from the date of the offence",
+      "5 years from the date of conviction"
+    ],
+    "answer": 0,
+    "explain": "Speed limit endorsements (SP10 to SP50) must stay on your driving record for 4 years from the date of the offence.",
+    "ref": [
+      "GOV.UK penalty-points-endorsements"
+    ],
+    "sign": null
+  },
+  {
+    "id": "DOC-033",
+    "q": "You've developed a health condition that's likely to affect your driving. What MUST you do?",
+    "options": [
+      "Tell your insurer only",
+      "Display a medical notice in your car",
+      "Tell DVLA",
+      "Only drive during daylight"
+    ],
+    "answer": 2,
+    "explain": "You MUST report to DVLA any health condition likely to affect your driving.",
+    "ref": [
+      "HC 90",
+      "GOV.UK legal-obligations-drivers-riders"
+    ],
+    "sign": null
+  },
+  {
+    "id": "DOC-034",
+    "q": "Which of these eyesight problems must you tell DVLA about?",
+    "options": [
+      "Being short-sighted and wearing glasses",
+      "Being colour blind",
+      "Being long-sighted",
+      "A condition affecting both eyes"
+    ],
+    "answer": 3,
+    "explain": "You must tell DVLA if you've got any problem with your eyesight that affects both of your eyes, or the remaining eye if you only have one eye. This doesn't include being short-sighted, long-sighted or colour blind.",
+    "ref": [
+      "GOV.UK driving-eyesight-rules"
+    ],
+    "sign": null
+  },
+  {
+    "id": "DOC-035",
+    "q": "You need to wear glasses to read a number plate from 20 metres away. When MUST you wear them?",
+    "options": [
+      "Only when driving at night",
+      "Every time you drive",
+      "Only on motorways",
+      "Only in poor weather"
+    ],
+    "answer": 1,
+    "explain": "You MUST be able to read a vehicle number plate, in good daylight, from 20 metres. If you need glasses or contact lenses to do this, you MUST wear them every time you drive.",
+    "ref": [
+      "HC 92",
+      "GOV.UK driving-eyesight-rules"
+    ],
+    "sign": null
+  }
+]

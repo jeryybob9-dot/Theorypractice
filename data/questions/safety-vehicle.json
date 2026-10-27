@@ -1,0 +1,1142 @@
+[
+  {
+    "id": "SAF-001",
+    "q": "You're checking your car's tyres before a long journey. What's the minimum legal tread depth for car tyres?",
+    "options": [
+      "1 mm",
+      "2 mm",
+      "1.6 mm",
+      "3 mm"
+    ],
+    "answer": 2,
+    "explain": "Cars, light vans and light trailers MUST have a tread depth of at least 1.6 mm across the central three-quarters of the breadth of the tread and around the entire circumference.",
+    "ref": [
+      "HC Annex 6"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-002",
+    "q": "You're measuring the tread depth on your car's tyres. Over which part of the tyre must the legal minimum depth be met?",
+    "options": [
+      "Central three-quarters of the tread, around the whole tyre",
+      "Central half of the tread, around the whole tyre",
+      "Outer edges of the tread, around the whole tyre",
+      "Central three-quarters of the tread, on one section only"
+    ],
+    "answer": 0,
+    "explain": "Car tyres MUST have a tread depth of at least 1.6 mm across the central three-quarters of the breadth of the tread and around the entire circumference.",
+    "ref": [
+      "HC Annex 6"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-003",
+    "q": "You're about to check your tyre pressures at home. When should you do this to get an accurate reading?",
+    "options": [
+      "Straight after a motorway journey",
+      "While the engine is running",
+      "When the tyres are warm",
+      "When the tyres are cold"
+    ],
+    "answer": 3,
+    "explain": "You should check tyre pressures before your journey, when the tyres are cold. Warm or hot tyres may give a misleading reading.",
+    "ref": [
+      "HC Annex 6"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-004",
+    "q": "You use your car every day to get to work. How often should you check the tyre pressures?",
+    "options": [
+      "Every week",
+      "Once a month",
+      "At every service",
+      "Only before an MOT"
+    ],
+    "answer": 0,
+    "explain": "You should check your tyre pressures weekly. Do this before your journey, when the tyres are cold.",
+    "ref": [
+      "HC Annex 6"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-005",
+    "q": "Your car's tyres are under-inflated. What could this affect?",
+    "options": [
+      "Your windscreen demisters",
+      "Your braking and steering",
+      "Your engine temperature",
+      "Your fuel gauge reading"
+    ],
+    "answer": 1,
+    "explain": "Your brakes and steering will be adversely affected by under-inflated or over-inflated tyres. You should keep them inflated to the vehicle manufacturer's specification.",
+    "ref": [
+      "HC Annex 6"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-006",
+    "q": "You notice that your car's tyres are wearing unevenly. What's the most likely cause?",
+    "options": [
+      "Using a different brand of fuel",
+      "Checking the pressures when cold",
+      "A fault in the brakes or suspension",
+      "Driving mainly on motorways"
+    ],
+    "answer": 2,
+    "explain": "Excessive or uneven tyre wear may be caused by faults in the braking or suspension systems, or wheels that are out of alignment. You should have these faults corrected as soon as possible.",
+    "ref": [
+      "HC Annex 6"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-007",
+    "q": "You're driving along a dual carriageway when one of your tyres suddenly bursts. What should you do?",
+    "options": [
+      "Brake hard to stop as quickly as possible",
+      "Steer sharply onto the verge at once",
+      "Switch off the engine straight away",
+      "Hold the wheel firmly and roll to a stop"
+    ],
+    "answer": 3,
+    "explain": "If a tyre bursts while you're driving, try to keep control of your vehicle. Grip the steering wheel firmly and allow the vehicle to roll to a stop at the side of the road.",
+    "ref": [
+      "HC Annex 6"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-008",
+    "q": "You're stopped by the police and one of your car's tyres is found to be defective. How many penalty points could you get?",
+    "options": [
+      "None",
+      "3",
+      "6",
+      "9"
+    ],
+    "answer": 1,
+    "explain": "Some vehicle defects can attract penalty points. Using a vehicle with defective tyres carries 3 penalty points.",
+    "ref": [
+      "HC Annex 6",
+      "GOV.UK penalty-points-endorsements"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-009",
+    "q": "Your car pulls to one side every time you brake. What's the most likely cause?",
+    "options": [
+      "Low engine oil or coolant levels",
+      "A brake fault or wrong tyre pressures",
+      "Too much fuel in the tank",
+      "A weak or flat car battery"
+    ],
+    "answer": 1,
+    "explain": "If your vehicle pulls to one side when braking, it's most likely to be a brake fault or incorrectly inflated tyres. You should consult a garage or mechanic immediately.",
+    "ref": [
+      "HC Annex 6"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-010",
+    "q": "You push down on the front of your car and it keeps bouncing up and down. What does this tell you?",
+    "options": [
+      "The tyres are over-inflated",
+      "The brake fluid is low",
+      "The shock absorbers are worn",
+      "The steering lock is on"
+    ],
+    "answer": 2,
+    "explain": "If your vehicle continues to bounce after you push down on the front or rear, its shock absorbers are worn. Worn shock absorbers can seriously affect the operation of a vehicle and should be replaced.",
+    "ref": [
+      "HC Annex 6"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-011",
+    "q": "You check under the bonnet and find that the brake fluid level is low. Why is this dangerous?",
+    "options": [
+      "It could result in brake failure",
+      "It could flatten the battery",
+      "It could cause the engine to overheat",
+      "It could make the fuel gauge fail"
+    ],
+    "answer": 0,
+    "explain": "You should check the fluid levels in your vehicle at least weekly. Low brake fluid may result in brake failure and a crash.",
+    "ref": [
+      "HC Annex 6"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-012",
+    "q": "Your car is fitted with anti-lock brakes (ABS). You have to stop in an emergency. What should you do?",
+    "options": [
+      "Pump the brake pedal on and off",
+      "Use the handbrake and footbrake together",
+      "Brake gently, then release the pedal",
+      "Brake firmly and keep the pressure on"
+    ],
+    "answer": 3,
+    "explain": "In an emergency, apply the footbrake firmly and don't release the pressure until the vehicle has slowed to the desired speed. You should also follow the advice in your vehicle handbook.",
+    "ref": [
+      "HC 120"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-013",
+    "q": "You're driving a car with ABS and have to brake hard. What should the ABS help you to do?",
+    "options": [
+      "Always stop in a shorter distance",
+      "Keep control of the steering",
+      "Brake later on wet roads",
+      "Drive closer to the car ahead"
+    ],
+    "answer": 1,
+    "explain": "ABS should ensure that you keep steering control, but you shouldn't assume that a vehicle with ABS will stop in a shorter distance.",
+    "ref": [
+      "HC 120"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-014",
+    "q": "Your car is covered in mud after a trip down country lanes. Which of these MUST you keep clean and clear?",
+    "options": [
+      "Lights, reflectors and number plates",
+      "The bumpers and the wheel arches",
+      "The roof, bonnet and boot lid",
+      "The wheels, tyres and door sills"
+    ],
+    "answer": 0,
+    "explain": "Lights, indicators, reflectors and number plates MUST be kept clean and clear. Windscreens and windows MUST also be kept clean and free from obstructions to vision.",
+    "ref": [
+      "HC Annex 6"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-015",
+    "q": "You're buying a used car that has tinted glass. On which windows is there no legal limit to how dark the tint can be?",
+    "options": [
+      "The windscreen",
+      "The driver's side window",
+      "The front passenger window",
+      "The rear passenger windows"
+    ],
+    "answer": 3,
+    "explain": "You MUST NOT use a vehicle with excessively dark tinting on the windscreen or the front windows either side of the driver. There are no limits for rear windscreens or rear passenger windows.",
+    "ref": [
+      "HC Annex 6"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-016",
+    "q": "You're driving along when a warning light comes on in your instrument panel. What should you do?",
+    "options": [
+      "Ignore it unless the car feels different",
+      "Stop and investigate the problem",
+      "Wait until the next service to check it",
+      "Switch the engine off and on to reset it"
+    ],
+    "answer": 1,
+    "explain": "You shouldn't ignore warning lights, as they could indicate a dangerous fault developing. If one comes on while you're driving, stop and investigate the problem, as you could have a serious fault.",
+    "ref": [
+      "HC Annex 6"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-017",
+    "q": "While you're driving, the battery charge warning light comes on. What could this mean?",
+    "options": [
+      "The engine oil needs changing",
+      "The tyre pressures are too low",
+      "The battery may not be charging",
+      "The handbrake is partly on"
+    ],
+    "answer": 2,
+    "explain": "If the charge warning light comes on while you're driving, it may mean the battery isn't charging. You should have it checked as soon as possible to avoid losing power to the lights and other electrical systems.",
+    "ref": [
+      "HC Annex 6"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-018",
+    "q": "Your engine has overheated and you've stopped in a safe place. When should you add coolant?",
+    "options": [
+      "Once the engine has cooled naturally",
+      "Straight away, while the engine is hot",
+      "After pouring cold water over the engine",
+      "As soon as the steam has stopped"
+    ],
+    "answer": 0,
+    "explain": "If your engine overheats, you should wait until it has cooled naturally. Only then remove the coolant filler cap and add water or other coolant.",
+    "ref": [
+      "HC Annex 6"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-019",
+    "q": "Smoke and flames are coming from under the bonnet of your car. What should you do?",
+    "options": [
+      "Open the bonnet and use an extinguisher",
+      "Pour water through the front grille",
+      "Get everyone out and call the fire brigade",
+      "Keep driving to the nearest garage"
+    ],
+    "answer": 2,
+    "explain": "You should get the occupants out of the vehicle quickly and to a safe place, then call the fire brigade. Don't try to put out a fire in the engine compartment, as opening the bonnet will make the fire flare.",
+    "ref": [
+      "HC Annex 6"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-020",
+    "q": "Winter is on its way. What should you make sure of before the cold weather starts?",
+    "options": [
+      "The tyres are over-inflated for extra grip",
+      "The battery is well maintained",
+      "The screenwash is plain water only",
+      "The fuel tank is kept half empty"
+    ],
+    "answer": 1,
+    "explain": "Before winter, you should make sure the battery is well maintained and that there are appropriate anti-freeze agents in your radiator and windscreen bottle.",
+    "ref": [
+      "HC Annex 6"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-021",
+    "q": "You notice that diesel has been spilt across the road at a roundabout. Which road users are particularly at risk?",
+    "options": [
+      "Lorry drivers",
+      "Tractor drivers",
+      "Bus passengers",
+      "Motorcyclists"
+    ],
+    "answer": 3,
+    "explain": "Diesel spillage is dangerous to other road users, particularly motorcyclists, as it significantly reduces the grip between the tyres and the road surface.",
+    "ref": [
+      "HC Annex 6",
+      "HC 227"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-022",
+    "q": "You've stopped at a petrol station to fill up. What should you never do on the forecourt?",
+    "options": [
+      "Use a mobile phone",
+      "Check your tyre pressures",
+      "Pay by card at the pump",
+      "Clean your windscreen"
+    ],
+    "answer": 0,
+    "explain": "You should never smoke, or use a mobile phone, on the forecourt of a petrol station. These are major fire risks and could cause an explosion.",
+    "ref": [
+      "HC Annex 6"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-023",
+    "q": "Your car's exhaust is giving out a lot of smoke. What does the law say about exhaust emissions?",
+    "options": [
+      "They only apply to diesel cars",
+      "They MUST NOT exceed prescribed levels",
+      "They're only checked when a car is new",
+      "They don't matter if the car is taxed"
+    ],
+    "answer": 1,
+    "explain": "Exhaust emissions MUST NOT exceed prescribed levels. The MOT test checks that your vehicle meets road safety and environmental standards.",
+    "ref": [
+      "HC Annex 6",
+      "GOV.UK getting-an-mot"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-024",
+    "q": "You're driving with your 10-year-old nephew in the back seat. Who's legally responsible for making sure he's correctly restrained?",
+    "options": [
+      "His parents",
+      "You, the driver",
+      "The front-seat passenger",
+      "Your nephew himself"
+    ],
+    "answer": 1,
+    "explain": "The driver MUST make sure that all children under 14 years of age wear seat belts or sit in an approved child restraint where required.",
+    "ref": [
+      "HC 100",
+      "HC 99"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-025",
+    "q": "You're giving a lift to a 15-year-old who refuses to wear a seat belt. Who's legally responsible for them wearing it?",
+    "options": [
+      "You, the driver",
+      "The passenger's parents",
+      "The car's owner",
+      "The passenger"
+    ],
+    "answer": 3,
+    "explain": "Passengers aged 14 and over are responsible for wearing their own seat belt. The driver is responsible for passengers under 14.",
+    "ref": [
+      "HC 99"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-026",
+    "q": "You're about to make a manoeuvre in your car. In which situation don't you need to wear a seat belt?",
+    "options": [
+      "When driving below 20 mph",
+      "When your car has airbags",
+      "When you're reversing",
+      "When on a short local journey"
+    ],
+    "answer": 2,
+    "explain": "You must wear a seat belt if one is fitted, but there are a few exceptions. One is when you're a driver who is reversing, or supervising a learner driver who is reversing.",
+    "ref": [
+      "GOV.UK seat-belts-law"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-027",
+    "q": "Your passenger is pregnant. What does the law say about her wearing a seat belt?",
+    "options": [
+      "She must, unless her doctor says otherwise",
+      "She doesn't need one after six months",
+      "She only needs to wear one on motorways",
+      "She can choose whether or not to wear one"
+    ],
+    "answer": 0,
+    "explain": "You must wear a seat belt if you're pregnant, unless your doctor says you don't have to for medical reasons.",
+    "ref": [
+      "GOV.UK seat-belts-law"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-028",
+    "q": "You own a classic car that was originally made without seat belts. Which passengers aren't you allowed to carry in it?",
+    "options": [
+      "Children under 14 years old",
+      "Passengers over 70 years old",
+      "Children under 3 years old",
+      "Adults in the back seats"
+    ],
+    "answer": 2,
+    "explain": "If your vehicle was originally made without seat belts, you're not allowed to carry children under 3 years old in it. Children over 3 are only allowed to sit in the back seats.",
+    "ref": [
+      "GOV.UK seat-belts-law"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-029",
+    "q": "You're driving your young daughter to school. Until when must she normally use a child car seat, whichever comes first?",
+    "options": [
+      "Until 10 years old or 125 cm tall",
+      "Until 14 years old or 150 cm tall",
+      "Until 8 years old or 120 cm tall",
+      "Until 12 years old or 135 cm tall"
+    ],
+    "answer": 3,
+    "explain": "Children must normally use a child car seat until they're 12 years old or 135 centimetres tall, whichever comes first.",
+    "ref": [
+      "GOV.UK child-car-seats-the-rules",
+      "HC 100"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-030",
+    "q": "You want to fit a rear-facing baby seat in the front passenger seat. What MUST you do first?",
+    "options": [
+      "Deactivate the front airbag",
+      "Move the seat fully forward",
+      "Put a booster cushion under it",
+      "Recline the passenger seat"
+    ],
+    "answer": 0,
+    "explain": "A rear-facing baby seat MUST NOT be fitted into a seat protected by an active frontal airbag, as in a crash it can cause serious injury or death to the child.",
+    "ref": [
+      "HC 101",
+      "GOV.UK child-car-seats-the-rules"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-031",
+    "q": "You're using a height-based child car seat for your baby. When can your child start using a forward-facing seat?",
+    "options": [
+      "When they're over 6 months old",
+      "When they're over 15 months old",
+      "When they're over 9 months old",
+      "When they're over 3 years old"
+    ],
+    "answer": 1,
+    "explain": "Height-based seats must be rear facing until your child is over 15 months old. After that, your child can use a forward-facing child car seat.",
+    "ref": [
+      "GOV.UK child-car-seats-the-rules"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-032",
+    "q": "You take a licensed taxi with your 5-year-old son, but the driver doesn't have a child car seat. How should your son travel?",
+    "options": [
+      "On your lap in the back seat",
+      "In the front seat with an adult belt",
+      "In a rear seat with an adult belt",
+      "In a rear seat without a belt"
+    ],
+    "answer": 2,
+    "explain": "If a taxi driver doesn't provide the correct child car seat, children can travel without one, but only on a rear seat. A child aged 3 or older must wear an adult seat belt.",
+    "ref": [
+      "GOV.UK child-car-seats-the-rules"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-033",
+    "q": "You have to make an unexpected but necessary short journey with a friend's 6-year-old, and you don't have the right child seat. What does the law allow?",
+    "options": [
+      "The child can travel in the front without a belt",
+      "The child can use an adult seat belt",
+      "The child can share a belt with an adult",
+      "The child can sit on an adult's lap"
+    ],
+    "answer": 1,
+    "explain": "If the correct child car seat isn't available, a child aged 3 or older can use an adult seat belt if the journey is unexpected, necessary and over a short distance.",
+    "ref": [
+      "GOV.UK child-car-seats-the-rules",
+      "HC 99"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-034",
+    "q": "You're carrying young children in the back of your car. What should you do to help keep them safe?",
+    "options": [
+      "Let them get out on the traffic side",
+      "Let them sit behind the rear seats",
+      "Open the rear windows fully",
+      "Use the child safety door locks"
+    ],
+    "answer": 3,
+    "explain": "You should use the child safety door locks, where fitted, when children are in the vehicle. Children should get in through the door nearest the kerb and shouldn't sit behind the rear seats of an estate or hatchback unless a special child seat is fitted.",
+    "ref": [
+      "HC 102"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-035",
+    "q": "You're adjusting your driving position before setting off. Why should the head restraint be properly adjusted?",
+    "options": [
+      "To help you see into the blind spots",
+      "To keep you alert on long journeys",
+      "To help prevent neck and spine injuries",
+      "To make it easier to reach the pedals"
+    ],
+    "answer": 2,
+    "explain": "Head restraints should be properly adjusted to reduce the risk of neck and spine injuries in the event of a collision. You should adjust them, along with your seat, seat belt and mirrors, before you drive.",
+    "ref": [
+      "HC 97",
+      "HC Annex 6"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-036",
+    "q": "You're driving home in the evening. Between which times MUST your sidelights and rear registration plate lights be lit?",
+    "options": [
+      "Between 7 pm and 7 am",
+      "Between sunset and sunrise",
+      "Between midnight and 6 am",
+      "Only on roads without street lights"
+    ],
+    "answer": 1,
+    "explain": "You MUST make sure all sidelights and rear registration plate lights are lit between sunset and sunrise.",
+    "ref": [
+      "HC 113"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-037",
+    "q": "You're planning an evening journey in winter. The Highway Code defines night (the hours of darkness) as which period?",
+    "options": [
+      "From sunset until sunrise",
+      "Half an hour after sunset to half an hour before sunrise",
+      "One hour after sunset to one hour before sunrise",
+      "Two hours after sunset to two hours before sunrise"
+    ],
+    "answer": 1,
+    "explain": "Night (the hours of darkness) is defined as the period between half an hour after sunset and half an hour before sunrise.",
+    "ref": [
+      "HC 113"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-038",
+    "q": "You're driving at night on a country road that has no street lighting. Which lights MUST you use?",
+    "options": [
+      "Sidelights only",
+      "Hazard warning lights",
+      "Front fog lights",
+      "Headlights"
+    ],
+    "answer": 3,
+    "explain": "You MUST use headlights at night, except on a road that has lit street lighting.",
+    "ref": [
+      "HC 113"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-039",
+    "q": "You're driving in fog. Visibility is seriously reduced when you generally can't see for more than what distance?",
+    "options": [
+      "10 metres",
+      "50 metres",
+      "100 metres",
+      "200 metres"
+    ],
+    "answer": 2,
+    "explain": "You MUST use headlights when visibility is seriously reduced, generally when you can't see for more than 100 metres (328 feet).",
+    "ref": [
+      "HC 226"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-040",
+    "q": "You've been using your rear fog lights in thick fog, but the fog has now cleared. What MUST you do?",
+    "options": [
+      "Switch them off",
+      "Keep them on until the end of your journey",
+      "Change to front fog lights only",
+      "Keep them on in case the fog returns"
+    ],
+    "answer": 0,
+    "explain": "You MUST switch off fog lights when visibility improves. They dazzle other road users and can obscure your brake lights.",
+    "ref": [
+      "HC 236",
+      "HC 114"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-041",
+    "q": "It's a dull, overcast day. Which lights should you use to make sure other road users can see you?",
+    "options": [
+      "Main beam headlights",
+      "Rear fog lights",
+      "Dipped headlights",
+      "Hazard warning lights"
+    ],
+    "answer": 2,
+    "explain": "You should use dipped headlights, or dim-dip if fitted, in dull daytime weather and at night in built-up areas, to make sure you can be seen.",
+    "ref": [
+      "HC 115"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-042",
+    "q": "You've had new headlight bulbs fitted to your car. Why MUST the headlights be properly adjusted?",
+    "options": [
+      "To stop the bulbs overheating",
+      "To prevent dazzling other road users",
+      "To reduce your fuel consumption",
+      "To make your indicators brighter"
+    ],
+    "answer": 1,
+    "explain": "Lights MUST be properly adjusted to prevent dazzling other road users. Extra attention needs to be paid to this if the vehicle is heavily loaded.",
+    "ref": [
+      "HC Annex 6",
+      "HC 114"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-043",
+    "q": "You're in a stationary queue of traffic at night and the drivers behind have stopped. How can you reduce glare for them?",
+    "options": [
+      "Switch off all your lights",
+      "Switch on your hazard warning lights",
+      "Use the parking brake, not the footbrake",
+      "Keep your foot firmly on the footbrake"
+    ],
+    "answer": 2,
+    "explain": "In stationary queues, you should apply the parking brake and, once the traffic behind has stopped, take your foot off the footbrake to turn off the brake lights. This minimises glare for road users behind.",
+    "ref": [
+      "HC 114"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-044",
+    "q": "You've stopped your car on the road for a short time. When may you use your hazard warning lights?",
+    "options": [
+      "To warn you're temporarily obstructing traffic",
+      "To let you park on double yellow lines",
+      "To let you stop on zig-zag lines",
+      "To show you're waiting for a parking space"
+    ],
+    "answer": 0,
+    "explain": "Hazard warning lights may be used when your vehicle is stationary, to warn that it's temporarily obstructing traffic. Never use them as an excuse for dangerous or illegal parking.",
+    "ref": [
+      "HC 116"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-045",
+    "q": "You're driving on a motorway when the traffic ahead suddenly slows right down. Why might you briefly switch on your hazard warning lights?",
+    "options": [
+      "To show you're about to change lanes",
+      "To ask the driver ahead to move over",
+      "To show you're leaving at the next exit",
+      "To warn drivers behind of the hazard ahead"
+    ],
+    "answer": 3,
+    "explain": "You MUST NOT use hazard warning lights while driving, unless you're on a motorway or unrestricted dual carriageway and need to warn drivers behind of a hazard or obstruction ahead. Only use them for long enough for your warning to be seen.",
+    "ref": [
+      "HC 116"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-046",
+    "q": "You're driving through a built-up area late at night. Between which times MUST you not use your horn, unless another road user poses a danger?",
+    "options": [
+      "11.00 pm and 6.30 am",
+      "Midnight and 6.00 am",
+      "11.30 pm and 7.00 am",
+      "10.30 pm and 7.30 am"
+    ],
+    "answer": 2,
+    "explain": "You MUST NOT use your horn when driving in a built-up area between 11.30 pm and 7.00 am, except when another road user poses a danger.",
+    "ref": [
+      "HC 112"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-047",
+    "q": "You're waiting in a queue of stationary traffic. When may you sound your horn?",
+    "options": [
+      "When another road user poses a danger",
+      "To tell the driver ahead the lights have changed",
+      "To greet a friend on the pavement",
+      "When the traffic is moving too slowly"
+    ],
+    "answer": 0,
+    "explain": "You MUST NOT use your horn while stationary on the road, except when another road user poses a danger. Never sound your horn aggressively.",
+    "ref": [
+      "HC 112"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-048",
+    "q": "You arrive home late at night and want to park on the road. The only space would mean facing against the traffic flow. When may you park there?",
+    "options": [
+      "Only if you leave your sidelights on",
+      "Only if it's a recognised parking space",
+      "Only if the speed limit is 30 mph",
+      "Only if your hazard lights are on"
+    ],
+    "answer": 1,
+    "explain": "You MUST NOT park on a road at night facing against the direction of the traffic flow unless you're in a recognised parking space.",
+    "ref": [
+      "HC 248"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-049",
+    "q": "You're parking at night in a lay-by on a road with a 50 mph speed limit. What MUST you do?",
+    "options": [
+      "Leave your dipped headlights on",
+      "Switch on your hazard warning lights",
+      "Switch on your rear fog lights",
+      "Display parking lights"
+    ],
+    "answer": 3,
+    "explain": "All vehicles MUST display parking lights when parked on a road, or a lay-by on a road, with a speed limit greater than 30 mph.",
+    "ref": [
+      "HC 249"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-050",
+    "q": "You're leaving your car overnight, without lights, on a road with a 30 mph speed limit. Where must it be parked?",
+    "options": [
+      "At least 5 metres from any junction",
+      "Facing against the traffic flow",
+      "Directly under a street light",
+      "At least 10 metres from any junction"
+    ],
+    "answer": 3,
+    "explain": "Cars may be parked without lights on a road with a speed limit of 30 mph or less if they're at least 10 metres from any junction, close to the kerb and facing in the direction of the traffic flow, or in a recognised parking place or lay-by.",
+    "ref": [
+      "HC 250"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-051",
+    "q": "You have no choice but to park on the road in fog. What should you do?",
+    "options": [
+      "Switch on your rear fog lights",
+      "Leave your sidelights on",
+      "Leave your headlights on main beam",
+      "Switch all lights off to save the battery"
+    ],
+    "answer": 1,
+    "explain": "It's especially dangerous to park on the road in fog. If it's unavoidable, you should leave your parking lights or sidelights on.",
+    "ref": [
+      "HC 251"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-052",
+    "q": "You're popping into a shop for just a couple of minutes. What should you do before leaving your car?",
+    "options": [
+      "Leave the engine running to keep it warm",
+      "Leave a window open for ventilation",
+      "Remove the key and lock the car",
+      "Leave the key in so you're quicker"
+    ],
+    "answer": 2,
+    "explain": "When you leave your vehicle, you should remove the ignition key, engage the steering lock and lock the car, even if you only leave it for a few minutes.",
+    "ref": [
+      "HC Annex 6",
+      "HC 123"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-053",
+    "q": "You've just received the registration certificate for your car. Where should you keep it?",
+    "options": [
+      "In the glove box, out of sight",
+      "Somewhere safe, away from the car",
+      "Under the driver's seat",
+      "In the boot, with the car locked"
+    ],
+    "answer": 1,
+    "explain": "You should never leave vehicle documents in the car.",
+    "ref": [
+      "HC Annex 6"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-054",
+    "q": "You want a cheap way to deter professional thieves from stealing your car. What does the Highway Code suggest?",
+    "options": [
+      "Etch your registration on the windows",
+      "Leave the parking lights switched on",
+      "Leave the windows open a little way",
+      "Leave a coat over the rear seats"
+    ],
+    "answer": 0,
+    "explain": "You should consider having your registration number etched on all your car windows. This is a cheap and effective deterrent to professional thieves.",
+    "ref": [
+      "HC Annex 6"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-055",
+    "q": "You've stopped at the side of the road to wait for a friend, who'll be several minutes. What should you do?",
+    "options": [
+      "Keep the engine running to stay warm",
+      "Rev the engine now and again",
+      "Switch off the engine",
+      "Leave the engine idling with the lights on"
+    ],
+    "answer": 2,
+    "explain": "You MUST NOT leave an engine running unnecessarily while stationary on a public road. If you're likely to be stationary for more than a couple of minutes, apply the parking brake and switch off the engine to reduce emissions and noise pollution.",
+    "ref": [
+      "HC 123"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-056",
+    "q": "Your car is stationary on a public road with the engine running. In which situation is this acceptable?",
+    "options": [
+      "When you've popped into a shop",
+      "When warming up the engine on a cold day",
+      "When it's defrosting while you're indoors",
+      "When you're stationary in traffic"
+    ],
+    "answer": 3,
+    "explain": "You MUST NOT leave a parked vehicle unattended with the engine running, or leave the engine running unnecessarily while stationary. It's permissible if the vehicle is stationary in traffic or for diagnosing faults.",
+    "ref": [
+      "HC 123"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-057",
+    "q": "You've bought a brand-new car. When must it have its first MOT?",
+    "options": [
+      "One year after first registration",
+      "Three years after first registration",
+      "Four years after first registration",
+      "Five years after first registration"
+    ],
+    "answer": 1,
+    "explain": "Cars MUST normally pass an MOT test three years from the date of first registration, and every year after that.",
+    "ref": [
+      "HC Annex 3",
+      "GOV.UK getting-an-mot"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-058",
+    "q": "Your car's MOT certificate has run out. When may you drive it on the road?",
+    "options": [
+      "To visit friends within five miles",
+      "Only on roads with a 30 mph limit",
+      "To a pre-arranged MOT test",
+      "At any time, as long as it's insured"
+    ],
+    "answer": 2,
+    "explain": "You can't drive your vehicle on the road if the MOT has run out. The only exceptions are driving it to a pre-arranged MOT test, or to or from somewhere to be repaired.",
+    "ref": [
+      "GOV.UK getting-an-mot",
+      "HC Annex 3"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-059",
+    "q": "Your car's MOT is due to run out soon. How early can you have the test and keep the same renewal date?",
+    "options": [
+      "Up to a week (minus a day) before",
+      "Up to a month (minus a day) before",
+      "Up to two weeks (minus a day) before",
+      "Up to three months (minus a day) before"
+    ],
+    "answer": 1,
+    "explain": "You can get an MOT up to a month (minus a day) before it runs out and keep the same renewal date.",
+    "ref": [
+      "GOV.UK getting-an-mot"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-060",
+    "q": "You're taking your car for its MOT. Which of these does the test NOT cover?",
+    "options": [
+      "The horn and lights",
+      "The seat belts",
+      "The windscreen wipers",
+      "The gearbox"
+    ],
+    "answer": 3,
+    "explain": "The MOT checks that your vehicle meets road safety and environmental standards. It doesn't cover the condition of the engine, clutch or gearbox.",
+    "ref": [
+      "GOV.UK getting-an-mot"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-061",
+    "q": "Your car fails its MOT because of a 'dangerous' problem, but your current MOT certificate hasn't run out yet. What should you do?",
+    "options": [
+      "Drive it until the old certificate runs out",
+      "Get it repaired before you drive it",
+      "Drive it only on roads below 40 mph",
+      "Drive it for up to 10 working days"
+    ],
+    "answer": 1,
+    "explain": "You can only take a failed vehicle away if your current MOT is still valid and no 'dangerous' problems were listed. Otherwise you'll need to get it repaired before you can drive it.",
+    "ref": [
+      "GOV.UK getting-an-mot"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-062",
+    "q": "You're looking for somewhere to park in an unfamiliar area. Where should you NOT park?",
+    "options": [
+      "Near the brow of a hill",
+      "In a marked parking bay",
+      "In an off-street car park",
+      "Close to the kerb on a straight road"
+    ],
+    "answer": 0,
+    "explain": "You shouldn't stop or park near the brow of a hill or hump bridge. You MUST NOT leave your vehicle in a dangerous position or where it causes any unnecessary obstruction of the road.",
+    "ref": [
+      "HC 243",
+      "HC 242"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-063",
+    "q": "You're fitting a sat nav to your windscreen with a mount so you can use it hands-free. What must you make sure of?",
+    "options": [
+      "It doesn't block your view of the road ahead",
+      "It's fitted in the middle of the windscreen",
+      "It's only switched on while you're parked",
+      "It can be held while you're stopped in traffic"
+    ],
+    "answer": 0,
+    "explain": "You can use a sat nav hands-free, for example in a windscreen mount, but the device must not block your view of the road and traffic ahead. You mustn't hold it while driving, even when you're queuing in traffic.",
+    "ref": [
+      "GOV.UK using-mobile-phones-when-driving-the-law",
+      "HC 149"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-064",
+    "q": "You're using a driver assistance system, such as motorway assist, on a long journey. Who is responsible for the vehicle?",
+    "options": [
+      "You, the driver",
+      "The vehicle manufacturer",
+      "The system's software provider",
+      "Nobody, while it's switched on"
+    ],
+    "answer": 0,
+    "explain": "As the driver, you're still responsible for the vehicle if you use a driver assistance system like motorway assist. You MUST have full control over these systems at all times.",
+    "ref": [
+      "HC 150"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-065",
+    "q": "Your new car has a lane departure warning system. What does the Highway Code say about using it while you drive?",
+    "options": [
+      "Use it according to the manufacturer's instructions",
+      "Use it only when you start to feel tired",
+      "Use it instead of checking your mirrors",
+      "Switch it off whenever you drive at night"
+    ],
+    "answer": 0,
+    "explain": "You may use driver assistance systems while you're driving, but make sure you use any system according to the manufacturer's instructions. Don't rely on them – they're there to assist, and you shouldn't reduce your concentration.",
+    "ref": [
+      "HC 160",
+      "HC 150"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-066",
+    "q": "Your car can be parked using a hand-held remote control app. What MUST you make sure of when using it?",
+    "options": [
+      "Someone sits in the driver's seat",
+      "You use it only in multi-storey car parks",
+      "You reply to messages while it parks",
+      "You remain in control of the vehicle"
+    ],
+    "answer": 3,
+    "explain": "When you use a hand-held device to help you park, you MUST remain in control of the vehicle at all times. Don't use the device for anything else while parking, and don't put anyone in danger.",
+    "ref": [
+      "HC 239",
+      "HC 150"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-067",
+    "q": "You want to check that your eyesight meets the legal standard for driving. In good daylight, from what distance must you be able to read a modern number plate?",
+    "options": [
+      "10 metres",
+      "15 metres",
+      "20 metres",
+      "25 metres"
+    ],
+    "answer": 2,
+    "explain": "You MUST be able to read a vehicle number plate, in good daylight, from a distance of 20 metres (or 20.5 metres where an old-style number plate is used).",
+    "ref": [
+      "HC 92",
+      "GOV.UK driving-eyesight-rules"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-068",
+    "q": "You need glasses to read a number plate at the required distance. When must you wear them?",
+    "options": [
+      "Every time you drive",
+      "Only when driving at night",
+      "Only on motorways",
+      "Only in poor weather"
+    ],
+    "answer": 0,
+    "explain": "If you need to wear glasses or contact lenses to read a number plate at the required distance, you MUST wear them at all times while driving.",
+    "ref": [
+      "HC 92",
+      "GOV.UK driving-eyesight-rules"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-069",
+    "q": "Your optician says you have an eyesight problem affecting both eyes. It isn't short or long sight. What must you do?",
+    "options": [
+      "Drive only in daylight",
+      "Tell DVLA",
+      "Nothing, if you can still read signs",
+      "Wait until your licence is renewed"
+    ],
+    "answer": 1,
+    "explain": "You must tell DVLA if you've got any problem with your eyesight that affects both of your eyes. This doesn't include being short or long sighted or colour blind.",
+    "ref": [
+      "GOV.UK driving-eyesight-rules",
+      "HC 90"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SAF-070",
+    "q": "It's a frosty morning and your car windows are covered in ice. What MUST you do before setting off?",
+    "options": [
+      "Clear a patch in front of you",
+      "Clear just the windscreen",
+      "Clear it with the wipers as you go",
+      "Clear the ice from all windows"
+    ],
+    "answer": 3,
+    "explain": "Before you set off, you MUST be able to see, so clear all snow and ice from all your windows. You should also make sure the mirrors are clear and the windows are demisted thoroughly.",
+    "ref": [
+      "HC 229"
+    ],
+    "sign": null
+  }
+]

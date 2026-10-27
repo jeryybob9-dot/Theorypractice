@@ -1,0 +1,842 @@
+[
+  {
+    "id": "MOT-001",
+    "q": "You're about to join a motorway. Which of these road users MUST NOT use it?",
+    "options": [
+      "A van driver",
+      "A cyclist",
+      "A car towing a caravan",
+      "A coach driver"
+    ],
+    "answer": 1,
+    "explain": "Motorways MUST NOT be used by pedestrians, cyclists, horse riders, riders of motorcycles under 50 cc, certain slow-moving vehicles and agricultural vehicles. Vans, coaches and cars towing caravans may use them.",
+    "ref": ["HC 253"],
+    "sign": null
+  },
+  {
+    "id": "MOT-002",
+    "q": "You're a learner driver in England and want some motorway experience before your test. When are you allowed to drive on a motorway?",
+    "options": [
+      "With any supervisor who has held a licence for three years",
+      "Only outside rush hours when traffic is light",
+      "With an approved driving instructor in a dual-controlled car",
+      "Only on motorways that have two lanes"
+    ],
+    "answer": 2,
+    "explain": "Learner car drivers MUST NOT drive on a motorway unless they're with a DVSA approved driving instructor in a car with dual controls that's displaying L plates (D plates in Wales). It's illegal to practise on the motorway with family or friends.",
+    "ref": ["HC 253", "GOV.UK driving-lessons-learning-to-drive"],
+    "sign": null
+  },
+  {
+    "id": "MOT-003",
+    "q": "You're driving on a motorway for the first time. Why is it especially important to use your mirrors earlier and look further ahead than on other roads?",
+    "options": [
+      "Motorways have more junctions than other roads",
+      "Lane markings are harder to see on motorways",
+      "There are more speed cameras on motorways",
+      "Traffic is faster, so you have less time to react"
+    ],
+    "answer": 3,
+    "explain": "Traffic on motorways usually travels faster than on other roads, so you have less time to react. You should use your mirrors earlier and look much further ahead than you would elsewhere.",
+    "ref": ["HC 254"],
+    "sign": null
+  },
+  {
+    "id": "MOT-004",
+    "q": "You're on a slip road, about to join a motorway. There's traffic in the left-hand lane. Who has priority?",
+    "options": [
+      "You, as the joining vehicle",
+      "Traffic already on the motorway",
+      "Whoever is travelling faster",
+      "Whichever driver signals first"
+    ],
+    "answer": 1,
+    "explain": "When you join a motorway you should give priority to traffic already on it. Check the traffic and match your speed so you can fit safely into the flow in the left-hand lane.",
+    "ref": ["HC 259"],
+    "sign": null
+  },
+  {
+    "id": "MOT-005",
+    "q": "You're accelerating along a slip road to join a busy motorway. How should you join the traffic in the left-hand lane?",
+    "options": [
+      "Match your speed to fit safely into the flow",
+      "Join slowly and expect traffic to move over",
+      "Use the hard shoulder until a gap appears",
+      "Cross the solid white line as soon as you can"
+    ],
+    "answer": 0,
+    "explain": "You should check the traffic on the motorway and match your speed to fit safely into the traffic flow in the left-hand lane. Don't cross solid white lines that separate lanes or use the hard shoulder.",
+    "ref": ["HC 259"],
+    "sign": null
+  },
+  {
+    "id": "MOT-006",
+    "q": "You're joining a motorway. The slip road doesn't end but carries on as an extra lane on the motorway. What should you do?",
+    "options": [
+      "Move straight into the next lane on your right",
+      "Build up speed on the hard shoulder",
+      "Cross the solid white line when it's clear",
+      "Stay in the lane the slip road becomes"
+    ],
+    "answer": 3,
+    "explain": "If the slip road continues as an extra lane on the motorway, you should stay in it. Remain in the left-hand lane long enough to adjust to the speed of the traffic before you consider overtaking.",
+    "ref": ["HC 259"],
+    "sign": null
+  },
+  {
+    "id": "MOT-007",
+    "q": "You're driving a car on a motorway. There are no signs showing a lower limit. What's the national speed limit for your car?",
+    "options": [
+      "60 mph",
+      "50 mph",
+      "70 mph",
+      "80 mph"
+    ],
+    "answer": 2,
+    "explain": "The national speed limit for cars on a motorway is 70 mph (112 km/h). You MUST NOT exceed it, and signs may show a lower limit.",
+    "ref": ["HC 124", "GOV.UK speed-limits"],
+    "sign": null
+  },
+  {
+    "id": "MOT-008",
+    "q": "You're towing a caravan on a motorway. No other speed limit is shown. What's the maximum speed you're allowed to drive at?",
+    "options": [
+      "60 mph",
+      "50 mph",
+      "70 mph",
+      "40 mph"
+    ],
+    "answer": 0,
+    "explain": "Cars towing caravans or trailers have a speed limit of 60 mph (96 km/h) on motorways and dual carriageways. The 70 mph motorway limit applies to cars that aren't towing.",
+    "ref": ["HC 124", "GOV.UK speed-limits"],
+    "sign": null
+  },
+  {
+    "id": "MOT-009",
+    "q": "You're towing a trailer on a three-lane motorway. What does the law say about using the right-hand lane?",
+    "options": [
+      "You may use it only to overtake",
+      "You may use it when traffic is light",
+      "You MUST NOT drive in it",
+      "You may use it if you keep below 50 mph"
+    ],
+    "answer": 2,
+    "explain": "On a motorway with three or more lanes, you MUST NOT use the right-hand lane if you're drawing a trailer, except in prescribed circumstances.",
+    "ref": ["HC 265"],
+    "sign": null
+  },
+  {
+    "id": "MOT-010",
+    "q": "You're following a large lorry on a motorway. Many large vehicles are fitted with speed limiters. What speed might a limiter restrict it to?",
+    "options": [
+      "46 mph",
+      "66 mph",
+      "50 mph",
+      "56 mph"
+    ],
+    "answer": 3,
+    "explain": "Many large vehicles are fitted with speed limiting devices that restrict their speed to 56 mph (90 km/h), even on a motorway. You should be patient and only overtake when it's safe.",
+    "ref": ["HC 222"],
+    "sign": null
+  },
+  {
+    "id": "MOT-011",
+    "q": "You're driving on a motorway and see this sign above the carriageway. What does it mean?",
+    "options": [
+      "Don't use the left lane; 40 mph limit applies",
+      "Left lane for slow vehicles; 40 mph advised",
+      "Lanes ahead narrow; 40 mph minimum speed",
+      "Obstruction ahead; leave at the next exit"
+    ],
+    "answer": 0,
+    "explain": "The red X means you MUST NOT enter or carry on in the left lane, and a speed shown in a red circle is a mandatory limit. You should move safely to an open lane and keep to the temporary limit.",
+    "ref": ["HC Light signals controlling traffic", "HC 258", "HC 261"],
+    "sign": "Obstruction_FINAL_"
+  },
+  {
+    "id": "MOT-012",
+    "q": "You see this signal at the side of a motorway. What does it show?",
+    "options": [
+      "Minimum speed you must keep to",
+      "Number of the next junction",
+      "Temporary maximum speed advised",
+      "Distance to a hazard in yards"
+    ],
+    "answer": 2,
+    "explain": "This signal shows a temporary maximum speed advised. A speed limit shown inside a red circle is mandatory, and you MUST NOT exceed it.",
+    "ref": ["HC Light signals controlling traffic", "HC 261"],
+    "sign": "motorway-signal-temporary-speed"
+  },
+  {
+    "id": "MOT-013",
+    "q": "You're joining a motorway and see this sign. What does it tell you?",
+    "options": [
+      "Speed limits here are only advisory",
+      "End of the variable speed limit section",
+      "Cameras check for drivers using phones",
+      "Variable speed limits enforced by cameras"
+    ],
+    "answer": 3,
+    "explain": "This sign shows that a variable speed limit is in use and is enforced by cameras. Variable speed limit signs change the maximum speed limit on some motorways, and you MUST NOT exceed a limit shown in a red circle.",
+    "ref": ["HC Traffic signs", "HC 124", "HC 261"],
+    "sign": "variable_speed_limit"
+  },
+  {
+    "id": "MOT-014",
+    "q": "You're driving on a motorway and the signals ahead are showing flashing amber lights. What should you do?",
+    "options": [
+      "Reduce speed and be ready for a hazard",
+      "Move into the right-hand lane straight away",
+      "Leave the motorway at the next exit",
+      "Stop on the hard shoulder and wait"
+    ],
+    "answer": 0,
+    "explain": "Flashing amber lights warn of a hazard ahead. You should reduce your speed and be prepared for the hazard.",
+    "ref": ["HC 257"],
+    "sign": null
+  },
+  {
+    "id": "MOT-015",
+    "q": "You've slowed down on a motorway because the signals were showing flashing amber lights. When can you increase your speed again?",
+    "options": [
+      "As soon as traffic around you speeds up",
+      "After one mile if you've seen no hazard",
+      "Once you can't see any hazard ahead",
+      "After passing a signal that isn't flashing"
+    ],
+    "answer": 3,
+    "explain": "You should only increase your speed when you pass a signal that isn't flashing, or a sign showing a national speed limit or the word 'END', and you're sure it's safe to do so.",
+    "ref": ["HC 257"],
+    "sign": null
+  },
+  {
+    "id": "MOT-016",
+    "q": "You're on a motorway and pass this signal. What does it mean?",
+    "options": [
+      "End of the motorway",
+      "Exit lane ends ahead",
+      "End of restriction",
+      "End of the hard shoulder"
+    ],
+    "answer": 2,
+    "explain": "This signal means the end of a restriction. You should only increase your speed when you're sure it's safe to do so.",
+    "ref": ["HC Light signals controlling traffic", "HC 257"],
+    "sign": "motorway-signal-end-restriction"
+  },
+  {
+    "id": "MOT-017",
+    "q": "You're driving on a motorway and this signal appears above your lane. What MUST you do?",
+    "options": [
+      "Stay in the lane but slow down",
+      "Move safely to an open lane",
+      "Stop in the lane and wait",
+      "Switch on your hazard warning lights"
+    ],
+    "answer": 1,
+    "explain": "A red X above a lane means you MUST NOT carry on in that lane. You MUST follow the signs to move safely to an open lane. Lane closures shown by red lights are enforced by the police.",
+    "ref": ["HC 258", "HC Light signals controlling traffic"],
+    "sign": "motorway-signal-red-cross"
+  },
+  {
+    "id": "MOT-018",
+    "q": "A lane on the motorway ahead is closed by a red X, but it looks clear. Why is it important not to drive in it?",
+    "options": [
+      "There may be people or stopped vehicles in it",
+      "It's being kept free for faster traffic",
+      "It's reserved for vehicles leaving the motorway",
+      "The road surface has just been painted"
+    ],
+    "answer": 0,
+    "explain": "A red X identifies a closed lane where people, stopped vehicles or other hazards are present, and there can be several hazards in it. Emergency services and traffic authorities also use closed lanes to reach incidents.",
+    "ref": ["HC 258"],
+    "sign": null
+  },
+  {
+    "id": "MOT-019",
+    "q": "You plan to leave the motorway at the next junction, but the left-hand lane is closed by a red X at the exit slip road. What does this mean?",
+    "options": [
+      "You can use the hard shoulder to reach the exit",
+      "You can enter the lane just before the exit",
+      "You can use the exit if you slow right down",
+      "The exit can't be used"
+    ],
+    "answer": 3,
+    "explain": "Where the left lane is closed at an exit slip road, the exit can't be used. You MUST NOT drive in a closed lane, so carry on to the next exit.",
+    "ref": ["HC 258", "HC 263"],
+    "sign": null
+  },
+  {
+    "id": "MOT-020",
+    "q": "On a motorway, the signals ahead show red flashing lights and every lane is shown as closed. What MUST you do?",
+    "options": [
+      "Use the hard shoulder to pass the closure",
+      "Drive slowly past in the left-hand lane",
+      "Stop and not go beyond the signal",
+      "Reverse back to the last exit"
+    ],
+    "answer": 2,
+    "explain": "When red flashing lights show all lanes closed, the road is closed. You MUST NOT go beyond the sign in any lane or use the hard shoulder to avoid the closure unless a police or traffic officer directs you to. You MUST NOT reverse on a motorway.",
+    "ref": ["HC 258", "HC 263"],
+    "sign": null
+  },
+  {
+    "id": "MOT-021",
+    "q": "You see this signal above your lane on a motorway. What does it mean?",
+    "options": [
+      "Change lane",
+      "Leave the motorway here",
+      "Hard shoulder now open",
+      "Slow vehicles keep left"
+    ],
+    "answer": 0,
+    "explain": "This signal tells you to change lane in the direction the arrow shows. Use your mirrors and move over when it's safe.",
+    "ref": ["HC Light signals controlling traffic"],
+    "sign": "motorway-signal-change-lane"
+  },
+  {
+    "id": "MOT-022",
+    "q": "You're driving on a motorway and see this signal. What does it mean?",
+    "options": [
+      "Two-way traffic ahead",
+      "Hard shoulder open as a lane",
+      "Slip road joins from the right",
+      "Lane ahead closed"
+    ],
+    "answer": 3,
+    "explain": "This signal warns that a lane ahead is closed. You MUST follow the signs in advance of a closed lane to move safely to an open lane.",
+    "ref": ["HC Light signals controlling traffic", "HC 258"],
+    "sign": "motorway-signal-lane-ahead-closed"
+  },
+  {
+    "id": "MOT-023",
+    "q": "A motorway signal shows the word 'Fog', but the road ahead looks clear. What should you do?",
+    "options": [
+      "Ignore it, as the fog has probably cleared",
+      "Be prepared for a bank of fog ahead",
+      "Switch on your rear fog lights now",
+      "Speed up to get past before the fog"
+    ],
+    "answer": 1,
+    "explain": "If 'Fog' is shown on a sign but the road is clear, be prepared for a bank of fog or drifting patchy fog ahead. You MUST NOT use fog lights unless visibility is seriously reduced.",
+    "ref": ["HC 234", "HC 236"],
+    "sign": "motorway-signal-fog"
+  },
+  {
+    "id": "MOT-024",
+    "q": "You're driving on a clear three-lane motorway with no slower traffic ahead. Which lane should you use?",
+    "options": [
+      "The middle lane",
+      "The right-hand lane",
+      "Any lane, if you keep to the limit",
+      "The left-hand lane"
+    ],
+    "answer": 3,
+    "explain": "You should keep in the left lane unless you're overtaking. If you've overtaken, return to the left lane when it's safe to do so.",
+    "ref": ["HC 264"],
+    "sign": null
+  },
+  {
+    "id": "MOT-025",
+    "q": "You're overtaking a lorry on a motorway and plan to move back into the left lane. What should you make sure of?",
+    "options": [
+      "That you've reached at least 70 mph",
+      "That you don't cut in on the lorry",
+      "That the lorry driver flashes you in",
+      "That you keep signalling right"
+    ],
+    "answer": 1,
+    "explain": "When you've overtaken, return to the left lane when it's safe, making sure you don't cut in on the vehicle you've just overtaken.",
+    "ref": ["HC 264", "HC 267"],
+    "sign": null
+  },
+  {
+    "id": "MOT-026",
+    "q": "You're in the left-hand lane of a motorway. Ahead, a recovery vehicle is helping a broken-down car on the hard shoulder. What should you do if it's safe?",
+    "options": [
+      "Sound your horn to warn them you're passing",
+      "Slow right down to see what's happening",
+      "Move into the next lane to give them space",
+      "Flash your headlights at the recovery driver"
+    ],
+    "answer": 2,
+    "explain": "Be aware of recovery workers and stopped vehicles on the hard shoulder or in an emergency area. If you're in the left lane and it's safe, move into the adjacent lane to create more space between you and them.",
+    "ref": ["HC 264", "HC 282"],
+    "sign": null
+  },
+  {
+    "id": "MOT-027",
+    "q": "You're in the middle lane of a motorway, behind a slower car that's also in the middle lane. The left-hand lane is clear. What should you do?",
+    "options": [
+      "Move into the left lane to pass it",
+      "Overtake on the right when it's safe",
+      "Flash your headlights so it moves over",
+      "Stay close behind until it moves left"
+    ],
+    "answer": 1,
+    "explain": "You should overtake only on the right. Don't overtake on the left or move to a lane on your left to overtake.",
+    "ref": ["HC 267", "HC 268"],
+    "sign": null
+  },
+  {
+    "id": "MOT-028",
+    "q": "You're in slow, congested motorway traffic. The lanes are moving at similar speeds, but your lane on the left is moving slightly faster than the lane to your right. What should you do?",
+    "options": [
+      "Keep up with the traffic in your lane",
+      "Change to the lane on your right",
+      "Weave between lanes to make progress",
+      "Use the hard shoulder to get ahead"
+    ],
+    "answer": 0,
+    "explain": "In congested conditions, traffic in left-hand lanes may sometimes move faster than traffic to the right. You may keep up with the traffic in your lane, even if this means passing traffic on your right, but don't change lanes unnecessarily or weave in and out.",
+    "ref": ["HC 268", "HC 134"],
+    "sign": null
+  },
+  {
+    "id": "MOT-029",
+    "q": "You're approaching a motorway junction. Signs show that the left-hand lane leads directly off the motorway. When should you get into that lane?",
+    "options": [
+      "Whenever it has less traffic than the others",
+      "When you need to overtake slower vehicles",
+      "As soon as you see the first sign",
+      "Only if you want to go the way it leads"
+    ],
+    "answer": 3,
+    "explain": "At some junctions a lane may lead directly off the motorway. Only get into that lane if you wish to go in the direction shown by the signs or road markings.",
+    "ref": ["HC 266"],
+    "sign": null
+  },
+  {
+    "id": "MOT-030",
+    "q": "Traffic on the motorway is moving very slowly and the hard shoulder beside you is empty. It isn't being used as an extra lane. When may you drive on it?",
+    "options": [
+      "When the left lane is at a standstill",
+      "To reach your exit more quickly",
+      "Only in an emergency or if directed to",
+      "When there are no vehicles on it"
+    ],
+    "answer": 2,
+    "explain": "You MUST NOT use a hard shoulder except in an emergency, or if you're directed to by the police, traffic officers or a traffic sign.",
+    "ref": ["HC 269"],
+    "sign": null
+  },
+  {
+    "id": "MOT-031",
+    "q": "You're on a motorway where the hard shoulder can be used as an extra lane at busy times. When can you drive in it?",
+    "options": [
+      "When a red X is displayed above it",
+      "When a speed limit is shown above it",
+      "When the sign above it is left blank",
+      "Whenever the traffic becomes heavy"
+    ],
+    "answer": 1,
+    "explain": "You can only use the hard shoulder as an extra lane when a speed limit is shown above it. A red X or a blank sign above the hard shoulder means you MUST NOT use it except in an emergency.",
+    "ref": ["HC 269"],
+    "sign": null
+  },
+  {
+    "id": "MOT-032",
+    "q": "You're driving on a motorway with no hard shoulder. How will you recognise an emergency area?",
+    "options": [
+      "Green signs showing a white letter P",
+      "Blue signs with an orange SOS telephone",
+      "Yellow signs showing a breakdown truck",
+      "Red signs with a white warning triangle"
+    ],
+    "answer": 1,
+    "explain": "Emergency areas are marked by blue signs with an orange SOS telephone symbol and may have orange surfacing. They MUST only be used in an emergency.",
+    "ref": ["HC 270"],
+    "sign": null
+  },
+  {
+    "id": "MOT-033",
+    "q": "You're driving on a motorway and begin to feel sleepy. What should you do?",
+    "options": [
+      "Stop on the hard shoulder for a short nap",
+      "Pull into an emergency area and rest",
+      "Stop at a service area or leave at an exit",
+      "Open a window and carry on to your destination"
+    ],
+    "answer": 2,
+    "explain": "If you feel sleepy, stop in a safe place, but not in an emergency area or on the hard shoulder. Service areas are provided for breaks, and rest facilities may also be reached from motorway exits.",
+    "ref": ["HC 91", "HC 262"],
+    "sign": null
+  },
+  {
+    "id": "MOT-034",
+    "q": "You stopped in an emergency area after your car developed a fault. It's now been fixed. How should you rejoin the motorway?",
+    "options": [
+      "Build up speed and pull out into a gap",
+      "Phone the operator and follow their advice",
+      "Use hazard lights and pull out slowly",
+      "Wait until the lane beside you is empty"
+    ],
+    "answer": 1,
+    "explain": "To rejoin the carriageway from an emergency area, you MUST use the emergency telephone provided and follow the operator's advice. A lane may need to be closed so that you can rejoin safely.",
+    "ref": ["HC 278"],
+    "sign": null
+  },
+  {
+    "id": "MOT-035",
+    "q": "You're ready to rejoin the motorway from the hard shoulder after a breakdown. What should you do?",
+    "options": [
+      "Build up speed, signal and watch for a safe gap",
+      "Pull straight into the left lane at low speed",
+      "Switch on your hazard lights and pull out",
+      "Wait for a driver to flash you out"
+    ],
+    "answer": 0,
+    "explain": "To rejoin from a hard shoulder, build up speed, indicate and watch for a safe gap in the traffic. Be aware that vehicles, obstructions or debris may be on the hard shoulder.",
+    "ref": ["HC 278"],
+    "sign": null
+  },
+  {
+    "id": "MOT-036",
+    "q": "You realise you've just missed your exit on the motorway. What should you do?",
+    "options": [
+      "Reverse along the hard shoulder",
+      "Stop on the hard shoulder to check a map",
+      "Carry on to the next exit",
+      "Cross the central reservation"
+    ],
+    "answer": 2,
+    "explain": "If you've missed your exit or taken the wrong route, carry on to the next exit. You MUST NOT reverse, cross the central reservation or drive against the traffic flow.",
+    "ref": ["HC 263"],
+    "sign": null
+  },
+  {
+    "id": "MOT-037",
+    "q": "You're driving on a motorway when your mobile phone rings. It's an important call you've been expecting. What should you do?",
+    "options": [
+      "Stop on the hard shoulder to answer it",
+      "Pull into an emergency area to answer it",
+      "Answer it quickly while holding the phone",
+      "Call back when parked at a service area"
+    ],
+    "answer": 3,
+    "explain": "Don't stop on any part of a motorway, including the hard shoulder or an emergency area, to make or receive phone calls, except in an emergency. You MUST NOT use a hand-held phone while driving.",
+    "ref": ["HC 271", "HC 149"],
+    "sign": null
+  },
+  {
+    "id": "MOT-038",
+    "q": "You're driving along a motorway slip road and see someone hitchhiking at the side of the road. What does the law say?",
+    "options": [
+      "You MUST NOT stop to pick them up",
+      "You may pick them up if you use hazard lights",
+      "You may stop on the hard shoulder for them",
+      "You may stop briefly at the end of the slip road"
+    ],
+    "answer": 0,
+    "explain": "You MUST NOT pick up or set down anyone on a motorway, except in an emergency. Pedestrians MUST NOT be on motorways or slip roads except in an emergency.",
+    "ref": ["HC 272", "HC 6"],
+    "sign": null
+  },
+  {
+    "id": "MOT-039",
+    "q": "You're in the middle lane of a motorway and want to leave at the next junction. What should you do?",
+    "options": [
+      "Stay in the middle lane until the last marker",
+      "Move into the left-hand lane well before your exit",
+      "Cut across to the slip road at the last moment",
+      "Slow down in the middle lane before the exit"
+    ],
+    "answer": 1,
+    "explain": "Watch for the signs telling you you're getting near your exit and move into the left-hand lane well before you reach it. Signal left in good time and reduce your speed on the slip road as necessary.",
+    "ref": ["HC 273"],
+    "sign": null
+  },
+  {
+    "id": "MOT-040",
+    "q": "You're approaching an exit on a motorway and see these countdown markers. About how far from the exit is the marker with three bars?",
+    "options": [
+      "300 yards",
+      "150 yards",
+      "3 miles",
+      "600 yards"
+    ],
+    "answer": 0,
+    "explain": "Countdown markers show the distance to an exit from the motorway. Each bar represents about 100 yards, so the three-bar marker is about 300 yards from the exit.",
+    "ref": ["HC Traffic signs"],
+    "sign": "information-sign-motorway-exit-countdown-markers"
+  },
+  {
+    "id": "MOT-041",
+    "q": "You've just left a motorway after driving at 70 mph for a long time. Why should you check your speedometer?",
+    "options": [
+      "Your speedometer may read high after a long run",
+      "Slip roads have a higher limit than motorways",
+      "Your tyres will be hotter than usual",
+      "You may be going faster than you realise"
+    ],
+    "answer": 3,
+    "explain": "On leaving a motorway your speed may be higher than you realise; 50 mph may feel like 30 mph. Check your speedometer and adjust your speed, as some slip roads and link roads have sharp bends.",
+    "ref": ["HC 274"],
+    "sign": null
+  },
+  {
+    "id": "MOT-042",
+    "q": "You're driving on a motorway at night. What colour are the reflective studs between the carriageway and the central reservation?",
+    "options": [
+      "Amber",
+      "Red",
+      "Green",
+      "White"
+    ],
+    "answer": 0,
+    "explain": "Amber studs mark the central reservation of a dual carriageway or motorway. Red studs mark the left edge of the road and white studs mark the lanes.",
+    "ref": ["HC 132"],
+    "sign": null
+  },
+  {
+    "id": "MOT-043",
+    "q": "You're driving at night on a motorway. Which colour reflective studs mark the left-hand edge of the carriageway?",
+    "options": [
+      "White",
+      "Green",
+      "Amber",
+      "Red"
+    ],
+    "answer": 3,
+    "explain": "Red studs mark the left edge of the road. Amber studs mark the central reservation, and green studs mark the edge of the main carriageway at slip roads and lay-bys.",
+    "ref": ["HC 132"],
+    "sign": null
+  },
+  {
+    "id": "MOT-044",
+    "q": "You're driving on a motorway at night and see green reflective studs on your left. What do they mark?",
+    "options": [
+      "The edge of the central reservation",
+      "The lines between the motorway lanes",
+      "Where a slip road joins or leaves",
+      "Temporary lane layouts at road works"
+    ],
+    "answer": 2,
+    "explain": "Green studs mark the edge of the main carriageway at lay-bys and slip roads.",
+    "ref": ["HC 132"],
+    "sign": null
+  },
+  {
+    "id": "MOT-045",
+    "q": "You're driving through road works on a motorway at night and see green/yellow reflective studs. What do they show?",
+    "options": [
+      "The edge of a slip road or lay-by",
+      "Temporary changes to the lane layout",
+      "The edge of the central reservation",
+      "A lane for works vehicles only"
+    ],
+    "answer": 1,
+    "explain": "Green/yellow studs indicate temporary adjustments to lane layouts, for example where road works are taking place. Lanes at road works may be narrower than normal, so keep a safe distance from the vehicle in front.",
+    "ref": ["HC 132", "HC 290"],
+    "sign": null
+  },
+  {
+    "id": "MOT-046",
+    "q": "Your car develops a problem on a motorway and you can't reach an exit or a service area. Where should you try to stop?",
+    "options": [
+      "In an emergency area or on the hard shoulder",
+      "In the right-hand lane by the central reservation",
+      "In the lane you're in, with hazard lights on",
+      "On the verge of the central reservation"
+    ],
+    "answer": 0,
+    "explain": "If you can't leave at the next exit or reach a service area, move into the left lane and pull into an emergency area or onto a hard shoulder if you can. Stop as far to the left as possible, with your wheels turned to the left.",
+    "ref": ["HC 277"],
+    "sign": null
+  },
+  {
+    "id": "MOT-047",
+    "q": "You're pulling onto the hard shoulder because your car has developed a fault. If you can, where should you stop?",
+    "options": [
+      "Just before an exit slip road",
+      "Under a bridge for shelter",
+      "Just beyond an emergency telephone",
+      "Halfway between two emergency telephones"
+    ],
+    "answer": 2,
+    "explain": "If you can, stop just beyond an emergency telephone, as far to the left as possible and leaving space to get out. Switch on your hazard warning lights.",
+    "ref": ["HC 277"],
+    "sign": null
+  },
+  {
+    "id": "MOT-048",
+    "q": "You've stopped on the hard shoulder after a breakdown. How should you and your passengers get out of the car?",
+    "options": [
+      "Through the driver's door, facing the traffic",
+      "Through whichever door is nearest to you",
+      "Through the rear door on the traffic side",
+      "Through the doors on the side away from traffic"
+    ],
+    "answer": 3,
+    "explain": "Leave your vehicle by the side furthest from traffic, if it's safe and possible to do so, and make sure your passengers do the same. Then get well away from the vehicle and moving traffic.",
+    "ref": ["HC 277"],
+    "sign": null
+  },
+  {
+    "id": "MOT-049",
+    "q": "Your car has broken down on the hard shoulder and you're waiting for help behind the safety barrier. It starts to rain heavily. What should you do?",
+    "options": [
+      "Get back into your car to keep dry",
+      "Stay where you are, away from the car",
+      "Shelter behind the open boot of the car",
+      "Stand in front of the car, out of the wind"
+    ],
+    "answer": 1,
+    "explain": "Wait well away from your vehicle and moving traffic, behind the safety barrier where there is one. DO NOT return to your vehicle, even if it's raining, cold or dark.",
+    "ref": ["HC 277"],
+    "sign": null
+  },
+  {
+    "id": "MOT-050",
+    "q": "Your car breaks down in a live lane of a motorway. You can't get it to the left lane and it isn't safe to get out. What should you do?",
+    "options": [
+      "Stay in the car, keep your belt on and call 999",
+      "Get out and push the car onto the hard shoulder",
+      "Put a warning triangle behind the car",
+      "Stand behind the car to wave traffic past"
+    ],
+    "answer": 0,
+    "explain": "If you can't get your vehicle to the left lane or a place of relative safety and can't get out safely, stay in it with your seat belt and hazard warning lights on. Call 999 immediately and ask for the police, or press your SOS button if your vehicle has one.",
+    "ref": ["HC 277"],
+    "sign": null
+  },
+  {
+    "id": "MOT-051",
+    "q": "You've broken down on a motorway and are calling for help on your mobile phone. How can you give your exact location?",
+    "options": [
+      "Describe the nearest bridge or building",
+      "Quote the details on a nearby marker post",
+      "Tell them how many lanes the motorway has",
+      "Read out your car's registration number"
+    ],
+    "answer": 1,
+    "explain": "Quote the numbers and letters on the marker posts or driver location signs along the edge of the road. You can also use a mobile phone mapping app, or press your vehicle's SOS button if it has one.",
+    "ref": ["HC 277"],
+    "sign": null
+  },
+  {
+    "id": "MOT-052",
+    "q": "You've stopped on the hard shoulder with a puncture in a tyre on the traffic side of your car. What should you do?",
+    "options": [
+      "Change the wheel yourself as quickly as you can",
+      "Change it if you wear high-visibility clothing",
+      "Change it with your hazard lights switched on",
+      "Leave it and call for help from a safe place"
+    ],
+    "answer": 3,
+    "explain": "You should not attempt repairs on your vehicle on a motorway. Get well away from it and moving traffic, then use the emergency telephone or contact a breakdown recovery service.",
+    "ref": ["HC 277"],
+    "sign": null
+  },
+  {
+    "id": "MOT-053",
+    "q": "You're driving on a motorway when a box falls off your roof rack onto the carriageway. What should you do?",
+    "options": [
+      "Stop somewhere relatively safe and call 999",
+      "Stop on the hard shoulder and walk back for it",
+      "Reverse along the hard shoulder to collect it",
+      "Drive on, as someone else will move it"
+    ],
+    "answer": 0,
+    "explain": "If anything falls from your vehicle onto a motorway, DO NOT try to remove it yourself. Stop in a place of relative safety and call the emergency services on 999.",
+    "ref": ["HC 280"],
+    "sign": null
+  },
+  {
+    "id": "MOT-054",
+    "q": "You're driving on a motorway when the traffic ahead slows suddenly because of a queue. Why might you briefly switch on your hazard warning lights?",
+    "options": [
+      "To show you're about to change lanes",
+      "To warn drivers behind you of the hazard",
+      "To thank a driver who let you in",
+      "To tell the driver ahead to move over"
+    ],
+    "answer": 1,
+    "explain": "You MUST NOT use hazard warning lights while driving unless you're on a motorway or unrestricted dual carriageway and need to warn drivers behind you of a hazard or obstruction ahead. Only use them long enough for your warning to be seen.",
+    "ref": ["HC 116"],
+    "sign": null
+  },
+  {
+    "id": "MOT-055",
+    "q": "You're approaching road works on a motorway where a lane is closed. Traffic is queuing and moving very slowly. What should you do?",
+    "options": [
+      "Merge in turn when it's safe",
+      "Change lanes to pass the queue",
+      "Drive along the coned-off area",
+      "Use the hard shoulder to get past"
+    ],
+    "answer": 0,
+    "explain": "Where lanes are restricted due to road works, merge in turn when it's safe. Merging in turn is recommended when traffic is moving at very low speed, but not at high speed. Don't switch lanes to overtake queuing traffic or drive through an area marked off by cones.",
+    "ref": ["HC 288", "HC 134"],
+    "sign": null
+  },
+  {
+    "id": "MOT-056",
+    "q": "On a motorway you come up behind a slow-moving works vehicle showing this sign on its back. What MUST you do?",
+    "options": [
+      "Stop behind it until it moves off",
+      "Pass on whichever side is clearer",
+      "Pass it on the side the arrow shows",
+      "Follow it until the next junction"
+    ],
+    "answer": 2,
+    "explain": "Where a 'Keep Left' or 'Keep Right' sign is shown on the back of a works vehicle, you MUST move over and pass it on the side indicated. Don't return to the closed lane until you can see it's safe.",
+    "ref": ["HC 289", "HC Traffic signs"],
+    "sign": "road-work-sign-back-vehicle-direction-arrow"
+  },
+  {
+    "id": "MOT-057",
+    "q": "At motorway road works, you're behind a vehicle displaying the sign 'CONVOY VEHICLE NO OVERTAKING'. What MUST you do?",
+    "options": [
+      "Overtake on the right when it's clear",
+      "Flash your lights so it pulls over",
+      "Stay behind and don't pass it",
+      "Pass it using the hard shoulder"
+    ],
+    "answer": 2,
+    "explain": "Where a vehicle displays the sign 'CONVOY VEHICLE NO OVERTAKING', you MUST NOT pass it.",
+    "ref": ["HC 289"],
+    "sign": null
+  },
+  {
+    "id": "MOT-058",
+    "q": "You're about to enter a contraflow system at motorway road works. What should you do?",
+    "options": [
+      "Speed up to clear it quickly",
+      "Slow down and leave a bigger gap",
+      "Close up on the vehicle in front",
+      "Move nearer the oncoming traffic"
+    ],
+    "answer": 1,
+    "explain": "In a contraflow you may be in a narrower lane than normal, with no permanent barrier between you and oncoming traffic. At the start and finish, slow down and increase your distance from the vehicle in front, as changes in the camber of the road may affect your vehicle's stability.",
+    "ref": ["HC 290"],
+    "sign": null
+  },
+  {
+    "id": "MOT-059",
+    "q": "Your car breaks down while you're driving through road works on a motorway. If one is available, where should you move it?",
+    "options": [
+      "Into a signed road works refuge",
+      "Into the area coned off for the works",
+      "Onto the central reservation",
+      "Into the nearest closed lane"
+    ],
+    "answer": 0,
+    "explain": "If you break down in road works, follow the usual breakdown advice, but remember that areas marked off by cones contain significant hazards. Where available, move your vehicle into a signed road works refuge location.",
+    "ref": ["HC 290"],
+    "sign": null
+  },
+  {
+    "id": "MOT-060",
+    "q": "You're driving along a main road and see this sign. What does it mean?",
+    "options": [
+      "Motorway services on the M62 ahead",
+      "End of motorway regulations on the M62",
+      "Start of motorway; motorway rules apply",
+      "Diversion route for traffic on the M62"
+    ],
+    "answer": 2,
+    "explain": "This sign shows the start of a motorway and the point from which motorway regulations apply. For example, from here you MUST NOT stop except in an emergency.",
+    "ref": ["HC Traffic signs", "HC 271"],
+    "sign": "Information-sign-start-motorway"
+  }
+]

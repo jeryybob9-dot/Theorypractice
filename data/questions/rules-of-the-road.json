@@ -1,0 +1,1235 @@
+[
+  {
+    "id": "RUL-001",
+    "q": "You're driving a car on a single carriageway road and pass this sign. What's the maximum speed you can now drive at?",
+    "options": [
+      "50 mph",
+      "60 mph",
+      "70 mph",
+      "40 mph"
+    ],
+    "answer": 1,
+    "explain": "This sign means the national speed limit applies. For cars on a single carriageway that's 60 mph, but you should still drive at a speed that suits the conditions.",
+    "ref": [
+      "HC 124",
+      "GOV.UK speed-limits",
+      "HC Traffic signs"
+    ],
+    "sign": "sign-giving-order-national-speed-limit"
+  },
+  {
+    "id": "RUL-002",
+    "q": "You're driving a car on a dual carriageway where the national speed limit applies. What's the maximum speed limit?",
+    "options": [
+      "60 mph",
+      "50 mph",
+      "80 mph",
+      "70 mph"
+    ],
+    "answer": 3,
+    "explain": "The national speed limit for cars on a dual carriageway is 70 mph. It's the absolute maximum, not a target.",
+    "ref": [
+      "HC 124",
+      "GOV.UK speed-limits"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-003",
+    "q": "You're towing a small trailer on a single carriageway road where the national speed limit applies. What's your maximum speed?",
+    "options": [
+      "50 mph",
+      "40 mph",
+      "60 mph",
+      "70 mph"
+    ],
+    "answer": 0,
+    "explain": "Cars towing caravans or trailers are limited to 50 mph on single carriageways, rather than the 60 mph limit for cars that aren't towing.",
+    "ref": [
+      "HC 124",
+      "GOV.UK speed-limits"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-004",
+    "q": "You're towing a caravan along a dual carriageway. The national speed limit applies. What's the maximum speed you're allowed to drive at?",
+    "options": [
+      "50 mph",
+      "70 mph",
+      "60 mph",
+      "40 mph"
+    ],
+    "answer": 2,
+    "explain": "When you're towing a caravan or trailer, the limit on a dual carriageway is 60 mph, not the 70 mph that applies to cars that aren't towing.",
+    "ref": [
+      "HC 124",
+      "GOV.UK speed-limits"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-005",
+    "q": "You're driving in England on a road with street lights. There are no signs showing a different speed limit. What limit generally applies?",
+    "options": [
+      "20 mph",
+      "40 mph",
+      "50 mph",
+      "30 mph"
+    ],
+    "answer": 3,
+    "explain": "In England and Scotland a 30 mph limit generally applies to roads with street lights (excluding motorways) unless signs show otherwise.",
+    "ref": [
+      "HC 124",
+      "GOV.UK speed-limits"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-006",
+    "q": "You're driving in Wales along a road with street lights. No signs show a different speed limit. What's the speed limit?",
+    "options": [
+      "30 mph",
+      "20 mph",
+      "40 mph",
+      "50 mph"
+    ],
+    "answer": 1,
+    "explain": "In Wales a 20 mph limit generally applies to roads with street lights unless signs show otherwise. In England and Scotland it's generally 30 mph.",
+    "ref": [
+      "HC 124",
+      "GOV.UK speed-limits"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-007",
+    "q": "You're following a coach along a single carriageway road where the national speed limit applies. What's the coach's maximum speed limit?",
+    "options": [
+      "40 mph",
+      "60 mph",
+      "50 mph",
+      "70 mph"
+    ],
+    "answer": 2,
+    "explain": "Buses, coaches and minibuses are limited to 50 mph on single carriageways, lower than the 60 mph limit for cars. Be patient, as larger vehicles are subject to lower speed limits.",
+    "ref": [
+      "HC 124",
+      "GOV.UK speed-limits",
+      "HC 222"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-008",
+    "q": "You're driving on a country road where the national speed limit applies. It's raining and there are sharp bends ahead. What should you remember about the speed limit?",
+    "options": [
+      "It's the absolute maximum, not a target",
+      "It's the speed you should aim to keep to",
+      "It only applies when the road is dry",
+      "It may be exceeded briefly to overtake"
+    ],
+    "answer": 0,
+    "explain": "The speed limit is the absolute maximum and doesn't mean it's safe to drive at that speed. You should reduce your speed where there are hazards such as bends, and when the weather makes it safer to do so.",
+    "ref": [
+      "HC 125",
+      "HC 146"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-009",
+    "q": "You're driving along a two-lane dual carriageway. Which lane should you normally use?",
+    "options": [
+      "The right-hand lane",
+      "Whichever lane is less busy",
+      "The left-hand lane",
+      "The lane with faster traffic"
+    ],
+    "answer": 2,
+    "explain": "On a two-lane dual carriageway you should stay in the left-hand lane. Use the right-hand lane for overtaking or turning right, then move back to the left when it's safe.",
+    "ref": [
+      "HC 137"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-010",
+    "q": "You're on a single carriageway road with three lanes. No signs or markings give priority to either direction. What should you use the middle lane for?",
+    "options": [
+      "Driving at a steady speed",
+      "Pulling in to let others pass",
+      "Turning left into side roads",
+      "Overtaking or turning right"
+    ],
+    "answer": 3,
+    "explain": "Use the middle lane only for overtaking or turning right. You have no more right to use it than a driver coming from the opposite direction, and you shouldn't use the right-hand lane.",
+    "ref": [
+      "HC 135"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-011",
+    "q": "You're driving in the left-hand lane of a busy multi-lane road and need to move into the right-hand lane. What should you do first?",
+    "options": [
+      "Signal and move across straight away",
+      "Check your mirrors and blind spot",
+      "Sound your horn to warn other drivers",
+      "Brake so that traffic behind can pass"
+    ],
+    "answer": 1,
+    "explain": "Before changing lane, use your mirrors and, if necessary, take a quick sideways glance to make sure you won't force anyone to change course or speed. Then signal and move over when it's clear.",
+    "ref": [
+      "HC 133",
+      "HC 161"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-012",
+    "q": "You're driving along a one-way street with two lanes. You want to turn right at the end. Unless signs or markings show otherwise, which lane should you use?",
+    "options": [
+      "The left-hand lane",
+      "Either lane",
+      "The right-hand lane",
+      "The lane with less traffic"
+    ],
+    "answer": 2,
+    "explain": "In a one-way street you should use the right-hand lane when going right and the left-hand lane when going left, unless signs or markings show otherwise. Choose the correct lane as soon as you can.",
+    "ref": [
+      "HC 143"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-013",
+    "q": "You're going straight ahead along a busy one-way street with several lanes. What should you be aware of?",
+    "options": [
+      "Traffic could pass you on both sides",
+      "Overtaking isn't allowed in one-way streets",
+      "You must stay in the left-hand lane",
+      "Cyclists aren't allowed to use the street"
+    ],
+    "answer": 0,
+    "explain": "When going straight ahead in a one-way street, use the most appropriate lane and remember that traffic could be passing on both sides. Don't change lanes suddenly.",
+    "ref": [
+      "HC 143"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-014",
+    "q": "You're driving along a town road with a bus lane on your left. Signs show it's in operation and don't allow other vehicles. When may you enter it?",
+    "options": [
+      "To get past slow-moving traffic",
+      "To stop, load or unload if allowed",
+      "When no buses can be seen behind you",
+      "To overtake a cyclist in your lane"
+    ],
+    "answer": 1,
+    "explain": "Unless signs show otherwise, you shouldn't drive in a bus lane during its period of operation. You may enter it to stop, load or unload where this isn't prohibited.",
+    "ref": [
+      "HC 141",
+      "HC 240"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-015",
+    "q": "You're driving on a road with a cycle lane marked by a solid white line. It's during the lane's times of operation. What must you do?",
+    "options": [
+      "Drive in it only if it's empty",
+      "Park in it for no more than 20 minutes",
+      "Use it to pass queuing traffic",
+      "Not drive or park in it"
+    ],
+    "answer": 3,
+    "explain": "You MUST NOT drive or park in a cycle lane marked by a solid white line during its times of operation. If it's marked by a broken line, don't drive or park in it unless it's unavoidable.",
+    "ref": [
+      "HC 140"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-016",
+    "q": "You're approaching a lane shown by this sign. It's within the times shown. Which vehicles may use the lane?",
+    "options": [
+      "Any car that isn't towing a trailer or caravan",
+      "Only vehicles with just one person inside",
+      "Vehicles carrying the minimum number shown",
+      "Only lorries and other large goods vehicles"
+    ],
+    "answer": 2,
+    "explain": "When a high-occupancy vehicle (HOV) lane is in operation it MUST only be used by vehicles carrying at least the minimum number of people shown on the signs, and by other vehicles, such as buses, that the signs allow.",
+    "ref": [
+      "HC 142",
+      "HC Traffic signs"
+    ],
+    "sign": "Information-sign-lane-for-hov"
+  },
+  {
+    "id": "RUL-017",
+    "q": "You're driving in a city where trams run along some streets. A lane ahead is reserved for trams. What does the Highway Code say about entering it?",
+    "options": [
+      "You must not enter it",
+      "You may use it to overtake",
+      "You may use it outside peak hours",
+      "You may use it if no tram is coming"
+    ],
+    "answer": 0,
+    "explain": "You MUST NOT enter a road, lane or other route reserved for trams. Take extra care where trams run along the road, and don't follow them when they leave the main carriageway.",
+    "ref": [
+      "HC 300"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-018",
+    "q": "You're approaching a roundabout. There are no signs, road markings or traffic lights telling you otherwise. Which traffic should you give priority to?",
+    "options": [
+      "Traffic approaching from your left",
+      "Traffic waiting to join behind you",
+      "Traffic heading for your exit",
+      "Traffic approaching from your right"
+    ],
+    "answer": 3,
+    "explain": "When you reach a roundabout you should give priority to traffic approaching from your right, unless signs, road markings or traffic lights direct otherwise.",
+    "ref": [
+      "HC 185"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-019",
+    "q": "You're going to take the first exit to the left at a roundabout. Unless signs or markings show otherwise, how should you approach?",
+    "options": [
+      "Signal right and use the right-hand lane",
+      "Signal left and use the left-hand lane",
+      "Give no signal and use either lane",
+      "Signal left and use the right-hand lane"
+    ],
+    "answer": 1,
+    "explain": "For the first exit, signal left and approach in the left-hand lane. Keep to the left on the roundabout and continue signalling left to leave.",
+    "ref": [
+      "HC 186"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-020",
+    "q": "You're going to take an exit to the right at a roundabout. There are no signs or markings telling you otherwise. What should you do?",
+    "options": [
+      "Signal left and approach in the left-hand lane",
+      "Approach in the left-hand lane with no signal",
+      "Signal right and approach in the right-hand lane",
+      "Signal right and approach in the left-hand lane"
+    ],
+    "answer": 2,
+    "explain": "When taking an exit to the right, signal right and approach in the right-hand lane. Keep to the right on the roundabout until you need to change lanes to exit, and signal left after you've passed the exit before the one you want.",
+    "ref": [
+      "HC 186"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-021",
+    "q": "You're going straight ahead at a roundabout, using an exit between the first and the last. When should you signal left?",
+    "options": [
+      "As you approach the roundabout",
+      "As soon as you join the roundabout",
+      "You don't need to signal at all",
+      "After passing the exit before yours"
+    ],
+    "answer": 3,
+    "explain": "For an intermediate exit you won't normally need to signal on approach. Stay in your lane and signal left after you've passed the exit before the one you want.",
+    "ref": [
+      "HC 186"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-022",
+    "q": "You're driving a car and approaching a mini-roundabout. The road is quiet. What must you do?",
+    "options": [
+      "Pass round the central markings",
+      "Drive over the central markings",
+      "Give way to traffic from your left",
+      "Signal right whichever exit you take"
+    ],
+    "answer": 0,
+    "explain": "All vehicles MUST pass round the central markings at a mini-roundabout, except large vehicles that are physically unable to. Approach it in the same way as a normal roundabout.",
+    "ref": [
+      "HC 188"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-023",
+    "q": "You're approaching a double mini-roundabout. How should you deal with it?",
+    "options": [
+      "Treat it as one large roundabout",
+      "Give way only at the first one",
+      "Treat each roundabout separately",
+      "Give way to traffic from the left"
+    ],
+    "answer": 2,
+    "explain": "At double mini-roundabouts you should treat each roundabout separately and give way to traffic from the right.",
+    "ref": [
+      "HC 189"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-024",
+    "q": "You're approaching a roundabout behind a long vehicle. It's moving over to the right but signalling left. What should you do?",
+    "options": [
+      "Pass it on the left as it moves right",
+      "Hold back and give it plenty of room",
+      "Sound your horn to warn the driver",
+      "Move alongside it on the right"
+    ],
+    "answer": 1,
+    "explain": "Long vehicles may have to take a different course or straddle lanes when approaching or on a roundabout because of their length. Watch out for their signals and give them plenty of room.",
+    "ref": [
+      "HC 187",
+      "HC 221"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-025",
+    "q": "You're approaching a junction with this sign and a solid white line across the road. You can see that the main road is clear. What must you do?",
+    "options": [
+      "Slow down and drive on if it's clear",
+      "Stop only if traffic is coming",
+      "Stop behind the line, then go when safe",
+      "Stop with your front wheels on the line"
+    ],
+    "answer": 2,
+    "explain": "At a 'Stop' sign with a solid white line across the road you MUST stop behind the line, even if the road looks clear. Wait for a safe gap in the traffic before you move off.",
+    "ref": [
+      "HC 171"
+    ],
+    "sign": "sign-giving-order-stop-give-way"
+  },
+  {
+    "id": "RUL-026",
+    "q": "You're about to emerge from a side road. There are broken white lines like these across the end of it. What must you do?",
+    "options": [
+      "Give way to traffic on the main road",
+      "Stop, even if the road is clear",
+      "Expect main-road traffic to let you out",
+      "Give way only to traffic from the left"
+    ],
+    "answer": 0,
+    "explain": "You MUST give way to traffic on the main road when emerging from a junction with broken white lines across the road. Only pull out when there's a safe gap.",
+    "ref": [
+      "HC 172",
+      "HC Road markings"
+    ],
+    "sign": "across-carriageway-give-way-traffic-major-road"
+  },
+  {
+    "id": "RUL-027",
+    "q": "You're turning left into a side road. A pedestrian is waiting to cross the road you're turning into. What should you do?",
+    "options": [
+      "Turn quickly before they step out",
+      "Give way and let them cross",
+      "Flash your headlights at them",
+      "Carry on, as you have priority"
+    ],
+    "answer": 1,
+    "explain": "At a junction you should give way to pedestrians crossing or waiting to cross a road into which or from which you're turning. If they've started to cross, they have priority.",
+    "ref": [
+      "HC H2",
+      "HC 170"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-028",
+    "q": "You're on a main road and want to turn right into a side road. There's no space marked for traffic turning right. Where should you position your car?",
+    "options": [
+      "Just left of the middle of the road",
+      "Close to the left-hand kerb",
+      "On the right-hand side of the road",
+      "Straddling the centre line"
+    ],
+    "answer": 0,
+    "explain": "Well before you turn right, check your mirrors, give a right-turn signal and take up a position just left of the middle of the road. Leave room for other vehicles to pass on the left if possible.",
+    "ref": [
+      "HC 179"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-029",
+    "q": "You're waiting at traffic lights to go straight ahead across a box junction like this. The lights are green but your exit road is blocked. What should you do?",
+    "options": [
+      "Enter the box and wait there",
+      "Sound your horn at the traffic ahead",
+      "Wait until your exit road is clear",
+      "Enter if the traffic ahead is moving"
+    ],
+    "answer": 2,
+    "explain": "You MUST NOT enter a box junction until your exit road or lane is clear. The only exception is when you're turning right and are stopped only by oncoming traffic or other vehicles waiting to turn right.",
+    "ref": [
+      "HC 174"
+    ],
+    "sign": "other-road-markings-box-junction"
+  },
+  {
+    "id": "RUL-030",
+    "q": "You're driving through a housing estate and approach crossroads with no signs or road markings. Who has priority?",
+    "options": [
+      "Traffic coming from the right",
+      "Traffic on the wider road",
+      "Vehicles going straight ahead",
+      "Nobody has priority"
+    ],
+    "answer": 3,
+    "explain": "At unmarked junctions nobody has priority. Look all around before emerging, and only cross when there's a gap large enough to do so safely.",
+    "ref": [
+      "HC 146",
+      "HC 170"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-031",
+    "q": "You're waiting to emerge from a side road. A car approaching from your right is signalling left, as if to turn into your road. What should you do?",
+    "options": [
+      "Wait until you're sure it's turning",
+      "Pull out, as it's about to turn",
+      "Flash your headlights to let it in",
+      "Pull out quickly before it turns"
+    ],
+    "answer": 0,
+    "explain": "Don't assume that a vehicle coming from the right and signalling left will actually turn. Its indicator may not have been cancelled, so wait and make sure.",
+    "ref": [
+      "HC 170",
+      "HC 104"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-032",
+    "q": "You're towing a trailer and want to turn right across a dual carriageway. The central reservation isn't deep enough for the length of your car and trailer. What should you do?",
+    "options": [
+      "Wait in the central gap, partly blocking a lane",
+      "Wait until you can cross both halves in one go",
+      "Cross the first half, then stop in the right lane",
+      "Switch on your hazard lights and edge out"
+    ],
+    "answer": 1,
+    "explain": "Before crossing or turning right onto a dual carriageway, check whether the central reservation is deep enough to protect the full length of your vehicle. If it's too shallow, wait until you can cross both carriageways in one go.",
+    "ref": [
+      "HC 173"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-033",
+    "q": "You're crossing a dual carriageway from a side road. The central reservation is deep enough to protect your whole car. Where should you wait for a gap in the traffic on the second half?",
+    "options": [
+      "In the right-hand lane of the first half",
+      "Just over the give way line of the second half",
+      "On the grass verge beside the main road",
+      "In the central reservation"
+    ],
+    "answer": 3,
+    "explain": "If the central reservation is deep enough to protect the full length of your vehicle, treat each half of the dual carriageway as a separate road. Wait in the central reservation until there's a safe gap on the second half.",
+    "ref": [
+      "HC 173"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-034",
+    "q": "You're approaching traffic lights that have been green for some time. They change to amber. When may you carry on?",
+    "options": [
+      "If you can get through before red",
+      "If no pedestrians are waiting",
+      "If stopping might cause a collision",
+      "If the road beyond is clear"
+    ],
+    "answer": 2,
+    "explain": "Amber means stop at the stop line. You may go on only if you've already crossed the stop line or are so close to it that stopping might cause a collision.",
+    "ref": [
+      "HC 175",
+      "HC Light signals"
+    ],
+    "sign": "traffic-light-amber"
+  },
+  {
+    "id": "RUL-035",
+    "q": "You're waiting at a red traffic light. A green arrow pointing right lights up alongside it, as shown. You want to turn right. What does the green arrow mean?",
+    "options": [
+      "You must wait for the full green light",
+      "You may go right if the way is clear",
+      "You may go in any direction if clear",
+      "You must wait until the red goes out"
+    ],
+    "answer": 1,
+    "explain": "A green arrow means you may go in the direction it shows, if the way is clear, whatever other lights are showing. Give other traffic, especially cyclists, time and room to move into the correct lane.",
+    "ref": [
+      "HC Light signals",
+      "HC 177"
+    ],
+    "sign": "traffic-light-green-arrow"
+  },
+  {
+    "id": "RUL-036",
+    "q": "You're approaching traffic lights and want to go straight ahead. The left-hand lane is a filter lane with a green arrow pointing left. What should you do?",
+    "options": [
+      "Keep out of the filter lane",
+      "Use the filter lane to pass the queue",
+      "Use it, then move right at the junction",
+      "Wait in the filter lane for full green"
+    ],
+    "answer": 0,
+    "explain": "A green filter arrow indicates a filter lane only. Don't enter that lane unless you want to go in the direction of the arrow.",
+    "ref": [
+      "HC 177"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-037",
+    "q": "You're approaching a junction with an advanced stop line for cyclists. The lights turn red before you reach the first white line. Where must you stop?",
+    "options": [
+      "At the second white line",
+      "At the first white line",
+      "In the cyclists' waiting area",
+      "As close to the lights as possible"
+    ],
+    "answer": 1,
+    "explain": "You MUST stop at the first white line if the lights are amber or red, and avoid encroaching on the area marked for cyclists. You only stop at the second line if you'd already crossed the first when the lights turned red.",
+    "ref": [
+      "HC 178"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-038",
+    "q": "You're approaching a junction where the traffic lights aren't working. What should you do?",
+    "options": [
+      "Assume you have priority if going straight",
+      "Wait until the lights are working again",
+      "Sound your horn and drive straight on",
+      "Treat it as an unmarked junction"
+    ],
+    "answer": 3,
+    "explain": "If the traffic lights aren't working, treat the situation as you would an unmarked junction, where nobody has priority, and proceed with great care.",
+    "ref": [
+      "HC 176",
+      "HC 146"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-039",
+    "q": "You're behind a slow-moving car on a road with double white lines like these. The line nearest to you is solid. What should you do?",
+    "options": [
+      "Overtake if the road ahead is clear",
+      "Overtake if it's doing under 30 mph",
+      "Stay behind the car",
+      "Straddle the lines to see ahead"
+    ],
+    "answer": 2,
+    "explain": "You MUST NOT overtake if you'd have to cross or straddle double white lines with a solid line nearest to you. The exceptions are passing a stationary vehicle, or overtaking a cycle, horse or road maintenance vehicle travelling at 10 mph or less.",
+    "ref": [
+      "HC 165",
+      "HC 129"
+    ],
+    "sign": "along-carriageway-double-white-line"
+  },
+  {
+    "id": "RUL-040",
+    "q": "You're following a slow tractor along a country road. Where should you NOT overtake it?",
+    "options": [
+      "On a straight road with a clear view",
+      "Where the road ahead is wide and empty",
+      "Where you can see a long way ahead",
+      "Approaching the brow of a hill"
+    ],
+    "answer": 3,
+    "explain": "Don't overtake if there's any doubt, or where you can't see far enough ahead to be sure it's safe, such as when approaching a bend, a hump bridge or the brow of a hill.",
+    "ref": [
+      "HC 166"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-041",
+    "q": "You're driving along a single carriageway road. When may you overtake the vehicle in front on the left?",
+    "options": [
+      "When it's signalling right and there's room",
+      "When it's travelling below the speed limit",
+      "When its driver waves you through",
+      "When it's slowing for a hazard ahead"
+    ],
+    "answer": 0,
+    "explain": "You should only overtake on the left if the vehicle in front is signalling to turn right and there's room to do so.",
+    "ref": [
+      "HC 163"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-042",
+    "q": "You're driving along a country road and the car behind starts to overtake you. What should you do?",
+    "options": [
+      "Speed up so that it can't get past you",
+      "Move out towards the centre of the road",
+      "Brake sharply to let it in quickly",
+      "Keep a steady course, slowing if needed"
+    ],
+    "answer": 3,
+    "explain": "If a driver is trying to overtake you, maintain a steady course and speed, slowing down if necessary to let them pass. Speeding up or driving unpredictably while someone is overtaking you is dangerous.",
+    "ref": [
+      "HC 168"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-043",
+    "q": "You're following a large lorry and want to overtake it. What should you do first?",
+    "options": [
+      "Move up close to see past it",
+      "Drop back to get a better view ahead",
+      "Follow the car that's overtaking it",
+      "Flash your headlights at the driver"
+    ],
+    "answer": 1,
+    "explain": "Drop back from a large vehicle. This improves your view of the road ahead and helps the driver see you in their mirrors. Make sure you have enough room to complete the overtake before committing yourself.",
+    "ref": [
+      "HC 164"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-044",
+    "q": "You're parking in a residential street near a junction. There are no marked parking spaces. You shouldn't park within what distance of the junction?",
+    "options": [
+      "5 metres (16 feet)",
+      "15 metres (49 feet)",
+      "10 metres (32 feet)",
+      "20 metres (66 feet)"
+    ],
+    "answer": 2,
+    "explain": "Don't stop or park opposite or within 10 metres (32 feet) of a junction, except in an authorised parking space.",
+    "ref": [
+      "HC 243"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-045",
+    "q": "You want to drop off a passenger close to a zebra crossing. There are white zig-zag lines on the approach to it. What's the rule?",
+    "options": [
+      "You must not stop or park on them",
+      "You may stop briefly to let them out",
+      "You may park there for up to 2 minutes",
+      "You may stop if you switch on hazard lights"
+    ],
+    "answer": 0,
+    "explain": "You MUST NOT stop or park on a pedestrian crossing or in the area marked by the zig-zag lines. Find a safe and legal place further away.",
+    "ref": [
+      "HC 240",
+      "HC 191"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-046",
+    "q": "You're dropping your child off at school. The entrance has these markings and an upright sign showing that stopping is prohibited. What must you do?",
+    "options": [
+      "Stop on them briefly to drop off",
+      "Stop on them with hazard lights on",
+      "Stop on them if no children are about",
+      "Not stop on them at all"
+    ],
+    "answer": 3,
+    "explain": "You MUST NOT wait, park, or stop to set down and pick up passengers on school entrance markings when upright signs show a prohibition of stopping.",
+    "ref": [
+      "HC 238",
+      "HC Road markings"
+    ],
+    "sign": "other-road-markings-school-keep-clear"
+  },
+  {
+    "id": "RUL-047",
+    "q": "You're collecting a friend in town and need to stop for a few minutes. Which of these places should you avoid?",
+    "options": [
+      "A marked parking bay",
+      "An off-street car park",
+      "Near a bus stop",
+      "A lay-by"
+    ],
+    "answer": 2,
+    "explain": "Don't stop or park at or near a bus or tram stop or taxi rank. Use off-street parking areas or marked parking bays wherever possible.",
+    "ref": [
+      "HC 243",
+      "HC 239"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-048",
+    "q": "You've found a space to park, but the kerb there has been lowered to help wheelchair users. What should you do?",
+    "options": [
+      "Park there, as it's easy to get out",
+      "Find somewhere else to park",
+      "Park there for a few minutes only",
+      "Park there if you're not blocking traffic"
+    ],
+    "answer": 1,
+    "explain": "Don't stop or park where the kerb has been lowered to help wheelchair users and powered mobility vehicles. In Scotland you MUST NOT park where the kerb has been lowered to help pedestrians or cyclists.",
+    "ref": [
+      "HC 243"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-049",
+    "q": "You're driving in London and the only space you can find is partly on the pavement. What's the rule?",
+    "options": [
+      "You must not park partly or wholly on it",
+      "You may park with two wheels on it",
+      "You may park there for up to 30 minutes",
+      "You may park there with hazards on"
+    ],
+    "answer": 0,
+    "explain": "You MUST NOT park partially or wholly on the pavement in London or Scotland, except in limited circumstances. Pavement parking can seriously inconvenience pedestrians, wheelchair users and people with prams or pushchairs.",
+    "ref": [
+      "HC 244"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-050",
+    "q": "You're parking on a road at night. You're not in a recognised parking space. What must you NOT do?",
+    "options": [
+      "Park close to the kerb on your side",
+      "Park facing against the traffic flow",
+      "Park under or near a street light",
+      "Switch off your headlights and engine"
+    ],
+    "answer": 1,
+    "explain": "You MUST NOT park on a road at night facing against the direction of the traffic flow unless you're in a recognised parking space.",
+    "ref": [
+      "HC 248"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-051",
+    "q": "You park your car at night in a lay-by on a road with a 50 mph speed limit. What must you do?",
+    "options": [
+      "Leave your parking lights on",
+      "Switch off all your lights",
+      "Leave your dipped headlights on",
+      "Leave your hazard lights flashing"
+    ],
+    "answer": 0,
+    "explain": "All vehicles MUST display parking lights when parked on a road, or in a lay-by on a road, with a speed limit greater than 30 mph.",
+    "ref": [
+      "HC 249"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-052",
+    "q": "You're leaving your car overnight on a road with a 30 mph limit. It isn't in a parking place or lay-by. Where may you leave it without lights?",
+    "options": [
+      "Within 10 metres of a junction, close to the kerb",
+      "At least 10 metres from a junction, facing against the traffic",
+      "At least 10 metres from a junction, facing with the traffic",
+      "Anywhere under a street light, facing either way"
+    ],
+    "answer": 2,
+    "explain": "On a road with a speed limit of 30 mph or less, a car may be parked without lights if it's at least 10 metres (32 feet) from any junction, close to the kerb and facing in the direction of the traffic flow.",
+    "ref": [
+      "HC 250"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-053",
+    "q": "You're driving along a main road and pass this sign. What does it tell you that you must NOT do?",
+    "options": [
+      "Stop on the road",
+      "Overtake other vehicles",
+      "Drive faster than 30 mph",
+      "Turn into side roads"
+    ],
+    "answer": 0,
+    "explain": "This sign means no stopping (clearway). You MUST NOT stop or park on a clearway.",
+    "ref": [
+      "HC 240",
+      "HC Traffic signs"
+    ],
+    "sign": "sign-giving-order-no-stopping"
+  },
+  {
+    "id": "RUL-054",
+    "q": "You're driving through a town centre and see this sign. During the times shown, when may you stop on this road?",
+    "options": [
+      "To load or unload goods from a van",
+      "For up to 20 minutes if you stay with it",
+      "Whenever you can find a free space",
+      "Only to set down or pick up passengers"
+    ],
+    "answer": 3,
+    "explain": "On an urban clearway you MUST NOT stop within its hours of operation, except for as long as necessary to pick up or set down passengers.",
+    "ref": [
+      "HC 240",
+      "HC Traffic signs"
+    ],
+    "sign": "sign-giving-order-no-stopping-times"
+  },
+  {
+    "id": "RUL-055",
+    "q": "You're driving on a red route and see double red lines like these along the edge of the road. What do they mean?",
+    "options": [
+      "No parking overnight only",
+      "No loading at peak times",
+      "No stopping at any time",
+      "Waiting limited to 20 minutes"
+    ],
+    "answer": 2,
+    "explain": "On red routes, double red lines always mean no stopping at any time. This includes stopping to park, load or unload, or to let passengers on or off (except licensed taxis and Blue Badge holders).",
+    "ref": [
+      "HC Road markings",
+      "HC 240"
+    ],
+    "sign": "along-edge-carriageway-red-route-no-stopping-double-red-line"
+  },
+  {
+    "id": "RUL-056",
+    "q": "You realise you're going the wrong way along a busy main road. What's the safest way to turn round?",
+    "options": [
+      "Make a U-turn across the main road",
+      "Do a three-point turn in the main road",
+      "Reverse back along the main road",
+      "Drive round a block of side streets"
+    ],
+    "answer": 3,
+    "explain": "If you need to turn your vehicle round, wait until you find a safe place. Try not to reverse or turn round in a busy road; find a quiet side road or drive round a block of side streets.",
+    "ref": [
+      "HC 200"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-057",
+    "q": "You're about to park on your driveway, which opens onto a busy road. What does the Highway Code advise?",
+    "options": [
+      "Drive in and reverse out later",
+      "Reverse in so you can drive out",
+      "Drive in and turn round in the road",
+      "Whichever way is quickest for you"
+    ],
+    "answer": 1,
+    "explain": "When using a driveway, reverse in and drive out if you can. You also shouldn't reverse from a side road into a main road.",
+    "ref": [
+      "HC 201"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-058",
+    "q": "You're reversing your car into a quiet side road. How far are you allowed to reverse?",
+    "options": [
+      "No further than necessary",
+      "No more than 10 metres",
+      "As far as you like if it's clear",
+      "No more than two car lengths"
+    ],
+    "answer": 0,
+    "explain": "You MUST NOT reverse your vehicle further than necessary. Look all around before and while reversing, and give way to any pedestrians who may be crossing.",
+    "ref": [
+      "HC 203",
+      "HC 206"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-059",
+    "q": "You've missed your turning and are approaching a mini-roundabout. You're thinking of making a U-turn there. What does the Highway Code advise?",
+    "options": [
+      "U-turns are best made at mini-roundabouts",
+      "Only make a U-turn if you signal right",
+      "Avoid making U-turns at mini-roundabouts",
+      "U-turns are fine if you drive over the centre"
+    ],
+    "answer": 2,
+    "explain": "Avoid making U-turns at mini-roundabouts, where there's less space to manoeuvre and less time to signal. Beware of other drivers doing this.",
+    "ref": [
+      "HC 188"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-060",
+    "q": "You're waiting at a level crossing. A train passes, but the red lights keep flashing. What must you do?",
+    "options": [
+      "Cross, as the train has passed",
+      "Keep waiting, as another train is coming",
+      "Zig-zag round the barriers if it's clear",
+      "Phone the signal operator, then cross"
+    ],
+    "answer": 1,
+    "explain": "You MUST wait if a train goes by and the red lights continue to flash. This means another train will be passing soon. Only cross when the lights go off and the barriers open.",
+    "ref": [
+      "HC 293"
+    ],
+    "sign": "flashing-red-lights"
+  },
+  {
+    "id": "RUL-061",
+    "q": "You're driving over a level crossing. You've just crossed the white line when the amber light comes on. What should you do?",
+    "options": [
+      "Stop on the crossing and wait",
+      "Reverse back behind the white line",
+      "Keep going and clear the crossing",
+      "Stop and switch on hazard lights"
+    ],
+    "answer": 2,
+    "explain": "Keep going if you've already crossed the white line when the amber light comes on. Don't reverse onto or over a controlled crossing.",
+    "ref": [
+      "HC 293"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-062",
+    "q": "Your car breaks down on a level crossing. What should you do first?",
+    "options": [
+      "Get everyone out and off the crossing",
+      "Try to restart the engine straight away",
+      "Switch on your hazard warning lights",
+      "Push the car clear before doing anything"
+    ],
+    "answer": 0,
+    "explain": "Get everyone out of the vehicle and clear of the crossing immediately. Then use a railway telephone, if there is one, to tell the signal operator, and only move the vehicle if there's time before a train arrives.",
+    "ref": [
+      "HC 299"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-063",
+    "q": "You come to a level crossing with user-operated gates and small red and green lights. When may you cross?",
+    "options": [
+      "When the red light is showing",
+      "When you can't see a train coming",
+      "After sounding your horn twice",
+      "Only when the green light is on"
+    ],
+    "answer": 3,
+    "explain": "You MUST NOT cross when the red light is showing; only cross if the green light is on. Open the gates on both sides, check the green light is still on, cross quickly and close the gates when you're clear.",
+    "ref": [
+      "HC 296"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-064",
+    "q": "Traffic is moving slowly over a level crossing ahead of you. The road on the far side is congested. What should you do?",
+    "options": [
+      "Follow the car in front closely",
+      "Wait until it's clear on the other side",
+      "Stop on the crossing if the lights are off",
+      "Drive onto the crossing and wait there"
+    ],
+    "answer": 1,
+    "explain": "Never drive onto a level crossing until the road is clear on the other side, and don't get too close to the car in front. Never stop or park on, or near, a crossing.",
+    "ref": [
+      "HC 291"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-065",
+    "q": "You're approaching a zebra crossing. A pedestrian is waiting on the pavement to cross. What should you do?",
+    "options": [
+      "Wave them across in front of you",
+      "Flash your headlights at them",
+      "Sound your horn to warn them",
+      "Slow down and give way to them"
+    ],
+    "answer": 3,
+    "explain": "Be ready to slow down or stop, and give way to pedestrians waiting to cross. Don't wave, flash your lights or use your horn to invite them across, as this could be dangerous if another vehicle is approaching.",
+    "ref": [
+      "HC 195",
+      "HC H2"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-066",
+    "q": "You've stopped at a pelican crossing. The red light changes to flashing amber. What does this mean?",
+    "options": [
+      "You must wait for the green light",
+      "It's about to change back to red",
+      "You may go if the crossing is clear",
+      "Pedestrians must now give way to you"
+    ],
+    "answer": 2,
+    "explain": "At a pelican crossing, flashing amber follows the red light. You MUST give way to any pedestrians on the crossing, but if there's no one on it you may proceed with caution.",
+    "ref": [
+      "HC 196"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-067",
+    "q": "You're at a pelican crossing that goes straight across the road with a central island. The amber light is flashing and a pedestrian is crossing towards you from the far side. What must you do?",
+    "options": [
+      "Wait, as it counts as one crossing",
+      "Go on, as they're on the other half",
+      "Go once they've reached the island",
+      "Sound your horn to warn them"
+    ],
+    "answer": 0,
+    "explain": "Pelican crossings that go straight across the road are one crossing, even when there's a central island. You MUST wait for pedestrians who are crossing from the other side of the island.",
+    "ref": [
+      "HC 197",
+      "HC 196"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-068",
+    "q": "You're approaching a pedestrian crossing. The car in front is slowing down to stop and let people cross. What must you do?",
+    "options": [
+      "Overtake it on the right",
+      "Stay behind it",
+      "Pass it on the left",
+      "Sound your horn and pass"
+    ],
+    "answer": 1,
+    "explain": "You MUST NOT overtake the moving vehicle nearest the crossing, or the vehicle nearest the crossing that has stopped to give way to pedestrians.",
+    "ref": [
+      "HC 191",
+      "HC 165"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-069",
+    "q": "You're approaching a puffin crossing. How is its light sequence for traffic different from a pelican crossing's?",
+    "options": [
+      "It shows flashing green before red",
+      "It has no red light for traffic",
+      "It has no flashing amber phase",
+      "It shows flashing red, then green"
+    ],
+    "answer": 2,
+    "explain": "Toucan, puffin and equestrian crossings have no flashing amber phase. The light sequence for traffic at these crossings is the same as at traffic lights.",
+    "ref": [
+      "HC 199"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-070",
+    "q": "You want to pull up on the left just after a side road. When should you signal left?",
+    "options": [
+      "As you're passing the side road",
+      "Before you reach the side road",
+      "Only after you've stopped",
+      "There's no need to signal"
+    ],
+    "answer": 0,
+    "explain": "Make sure your signals won't confuse others. If you want to stop after a side road, don't signal until you're passing it; signalling earlier may make others think you're turning into it.",
+    "ref": [
+      "HC 103"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-071",
+    "q": "You're on a busy road and have signalled to move into the next lane. What should you remember?",
+    "options": [
+      "Other drivers must now let you in",
+      "You needn't check your mirrors again",
+      "You should leave your signal on afterwards",
+      "Your signal doesn't give you priority"
+    ],
+    "answer": 3,
+    "explain": "Signalling doesn't give you priority. Only move over when it's safe, and cancel your signal after use.",
+    "ref": [
+      "HC 103",
+      "HC 133"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-072",
+    "q": "You're driving along a busy road. According to the Highway Code, when should you flash your headlights at other road users?",
+    "options": [
+      "To let them know you're there",
+      "To tell them they can pull out",
+      "To thank them for giving way",
+      "To warn of a speed camera ahead"
+    ],
+    "answer": 0,
+    "explain": "Only flash your headlights to let other road users know that you're there. Don't flash them to convey any other message or to intimidate other road users.",
+    "ref": [
+      "HC 110"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-073",
+    "q": "A police car behind you is flashing its blue lights, and the officer points for you to pull over. What must you do?",
+    "options": [
+      "Stop straight away, wherever you are",
+      "Stop when safe and turn off the engine",
+      "Speed up so the police car can pass",
+      "Keep going until you find a car park"
+    ],
+    "answer": 1,
+    "explain": "If the police want to stop your vehicle, you MUST pull over and stop as soon as it's safe to do so. Then switch off your engine.",
+    "ref": [
+      "HC 106"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-074",
+    "q": "A vehicle in front of you is flashing amber lights. A Driver and Vehicle Standards Agency (DVSA) officer in it is signalling for you to follow. What should you do?",
+    "options": [
+      "Overtake it as soon as it's safe",
+      "Ignore it, as only police can stop you",
+      "Follow it to a safe place to stop",
+      "Stop immediately in the road"
+    ],
+    "answer": 2,
+    "explain": "DVSA officers have the power to stop vehicles on all roads. Flashing amber lights from the front mean they want you to follow them to a safe place to stop, and it's an offence not to comply.",
+    "ref": [
+      "HC 107"
+    ],
+    "sign": null
+  },
+  {
+    "id": "RUL-075",
+    "q": "You're driving on a motorway in England. Uniformed traffic officers want to stop you because your roof load looks insecure. How will they usually attract your attention?",
+    "options": [
+      "Flashing blue lights and sounding a siren",
+      "Flashing amber lights, usually from behind",
+      "Flashing green lights from in front of you",
+      "A red flag waved from the hard shoulder"
+    ],
+    "answer": 1,
+    "explain": "Traffic officers can stop vehicles on most motorways and some 'A' class roads in England and Wales. They'll usually flash amber lights from behind and direct you to pull over; you MUST then stop when it's safe and switch off your engine.",
+    "ref": [
+      "HC 108"
+    ],
+    "sign": null
+  }
+]

@@ -1,0 +1,352 @@
+[
+  {
+    "id": "LOA-001",
+    "q": "You're moving house and carrying some long items in your car. What does the law say about your load?",
+    "options": [
+      "It MUST be secure and not stick out dangerously",
+      "It only needs securing on high-speed roads",
+      "Passengers can hold it in place by hand",
+      "It can overhang 3 metres without markers"
+    ],
+    "answer": 0,
+    "explain": "You MUST secure your load and it MUST NOT stick out dangerously. Make sure any heavy or sharp objects are secured safely.",
+    "ref": ["HC 98"],
+    "sign": null
+  },
+  {
+    "id": "LOA-002",
+    "q": "You've put some heavy tools loose on the back seat of your car. Why is this dangerous?",
+    "options": [
+      "They could set off the car alarm",
+      "They could injure someone in a collision",
+      "They'll make your tyres wear faster",
+      "They'll stop the rear doors locking"
+    ],
+    "answer": 1,
+    "explain": "You should make sure any heavy or sharp objects are secured safely. If there's a collision, they might hit someone inside the vehicle and cause serious injury.",
+    "ref": ["HC 98", "HC Annex 6"],
+    "sign": null
+  },
+  {
+    "id": "LOA-003",
+    "q": "You're setting off on holiday with a fully loaded car. Your handbook gives different tyre pressures for a full load. What should you do?",
+    "options": [
+      "Let some air out for a softer ride",
+      "Keep them at the normal setting",
+      "Inflate them to the full-load setting",
+      "Check them only when you arrive"
+    ],
+    "answer": 2,
+    "explain": "Tyres MUST be correctly inflated to the vehicle manufacturer's specification for the load being carried. Always refer to the vehicle's handbook or data.",
+    "ref": ["HC Annex 6"],
+    "sign": null
+  },
+  {
+    "id": "LOA-004",
+    "q": "Your car is heavily loaded at the back for a long journey. What may you need to adjust?",
+    "options": [
+      "Your speedometer",
+      "Your fuel gauge",
+      "Your engine idle speed",
+      "Your headlights"
+    ],
+    "answer": 3,
+    "explain": "Carrying a load or pulling a trailer may require you to adjust your headlights. Lights MUST be properly adjusted to prevent dazzling other road users, and extra attention is needed if the vehicle is heavily loaded.",
+    "ref": ["HC 98", "HC Annex 6"],
+    "sign": null
+  },
+  {
+    "id": "LOA-005",
+    "q": "You're stopped by the police because your load is insecure and likely to cause danger. How many penalty points could this carry?",
+    "options": [
+      "3",
+      "6",
+      "8",
+      "11"
+    ],
+    "answer": 0,
+    "explain": "You MUST NOT overload your vehicle and you MUST secure your load. Causing, or being likely to cause, danger because of your load or passengers carries 3 penalty points.",
+    "ref": ["HC 98", "GOV.UK penalty-points-endorsements"],
+    "sign": null
+  },
+  {
+    "id": "LOA-006",
+    "q": "You're taking your dog with you in the car. How should you carry it?",
+    "options": [
+      "Loose on the back seat",
+      "On a passenger's lap in the front",
+      "Loose in the front footwell",
+      "Restrained in a dog cage or harness"
+    ],
+    "answer": 3,
+    "explain": "You should make sure dogs or other animals are suitably restrained so they can't distract you or injure you, or themselves, if you stop quickly. A seat belt harness, pet carrier, dog cage or dog guard are ways of restraining animals in cars.",
+    "ref": ["HC 57"],
+    "sign": null
+  },
+  {
+    "id": "LOA-007",
+    "q": "You're giving friends a lift and there are more people than seats with seat belts. What does the law say?",
+    "options": [
+      "Two children can share one seat belt",
+      "Adults can share a belt on short trips",
+      "Only one person may use each belted seat",
+      "Extra passengers can sit in the boot"
+    ],
+    "answer": 2,
+    "explain": "You must wear a seat belt if one is fitted in the seat you're using, and you're only allowed one person in each seat fitted with a seat belt.",
+    "ref": ["GOV.UK seat-belts-law", "HC 99"],
+    "sign": null
+  },
+  {
+    "id": "LOA-008",
+    "q": "You're carrying three children under 3, but there's no room for a third child car seat in the back. How must the third child travel?",
+    "options": [
+      "In the back using an adult seat belt",
+      "In the front in the correct child seat",
+      "On an adult's lap in the back",
+      "In the back without any restraint"
+    ],
+    "answer": 1,
+    "explain": "Children under 3 must be in a child car seat. If there's no room for a third child car seat in the back, the child must travel in the front seat with the correct child car seat.",
+    "ref": ["GOV.UK child-car-seats-the-rules"],
+    "sign": null
+  },
+  {
+    "id": "LOA-009",
+    "q": "You passed your car driving test in 2015. What's the heaviest trailer you can tow on your licence?",
+    "options": [
+      "750 kg MAM",
+      "3,500 kg MAM",
+      "8,250 kg MAM",
+      "12,000 kg MAM"
+    ],
+    "answer": 1,
+    "explain": "If you got your licence from 1 January 1997, you can tow a trailer that weighs up to 3,500 kg maximum authorised mass (MAM). This is known as a 'category BE' vehicle. You MUST NOT tow more than your licence permits.",
+    "ref": ["GOV.UK towing-with-car", "HC 98"],
+    "sign": null
+  },
+  {
+    "id": "LOA-010",
+    "q": "Your grandfather passed his car driving test in 1985. What combined weight of vehicle and trailer can he usually drive?",
+    "options": [
+      "Up to 3,500 kg MAM",
+      "Up to 7,500 kg MAM",
+      "Up to 8,250 kg MAM",
+      "Up to 12,000 kg MAM"
+    ],
+    "answer": 2,
+    "explain": "If you got your licence before 1 January 1997, you can usually drive a vehicle and trailer with a combined weight of up to 8,250 kg MAM.",
+    "ref": ["GOV.UK towing-with-car"],
+    "sign": null
+  },
+  {
+    "id": "LOA-011",
+    "q": "You're checking whether your car can tow a caravan. What is the 'gross train weight'?",
+    "options": [
+      "The weight of the empty trailer only",
+      "The downward weight on the tow ball",
+      "The weight of the car with no passengers",
+      "The fully loaded car plus fully loaded trailer"
+    ],
+    "answer": 3,
+    "explain": "The gross train weight is the weight of the fully loaded car plus the fully loaded trailer, and it must not be exceeded. If your VIN plate doesn't list a train weight, you shouldn't use your vehicle for towing.",
+    "ref": ["GOV.UK towing-with-car"],
+    "sign": null
+  },
+  {
+    "id": "LOA-012",
+    "q": "You're loading your caravan for a holiday. Where should you put the heaviest items?",
+    "options": [
+      "Over the caravan's axle(s)",
+      "At the very back of the caravan",
+      "In the high roof lockers",
+      "All on one side of the caravan"
+    ],
+    "answer": 0,
+    "explain": "You should distribute the weight in your caravan or trailer evenly, with heavy items over the axle(s). This should minimise the possibility of swerving or snaking and loss of control.",
+    "ref": ["HC 98"],
+    "sign": null
+  },
+  {
+    "id": "LOA-013",
+    "q": "You're hitching a loaded trailer to your car. How should the load act on the tow ball?",
+    "options": [
+      "It should lift upwards on the tow ball",
+      "It should press down, within the maker's limit",
+      "It should put no weight on the tow ball",
+      "It should be as heavy as you can make it"
+    ],
+    "answer": 1,
+    "explain": "You should ensure a downward load on the tow ball. The manufacturer's recommended weight and tow ball load should not be exceeded.",
+    "ref": ["HC 98"],
+    "sign": null
+  },
+  {
+    "id": "LOA-014",
+    "q": "You're towing a caravan on a dual carriageway when it starts to snake from side to side. What should you do?",
+    "options": [
+      "Brake hard to stop quickly",
+      "Accelerate to straighten it up",
+      "Ease off and slow down gently",
+      "Steer sharply against the swing"
+    ],
+    "answer": 2,
+    "explain": "If the trailer starts to swerve or snake, ease off the accelerator and reduce speed gently to regain control. Don't brake harshly.",
+    "ref": ["HC 98"],
+    "sign": null
+  },
+  {
+    "id": "LOA-015",
+    "q": "You're about to tow a caravan that's wider than the back of your car. What MUST you do?",
+    "options": [
+      "Drive with your hazard lights on",
+      "Keep below 30 mph at all times",
+      "Have a passenger watch behind for you",
+      "Fit suitable towing mirrors"
+    ],
+    "answer": 3,
+    "explain": "If your trailer or load is wider than your vehicle, or it blocks your view behind, towing mirrors MUST be used. You can be fined and get 3 penalty points for towing without proper towing mirrors.",
+    "ref": ["HC 98", "GOV.UK towing-with-car"],
+    "sign": null
+  },
+  {
+    "id": "LOA-016",
+    "q": "You're buying a trailer to tow with your car. Above what loaded weight must it have a working brake system?",
+    "options": [
+      "500 kg",
+      "750 kg",
+      "1,000 kg",
+      "3,500 kg"
+    ],
+    "answer": 1,
+    "explain": "Your trailer must have a working brake system if it weighs over 750 kg when it's loaded. Any brakes fitted must be in good working order.",
+    "ref": ["GOV.UK towing-with-car", "HC 98"],
+    "sign": null
+  },
+  {
+    "id": "LOA-017",
+    "q": "You're hitching a trailer to your car. Why must you also use a breakaway cable or secondary coupling?",
+    "options": [
+      "In case the trailer becomes detached",
+      "To power the trailer's lights",
+      "To stop the trailer from snaking",
+      "To reduce the load on the tow ball"
+    ],
+    "answer": 0,
+    "explain": "Your trailer MUST be fitted with a secondary coupling device, such as a safety chain. You must use a breakaway cable or secondary coupling in case the trailer becomes detached from your car.",
+    "ref": ["HC 98", "GOV.UK towing-with-car"],
+    "sign": null
+  },
+  {
+    "id": "LOA-018",
+    "q": "You're towing a trailer behind your car. Which number plate must the trailer display?",
+    "options": [
+      "The trailer's own registration number",
+      "No plate is needed on a small trailer",
+      "The same number plate as your car",
+      "A plate showing your home postcode"
+    ],
+    "answer": 2,
+    "explain": "You must display the same number plate on your trailer as on your towing car.",
+    "ref": ["GOV.UK towing-with-car"],
+    "sign": null
+  },
+  {
+    "id": "LOA-019",
+    "q": "You're towing a caravan on a single carriageway road where the national speed limit applies. What's your maximum speed?",
+    "options": [
+      "40 mph",
+      "50 mph",
+      "60 mph",
+      "70 mph"
+    ],
+    "answer": 1,
+    "explain": "Cars towing caravans or trailers have a speed limit of 50 mph on single carriageways, unless signs show a lower limit. Reduced speed limits apply when you're towing.",
+    "ref": ["HC 124", "GOV.UK speed-limits"],
+    "sign": null
+  },
+  {
+    "id": "LOA-020",
+    "q": "You're towing a trailer on a motorway. What's the maximum speed you're allowed to drive at?",
+    "options": [
+      "50 mph",
+      "55 mph",
+      "60 mph",
+      "70 mph"
+    ],
+    "answer": 2,
+    "explain": "Cars towing caravans or trailers have a speed limit of 60 mph on motorways and dual carriageways.",
+    "ref": ["HC 124", "GOV.UK speed-limits"],
+    "sign": null
+  },
+  {
+    "id": "LOA-021",
+    "q": "You're towing a trailer on a motorway with three lanes. Which lanes may you use?",
+    "options": [
+      "Left-hand and middle lanes only",
+      "All three lanes",
+      "Left-hand lane only",
+      "Middle and right-hand lanes only"
+    ],
+    "answer": 0,
+    "explain": "You MUST NOT use the right-hand lane of a motorway with three or more lanes if you're drawing a trailer, except in prescribed circumstances.",
+    "ref": ["HC 265", "HC 98"],
+    "sign": null
+  },
+  {
+    "id": "LOA-022",
+    "q": "You're towing a caravan and want to overtake a slow-moving vehicle. What should you bear in mind?",
+    "options": [
+      "You'll be able to accelerate faster",
+      "The extra length will affect overtaking",
+      "Your stopping distance will be shorter",
+      "Other drivers must let you pull in"
+    ],
+    "answer": 1,
+    "explain": "When towing, remember the extra length will affect overtaking and manoeuvring. The extra weight will also affect braking and acceleration, and your stopping distance may increase significantly.",
+    "ref": ["HC 160", "HC 98"],
+    "sign": null
+  },
+  {
+    "id": "LOA-023",
+    "q": "You see this marker on the side of a vehicle's load. When must markers like this be fitted?",
+    "options": [
+      "When the load overhangs by more than 1 metre",
+      "When the vehicle carries dangerous goods",
+      "When the vehicle is longer than 13 metres",
+      "When the load overhangs by more than 2 metres"
+    ],
+    "answer": 3,
+    "explain": "Side and end projection markers are both required when a load or equipment overhangs the front or rear by more than 2 metres.",
+    "ref": ["HC Vehicle markings"],
+    "sign": "projection-marker-side"
+  },
+  {
+    "id": "LOA-024",
+    "q": "You've parked your car and trailer at night on a road with a 30 mph speed limit. What does the law say about lights?",
+    "options": [
+      "No lights are needed on a 30 mph road",
+      "Only the car needs its sidelights on",
+      "The trailer MUST NOT be left without lights",
+      "The hazard warning lights must be left on"
+    ],
+    "answer": 2,
+    "explain": "Cars may be parked without lights on some roads with a 30 mph limit, but other vehicles and trailers, and all vehicles with projecting loads, MUST NOT be left on a road at night without lights.",
+    "ref": ["HC 250"],
+    "sign": null
+  },
+  {
+    "id": "LOA-025",
+    "q": "You're choosing a trailer to tow with your car. What's the maximum width allowed for a trailer?",
+    "options": [
+      "2.00 metres",
+      "2.10 metres",
+      "2.30 metres",
+      "2.55 metres"
+    ],
+    "answer": 3,
+    "explain": "The maximum trailer width for any towing vehicle is 2.55 metres.",
+    "ref": ["GOV.UK towing-with-car"],
+    "sign": null
+  }
+]

@@ -1,0 +1,228 @@
+sign-giving-order-entry-20-zone | order-red | Entry to 20 mph zone
+sign-giving-order-end-20-zonev2 | order-red | End of 20 mph zone
+sign-giving-order-maximum-speed | order-red | Maximum speed
+sign-giving-order-national-speed-limit | order-red | National speed limit applies
+sign-giving-order-school-crossing-patrol | order-red | School crossing patrol
+sign-giving-order-stop-give-way | order-red | Stop and give way
+sign-giving-order-give-way | order-red | Give way to traffic on major road
+sign-giving-order-manually-stop | order-red | Manually operated temporary STOP sign (stop and wait)
+sign-giving-order-manually-go | order-red | Manually operated temporary GO sign (proceed with care)
+sign-giving-order-no-entry-vehicular-traffic | order-red | No entry for vehicular traffic
+sign-giving-order-no-vehicles | order-red | No vehicles except bicycles being pushed
+sign-giving-order-no-cycling | order-red | No cycling
+sign-giving-order-no-motor-vehicles | order-red | No motor vehicles
+sign-giving-order-no-buses | order-red | No buses (over 8 passenger seats)
+sign-giving-order-no-overtaking | order-red | No overtaking
+sign-giving-order-no-towed-caravans | order-red | No towed caravans
+sign-giving-order-no-vehicles-carry-explosives | order-red | No vehicles carrying explosives
+sign-giving-order-no-vehicle-combination-length | order-red | No vehicle or combination of vehicles over length shown
+sign-giving-order-no-vehicles-over-height | order-red | No vehicles over height shown
+sign-giving-order-no-vehicle-width | order-red | No vehicles over width shown
+sign-giving-order-give-priority-vehicles | order-red | Give priority to vehicles from opposite direction
+sign-giving-order-no-right-turn | order-red | No right turn
+sign-giving-order-no-left-turn | order-red | No left turn
+sign-giving-order-no-u-turn | order-red | No U-turns
+sign-giving-order-no-goods-vehicle-over-weight | order-red | No goods vehicles over maximum gross weight shown (in tonnes) except for loading and unloading
+sign-giving-order-no-vehicles-max-gross-weight | order-red | No vehicles over maximum gross weight shown (in tonnes)
+sign-giving-order-park-restrict-permit-holders | order-red | Parking restricted to permit holders
+sign-giving-order-red-route | order-red | No stopping during period indicated except for buses
+sign-giving-order-no-stopping-times | order-red | No stopping during times shown except for as long as necessary to set down or pick up passengers
+sign-giving-order-no-waiting | order-red | No waiting
+sign-giving-order-no-stopping | order-red | No stopping (Clearway)
+sign-giving-order-ahead-only | order-blue | Ahead only
+sign-giving-order-turn-left-ahead | order-blue | Turn left ahead (right if symbol reversed)
+sign-giving-order-turn-left | order-blue | Turn left (right if symbol reversed)
+sign-giving-order-keep-left | order-blue | Keep left (right if symbol reversed)
+sign-giving-order-vehicle-pass-either-side | order-blue | Vehicles may pass either side to reach same destination
+sign-giving-order-mini-roundabout | order-blue | Mini-roundabout (roundabout circulation - give way to vehicles from the immediate right)
+sign-giving-order-route-pedal-cycles-only | order-blue | Route to be used by pedal cycles only
+sign-giving-order-segregated-cycle-pedestrian-route | order-blue | Segregated pedal cycle and pedestrian route
+sign-giving-order-minimum-speed | order-blue | Minimum speed
+sign-giving-order-minimum-speed-end | order-blue | End of minimum speed
+sign-giving-order-buses-cycles-only | order-blue | Buses and cycles only
+sign-giving-order-trams-only | order-blue | Trams only
+sign-giving-order-pedestrian-crossing-tramway | order-blue | Pedestrian crossing point over tramway
+sign-giving-order-one-way-traffic | order-blue | One-way traffic (note: compare circular ‘Ahead only’ sign)
+sign-giving-order-with-flow-bus-cycle-lane | order-blue | With-flow bus and cycle lane
+sign-giving-order-contra-flow-bus-lane | order-blue | Contra-flow bus lane
+sign-giving-order-with-flow-pedal-cycle-lane | order-blue | With-flow pedal cycle lane
+warning-sign-distance-to-stop-line-ahead-100-yards | warning | Distance to 'STOP' line ahead
+warning-sign-dual-carriageway-ends | warning | Dual carriageway ends
+warning-sign-road-narrow | warning | Road narrows on right (left if symbol reversed)
+warning-sign-road-narrow-both-sides | warning | Road narrows on both sides
+warning-sign-distance-to-stop-line-ahead-50-yards | warning | Distance to 'Give Way' line ahead
+warning-sign-crossroads | warning | Crossroads
+warning-sign-junction-on-bend-ahead | warning | Junction on bend ahead
+warning-sign-t-junction-with-priority | warning | T-junction with priority over vehicles from the right
+warning-sign-staggered-junction | warning | Staggered junction
+warning-sign-traffic-merging-left | warning | Traffic merging from left ahead
+warning-sign-double-bend | warning | Double bend first to left (symbol may be reversed)
+warning-sign-bend-to-right | warning | Bend to right (or left if symbol reversed)
+warning-sign-roundabout | warning | Roundabout
+warning-sign-uneven-road | warning | Uneven road
+warning-sign-two-way-traffic-crosses-road | warning | Two-way traffic crosses one-way road
+warning-sign-two-way-traffic-ahead | warning | Two-way traffic straight ahead
+warning-sign-swing-bridge | warning | Opening or swing bridge ahead
+warning-sign-aircraft | warning | Low-flying aircraft or sudden aircraft noise
+warning-sign-falling-rocks | warning | Falling or fallen rocks
+warning-sign-traffic-signals-not-in-use | warning | Traffic signals not in use
+warning-sign-traffic-signals | warning | Traffic signals
+warning-sign-slippery-road | warning | Slippery road
+warning-sign-steep-hill-downwards | warning | Steep hill downwards
+warning-sign-steep-hill-upwards | warning | Steep hill upwards
+warning-sign-tunnel-ahead | warning | Tunnel ahead
+warning-sign-trams-crossing-ahead | warning | Trams crossing ahead
+warning-sign-level-crossing-ahead-barrier-or-gate | warning | Level crossing with barrier or gate ahead
+warning-sign-level-crossing-ahead-without-barrier | warning | Level crossing without barrier or gate ahead
+warning-sign-level-crossing-without-barrier-ahead | warning | Level crossing without barrier (cross shown at the crossing)
+warning-sign-school-crossing-patrol-ahead | warning | School crossing patrol ahead (some signs have amber lights which flash when crossings are in use)
+warning-sign-frail-pedestrians-cross-road-ahead | warning | Frail (or blind or disabled if shown) pedestrians likely to cross road ahead
+warning-sign-pedestrians-in-road-ahead | warning | Pedestrians in road ahead
+warning-sign-zebra-crossing | warning | Zebra crossing
+warning-sign-overhead-electric-cables | warning | Overhead electric cable; plate indicates maximum height of vehicles which can pass safely
+warning-sign-available-width-head-room | warning | Available width of headroom indicated
+warning-sign-sharp-deviation-of-route | warning | Sharp deviation of route to left (or right if chevrons reversed)
+warning-sign-light-signals-ahead | warning | Light signals ahead at level crossing, airfield or bridge
+warning-sign-level-crossing-minature | warning | Miniature warning lights at level crossings
+warning-sign-cattle | warning | Cattle
+warning-sign-wild-animals | warning | Wild animals
+warning-sign-wild-horses | warning | Wild horses or ponies
+warning-sign-accompanied-horses | warning | Accompanied horses or ponies
+warning-sign-cycle-route-ahead | warning | Cycle route ahead
+warning-sign-risk-of-ice | warning | Risk of ice
+warning-sign-traffic-queues | warning | Traffic queues likely ahead
+warning-sign-distance-humps-extend | warning | Distance over which road humps extend
+warning-sign-other-danger | warning | Other danger; plate indicates nature of danger
+warning-sign-soft-verges | warning | Soft verges
+warning-sign-side-winds | warning | Side winds
+warning-sign-hump-bridge | warning | Hump bridge
+warning-sign-quayside-or-riverbank | warning | Quayside or river bank
+warning-sign-risk-of-grounding | warning | Risk of grounding
+direction-sign-blue-route-sign | direction-motorway | Route confirmatory sign after a motorway junction
+direction-sign-green-route-sign | direction-primary | Route confirmatory sign after a primary route junction
+direction-sign-other-picnic-site | direction-other | Picnic site
+direction-sign-other-english-heritage | direction-other | Ancient monument in the care of English Heritage
+direction-sign-other-direction-car-park | direction-other | Direction to a car park
+direction-sign-other-tourist-attraction | direction-other | Tourist attraction
+direction-sign-other-camping-caravan | direction-other | Direction to camping and caravan site
+direction-sign-other-advisory-route-lorries | direction-other | Advisory route for lorries
+direction-sign-other-route-pedal-cycles | direction-other | Route for pedal cycles forming part of a network
+direction-sign-other-recommended-route-cycle | direction-other | Recommended route for pedal cycles to place shown
+direction-sign-other-route-pedestrians | direction-other | Route for pedestrians
+direction-sign-other-emergency-diversion-triangle | direction-other | Symbols showing emergency diversion route for motorway and other main road traffic
+direction-sign-other-diversion-route | direction-other | Diversion route
+Information-sign-entrance-controlled-parking-zone | information | Entrance to controlled parking zone
+Information-sign-entrance-congestion-zone | information | Entrance to congestion charging zone
+Information-sign-end-controlled-parking-zone | information | End of controlled parking zone
+Information-sign-advance-warning-restriction-ahead | information | Advance warning of restriction or prohibition ahead
+Information-sign-parking-place-solo-motorcycles | information | Parking place for solo motorcycles
+Information-sign-with-flow-bus-lane-ahead | information | With-flow bus lane ahead which pedal cycles and taxis may also use
+Information-sign-lane-for-hov | information | Lane for high occupancy vehicles (HOV) during the times shown
+Information-sign-vehicles-permitted-HOV-lane | information | Vehicles permitted to use an HOV lane ahead
+Information-sign-motorway-end | information | End of motorway
+Information-sign-start-motorway | information | Start of motorway and point from which motorway regulations apply
+Information-sign-appropriate-traffic-lanes-junction | information | Appropriate traffic lanes at junction ahead
+Information-sign-traffic-on-carriageway-priority | information | Traffic on the main carriageway coming from right has priority over joining traffic
+Information-sign-addtional-traffic-joining-left | information | Additional traffic joining from left ahead. Traffic on main carriageway has priority over joining traffic from right hand lane of slip road
+Information-sign-traffic-joining-right-hand-slip-road | information | Traffic in right hand lane of slip road joining the main carriageway has priority over left hand lane
+variable_speed_limit | information | Variable speed limit with camera enforcement
+information-sign-motorway-exit-countdown-markers | information | Countdown markers to an exit from the motorway (each bar about 100 yards)
+Information-sign-motorway-service | information | Motorway service area sign showing the operator’s name
+Information-sign-traffic-priority-over-oncoming-vehicles | information | Traffic has priority over oncoming vehicles
+Information-sign-hospital-a-and-e | information | Hospital ahead with Accident and Emergency facilities
+Information-sign-tourist-info-point | information | Tourist information point
+Information-sign-no-through-road | information | No through road for vehicles
+Information-sign-recommended-route-cycles | information | Recommended route for pedal cycles
+Information-sign-home-zone-entry | information | Home Zone Entry
+Information-sign-camera-area | information | Area in which cameras are used to enforce traffic regulations
+Information-sign-bus-lane-road-junction-ahead | information | Bus lane on road at junction ahead
+road-work-sign-road-works | roadworks | Road works
+road-work-sign-loose-chippings | roadworks | Loose chippings
+road-work-sign-temporary-hazard | roadworks | Temporary hazard at road works
+road-work-sign-temporary-lane-closure | roadworks | Temporary lane closure (the number and position of arrows and red bars may be varied according to lanes open and closed)
+road-work-sign-back-vehicle-direction-arrow | roadworks | Slow-moving or stationary works vehicle blocking a lane; pass in the direction of the arrow
+road-work-sign-mandatory-speed-limit | roadworks | Mandatory speed limit ahead
+road-work-sign-road-works-ahead | roadworks | Road works 1 mile ahead
+road-work-sign-end-road-works | roadworks | End of road works and any temporary restrictions including speed limits
+road-work-sign-back-vehicle-800-yards | roadworks | Lane closed ahead by a works vehicle (sign on back of works vehicle, no cones)
+road-work-sign-lane-restriction | roadworks | Lane restrictions at road works ahead
+road-work-sign-lane-crossover | roadworks | One lane crossover at contraflow road works
+across-carriageway-stop-line-signals-or-police | markings-across | Stop line at signals or police control
+across-carriageway-stop-line-at-stop-sign | markings-across | Stop line at ‘Stop’ sign
+across-carriageway-stop-line-level-crossing | markings-across | Stop line for pedestrians at a level crossing
+across-carriageway-give-way-traffic-major-road | markings-across | Give way to traffic on major road (can also be used at mini roundabouts)
+across-carriageway-give-way-traffic-from-right-roundabout | markings-across | Give way to traffic from the right at a roundabout
+across-carriageway-give-way-traffic-from-right-miniroundabout | markings-across | Give way to traffic from the right at a mini-roundabout
+along-carriageway-edge-line | markings-along | Edge line marking the edge of the carriageway
+along-carriageway-centre-line | markings-along | Centre line
+along-carriageway-hazard-warn-line | markings-along | Hazard warning line (longer markings, shorter gaps) – do not cross unless you can see the road is clear
+along-carriageway-double-white-broken-line | markings-along | Double white lines where the line nearest you is broken – you may cross to overtake if it is safe
+along-carriageway-double-white-line | markings-along | Double white lines – you MUST NOT cross or straddle a solid line nearest you
+along-carriageway-diagonal-line | markings-along | Diagonal stripes (hatch markings) separating traffic lanes – do not enter unless necessary
+along-carriageway-lane-line | markings-along | Lane line
+along-edge-carriageway-double-yellow | markings-edge | Double yellow lines – no waiting at any time
+along-edge-carriageway-single_yellow-with-parking | markings-edge | Single yellow line – no waiting during the times shown on the sign
+along-edge-carriageway-waiting-space | markings-edge | Waiting is limited to the duration specified during the days and times shown
+along-edge-carriageway-red-route-no-stopping-double-red-line | markings-edge | Double red lines – no stopping at any time
+along-edge-carriageway-red-route-no-stopping-red-line | markings-edge | Single red line – no stopping during the times shown on the sign
+along-edge-carriageway-red-route-parking-space | markings-edge | Red Route parking bay – parking limited to the duration shown
+along-edge-carriageway-red-route-loading-space | markings-edge | Red Route loading bay – only loading may take place at the times shown, up to 20 minutes
+on-kerb-double-line-no-loading | markings-edge | Double kerb marks – no loading or unloading at any time
+on-kerb-single-line-no-loading-times | markings-edge | Single kerb mark – no loading or unloading at the times shown
+on-kerb-loading-only-space | markings-edge | Loading bay
+other-road-markings-school-keep-clear | markings-other | School entrance – keep clear of stationary vehicles, even when picking up or setting down children
+other-road-markings-give-way-road | markings-other | Warning of ‘Give Way’ just ahead
+other-road-markings-space-doctor | markings-other | Parking space reserved for vehicles named
+other-road-markings-bus-stop-road | markings-other | Bus stop – do not stop or park here
+other-road-markings-bus-lane-road | markings-other | Bus lane marking
+other-road-markings-box-junction | markings-other | Box junction – do not enter unless your exit road or lane is clear
+other-road-markings-keep-clear | markings-other | Do not block that part of the carriageway indicated
+other-road-markings-indication-lanes | markings-other | Indication of traffic lanes
+traffic-light-red | traffic-lights | RED means 'Stop'. Wait behind the stop line
+traffic-light-red-amber | traffic-lights | RED AND AMBER also means 'Stop'. Do not go until GREEN shows
+traffic-light-green | traffic-lights | GREEN means you may go on if the way is clear
+traffic-light-amber | traffic-lights | AMBER means 'Stop' at the stop line unless you have crossed it or are so close that pulling up might cause a collision
+traffic-light-green-arrow | traffic-lights | Green filter arrow – you may go in the direction of the arrow if the way is clear
+flashing-red-lights | traffic-lights | Alternately flashing red lights mean YOU MUST STOP
+motorway-signal-red-cross | motorway-signals | You MUST NOT proceed further in this lane
+motorway-signal-change-lane | motorway-signals | Change lane
+motorway-signal-fog | motorway-signals | Reduced visibility ahead
+motorway-signal-lane-ahead-closed | motorway-signals | Lane ahead closed
+motorway-signal-temporary-speed-limit-message | motorway-signals | Temporary maximum speed advised and information message
+Obstruction_FINAL_ | motorway-signals | Do not enter or proceed in the left lane; temporary mandatory speed limit and information message
+motorway-signal-temporary-speed | motorway-signals | Temporary maximum speed advised
+motorway-signal-end-restriction | motorway-signals | End of restriction
+hazard-warning-dangerous-goods | hazard-plates | Vehicle carrying dangerous goods in packages
+hazard-warning-toxic-label | hazard-plates | Toxic substance
+hazard-warning-oxidising-plate | hazard-plates | Oxidizing substance
+hazard-warning-compressed-gas-plate | hazard-plates | Non-flammable compressed gas
+hazard-warning-radioactive-plate | hazard-plates | Radioactive substance
+hazard-warning-spon-combust-red | hazard-plates | Spontaneously combustible substance
+hazard-warning-corrosive-plate | hazard-plates | Corrosive substance
+projection-marker-side | vehicle-markings | Side marker for a projecting load
+projection-marker-end | vehicle-markings | End marker for a projecting load
+other-school-bus | vehicle-markings | School bus (displayed in front or rear window of bus or coach)
+police-officers-traffic-from-front | police | Police officer signalling STOP to traffic approaching from the front
+police-officers-traffic-from-front-and-behind | police | Police officer signalling STOP to traffic approaching from both front and behind
+police-officers-traffic-from-behind | police | Police officer signalling STOP to traffic approaching from behind
+police-officer-beckon-from-the-side | police | Police officer beckoning traffic on from the side
+police-officer-beckon-from-the-front | police | Police officer beckoning traffic on from the front
+police-officer-beckon-from-behind | police | Police officer beckoning traffic on from behind
+car-arm-signal-straight-on | arm-signals-control | I want to go straight on (arm signal to a person controlling traffic)
+car-arm-signal-turn-left | arm-signals-control | I want to turn left; use either hand (arm signal to a person controlling traffic)
+car-arm-signals-turn-right | arm-signals-control | I want to turn right (arm signal to a person controlling traffic)
+school-crossing-patrol-not-ready | school-patrol | School crossing patrol: not ready to cross pedestrians
+school-crossing-patrol-barrier-to-stop | school-patrol | School crossing patrol: barrier to stop pedestrians crossing
+school-crossing-patrol-vehicle-prepare-stop | school-patrol | School crossing patrol: ready to cross pedestrians – be prepared to stop
+school-crossing-patrol-all-vehicles-stop | school-patrol | School crossing patrol: all vehicles must stop
+direction-indicator-signals-right | vehicle-signals | I intend to move out to the right or turn right
+direction-indicator-signals-left | vehicle-signals | I intend to move in to the left or turn left or stop on the left
+brake-light-signals | vehicle-signals | I am applying the brakes
+reverse-light-signals | vehicle-signals | I intend to reverse
+car-arm-signal-turn-left-2 | arm-signals | I intend to move in to the left or turn left
+car-arm-signal-turn-right | arm-signals | I intend to move out to the right or turn right
+car-arm-signal-slow-stop | arm-signals | I intend to slow down or stop
+bike-arm-signal-turn-left | arm-signals | I intend to move in to the left or turn left
+bike-arm-signal-turn-right | arm-signals | I intend to move out to the right or turn right
+bike-arm-signal-slow-stop | arm-signals | I intend to slow down or stop
+077-Edit_2__v0_2 | vehicle-signals | Hazard warning lights – temporarily obstructing traffic or warning of a hazard ahead

@@ -1,0 +1,1173 @@
+[
+  {
+    "id": "SIG-001",
+    "q": "You're driving along a road and see this sign. What does it tell you?",
+    "options": [
+      "No stopping for the next 100 yards",
+      "A 'Stop' line is 100 yards ahead",
+      "A level crossing is 100 yards ahead",
+      "Give way to traffic for 100 yards"
+    ],
+    "answer": 1,
+    "explain": "This sign warns of the distance to a 'Stop' line ahead. When you reach it, you MUST stop behind the line and wait for a safe gap in the traffic before you move off.",
+    "ref": [
+      "HC Traffic signs",
+      "HC 171"
+    ],
+    "sign": "warning-sign-distance-to-stop-line-ahead-100-yards"
+  },
+  {
+    "id": "SIG-002",
+    "q": "You're about to emerge from a side road at a junction with this sign. Who MUST you give way to?",
+    "options": [
+      "Only vehicles that are signalling",
+      "Only traffic coming from your left",
+      "Traffic on the main road",
+      "Nobody, if you're turning left"
+    ],
+    "answer": 2,
+    "explain": "This is a 'Give Way' sign. You MUST give way to traffic on the main road when emerging from a junction with broken white lines across the road.",
+    "ref": [
+      "HC 172",
+      "HC Traffic signs"
+    ],
+    "sign": "sign-giving-order-give-way"
+  },
+  {
+    "id": "SIG-003",
+    "q": "You're driving along a road and pass this sign. What does it mean?",
+    "options": [
+      "There's no speed limit here",
+      "60 mph limit for all vehicles",
+      "End of minimum speed",
+      "National speed limit applies"
+    ],
+    "answer": 3,
+    "explain": "This sign means the national speed limit applies. It doesn't mean there's no limit – the maximum depends on the type of road and your vehicle, for example 60 mph for cars on a single carriageway but 50 mph if you're towing.",
+    "ref": [
+      "HC Traffic signs",
+      "HC 124"
+    ],
+    "sign": "sign-giving-order-national-speed-limit"
+  },
+  {
+    "id": "SIG-004",
+    "q": "You see this sign at the side of the road. What does it tell you?",
+    "options": [
+      "The maximum speed you may drive at",
+      "The minimum speed you must keep to",
+      "The speed advised for the bend ahead",
+      "The average speed of traffic here"
+    ],
+    "answer": 0,
+    "explain": "Signs with red circles are mostly prohibitive. This sign shows the maximum speed, and you MUST NOT exceed it. A minimum speed is shown in a blue circle.",
+    "ref": [
+      "HC Traffic signs",
+      "HC 124"
+    ],
+    "sign": "sign-giving-order-maximum-speed"
+  },
+  {
+    "id": "SIG-005",
+    "q": "You're driving in England and haven't seen any speed limit signs. Where does a 30 mph limit generally apply?",
+    "options": [
+      "On any road with a pavement",
+      "On any single carriageway road",
+      "On roads with street lights",
+      "On any road with a centre line"
+    ],
+    "answer": 2,
+    "explain": "In England and Scotland, a 30 mph limit generally applies to all roads with street lights (excluding motorways) unless signs show otherwise. In Wales it's generally 20 mph.",
+    "ref": [
+      "HC 124",
+      "GOV.UK speed-limits"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SIG-006",
+    "q": "You drive past this sign into a residential area. How far does the 20 mph limit apply?",
+    "options": [
+      "Only for the first mile after the sign",
+      "Until you pass a sign showing the zone ends",
+      "Only during school opening and closing times",
+      "Until you reach the next junction"
+    ],
+    "answer": 1,
+    "explain": "This sign marks the entry to a 20 mph zone. The limit applies throughout the zone until you pass the 'End of 20 mph zone' sign. Look out for pedestrians, children, cyclists and vehicles emerging from junctions or driveways.",
+    "ref": [
+      "HC Traffic signs",
+      "HC 152"
+    ],
+    "sign": "sign-giving-order-entry-20-zone"
+  },
+  {
+    "id": "SIG-007",
+    "q": "You're driving along a road with this sign. What does the blue circle tell you about the speed shown?",
+    "options": [
+      "It's the maximum speed allowed",
+      "It's an advised speed for the bends ahead",
+      "It applies to lorries and buses only",
+      "It's a minimum speed"
+    ],
+    "answer": 3,
+    "explain": "Blue circles give positive instructions, and this sign shows a minimum speed. A speed limit shown in a red circle is a maximum that you MUST NOT exceed.",
+    "ref": [
+      "HC Traffic signs",
+      "HC 261"
+    ],
+    "sign": "sign-giving-order-minimum-speed"
+  },
+  {
+    "id": "SIG-008",
+    "q": "You're driving on a motorway and see this sign. What does the 40 in a red circle mean?",
+    "options": [
+      "It's an advised maximum speed",
+      "It's the minimum speed allowed",
+      "It's a mandatory speed limit",
+      "It's the distance to the obstruction"
+    ],
+    "answer": 2,
+    "explain": "A speed limit shown in a red circle is mandatory, and you MUST NOT exceed it. This sign also shows that the left lane is closed, so you MUST NOT enter or carry on in it.",
+    "ref": [
+      "HC Light signals controlling traffic",
+      "HC 261"
+    ],
+    "sign": "Obstruction_FINAL_"
+  },
+  {
+    "id": "SIG-009",
+    "q": "You're following a slow-moving tractor and see this sign. What MUST you do?",
+    "options": [
+      "Stay behind it while the restriction applies",
+      "Overtake it only if it's doing under 10 mph",
+      "Overtake it on the left if there's room",
+      "Overtake it if the road ahead looks clear"
+    ],
+    "answer": 0,
+    "explain": "This sign means no overtaking. You MUST obey traffic signs giving orders, so stay behind the tractor while the restriction applies.",
+    "ref": [
+      "HC Traffic signs",
+      "HC 109",
+      "HC 165"
+    ],
+    "sign": "sign-giving-order-no-overtaking"
+  },
+  {
+    "id": "SIG-010",
+    "q": "You're approaching a narrow bridge where this sign is shown. A car is coming towards you from the other side. What should you do?",
+    "options": [
+      "Drive on, as you have priority",
+      "Give way to the oncoming car",
+      "Flash your headlights and drive on",
+      "Speed up to get across first"
+    ],
+    "answer": 1,
+    "explain": "This sign means give priority to vehicles from the opposite direction. Wait and let the oncoming car come through first.",
+    "ref": [
+      "HC Traffic signs",
+      "HC 153"
+    ],
+    "sign": "sign-giving-order-give-priority-vehicles"
+  },
+  {
+    "id": "SIG-011",
+    "q": "You're driving along a road with this sign. Which vehicles may stop there?",
+    "options": [
+      "Any car picking up passengers",
+      "Vans loading or unloading goods",
+      "Buses, but no other vehicles",
+      "Any vehicle for up to 2 minutes"
+    ],
+    "answer": 2,
+    "explain": "This Red Route sign means no stopping during the period shown – here, at any time – except for buses. You MUST NOT stop on a Red Route unless signs show that you may.",
+    "ref": [
+      "HC Traffic signs",
+      "HC 240"
+    ],
+    "sign": "sign-giving-order-red-route"
+  },
+  {
+    "id": "SIG-012",
+    "q": "This sign is a blue circle with no red border. What does that tell you about its message?",
+    "options": [
+      "It's warning you of a hazard",
+      "It's telling you what's prohibited",
+      "It's giving tourist information",
+      "It's giving a positive instruction"
+    ],
+    "answer": 3,
+    "explain": "Signs with blue circles but no red border mostly give positive instructions – this one means ahead only. Red circles are mostly prohibitive, and triangles mostly warn.",
+    "ref": [
+      "HC Traffic signs"
+    ],
+    "sign": "sign-giving-order-ahead-only"
+  },
+  {
+    "id": "SIG-013",
+    "q": "You see a circular sign with a red border. What type of message do these signs mostly give?",
+    "options": [
+      "Prohibitions",
+      "Warnings",
+      "Directions",
+      "Positive instructions"
+    ],
+    "answer": 0,
+    "explain": "Signs with red circles are mostly prohibitive – they tell you what you mustn't do. Plates below signs qualify their message.",
+    "ref": [
+      "HC Traffic signs"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SIG-014",
+    "q": "What shape are most warning signs?",
+    "options": [
+      "Triangular",
+      "Circular",
+      "Rectangular",
+      "Octagonal"
+    ],
+    "answer": 0,
+    "explain": "Warning signs are mostly triangular. Signs giving orders are mostly circular, and direction and information signs are mostly rectangular.",
+    "ref": [
+      "HC Traffic signs"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SIG-015",
+    "q": "You're following direction signs with a white background and a black border. What type of road are you on?",
+    "options": [
+      "A motorway",
+      "A primary route",
+      "A non-primary or local route",
+      "A route to a tourist attraction"
+    ],
+    "answer": 2,
+    "explain": "Direction signs on non-primary and local routes have black borders. Motorway signs have blue backgrounds, primary route signs have green backgrounds, and brown signs show routes to tourist attractions.",
+    "ref": [
+      "HC Traffic signs"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SIG-016",
+    "q": "You're planning to follow a primary route. What colour background will its direction signs have?",
+    "options": [
+      "Green",
+      "Blue",
+      "White",
+      "Brown"
+    ],
+    "answer": 0,
+    "explain": "Signs on primary routes have green backgrounds. Motorway direction signs are blue, and brown signs show the way to tourist attractions.",
+    "ref": [
+      "HC Traffic signs"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SIG-017",
+    "q": "You see this brown sign by the road. What does the brown background tell you?",
+    "options": [
+      "It's showing a route for heavy lorries",
+      "It's directing you to a tourist attraction",
+      "It's showing a diversion route",
+      "It's warning of farm animals on the road ahead"
+    ],
+    "answer": 1,
+    "explain": "Brown signs direct you to tourist attractions, such as the zoo shown here.",
+    "ref": [
+      "HC Traffic signs"
+    ],
+    "sign": "direction-sign-other-tourist-attraction"
+  },
+  {
+    "id": "SIG-018",
+    "q": "You're approaching a junction on a primary route. The green direction sign has a blue panel on it. What does the blue panel show?",
+    "options": [
+      "A tourist attraction is that way",
+      "A local route leads from the junction",
+      "A motorway starts at the junction ahead",
+      "The road leads to an airport"
+    ],
+    "answer": 2,
+    "explain": "On primary route signs, blue panels show that the motorway starts at the junction ahead. White panels show local or non-primary routes, and brown panels show routes to tourist attractions.",
+    "ref": [
+      "HC Traffic signs"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SIG-019",
+    "q": "You're driving on a motorway and pass these markers on the left. What does each bar represent?",
+    "options": [
+      "About 1 mile to the exit",
+      "About 300 yards to the exit",
+      "About 50 yards to the exit",
+      "About 100 yards to the exit"
+    ],
+    "answer": 3,
+    "explain": "These are countdown markers to an exit from the motorway. Each bar represents about 100 yards to the exit, so move into the left-hand lane in good time.",
+    "ref": [
+      "HC Traffic signs",
+      "HC 273"
+    ],
+    "sign": "information-sign-motorway-exit-countdown-markers"
+  },
+  {
+    "id": "SIG-020",
+    "q": "You're a learner driver practising in your family's car with a relative. You see this sign ahead. What should you do?",
+    "options": [
+      "Join it, but stay in the left-hand lane",
+      "Take another route before the motorway",
+      "Join it, but keep below 50 mph",
+      "Join it if your relative is over 21"
+    ],
+    "answer": 1,
+    "explain": "This sign marks the start of a motorway. Learner car drivers MUST NOT drive on a motorway unless they're accompanied by an approved driving instructor in a car with dual controls.",
+    "ref": [
+      "HC 253",
+      "HC Traffic signs"
+    ],
+    "sign": "Information-sign-start-motorway"
+  },
+  {
+    "id": "SIG-021",
+    "q": "You're driving alone in your car at 8 am on a Tuesday. You see this sign at the start of a lane. What should you do?",
+    "options": [
+      "Use the lane, as cars are allowed in it",
+      "Use the lane only to overtake",
+      "Use the lane if you're turning off soon",
+      "Keep out of the lane at these times"
+    ],
+    "answer": 3,
+    "explain": "This lane is for high-occupancy vehicles carrying at least the number of people shown (here, 2 or more) during the times shown. You MUST NOT drive in it during those times unless the signs show your vehicle is permitted.",
+    "ref": [
+      "HC 142",
+      "HC Traffic signs"
+    ],
+    "sign": "Information-sign-lane-for-hov"
+  },
+  {
+    "id": "SIG-022",
+    "q": "You're approaching a bus lane with this marking. How will you know whether any other vehicles may use it?",
+    "options": [
+      "Signs will show which vehicles may use it",
+      "Any vehicle may use it when it's empty",
+      "Only taxis are ever allowed to use it",
+      "Cars may use it if carrying passengers"
+    ],
+    "answer": 0,
+    "explain": "Bus lanes are shown by road markings and signs that indicate which (if any) other vehicles are permitted to use them. Unless signs show otherwise, you shouldn't drive in a bus lane during its period of operation.",
+    "ref": [
+      "HC 141",
+      "HC Road markings"
+    ],
+    "sign": "other-road-markings-bus-lane-road"
+  },
+  {
+    "id": "SIG-023",
+    "q": "You're driving through a city where trams run along the road. You notice a diamond-shaped sign. Who is it giving instructions to?",
+    "options": [
+      "Cyclists",
+      "Tram drivers",
+      "Bus drivers",
+      "Pedestrians"
+    ],
+    "answer": 1,
+    "explain": "Diamond-shaped signs and white light signals give instructions to tram drivers only. You MUST NOT enter a road, lane or other route reserved for trams.",
+    "ref": [
+      "HC 300"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SIG-024",
+    "q": "A school crossing patrol steps out ahead holding up this sign. What MUST you do?",
+    "options": [
+      "Slow down and pass behind them",
+      "Stop before you reach the patrol",
+      "Give way only if children are crossing",
+      "Drive on if the children are on the far side"
+    ],
+    "answer": 1,
+    "explain": "You MUST stop when a school crossing patrol shows a 'Stop for children' sign. You MUST obey signs used by school crossing patrols.",
+    "ref": [
+      "HC 210",
+      "HC 105"
+    ],
+    "sign": "sign-giving-order-school-crossing-patrol"
+  },
+  {
+    "id": "SIG-025",
+    "q": "You're driving near a school and see amber lights flashing below a 'School' warning sign. What does this tell you?",
+    "options": [
+      "The school car park is full",
+      "A 20 mph limit starts in 1 mile",
+      "Children may be crossing the road ahead",
+      "Parking is allowed outside the school"
+    ],
+    "answer": 2,
+    "explain": "A flashing amber signal below the 'School' warning sign tells you there may be children crossing the road ahead. Drive very slowly until you're clear of the area.",
+    "ref": [
+      "HC 208",
+      "HC Traffic signs"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SIG-026",
+    "q": "You're approaching a level crossing when these lights start to flash. What MUST you do?",
+    "options": [
+      "Cross quickly before the barriers come down",
+      "Slow down and look for a train",
+      "Stop only if you can see a train",
+      "Stop behind the white line"
+    ],
+    "answer": 3,
+    "explain": "Alternately flashing red lights mean you MUST stop. At a level crossing, you MUST stop behind the white line across the road.",
+    "ref": [
+      "HC 293",
+      "HC Light signals controlling traffic"
+    ],
+    "sign": "flashing-red-lights"
+  },
+  {
+    "id": "SIG-027",
+    "q": "You're approaching a level crossing that has no barriers. The red lights start to flash. What does this mean?",
+    "options": [
+      "A train is approaching",
+      "A train has just gone past",
+      "The lights are being tested",
+      "You may cross if you look first"
+    ],
+    "answer": 0,
+    "explain": "At level crossings where there are no barriers, a train is approaching when the lights show. You MUST always obey the flashing red stop lights and stop behind the white line.",
+    "ref": [
+      "HC 293"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SIG-028",
+    "q": "You're approaching a junction and see this sign. What does it mean?",
+    "options": [
+      "Traffic signals ahead",
+      "Traffic signals not in use",
+      "Level crossing lights ahead",
+      "No stopping at the lights"
+    ],
+    "answer": 1,
+    "explain": "This sign warns that traffic signals aren't in use. If traffic lights aren't working, treat the situation as you would an unmarked junction and proceed with great care.",
+    "ref": [
+      "HC Traffic signs",
+      "HC 176"
+    ],
+    "sign": "warning-sign-traffic-signals-not-in-use"
+  },
+  {
+    "id": "SIG-029",
+    "q": "You see this warning sign for a staggered junction. What does the broader line in the symbol show?",
+    "options": [
+      "The road with the most traffic",
+      "The road with a lower speed limit",
+      "The road that has priority",
+      "The road that's a dead end"
+    ],
+    "answer": 2,
+    "explain": "On junction warning signs, the priority through route is indicated by the broader line.",
+    "ref": [
+      "HC Traffic signs"
+    ],
+    "sign": "warning-sign-staggered-junction"
+  },
+  {
+    "id": "SIG-030",
+    "q": "You see this sign showing a 20% gradient. How could the same gradient be shown as a ratio?",
+    "options": [
+      "1:5",
+      "1:20",
+      "1:2",
+      "1:10"
+    ],
+    "answer": 0,
+    "explain": "Gradients on steep hill signs may be shown as a percentage or as a ratio – a 20% gradient is the same as 1:5.",
+    "ref": [
+      "HC Traffic signs"
+    ],
+    "sign": "warning-sign-steep-hill-upwards"
+  },
+  {
+    "id": "SIG-031",
+    "q": "You see this sign. How should you drive over the next half mile?",
+    "options": [
+      "Speed up between the humps",
+      "Slow down for the first hump only",
+      "Overtake slower vehicles between humps",
+      "Keep your speed down the whole way"
+    ],
+    "answer": 3,
+    "explain": "This sign shows the distance over which road humps extend. Keep to a reduced speed along the whole stretch, and don't overtake other moving road users while you're in the area.",
+    "ref": [
+      "HC 153",
+      "HC Traffic signs"
+    ],
+    "sign": "warning-sign-distance-humps-extend"
+  },
+  {
+    "id": "SIG-032",
+    "q": "You see this warning sign with a plate below it. What's the plate for?",
+    "options": [
+      "To tell you what the danger is",
+      "To give the distance to the next town",
+      "To show a temporary speed limit",
+      "To show the times the sign applies"
+    ],
+    "answer": 0,
+    "explain": "This is the 'other danger' sign. The plate below it tells you the nature of the danger – here, a hidden dip. Plates below signs qualify their message.",
+    "ref": [
+      "HC Traffic signs"
+    ],
+    "sign": "warning-sign-other-danger"
+  },
+  {
+    "id": "SIG-033",
+    "q": "You drive past this sign. What should you be prepared for?",
+    "options": [
+      "A 50 mph limit on the road ahead",
+      "Children playing in the road",
+      "A road with no parking at any time",
+      "Queues for a car park"
+    ],
+    "answer": 1,
+    "explain": "This sign marks the entry to a Home Zone, where people could be using the whole of the road – for example, children playing. Drive slowly and carefully, and be prepared to stop.",
+    "ref": [
+      "HC 218",
+      "HC Traffic signs"
+    ],
+    "sign": "Information-sign-home-zone-entry"
+  },
+  {
+    "id": "SIG-034",
+    "q": "You see this sign. What should you do?",
+    "options": [
+      "Speed up to get through the works quickly",
+      "Change lanes to pass queuing traffic",
+      "Take extra care and look for further signs",
+      "Watch the road workers instead of the road"
+    ],
+    "answer": 2,
+    "explain": "This sign warns of road works. Take extra care and look for additional signs giving more specific instructions. Concentrate on the road ahead, not the road works.",
+    "ref": [
+      "HC 288",
+      "HC Traffic signs"
+    ],
+    "sign": "road-work-sign-road-works"
+  },
+  {
+    "id": "SIG-035",
+    "q": "You see this sign on the approach to road works. What does it tell you about the speed limit ahead?",
+    "options": [
+      "You MUST NOT exceed it",
+      "It's only advice and can be ignored",
+      "It applies only when workers are present",
+      "It applies only to large goods vehicles"
+    ],
+    "answer": 0,
+    "explain": "This sign warns of a mandatory speed limit ahead. At road works you MUST NOT exceed any temporary maximum speed limit.",
+    "ref": [
+      "HC 288",
+      "HC Traffic signs"
+    ],
+    "sign": "road-work-sign-mandatory-speed-limit"
+  },
+  {
+    "id": "SIG-036",
+    "q": "You've moved over to pass a works vehicle showing this sign. When should you move back into the lane it's closing?",
+    "options": [
+      "As soon as you draw level with it",
+      "When traffic behind starts to pass",
+      "Only when you can see it's safe",
+      "After you pass the next junction"
+    ],
+    "answer": 2,
+    "explain": "Where a works vehicle shows a 'Keep Left' or 'Keep Right' sign on the back, you MUST pass it on the side indicated. Don't return to the closed lane until you can see it's safe to do so.",
+    "ref": [
+      "HC 289",
+      "HC Traffic signs"
+    ],
+    "sign": "road-work-sign-back-vehicle-direction-arrow"
+  },
+  {
+    "id": "SIG-037",
+    "q": "At road works, a worker is holding this sign facing you. What MUST you do?",
+    "options": [
+      "Drive on slowly past the worker",
+      "Stop only if traffic is coming towards you",
+      "Give way to oncoming traffic, then go",
+      "Stop and wait until you're shown 'GO'"
+    ],
+    "answer": 3,
+    "explain": "This is a manually operated temporary 'STOP' sign. You MUST obey temporary signs, so stop and wait. When the 'GO' sign is shown, proceed with care.",
+    "ref": [
+      "HC 109",
+      "HC Traffic signs"
+    ],
+    "sign": "sign-giving-order-manually-stop"
+  },
+  {
+    "id": "SIG-038",
+    "q": "The broken white line along the centre of the road changes to this pattern, with longer lines and shorter gaps. What does this tell you?",
+    "options": [
+      "There's a hazard ahead",
+      "You're entering a 30 mph area",
+      "You're now allowed to overtake",
+      "The road ahead is one-way"
+    ],
+    "answer": 0,
+    "explain": "When a centre line lengthens and the gaps shorten, it's a hazard warning line. Don't cross it unless you can see the road is clear and you want to overtake or turn off.",
+    "ref": [
+      "HC 127",
+      "HC Road markings"
+    ],
+    "sign": "along-carriageway-hazard-warn-line"
+  },
+  {
+    "id": "SIG-039",
+    "q": "You're driving on a road with these lines, and the solid line is nearest to you. When may you cross it to overtake?",
+    "options": [
+      "To pass a car travelling below 30 mph",
+      "To pass a cyclist going at 10 mph or less",
+      "Whenever you can see the road ahead is clear",
+      "To pass any vehicle that's signalling left"
+    ],
+    "answer": 1,
+    "explain": "You MUST NOT cross or straddle a solid line nearest you. But you may cross it, if the road is clear, to pass a stationary vehicle or to overtake a pedal cycle, horse or road maintenance vehicle travelling at 10 mph or less.",
+    "ref": [
+      "HC 129",
+      "HC Road markings"
+    ],
+    "sign": "along-carriageway-double-white-line"
+  },
+  {
+    "id": "SIG-040",
+    "q": "You're on a road with these markings, and the broken line is on your side. You want to park. What does the Highway Code say?",
+    "options": [
+      "You may park, as your line is broken",
+      "You MUST NOT park where these lines are",
+      "You may park for up to 20 minutes",
+      "You may park, but only at night"
+    ],
+    "answer": 1,
+    "explain": "You MUST NOT stop or park on a road marked with double white lines, even when a broken white line is on your side, except to pick up or set down passengers, or to load or unload goods.",
+    "ref": [
+      "HC 240",
+      "HC Road markings"
+    ],
+    "sign": "along-carriageway-double-white-broken-line"
+  },
+  {
+    "id": "SIG-041",
+    "q": "You're driving along a road with this area of white diagonal stripes, bordered by broken white lines. What should you do?",
+    "options": [
+      "Drive in it to pass slow traffic",
+      "Use it to park if you need to",
+      "Use it as an extra lane at busy times",
+      "Keep out unless it's necessary and safe"
+    ],
+    "answer": 3,
+    "explain": "Hatch markings separate traffic lanes or protect traffic turning right. If the area is bordered by a broken white line, you shouldn't enter it unless it's necessary and you can see it's safe to do so.",
+    "ref": [
+      "HC 130",
+      "HC Road markings"
+    ],
+    "sign": "along-carriageway-diagonal-line"
+  },
+  {
+    "id": "SIG-042",
+    "q": "There's an area of white chevrons painted on the road, bordered by a solid white line. When may you drive into it?",
+    "options": [
+      "Only in an emergency",
+      "To overtake a slow vehicle",
+      "When you're turning right",
+      "When traffic is queuing"
+    ],
+    "answer": 0,
+    "explain": "If an area is marked with chevrons and bordered by solid white lines, you MUST NOT enter it except in an emergency.",
+    "ref": [
+      "HC 130",
+      "HC Road markings"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SIG-043",
+    "q": "You're driving at night on a road with reflective studs. What do white studs mark?",
+    "options": [
+      "The left-hand edge of the road",
+      "The edge of the central reservation",
+      "The lanes or the middle of the road",
+      "The edge at lay-bys and slip roads"
+    ],
+    "answer": 2,
+    "explain": "White studs mark the lanes or the middle of the road. Red studs mark the left edge, amber studs mark the central reservation and green studs mark the edge of the main carriageway at lay-bys and slip roads.",
+    "ref": [
+      "HC 132"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SIG-044",
+    "q": "You want to drop off a passenger on a road with these lines. There are no loading restrictions. What are you allowed to do?",
+    "options": [
+      "Park for up to 20 minutes",
+      "Stop while your passenger gets out",
+      "Wait as long as you stay in the car",
+      "Park with your hazard lights on"
+    ],
+    "answer": 1,
+    "explain": "Double yellow lines mean no waiting at any time. You may stop while passengers board or alight, and to load or unload unless there are also loading restrictions.",
+    "ref": [
+      "HC Road markings",
+      "HC 238"
+    ],
+    "sign": "along-edge-carriageway-double-yellow"
+  },
+  {
+    "id": "SIG-045",
+    "q": "The plate next to this yellow line shows times but no days. When does the waiting restriction apply?",
+    "options": [
+      "Monday to Friday only, except Bank Holidays",
+      "Monday to Saturday only",
+      "Every day except Sundays and Bank Holidays",
+      "Every day, including Sundays and Bank Holidays"
+    ],
+    "answer": 3,
+    "explain": "If no days are shown on the signs, the restrictions are in force every day, including Sundays and Bank Holidays. Always check the times shown on the plates.",
+    "ref": [
+      "HC Road markings",
+      "HC 238"
+    ],
+    "sign": "along-edge-carriageway-single_yellow-with-parking"
+  },
+  {
+    "id": "SIG-046",
+    "q": "You're driving along a Red Route marked with these lines. You aren't a taxi driver and don't hold a Blue Badge. When may you stop to let a passenger out?",
+    "options": [
+      "Not at any time",
+      "Only outside peak hours",
+      "For up to two minutes",
+      "Only on Sundays"
+    ],
+    "answer": 0,
+    "explain": "On Red Routes, double red lines ALWAYS mean no stopping at any time. This includes stopping to let passengers board or alight, unless you're driving a licensed taxi or hold a Blue Badge.",
+    "ref": [
+      "HC Road markings",
+      "HC 240"
+    ],
+    "sign": "along-edge-carriageway-red-route-no-stopping-double-red-line"
+  },
+  {
+    "id": "SIG-047",
+    "q": "You see this bay marked in red on a Red Route. What does the red marking tell you?",
+    "options": [
+      "It's available all day for the purpose shown",
+      "It's reserved for Blue Badge holders only",
+      "It may only be available for part of the day",
+      "It's a taxi rank at all times"
+    ],
+    "answer": 2,
+    "explain": "On Red Routes, a box marked in red may only be available for the purpose specified for part of the day, such as between busy peak periods. A box marked in white is available throughout the day.",
+    "ref": [
+      "HC Road markings",
+      "HC 247"
+    ],
+    "sign": "along-edge-carriageway-red-route-loading-space"
+  },
+  {
+    "id": "SIG-048",
+    "q": "You see these yellow marks on the kerb. Which of these is still allowed?",
+    "options": [
+      "Loading goods for up to 20 minutes",
+      "Stopping to let a passenger get out",
+      "Unloading heavy shopping",
+      "Parking for up to an hour"
+    ],
+    "answer": 1,
+    "explain": "Double kerb marks mean no loading or unloading at any time. You may still stop while passengers board or alight.",
+    "ref": [
+      "HC Road markings",
+      "HC 247"
+    ],
+    "sign": "on-kerb-double-line-no-loading"
+  },
+  {
+    "id": "SIG-049",
+    "q": "You're collecting a child from school and see these markings outside the entrance. What should you do?",
+    "options": [
+      "Stop on them briefly to pick up your child",
+      "Wait on them with your engine running",
+      "Keep them clear and stop somewhere else",
+      "Park on them if there are no other spaces"
+    ],
+    "answer": 2,
+    "explain": "These markings mean keep the school entrance clear of stationary vehicles, even if picking up or setting down children. Where upright signs show a ban on stopping, you MUST NOT stop on them.",
+    "ref": [
+      "HC Road markings",
+      "HC 238",
+      "HC 243"
+    ],
+    "sign": "other-road-markings-school-keep-clear"
+  },
+  {
+    "id": "SIG-050",
+    "q": "You want to park in this marked area for a few minutes while you visit a shop. What should you do?",
+    "options": [
+      "Park, as long as no bus is in sight",
+      "Park for no more than five minutes",
+      "Park with your hazard lights on",
+      "Find somewhere else to park"
+    ],
+    "answer": 3,
+    "explain": "This marking shows a bus stop. Don't stop or park at or near a bus or tram stop.",
+    "ref": [
+      "HC Road markings",
+      "HC 243"
+    ],
+    "sign": "other-road-markings-bus-stop-road"
+  },
+  {
+    "id": "SIG-051",
+    "q": "You're approaching a box junction like this at a signalled roundabout. When may you enter the box?",
+    "options": [
+      "Only if you can cross it without stopping",
+      "Whenever the traffic lights are green",
+      "When you're waiting to turn right",
+      "When the traffic ahead is moving"
+    ],
+    "answer": 0,
+    "explain": "At signalled roundabouts you MUST NOT enter a box junction unless you can cross over it completely without stopping. At other box junctions, you may wait in the box to turn right if you're only stopped by oncoming traffic or other vehicles waiting to turn right.",
+    "ref": [
+      "HC 174",
+      "HC Road markings"
+    ],
+    "sign": "other-road-markings-box-junction"
+  },
+  {
+    "id": "SIG-052",
+    "q": "You want to turn right at a box junction. Your exit road is clear, but oncoming traffic is stopping you from turning. May you enter the box and wait?",
+    "options": [
+      "No, never enter until you can clear it",
+      "Only if the traffic lights are red",
+      "Yes, you may wait in the box to turn",
+      "Only if you're driving a large vehicle"
+    ],
+    "answer": 2,
+    "explain": "You MUST NOT enter a box junction until your exit road or lane is clear. But you may enter the box and wait when you want to turn right and are only stopped by oncoming traffic or other vehicles waiting to turn right.",
+    "ref": [
+      "HC 174"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SIG-053",
+    "q": "Traffic ahead is queuing, and the only space left for you is on these markings. What should you do?",
+    "options": [
+      "Stop on them, as the queue will soon move",
+      "Stop on them with your hazard lights on",
+      "Stop on them if no one is waiting to pull out",
+      "Wait before them until there's space beyond"
+    ],
+    "answer": 3,
+    "explain": "These markings mean don't block that part of the carriageway. Wait before them until there's room for you beyond, so the area stays clear.",
+    "ref": [
+      "HC Road markings"
+    ],
+    "sign": "other-road-markings-keep-clear"
+  },
+  {
+    "id": "SIG-054",
+    "q": "You're in slow-moving, queuing traffic approaching a pelican crossing. The traffic ahead stops. What should you do?",
+    "options": [
+      "Stop on the crossing if the lights are green",
+      "Stop before the crossing to keep it clear",
+      "Move onto the crossing to close the gap",
+      "Stop on it if no pedestrians are waiting"
+    ],
+    "answer": 1,
+    "explain": "In slow-moving and queuing traffic you should keep crossings completely clear. Don't enter a pedestrian crossing if you can't completely clear it, as blocking it makes crossing difficult and dangerous for pedestrians.",
+    "ref": [
+      "HC 192"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SIG-055",
+    "q": "You're approaching a zebra crossing that has a central island. How should you treat it?",
+    "options": [
+      "As two separate crossings",
+      "As one single crossing",
+      "As a crossing with no priority",
+      "As a give way junction"
+    ],
+    "answer": 0,
+    "explain": "A zebra crossing with a central island is two separate crossings. This is different from a pelican crossing that goes straight across the road, which is one crossing even when there's a central island.",
+    "ref": [
+      "HC 195",
+      "HC 197"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SIG-056",
+    "q": "You're waiting at traffic lights that change to show this. What MUST you do?",
+    "options": [
+      "Move off if the way is clear",
+      "Stop and wait until green shows",
+      "Go, but give way to pedestrians",
+      "Go if you're turning left"
+    ],
+    "answer": 1,
+    "explain": "Red and amber together also mean 'Stop'. Don't pass through or start until green shows.",
+    "ref": [
+      "HC Light signals controlling traffic",
+      "HC 176"
+    ],
+    "sign": "traffic-light-red-amber"
+  },
+  {
+    "id": "SIG-057",
+    "q": "The traffic lights show this and you want to turn left. Pedestrians are crossing the road you're turning into. What should you do?",
+    "options": [
+      "Go, as you have priority on green",
+      "Sound your horn to warn them",
+      "Edge forward to hurry them across",
+      "Give way to the pedestrians"
+    ],
+    "answer": 3,
+    "explain": "Green means you may go on if the way is clear. Take special care when turning, and give way to pedestrians who are crossing.",
+    "ref": [
+      "HC Light signals controlling traffic",
+      "HC 170"
+    ],
+    "sign": "traffic-light-green"
+  },
+  {
+    "id": "SIG-058",
+    "q": "You're waiting at traffic lights showing red, with this green filter arrow lit. You want to go straight ahead. What should you do?",
+    "options": [
+      "Wait for the full green light",
+      "Go, as the arrow lets all lanes move",
+      "Move into the filter lane and go",
+      "Go if no traffic is coming"
+    ],
+    "answer": 0,
+    "explain": "A green filter arrow means you may go only in the direction shown by the arrow. Don't enter the filter lane unless you want to go that way – wait for the full green light to go straight ahead.",
+    "ref": [
+      "HC 177",
+      "HC Light signals controlling traffic"
+    ],
+    "sign": "traffic-light-green-arrow"
+  },
+  {
+    "id": "SIG-059",
+    "q": "You've stopped at a pelican crossing. The amber light starts flashing, but a pedestrian is still crossing. What MUST you do?",
+    "options": [
+      "Drive on, as flashing amber lets you go",
+      "Give way to the pedestrian",
+      "Edge forward to show you're waiting",
+      "Drive round behind the pedestrian"
+    ],
+    "answer": 1,
+    "explain": "At a pelican crossing, flashing amber follows the red light. When it's flashing you MUST give way to any pedestrians on the crossing; if there are none, you may go on with caution.",
+    "ref": [
+      "HC 196"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SIG-060",
+    "q": "You've moved out of a motorway lane closed by this signal. How will you know when the lane is open again?",
+    "options": [
+      "The lane will look clear of hazards",
+      "You'll have passed the next junction",
+      "A sign will show a speed limit or 'END'",
+      "Traffic around you will start using it"
+    ],
+    "answer": 2,
+    "explain": "A red X identifies a closed lane, and you MUST NOT drive in it. A sign will tell you when the lane is no longer closed by showing a speed limit or the word 'END'.",
+    "ref": [
+      "HC 258",
+      "HC Light signals controlling traffic"
+    ],
+    "sign": "motorway-signal-red-cross"
+  },
+  {
+    "id": "SIG-061",
+    "q": "You see this signal on a motorway with its amber lights flashing, but you can't see any problem ahead. Why might it be on?",
+    "options": [
+      "It's being tested by the operator",
+      "It applies to large vehicles only",
+      "It's left on from an earlier incident",
+      "There may be a hazard you can't see yet"
+    ],
+    "answer": 3,
+    "explain": "Motorway signals warn you of hazards ahead, such as an incident, fog, a spillage or road workers, which you may not immediately be able to see. Reduce your speed and be prepared for the hazard.",
+    "ref": [
+      "HC 255",
+      "HC 257"
+    ],
+    "sign": "motorway-signal-temporary-speed"
+  },
+  {
+    "id": "SIG-062",
+    "q": "You see this signal on a motorway and soon afterwards see fog ahead. What should you do before you enter it?",
+    "options": [
+      "Check your mirrors, then slow down",
+      "Brake hard, then check your mirrors",
+      "Switch off your lights to reduce glare",
+      "Close up so you can follow tail lights"
+    ],
+    "answer": 0,
+    "explain": "Before entering fog, check your mirrors and then slow down. Keep a safe distance behind the vehicle in front, as rear lights can give a false sense of security.",
+    "ref": [
+      "HC 234",
+      "HC 235"
+    ],
+    "sign": "motorway-signal-fog"
+  },
+  {
+    "id": "SIG-063",
+    "q": "You're on a motorway where the hard shoulder is sometimes used as an extra lane. The sign above it is blank. What does this mean?",
+    "options": [
+      "Use it at up to 50 mph",
+      "Use it only if traffic is heavy",
+      "Use it only to reach the next exit",
+      "Don't use it except in an emergency"
+    ],
+    "answer": 3,
+    "explain": "A red X or a blank sign above the hard shoulder means you MUST NOT use it except in an emergency. You can only use it as an extra lane when a speed limit is shown above it.",
+    "ref": [
+      "HC 269"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SIG-064",
+    "q": "You're driving under lane control signals. What does a green arrow above your lane mean?",
+    "options": [
+      "The lane ahead is about to close",
+      "You should change to the left lane",
+      "The lane is for buses and taxis only",
+      "The lane is available to you"
+    ],
+    "answer": 3,
+    "explain": "On lane control signals, a green arrow means the lane is available to traffic facing the sign. Red crosses mean the lane is closed, and a white diagonal arrow means change lanes in the direction shown.",
+    "ref": [
+      "HC Light signals controlling traffic"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SIG-065",
+    "q": "You're approaching a junction where a police officer is controlling traffic. The officer faces you and gives this signal. What MUST you do?",
+    "options": [
+      "Drive on slowly past them",
+      "Stop before reaching the officer",
+      "Turn left at the junction",
+      "Flash your headlights and drive on"
+    ],
+    "answer": 1,
+    "explain": "This is a police officer signalling 'Stop' to traffic approaching from the front. You MUST obey signals given by police officers.",
+    "ref": [
+      "HC 105",
+      "HC Signals by authorised persons"
+    ],
+    "sign": "police-officers-traffic-from-front"
+  },
+  {
+    "id": "SIG-066",
+    "q": "A police car wants you to stop. How will it try to attract your attention?",
+    "options": [
+      "Flashing amber lights from in front",
+      "Flashing green lights from the side",
+      "Flashing blue lights, usually from behind",
+      "Waving a red flag from the roadside"
+    ],
+    "answer": 2,
+    "explain": "Where possible, the police will attract your attention by flashing blue lights or headlights, or sounding their siren or horn, usually from behind. You MUST then pull over and stop as soon as it's safe.",
+    "ref": [
+      "HC 106"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SIG-067",
+    "q": "You see this vehicle. On which roads do its officers have the power to stop vehicles?",
+    "options": [
+      "Only on motorways and trunk roads",
+      "On all roads, including motorways",
+      "Only at roadside check sites",
+      "Only on roads in towns and cities"
+    ],
+    "answer": 1,
+    "explain": "This is a DVSA officer vehicle. DVSA officers have the power to stop vehicles on all roads, including motorways and trunk roads, and you MUST obey any signals they give.",
+    "ref": [
+      "HC 107",
+      "HC Signals by authorised persons"
+    ],
+    "sign": "dvsa-officer-car"
+  },
+  {
+    "id": "SIG-068",
+    "q": "You want to turn left at a junction controlled by a police officer. Which hand may you use to give this arm signal?",
+    "options": [
+      "Your right hand only",
+      "Your left hand only",
+      "Either hand",
+      "Neither – use your indicators only"
+    ],
+    "answer": 2,
+    "explain": "This arm signal tells a person controlling traffic that you want to turn left. You can give it with either hand.",
+    "ref": [
+      "HC Signals by authorised persons"
+    ],
+    "sign": "car-arm-signal-turn-left"
+  },
+  {
+    "id": "SIG-069",
+    "q": "When should a driver use arm signals?",
+    "options": [
+      "Only when turning right in the dark",
+      "Instead of brake lights in daylight",
+      "Only when a police officer asks you to",
+      "To reinforce your indicators if needed"
+    ],
+    "answer": 3,
+    "explain": "Arm signals are for use when direction indicator signals are not used, or when necessary to reinforce your indicators and brake lights.",
+    "ref": [
+      "HC Signals to other road users",
+      "HC 103"
+    ],
+    "sign": null
+  },
+  {
+    "id": "SIG-070",
+    "q": "A vehicle ahead of you is showing this signal. What could its driver or rider intend to do?",
+    "options": [
+      "Stop on the left",
+      "Move out to the right",
+      "Overtake on the right",
+      "Reverse into a gap"
+    ],
+    "answer": 0,
+    "explain": "This signal means the driver or rider intends to move in to the left, turn left or stop on the left. Proceed only when you're sure it's safe, as an indicator may not have been cancelled.",
+    "ref": [
+      "HC Signals to other road users",
+      "HC 104"
+    ],
+    "sign": "direction-indicator-signals-left"
+  }
+]

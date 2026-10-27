@@ -1,0 +1,813 @@
+[
+  {
+    "id": "INC-001",
+    "q": "Your car has broken down on a busy main road and you have a warning triangle. How far behind your car should you put it?",
+    "options": [
+      "At least 25 metres",
+      "At least 45 metres",
+      "At least 15 metres",
+      "At least 100 metres"
+    ],
+    "answer": 1,
+    "explain": "You should put a warning triangle on the road at least 45 metres (147 feet) behind your broken-down vehicle, on the same side of the road. Take great care when placing or retrieving it.",
+    "ref": [
+      "HC 276"
+    ],
+    "sign": null
+  },
+  {
+    "id": "INC-002",
+    "q": "You've broken down on the hard shoulder of a motorway. You have a warning triangle in your boot. What should you do with it?",
+    "options": [
+      "Place it 45 metres behind your car",
+      "Place it 100 metres behind your car",
+      "Don't use it on the motorway",
+      "Place it on the roof of your car"
+    ],
+    "answer": 2,
+    "explain": "You should never use a warning triangle on a motorway, and DO NOT place one on the carriageway. Instead, get well away from your vehicle and moving traffic and call for help.",
+    "ref": [
+      "HC 276",
+      "HC 277"
+    ],
+    "sign": null
+  },
+  {
+    "id": "INC-003",
+    "q": "Your car has broken down on a narrow road and is partly blocking the carriageway. How should you warn other traffic?",
+    "options": [
+      "Switch on your hazard warning lights",
+      "Leave your headlights on main beam",
+      "Sound your horn at approaching vehicles",
+      "Stand in the road and wave traffic past"
+    ],
+    "answer": 0,
+    "explain": "If your broken-down vehicle is causing an obstruction, warn other traffic by using your hazard warning lights. Don't stand, or let anyone else stand, between your vehicle and oncoming traffic.",
+    "ref": [
+      "HC 276",
+      "HC 116"
+    ],
+    "sign": null
+  },
+  {
+    "id": "INC-004",
+    "q": "You've broken down on a country road at night and need to get out of your car. What should you wear to help other road users see you?",
+    "options": [
+      "Reflective clothing",
+      "Dark, warm clothing",
+      "Clothing the same colour as your car",
+      "Anything, if your hazard lights are on"
+    ],
+    "answer": 0,
+    "explain": "Help other road users see you by wearing light-coloured or fluorescent clothing in daylight and reflective clothing at night or in poor visibility.",
+    "ref": [
+      "HC 276"
+    ],
+    "sign": null
+  },
+  {
+    "id": "INC-005",
+    "q": "Your car has broken down on a main road at night and you're waiting for help. Why shouldn't you stand at the back of your car?",
+    "options": [
+      "You might stop other drivers seeing your lights",
+      "Your exhaust fumes could make you dizzy",
+      "Recovery drivers will find the car harder to spot",
+      "Your hazard lights could dazzle you"
+    ],
+    "answer": 0,
+    "explain": "Don't stand, or let anybody else stand, between your vehicle and oncoming traffic. At night or in poor visibility, don't stand where you'll prevent other road users seeing your lights.",
+    "ref": [
+      "HC 276"
+    ],
+    "sign": null
+  },
+  {
+    "id": "INC-006",
+    "q": "You're driving on a motorway when a warning light comes on and you need to stop. Where is the safest place to stop?",
+    "options": [
+      "On the hard shoulder",
+      "In an emergency area",
+      "At a service area",
+      "On the verge of a slip road"
+    ],
+    "answer": 2,
+    "explain": "On motorways and other high-speed roads, the safest place to stop is a service area. Emergency areas and hard shoulders are places of relative safety, but hard shoulders give less protection because they're so close to high-speed traffic.",
+    "ref": [
+      "HC 275",
+      "HC 277"
+    ],
+    "sign": null
+  },
+  {
+    "id": "INC-007",
+    "q": "You've stopped in a lay-by on a busy dual carriageway after a breakdown. Why should you and your passengers keep well away from your car and the moving traffic?",
+    "options": [
+      "Your car could be hit and pushed into you",
+      "So recovery drivers can see the car clearly",
+      "So the engine can cool down more safely",
+      "So you don't breathe in exhaust fumes"
+    ],
+    "answer": 0,
+    "explain": "You and your passengers should, where possible, keep well away from your vehicle and moving traffic. Otherwise moving traffic could collide with your vehicle, forcing it into you.",
+    "ref": [
+      "HC 275"
+    ],
+    "sign": null
+  },
+  {
+    "id": "INC-008",
+    "q": "You stop to help at the scene of a collision on a busy road. How should you warn other traffic?",
+    "options": [
+      "Leave your headlights on main beam",
+      "Sound your horn repeatedly",
+      "Switch on your hazard warning lights",
+      "Park across the road to block it"
+    ],
+    "answer": 2,
+    "explain": "If you're involved in a collision or stop to give assistance, use your hazard warning lights to warn other traffic, and put on high-visibility clothing if you have it.",
+    "ref": [
+      "HC 283"
+    ],
+    "sign": null
+  },
+  {
+    "id": "INC-009",
+    "q": "You arrive at a crash scene where several cars are damaged. Why should you ask the drivers to switch off their engines?",
+    "options": [
+      "To save fuel while they wait",
+      "To reduce the risk of fire",
+      "To stop the batteries going flat",
+      "So the police can check the engines"
+    ],
+    "answer": 1,
+    "explain": "Further collisions and fire are the main dangers following a crash. You should ask drivers to switch off their engines and ask everyone to stop smoking.",
+    "ref": [
+      "HC 283",
+      "HC Annex 7"
+    ],
+    "sign": null
+  },
+  {
+    "id": "INC-010",
+    "q": "You're at the scene of a collision where people are injured. You call the emergency services. What should you tell them?",
+    "options": [
+      "Only the registration numbers of the vehicles",
+      "Only your own name and address",
+      "Which driver you think caused it",
+      "The location and details of any casualties"
+    ],
+    "answer": 3,
+    "explain": "Contact the emergency services on 999 and provide full details of the incident location and any casualties. You can use an emergency telephone, a mobile phone, or your vehicle's SOS button if it has one.",
+    "ref": [
+      "HC 283"
+    ],
+    "sign": null
+  },
+  {
+    "id": "INC-011",
+    "q": "You're calling the emergency services from the scene of a crash on a dual carriageway. Which extra detail will help them reach it quickly?",
+    "options": [
+      "The make and model of your car",
+      "The direction of traffic involved",
+      "The time you set off on your journey",
+      "The weather forecast for the area"
+    ],
+    "answer": 1,
+    "explain": "The emergency services need the exact location of the incident, including the direction of traffic (for example, northbound), and the number of vehicles involved. Also tell them about the condition of any casualties.",
+    "ref": [
+      "HC Annex 7"
+    ],
+    "sign": null
+  },
+  {
+    "id": "INC-012",
+    "q": "You arrive at a crash. A driver is still in their car and seems to be injured, but there's no threat of fire or further danger. What should you do?",
+    "options": [
+      "Pull them out of the car straight away",
+      "Help them walk to the side of the road",
+      "Lay them down on the road surface",
+      "Leave them in the car unless in danger"
+    ],
+    "answer": 3,
+    "explain": "DO NOT move injured people from their vehicles unless they're in immediate danger. Keep them warm and reassure them until the emergency services arrive.",
+    "ref": [
+      "HC 283",
+      "HC Annex 7"
+    ],
+    "sign": null
+  },
+  {
+    "id": "INC-013",
+    "q": "A motorcyclist has been injured in a collision and is lying in the road, still wearing their helmet. What should you do about the helmet?",
+    "options": [
+      "Take it off to make them comfortable",
+      "Only remove it if it's essential",
+      "Take it off so you can check for injuries",
+      "Lift their head and loosen it"
+    ],
+    "answer": 1,
+    "explain": "DO NOT remove a motorcyclist's helmet unless it's essential and you're trained to do so. Keep the casualty warm and reassure them while you wait for the emergency services.",
+    "ref": [
+      "HC 283",
+      "HC Annex 7"
+    ],
+    "sign": null
+  },
+  {
+    "id": "INC-014",
+    "q": "You've been involved in a collision on a busy road. Your passengers aren't hurt. What should you do with them?",
+    "options": [
+      "Keep them in the car with seat belts on",
+      "Ask them to direct the traffic around you",
+      "Ask them to stand behind the car as a warning",
+      "Move them to a place of relative safety"
+    ],
+    "answer": 3,
+    "explain": "You should move uninjured people away from the vehicles to a place of relative safety, where they're less likely to be at risk from moving traffic.",
+    "ref": [
+      "HC 283",
+      "HC 275"
+    ],
+    "sign": null
+  },
+  {
+    "id": "INC-015",
+    "q": "You've been involved in a collision in which someone was hurt. You've called 999. What should you do next?",
+    "options": [
+      "Stay until the emergency services arrive",
+      "Drive home and phone the police later",
+      "Leave once another driver stops to help",
+      "Leave a note on the other car and go"
+    ],
+    "answer": 0,
+    "explain": "You should stay at the scene until the emergency services arrive. Be prepared to give first aid and to exchange details.",
+    "ref": [
+      "HC 283"
+    ],
+    "sign": null
+  },
+  {
+    "id": "INC-016",
+    "q": "An injured person at a crash scene asks you for a drink of water. What should you do?",
+    "options": [
+      "Give them small sips of water",
+      "Give them a hot, sweet drink",
+      "Don't give them anything to drink",
+      "Give them a drink if they seem thirsty"
+    ],
+    "answer": 2,
+    "explain": "DO NOT give casualties anything to eat or drink. Keep them warm, dry and as comfortable as you can, and reassure them until help arrives.",
+    "ref": [
+      "HC Annex 7"
+    ],
+    "sign": null
+  },
+  {
+    "id": "INC-017",
+    "q": "You're looking after a casualty at a crash scene while waiting for an ambulance. They're conscious but upset. How can you help them?",
+    "options": [
+      "Encourage them to walk about to stay alert",
+      "Leave them alone so they can rest",
+      "Keep them warm and reassure them",
+      "Ask them who caused the crash"
+    ],
+    "answer": 2,
+    "explain": "Try to keep casualties warm, dry and as comfortable as you can. Give reassurance confidently and try not to leave them alone or let them wander into the path of other traffic.",
+    "ref": [
+      "HC Annex 7"
+    ],
+    "sign": null
+  },
+  {
+    "id": "INC-018",
+    "q": "You're giving first aid at the scene of a crash and remember the letters DR ABC. What does the D stand for?",
+    "options": [
+      "Danger",
+      "Doctor",
+      "Distance",
+      "Dial"
+    ],
+    "answer": 0,
+    "explain": "D stands for Danger: check that it's safe to approach. The letters stand for Danger, Response, Airway, Breathing and Circulation.",
+    "ref": [
+      "HC Annex 7"
+    ],
+    "sign": null
+  },
+  {
+    "id": "INC-019",
+    "q": "You reach a casualty who's lying still after a collision. It's safe to approach. How should you check whether they respond?",
+    "options": [
+      "Splash some cold water onto their face",
+      "Sit them up and loudly call their name",
+      "Shake their head gently from side to side",
+      "Gently shake their shoulders and ask loudly"
+    ],
+    "answer": 3,
+    "explain": "Try to get a response by gently shaking the casualty's shoulders and asking loudly 'Are you all right?' If they respond, check for injuries.",
+    "ref": [
+      "HC Annex 7"
+    ],
+    "sign": null
+  },
+  {
+    "id": "INC-020",
+    "q": "A casualty at a crash scene doesn't respond when you speak to them. How should you open their airway?",
+    "options": [
+      "Lift their chin forward with your fingers",
+      "Tilt their head down onto their chest",
+      "Turn their head sharply to one side",
+      "Sit them upright, leaning against the car"
+    ],
+    "answer": 0,
+    "explain": "If there's no response, open the casualty's airway by placing your fingers under their chin and lifting it forward. Then check that they're breathing normally.",
+    "ref": [
+      "HC Annex 7"
+    ],
+    "sign": null
+  },
+  {
+    "id": "INC-021",
+    "q": "A pedestrian injured in a collision is lying on the pavement. They're unconscious but breathing normally. What should you do until medical help arrives?",
+    "options": [
+      "Start chest compressions straight away",
+      "Place them in the recovery position",
+      "Sit them up against a wall",
+      "Leave them alone to look for help"
+    ],
+    "answer": 1,
+    "explain": "If the casualty is unconscious and breathing, place them in the recovery position until medical help arrives. Only start CPR if there are no signs of breathing.",
+    "ref": [
+      "HC Annex 7"
+    ],
+    "sign": null
+  },
+  {
+    "id": "INC-022",
+    "q": "An adult casualty isn't breathing and you start CPR. How far should you press down on the centre of their chest?",
+    "options": [
+      "About 1 to 2 centimetres",
+      "About 3 to 4 centimetres",
+      "About 5 to 6 centimetres",
+      "About 10 to 12 centimetres"
+    ],
+    "answer": 2,
+    "explain": "Interlock your fingers, place them in the centre of the casualty's chest and press down hard and fast, around 5 to 6 centimetres.",
+    "ref": [
+      "HC Annex 7"
+    ],
+    "sign": null
+  },
+  {
+    "id": "INC-023",
+    "q": "You're giving CPR to an adult at the scene of a crash. How fast should you press on their chest?",
+    "options": [
+      "About twice a second",
+      "About once a second",
+      "About once every two seconds",
+      "About five times a second"
+    ],
+    "answer": 0,
+    "explain": "When giving CPR to an adult, press down hard and fast in the centre of the chest, about twice a second.",
+    "ref": [
+      "HC Annex 7"
+    ],
+    "sign": null
+  },
+  {
+    "id": "INC-024",
+    "q": "A baby involved in a crash isn't breathing. How should you give chest compressions?",
+    "options": [
+      "Both hands, 5 to 6 centimetres deep",
+      "One hand, pressing as hard as possible",
+      "Heel of one hand, on the stomach",
+      "Two fingers, a third of the chest depth"
+    ],
+    "answer": 3,
+    "explain": "For infants, use two fingers in the middle of the chest and press down about a third of the chest depth. For a child you may only need one hand, and shouldn't press down as far as for an adult.",
+    "ref": [
+      "HC Annex 7"
+    ],
+    "sign": null
+  },
+  {
+    "id": "INC-025",
+    "q": "You've started CPR on a casualty who wasn't breathing. When should you stop?",
+    "options": [
+      "After about two minutes of compressions",
+      "When they breathe or a medic takes over",
+      "As soon as you've done 30 compressions",
+      "When a police officer arrives at the scene"
+    ],
+    "answer": 1,
+    "explain": "Don't stop CPR until the casualty starts breathing again or a medical professional takes over.",
+    "ref": [
+      "HC Annex 7"
+    ],
+    "sign": null
+  },
+  {
+    "id": "INC-026",
+    "q": "A casualty at a crash scene is bleeding heavily from a leg wound. There's nothing in the wound. What should you do?",
+    "options": [
+      "Wash the wound with clean water first",
+      "Leave it uncovered to let it clot",
+      "Apply firm pressure over the wound",
+      "Keep the leg moving so it doesn't stiffen"
+    ],
+    "answer": 2,
+    "explain": "If nothing is embedded, apply firm pressure over the wound to stem the flow of blood. As soon as practical, fasten a pad to the wound with a bandage or length of cloth, using the cleanest material available.",
+    "ref": [
+      "HC Annex 7"
+    ],
+    "sign": null
+  },
+  {
+    "id": "INC-027",
+    "q": "A casualty has a piece of glass stuck in a bleeding wound on their arm. What should you do?",
+    "options": [
+      "Pull the glass out, then press on the wound",
+      "Press firmly on the glass to stop the bleeding",
+      "Leave it in and build up padding either side",
+      "Wash the glass out with water"
+    ],
+    "answer": 2,
+    "explain": "Don't remove anything that's stuck in a wound. Taking care not to press on the object, build up padding on either side of it.",
+    "ref": [
+      "HC Annex 7"
+    ],
+    "sign": null
+  },
+  {
+    "id": "INC-028",
+    "q": "A driver has been burned in a vehicle fire. The flames are out. How long should you cool the burn with clean, cool water?",
+    "options": [
+      "For about 1 minute",
+      "For at least 5 minutes",
+      "For no more than 10 minutes",
+      "For at least 20 minutes"
+    ],
+    "answer": 3,
+    "explain": "Cool the burn for at least 20 minutes with plenty of clean, cool water. Cover the burn with cling film if available.",
+    "ref": [
+      "HC Annex 7"
+    ],
+    "sign": null
+  },
+  {
+    "id": "INC-029",
+    "q": "You're helping someone who has a burn on their arm. Some of their clothing is stuck to it. What should you do?",
+    "options": [
+      "Pull the clothing off gently",
+      "Peel it away after cooling the burn",
+      "Leave it there and cool the burn",
+      "Soak it, then pull it off quickly"
+    ],
+    "answer": 2,
+    "explain": "Don't try to remove anything that's sticking to a burn. Cool the burn with plenty of clean, cool water and cover it with cling film if available.",
+    "ref": [
+      "HC Annex 7"
+    ],
+    "sign": null
+  },
+  {
+    "id": "INC-030",
+    "q": "You've stopped to help at a crash. What are the main dangers at the scene?",
+    "options": [
+      "Theft from the vehicles",
+      "Further collisions and fire",
+      "Traffic jams and delays",
+      "Flat batteries in the cars"
+    ],
+    "answer": 1,
+    "explain": "Further collisions and fire are the main dangers following a crash. Approach any vehicle involved with care, watching out for spilt oil or broken glass, switch off all engines and warn other traffic if possible.",
+    "ref": [
+      "HC Annex 7"
+    ],
+    "sign": null
+  },
+  {
+    "id": "INC-031",
+    "q": "You've stopped to help at a crash. Why should you take care as you approach the damaged vehicles?",
+    "options": [
+      "There may be spilt oil or broken glass",
+      "You could disturb evidence for the police",
+      "The drivers may not want your help",
+      "You might be blamed for the damage"
+    ],
+    "answer": 0,
+    "explain": "Further collisions and fire are the main dangers following a crash. Approach any vehicle involved with care, watching out for spilt oil or broken glass.",
+    "ref": [
+      "HC Annex 7"
+    ],
+    "sign": null
+  },
+  {
+    "id": "INC-032",
+    "q": "You arrive at a collision involving a tanker carrying dangerous goods. People appear to be trapped in a car beside it. What should you do?",
+    "options": [
+      "Try to rescue them as quickly as you can",
+      "Move closer so that you can reassure them",
+      "Ask a passer-by to help you pull them free",
+      "Keep well away and call the emergency services"
+    ],
+    "answer": 3,
+    "explain": "If an incident involves a vehicle carrying dangerous goods, keep well away and don't be tempted to try to rescue casualties, as you could become one yourself. Switch off engines, DO NOT smoke, and call the emergency services.",
+    "ref": [
+      "HC 285"
+    ],
+    "sign": null
+  },
+  {
+    "id": "INC-033",
+    "q": "A lorry carrying a flammable load has been involved in a crash. You need to call the emergency services. What should you do?",
+    "options": [
+      "Use your mobile phone right beside the lorry",
+      "Give details of its labels from a safe distance",
+      "Wait until the fire service has arrived",
+      "Only report the number of people hurt"
+    ],
+    "answer": 1,
+    "explain": "Call the emergency services and give as much information as possible about the labels and markings on the vehicle. DO NOT use a mobile phone close to a vehicle carrying flammable loads.",
+    "ref": [
+      "HC 285"
+    ],
+    "sign": null
+  },
+  {
+    "id": "INC-034",
+    "q": "You see this symbol on a hazard warning plate. Which kind of vehicle displays plates like this?",
+    "options": [
+      "A vehicle carrying livestock",
+      "A tanker carrying dangerous goods",
+      "A vehicle with an overhanging load",
+      "A lorry weighing over 7.5 tonnes"
+    ],
+    "answer": 1,
+    "explain": "Road tankers and vehicles carrying tank containers of dangerous goods display hazard warning plates; this symbol shows a toxic substance. If such a vehicle is involved in an incident, keep well away and give the emergency services details of its markings.",
+    "ref": [
+      "HC 284",
+      "HC 285",
+      "HC Vehicle markings"
+    ],
+    "sign": "hazard-warning-toxic-label"
+  },
+  {
+    "id": "INC-035",
+    "q": "You've hit a parked car while manoeuvring, causing damage. The owner comes out to speak to you. What MUST you give them?",
+    "options": [
+      "Only your mobile phone number and email",
+      "Only the name of your insurance company",
+      "Your driving licence for them to keep",
+      "Your name, address and vehicle registration"
+    ],
+    "answer": 3,
+    "explain": "If you're involved in a collision that causes damage or injury, you MUST stop and give your own and the vehicle owner's name and address, and the vehicle's registration number, to anyone with reasonable grounds for requiring them.",
+    "ref": [
+      "HC 286",
+      "GOV.UK vehicle-insurance"
+    ],
+    "sign": null
+  },
+  {
+    "id": "INC-036",
+    "q": "You've damaged a parked car and can't find the owner to give them your details. What MUST you do?",
+    "options": [
+      "Report it to the police within 24 hours",
+      "Report it to the police within 7 days",
+      "Report it to your insurer within a month",
+      "Nothing, if the damage is minor"
+    ],
+    "answer": 0,
+    "explain": "If you don't give your name and address at the time of the collision, you MUST report it to the police as soon as reasonably practicable, and in any case within 24 hours.",
+    "ref": [
+      "HC 286"
+    ],
+    "sign": null
+  },
+  {
+    "id": "INC-037",
+    "q": "You're involved in a crash in which someone is injured, and you can't produce your insurance certificate at the time. Within what time MUST you produce it for the police?",
+    "options": [
+      "24 hours",
+      "48 hours",
+      "7 days",
+      "14 days"
+    ],
+    "answer": 2,
+    "explain": "If another person is injured and you don't produce your insurance certificate at the time, you MUST report the crash to the police as soon as possible and within 24 hours, and produce your certificate for the police within seven days.",
+    "ref": [
+      "HC 287"
+    ],
+    "sign": null
+  },
+  {
+    "id": "INC-038",
+    "q": "You've had a minor collision and exchanged details with the other driver. You don't intend to make a claim. Should you tell your insurance company?",
+    "options": [
+      "Yes, even though you're not claiming",
+      "No, only if you decide to claim",
+      "No, only if the police were involved",
+      "Only if the other driver asks you to"
+    ],
+    "answer": 0,
+    "explain": "You must report an accident to your insurance company, even if you're not planning to make a claim.",
+    "ref": [
+      "GOV.UK vehicle-insurance"
+    ],
+    "sign": null
+  },
+  {
+    "id": "INC-039",
+    "q": "Your car breaks down on a level crossing. What should you do first?",
+    "options": [
+      "Try to restart the engine several times",
+      "Get everyone out and clear of the crossing",
+      "Phone your breakdown recovery service",
+      "Stay in the car with your hazard lights on"
+    ],
+    "answer": 1,
+    "explain": "If your vehicle breaks down on a level crossing, get everyone out of the vehicle and clear of the crossing immediately. Then use a railway telephone, if available, to tell the signal operator.",
+    "ref": [
+      "HC 299"
+    ],
+    "sign": null
+  },
+  {
+    "id": "INC-040",
+    "q": "You've broken down on a level crossing and everyone is safely clear. There's a railway telephone nearby. What should you do?",
+    "options": [
+      "Call a breakdown service on your mobile",
+      "Wait for the barriers to come down",
+      "Walk along the line to warn the driver",
+      "Use it to tell the signal operator"
+    ],
+    "answer": 3,
+    "explain": "Use the railway telephone to tell the signal operator, and follow the instructions you're given. Only move the vehicle clear of the crossing if there's time before a train arrives.",
+    "ref": [
+      "HC 299"
+    ],
+    "sign": null
+  },
+  {
+    "id": "INC-041",
+    "q": "Your car has stalled on a level crossing and you're trying to push it clear. The alarm sounds and the amber light comes on. What should you do?",
+    "options": [
+      "Leave the car and get clear immediately",
+      "Keep pushing, as there's still time",
+      "Get back in and try to restart it",
+      "Stand by the car and wave to warn the train"
+    ],
+    "answer": 0,
+    "explain": "Only try to move the vehicle clear if there's time before a train arrives. If the alarm sounds or the amber light comes on, leave the vehicle and get clear of the crossing immediately.",
+    "ref": [
+      "HC 299"
+    ],
+    "sign": null
+  },
+  {
+    "id": "INC-042",
+    "q": "You're driving when you see flames coming from under your car's bonnet. You stop safely. What should you do?",
+    "options": [
+      "Open the bonnet to put the fire out",
+      "Pour water into the engine compartment",
+      "Get everyone out and call the fire brigade",
+      "Drive on quickly to the nearest garage"
+    ],
+    "answer": 2,
+    "explain": "If your vehicle catches fire, get the occupants out quickly and to a safe place, then call the fire brigade. Don't try to put out a fire in the engine compartment, as opening the bonnet will make the fire flare.",
+    "ref": [
+      "HC Annex 6"
+    ],
+    "sign": null
+  },
+  {
+    "id": "INC-043",
+    "q": "You're driving through a tunnel when the traffic ahead comes to a stop. What's the minimum gap you should leave between you and the vehicle in front?",
+    "options": [
+      "At least 1 metre",
+      "At least 2 metres",
+      "At least 3 metres",
+      "At least 5 metres"
+    ],
+    "answer": 3,
+    "explain": "If you have to stop in a tunnel, leave at least a 5-metre gap between you and the vehicle in front. When moving, allow at least a two-second gap in tunnels where visibility is reduced.",
+    "ref": [
+      "HC 126"
+    ],
+    "sign": null
+  },
+  {
+    "id": "INC-044",
+    "q": "You're deaf and are planning a long car journey. What does The Highway Code recommend you do before you set off?",
+    "options": [
+      "Register for the 999 text service",
+      "Fit a flashing amber beacon to your car",
+      "Plan a route that avoids all motorways",
+      "Display a sign saying you're deaf"
+    ],
+    "answer": 0,
+    "explain": "If you're deaf, hard of hearing or speech impaired, it's recommended that you register for the 999 text service (emergencySMS.net) before making a journey.",
+    "ref": [
+      "HC 279"
+    ],
+    "sign": null
+  },
+  {
+    "id": "INC-045",
+    "q": "You're approaching an incident on a dual carriageway. A traffic officer is directing traffic past the scene. What MUST you do?",
+    "options": [
+      "Follow the traffic officer's directions",
+      "Pass on whichever side looks clearest",
+      "Stop and wait for the police to arrive",
+      "Only follow directions from the police"
+    ],
+    "answer": 0,
+    "explain": "The emergency services, traffic officers and recovery workers may need to work in the carriageway at an incident. You MUST follow any directions given by police or traffic officers as to whether you can safely pass the incident or obstruction.",
+    "ref": [
+      "HC 281"
+    ],
+    "sign": null
+  },
+  {
+    "id": "INC-046",
+    "q": "Part of your load falls from your trailer onto a quiet road in a village. What should you do?",
+    "options": [
+      "Leave it there; the council will clear it",
+      "Phone 999 and wait in your car",
+      "Remove it, but only if it's safe to do so",
+      "Drive on and report it next week"
+    ],
+    "answer": 2,
+    "explain": "On roads other than motorways and high-speed roads, you should only remove an obstruction if it's safe to do so. On a motorway or other high-speed road, DO NOT remove it yourself; stop in a place of relative safety and call 999.",
+    "ref": [
+      "HC 280"
+    ],
+    "sign": null
+  },
+  {
+    "id": "INC-047",
+    "q": "You're driving on a dual carriageway and see emergency vehicles with flashing lights a long way ahead. What should you do?",
+    "options": [
+      "Speed up to get past before it's blocked",
+      "Slow down and be ready to change lane or stop",
+      "Keep your speed and watch the incident closely",
+      "Flash your headlights to warn the drivers ahead"
+    ],
+    "answer": 1,
+    "explain": "If you see emergency or incident support vehicles with flashing lights in the distance, there may be an incident ahead. Slow down and be prepared to move safely into another lane or stop. You MUST follow any directions from police or traffic officers.",
+    "ref": [
+      "HC 281",
+      "HC 219"
+    ],
+    "sign": null
+  },
+  {
+    "id": "INC-048",
+    "q": "You're driving on a dual carriageway. There's been a crash on the other side of the central reservation and the emergency services are already there. What should you do?",
+    "options": [
+      "Slow down so you can get a better look",
+      "Stop on the verge to see if you can help",
+      "Use your phone to film the scene as you pass",
+      "Keep going and concentrate on the road ahead"
+    ],
+    "answer": 3,
+    "explain": "When passing the scene of an incident, remain alert for hazards but don't slow down unnecessarily, for example if it's on the other side of a dual carriageway. Focus on the road ahead, as a lack of attention could cause another collision or congestion.",
+    "ref": [
+      "HC 282"
+    ],
+    "sign": null
+  },
+  {
+    "id": "INC-049",
+    "q": "You have a disability that prevents you from getting out of your car. Your car breaks down on a motorway. What should you do?",
+    "options": [
+      "Switch on hazard lights, stay in and call 999",
+      "Try to get out and wait on the hard shoulder",
+      "Flash your headlights at passing drivers",
+      "Open the door and wave to passing drivers"
+    ],
+    "answer": 0,
+    "explain": "If a disability prevents you following the usual breakdown advice, switch on your hazard warning lights, stay in your vehicle with your seat belt on, and call 999 immediately and ask for the police. Alternatively, press your SOS button if your vehicle has one.",
+    "ref": [
+      "HC 279"
+    ],
+    "sign": null
+  },
+  {
+    "id": "INC-050",
+    "q": "You're filling up at a petrol station and accidentally spill some diesel on the forecourt. What should you do?",
+    "options": [
+      "Ignore it, as it'll evaporate quickly",
+      "Report it to the attendant straight away",
+      "Wipe it with a cloth and drive off",
+      "Drive off before it spreads further"
+    ],
+    "answer": 1,
+    "explain": "Any spilled fuel should be reported to the petrol station attendant immediately. Diesel spillage is dangerous to other road users, particularly motorcyclists, as it greatly reduces the grip between tyres and the road surface.",
+    "ref": [
+      "HC Annex 6"
+    ],
+    "sign": null
+  }
+]

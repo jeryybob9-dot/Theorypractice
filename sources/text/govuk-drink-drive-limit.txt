@@ -1,0 +1,39 @@
+# GOV.UK — The drink drive limit
+# Source: https://www.gov.uk/drink-drive-limit
+
+
+## The drink drive limit
+
+There are strict alcohol limits for drivers, but it’s impossible to say exactly how many drinks this equals - it’s different for each person.
+
+The limits in Scotland are different to the rest of the UK.
+
+ Level of alcohol | 
+ England, Wales and Northern Ireland | 
+ Scotland | 
+
+ Micrograms per 100 millilitres of breath | 
+ 35 | 
+ 22 | 
+
+ Milligrammes per 100 millilitres of blood | 
+ 80 | 
+ 50 | 
+
+ Milligrammes per 100 millilitres of urine | 
+ 107 | 
+ 67 | 
+
+There are strict drink driving penalties if you are caught over the limit.
+
+ You cannot drive anywhere in the UK if you’ve been banned by any UK court because of drink driving.
+
+The way alcohol affects you depends on:
+
+- your weight, age, sex and metabolism (the rate your body uses energy)
+
+- the type and amount of alcohol you’re drinking
+
+- what you’ve eaten recently
+
+- your stress levels at the time

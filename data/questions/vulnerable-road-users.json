@@ -1,0 +1,1157 @@
+[
+  {
+    "id": "VUL-001",
+    "q": "The Highway Code describes a 'hierarchy of road users'. Who has the most responsibility to reduce the danger they pose to others?",
+    "options": [
+      "Pedestrians and cyclists, as they are most at risk",
+      "Drivers who have held a licence for the longest",
+      "Road users travelling at the lowest speeds",
+      "Drivers of vehicles that can cause the greatest harm"
+    ],
+    "answer": 3,
+    "explain": "Those in charge of vehicles that can cause the greatest harm in a collision bear the greatest responsibility to take care and reduce the danger they pose to others. This applies most strongly to drivers of large vehicles, vans, cars and motorcycles.",
+    "ref": [
+      "HC H1",
+      "HC 204"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-002",
+    "q": "According to The Highway Code, which road users are most likely to be injured in the event of a collision?",
+    "options": [
+      "Pedestrians, cyclists, horse riders and motorcyclists",
+      "Drivers of large goods and passenger vehicles",
+      "Car drivers and their front-seat passengers",
+      "Van and taxi drivers in busy town centres"
+    ],
+    "answer": 0,
+    "explain": "The road users most likely to be injured in a collision are pedestrians, cyclists, horse riders and motorcyclists, with children, older adults and disabled people being more at risk. That's why they're placed at the top of the hierarchy of road users.",
+    "ref": [
+      "HC 204",
+      "HC H1"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-003",
+    "q": "Which of these statements about the hierarchy of road users is correct?",
+    "options": [
+      "It means pedestrians need not consider their own safety",
+      "It only applies to drivers of large goods vehicles",
+      "Cyclists have a responsibility to reduce danger to pedestrians",
+      "It gives cyclists priority over pedestrians on the pavement"
+    ],
+    "answer": 2,
+    "explain": "Cyclists, horse riders and drivers of horse-drawn vehicles have a responsibility to reduce danger to pedestrians. The hierarchy doesn't remove the responsibility of all road users, including pedestrians, to have regard for their own and others' safety.",
+    "ref": [
+      "HC H1"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-004",
+    "q": "You're driving slowly along a busy high street. A pedestrian steps off the pavement ahead without looking your way. What should you bear in mind?",
+    "options": [
+      "They've lost their right to use the road",
+      "They may have impaired sight or hearing",
+      "They should only cross at a marked crossing",
+      "You have priority because they didn't look"
+    ],
+    "answer": 1,
+    "explain": "Always remember that the people you encounter may have impaired sight, hearing or mobility, and that this may not be obvious. Pedestrians may use any part of the road unless signs prohibit them, so be ready to slow down or stop.",
+    "ref": [
+      "HC H1",
+      "HC H2"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-005",
+    "q": "You're turning left into a side road. A pedestrian is waiting at the kerb to cross the road you're turning into. What should you do?",
+    "options": [
+      "Carry on, as they haven't stepped into the road yet",
+      "Sound your horn to let them know you're turning",
+      "Give way and let them cross",
+      "Speed up to clear the junction before they cross"
+    ],
+    "answer": 2,
+    "explain": "At a junction you should give way to pedestrians crossing or waiting to cross a road into which or from which you are turning. This applies whether you're turning left or right.",
+    "ref": [
+      "HC H2",
+      "HC 170"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-006",
+    "q": "The Highway Code says that only pedestrians may use the pavement. Who does this include?",
+    "options": [
+      "Cyclists under the age of 12",
+      "Wheelchair and mobility scooter users",
+      "Learner motorcyclists on mopeds",
+      "Riders of electric scooters"
+    ],
+    "answer": 1,
+    "explain": "Only pedestrians may use the pavement, and pedestrians include wheelchair and mobility scooter users. Cyclists MUST NOT cycle on a pavement.",
+    "ref": [
+      "HC H2",
+      "HC 64"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-007",
+    "q": "You're about to turn left into a side road. A cyclist is riding in a cycle lane on your left and is going straight ahead. What should you do?",
+    "options": [
+      "Overtake the cyclist and turn in quickly",
+      "Turn in front of them, as they must give way",
+      "Sound your horn and then turn left",
+      "Stay behind and let them pass the junction"
+    ],
+    "answer": 3,
+    "explain": "You shouldn't cut across cyclists going ahead when you're turning, whether they're in a cycle lane, a cycle track or on the road. Don't turn if it would cause them to stop or swerve; stay behind and let them pass.",
+    "ref": [
+      "HC H3",
+      "HC 167"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-008",
+    "q": "You're in a queue of slow-moving traffic, waiting to turn left into a side road. A steady flow of cyclists is moving past the queue on your left. What should you do?",
+    "options": [
+      "Stop and wait for a safe gap in the cyclists",
+      "Signal left and turn, as cyclists must give way",
+      "Edge across slowly so the cyclists have to stop",
+      "Turn quickly before the next cyclist arrives"
+    ],
+    "answer": 0,
+    "explain": "You should stop and wait for a safe gap in the flow of cyclists if necessary, including when they're moving past or waiting alongside stationary or slow-moving traffic. Don't turn if it would cause a cyclist going ahead to stop or swerve.",
+    "ref": [
+      "HC H3"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-009",
+    "q": "You've stopped to let an older person cross the road. They're crossing very slowly. What should you do?",
+    "options": [
+      "Rev your engine to hurry them along",
+      "Edge forward so they know you're waiting",
+      "Be patient and let them take their time",
+      "Sound your horn to let them know you're there"
+    ],
+    "answer": 2,
+    "explain": "Older pedestrians may need more time to cross the road. Be patient and allow them to cross in their own time. Don't hurry them by revving your engine or edging forward.",
+    "ref": [
+      "HC 207",
+      "HC 194"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-010",
+    "q": "You're driving through a town centre and see a pedestrian carrying a white cane. What does this tell you?",
+    "options": [
+      "They have a hearing impairment",
+      "They're blind or partially sighted",
+      "They have a learning difficulty",
+      "They're recovering from a leg injury"
+    ],
+    "answer": 1,
+    "explain": "Blind or partially sighted people may carry a white cane or use a guide dog. They may not be able to see you approaching, so take extra care.",
+    "ref": [
+      "HC 207"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-011",
+    "q": "You see a pedestrian carrying a white cane with a red band on it. What does this mean?",
+    "options": [
+      "They're deafblind",
+      "They're partially sighted only",
+      "They have a walking difficulty",
+      "They're training a guide dog"
+    ],
+    "answer": 0,
+    "explain": "Deafblind people may carry a white cane with a red band or use a dog with a red and white harness. They may not see or hear instructions or signals, so be patient and give them plenty of time.",
+    "ref": [
+      "HC 207"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-012",
+    "q": "Children and older pedestrians may not be able to judge your speed and could step out in front of you. At which speed will your vehicle probably kill any pedestrian it hits?",
+    "options": [
+      "20 mph (32 km/h)",
+      "40 mph (64 km/h)",
+      "10 mph (16 km/h)",
+      "15 mph (24 km/h)"
+    ],
+    "answer": 1,
+    "explain": "At 40 mph (64 km/h) your vehicle will probably kill any pedestrian it hits. At 20 mph (32 km/h) there's only a 1 in 20 chance of the pedestrian being killed – so kill your speed.",
+    "ref": [
+      "HC 207"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-013",
+    "q": "You're driving at 20 mph through a residential area. If you hit a pedestrian, what chance is there that they would be killed?",
+    "options": [
+      "1 in 2",
+      "1 in 5",
+      "1 in 100",
+      "1 in 20"
+    ],
+    "answer": 3,
+    "explain": "At 20 mph (32 km/h) there's only a 1 in 20 chance of a pedestrian being killed. At 40 mph (64 km/h) your vehicle will probably kill any pedestrian it hits.",
+    "ref": [
+      "HC 207"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-014",
+    "q": "Why should you take extra care when driving near a pedestrian who has a hearing impairment?",
+    "options": [
+      "They may not hear you approaching",
+      "They can't use zebra crossings",
+      "They always walk with a guide dog",
+      "They'll expect you to sound your horn"
+    ],
+    "answer": 0,
+    "explain": "People with hearing impairments may not be aware of your vehicle approaching. Always remember that the people you encounter may have impaired sight, hearing or mobility, and that this may not be obvious.",
+    "ref": [
+      "HC 207",
+      "HC H1"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-015",
+    "q": "You're driving along a residential street lined with parked cars. A group of children is playing on the pavement ahead. What should you do?",
+    "options": [
+      "Speed up to pass them quickly",
+      "Keep to the speed limit and carry on",
+      "Slow down and be ready to stop",
+      "Rely on them staying on the pavement"
+    ],
+    "answer": 2,
+    "explain": "There's a risk of pedestrians, especially children, stepping unexpectedly into the road. You should drive with the safety of children in mind at a speed suitable for the conditions, and look out for children running out from between parked cars.",
+    "ref": [
+      "HC 205",
+      "HC 152"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-016",
+    "q": "You're driving through a housing estate and see an ice-cream van parked at the side of the road. Why should you drive slowly and carefully?",
+    "options": [
+      "Ice-cream vans have priority when moving off",
+      "Children may run into the road unexpectedly",
+      "The van is likely to be parked illegally",
+      "There's a lower speed limit near the van"
+    ],
+    "answer": 1,
+    "explain": "Drive carefully and slowly when passing parked vehicles, especially ice-cream vans. Children are more interested in ice cream than traffic and may run into the road unexpectedly.",
+    "ref": [
+      "HC 206"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-017",
+    "q": "You're driving along a narrow country road with no pavement. There are walkers in the road ahead. What should you do?",
+    "options": [
+      "Sound your horn and keep to your speed",
+      "Flash your headlights so they move aside",
+      "Pass them closely to avoid oncoming traffic",
+      "Slow down and give them plenty of room"
+    ],
+    "answer": 3,
+    "explain": "When approaching pedestrians on narrow rural roads without a footway or footpath, always slow down and be prepared to stop if necessary, giving them plenty of room as you drive past.",
+    "ref": [
+      "HC 206"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-018",
+    "q": "You're about to pass a pedestrian who is walking in the road because there's no pavement. As a guide, how much space should you allow?",
+    "options": [
+      "At least 0.5 metres",
+      "At least 1 metre",
+      "At least 2 metres",
+      "At least 1.5 metres"
+    ],
+    "answer": 2,
+    "explain": "Allow at least 2 metres of space and keep to a low speed when passing a pedestrian who is walking in the road. If you can't do this safely, wait behind them.",
+    "ref": [
+      "HC 163"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-019",
+    "q": "You're reversing into a side road. A pedestrian starts to cross the side road behind you. What should you do?",
+    "options": [
+      "Carry on, as they should keep clear",
+      "Give way and let them cross",
+      "Sound your horn to warn them",
+      "Speed up to finish the manoeuvre"
+    ],
+    "answer": 1,
+    "explain": "When reversing into a side road, look all around the vehicle and give way to any pedestrians who may be crossing the road.",
+    "ref": [
+      "HC 206",
+      "HC 202"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-020",
+    "q": "You're driving out of a driveway and need to cross the pavement to reach the road. A pedestrian is walking along the pavement towards you. What should you do?",
+    "options": [
+      "Give way to the pedestrian",
+      "Sound your horn and drive out",
+      "Edge out so they walk round you",
+      "Drive out, as you're leaving private land"
+    ],
+    "answer": 0,
+    "explain": "Drive carefully and slowly when you need to cross a pavement, for example to reach or leave a driveway. Give way to pedestrians on the pavement and to cyclists using a cycle lane or cycle track.",
+    "ref": [
+      "HC 206"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-021",
+    "q": "You're turning right into a side road. A pedestrian has already started to cross it. Who has priority?",
+    "options": [
+      "You, as you're on the main road",
+      "You, as you're signalling to turn",
+      "The pedestrian who is crossing",
+      "Whoever reaches the junction first"
+    ],
+    "answer": 2,
+    "explain": "You should give way to pedestrians crossing or waiting to cross a road into which or from which you're turning. If they've started to cross, they have priority, so give way.",
+    "ref": [
+      "HC 170",
+      "HC H2"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-022",
+    "q": "You're approaching a zebra crossing. A pedestrian has just stepped onto it. What MUST you do?",
+    "options": [
+      "Wave them across",
+      "Flash your headlights",
+      "Drive on if there's room to pass",
+      "Give way to them"
+    ],
+    "answer": 3,
+    "explain": "You MUST give way when a pedestrian has moved onto a zebra crossing. You should also give way to pedestrians waiting to cross.",
+    "ref": [
+      "HC 195",
+      "HC H2"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-023",
+    "q": "You've stopped at a zebra crossing for a pedestrian who's waiting to cross. Why shouldn't you wave them across?",
+    "options": [
+      "It's an offence to signal to pedestrians",
+      "Another vehicle may be approaching",
+      "It will encourage them to cross slowly",
+      "It means you'll lose your priority"
+    ],
+    "answer": 1,
+    "explain": "Don't wave, flash your lights or use your horn to invite pedestrians across a zebra crossing. This could be dangerous if another vehicle is approaching.",
+    "ref": [
+      "HC 195"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-024",
+    "q": "You're approaching a zebra crossing that has a central island. How should you treat it?",
+    "options": [
+      "As two separate crossings",
+      "As one single crossing",
+      "As a cycle-only crossing",
+      "As a crossing with no priority"
+    ],
+    "answer": 0,
+    "explain": "A zebra crossing with a central island is two separate crossings. Pedestrians wait on the island and treat the second half of the road as a separate crossing.",
+    "ref": [
+      "HC 195",
+      "HC 20"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-025",
+    "q": "You're waiting at a pelican crossing. The red light changes to flashing amber, but a pedestrian is still on the crossing. What MUST you do?",
+    "options": [
+      "Move off, as the lights have changed",
+      "Sound your horn to hurry them",
+      "Give way to the pedestrian",
+      "Edge forward to show you want to go"
+    ],
+    "answer": 2,
+    "explain": "At a pelican crossing, flashing amber follows the red 'Stop' light. When the amber light is flashing, you MUST give way to any pedestrians on the crossing. If there are none, you may proceed with caution.",
+    "ref": [
+      "HC 196"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-026",
+    "q": "You're at a pelican crossing that goes straight across the road, with a central island. The amber light is flashing and a pedestrian is crossing from the other side of the island. What MUST you do?",
+    "options": [
+      "Drive on, as it's a separate crossing",
+      "Drive on if your half is clear",
+      "Sound your horn to warn them",
+      "Wait for the pedestrian to cross"
+    ],
+    "answer": 3,
+    "explain": "Pelican crossings that go straight across the road are one crossing, even when there's a central island. You MUST wait for pedestrians who are crossing from the other side of the island.",
+    "ref": [
+      "HC 197"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-027",
+    "q": "How does the light sequence for traffic at a puffin crossing differ from that at a pelican crossing?",
+    "options": [
+      "There's no flashing amber phase",
+      "There's a flashing green phase",
+      "There's no red light for traffic",
+      "There's a longer flashing amber phase"
+    ],
+    "answer": 0,
+    "explain": "Toucan, puffin and equestrian crossings have no flashing amber phase. The light sequence for traffic at these crossings is the same as at traffic lights.",
+    "ref": [
+      "HC 199"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-028",
+    "q": "You're approaching a toucan crossing. Who is it designed to be used by?",
+    "options": [
+      "Pedestrians only",
+      "Cyclists and pedestrians",
+      "Horse riders and cyclists",
+      "Cyclists only"
+    ],
+    "answer": 1,
+    "explain": "Toucan crossings are light-controlled crossings that allow cyclists and pedestrians to share the crossing space and cross at the same time. Cyclists are permitted to ride across.",
+    "ref": [
+      "HC 25",
+      "HC 82"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-029",
+    "q": "You're approaching a signal-controlled crossing with pavement barriers, extra-wide crossing spaces and a control panel mounted higher than usual. Who is it for?",
+    "options": [
+      "Wheelchair users",
+      "Cyclists",
+      "School children",
+      "Horse riders"
+    ],
+    "answer": 3,
+    "explain": "Equestrian crossings are for horse riders. They have pavement barriers, wider crossing spaces, horse and rider figures in the light panels and either two sets of controls (one higher) or just one higher control panel.",
+    "ref": [
+      "HC 27",
+      "HC 199"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-030",
+    "q": "You're following a car towards a zebra crossing. The car stops to let a pedestrian cross. What should you do?",
+    "options": [
+      "Overtake it if the crossing looks clear",
+      "Pass it on the left-hand side",
+      "Stop and wait behind it",
+      "Sound your horn to hurry it"
+    ],
+    "answer": 2,
+    "explain": "You MUST NOT overtake the moving vehicle nearest the crossing, or the vehicle nearest the crossing that has stopped to give way to pedestrians.",
+    "ref": [
+      "HC 191",
+      "HC 165"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-031",
+    "q": "You're in a queue of slow-moving traffic approaching a pelican crossing. The traffic ahead is stopping just beyond the crossing. What should you do?",
+    "options": [
+      "Wait until you can clear the crossing",
+      "Stop on the crossing if the lights are green",
+      "Edge onto the crossing to keep up",
+      "Stop with your front wheels on the crossing"
+    ],
+    "answer": 0,
+    "explain": "In slow-moving and queuing traffic you should keep crossings completely clear. Don't enter a pedestrian crossing if you're unable to clear it completely, as blocking it makes it difficult and dangerous for pedestrians to cross.",
+    "ref": [
+      "HC 192"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-032",
+    "q": "The lights at a puffin crossing have just changed to green for you, but a pedestrian is still crossing. What should you do?",
+    "options": [
+      "Drive on, as you have priority",
+      "Sound your horn to warn them",
+      "Drive round behind them",
+      "Give way to them"
+    ],
+    "answer": 3,
+    "explain": "Give way to anyone still crossing after the signal for vehicles has changed to green. This advice applies to all crossings.",
+    "ref": [
+      "HC 198"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-033",
+    "q": "You're approaching a parallel crossing. A cyclist has moved onto the cycle route part of the crossing. What MUST you do?",
+    "options": [
+      "Carry on, as only pedestrians have priority",
+      "Give way to the cyclist",
+      "Sound your horn to warn the cyclist",
+      "Pass behind the cyclist carefully"
+    ],
+    "answer": 1,
+    "explain": "Parallel crossings are similar to zebra crossings but include a cycle route alongside the black and white stripes. You MUST give way when a pedestrian or cyclist has moved onto the crossing.",
+    "ref": [
+      "HC 195",
+      "HC H2"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-034",
+    "q": "A school crossing patrol steps into the road holding up this sign. What MUST you do?",
+    "options": [
+      "Slow down and carry on",
+      "Drive on if no children are visible",
+      "Stop and wait",
+      "Sound your horn and proceed"
+    ],
+    "answer": 2,
+    "explain": "You MUST stop when a school crossing patrol shows a 'Stop for children' sign. You MUST obey signs used by school crossing patrols.",
+    "ref": [
+      "HC 210",
+      "HC 105"
+    ],
+    "sign": "sign-giving-order-school-crossing-patrol"
+  },
+  {
+    "id": "VUL-035",
+    "q": "You're approaching a 'School crossing patrol ahead' warning sign. The amber lights on it are flashing. What does this mean?",
+    "options": [
+      "Children may be crossing the road ahead",
+      "The school is closed for the day",
+      "There are road works near the school",
+      "The speed limit no longer applies"
+    ],
+    "answer": 0,
+    "explain": "Some 'School crossing patrol ahead' signs have amber lights that flash when the crossing is in use. A flashing amber signal below the 'School' warning sign tells you there may be children crossing the road ahead, so drive very slowly until you're clear of the area.",
+    "ref": [
+      "HC 208",
+      "HC Traffic signs"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-036",
+    "q": "You're approaching a stationary bus that's displaying this sign. What should you do?",
+    "options": [
+      "Overtake quickly before it moves off",
+      "Sound your horn as you pass",
+      "Flash your lights to warn the driver",
+      "Drive carefully and slowly"
+    ],
+    "answer": 3,
+    "explain": "Drive carefully and slowly when passing a stationary bus showing a 'School Bus' sign, as children may be getting on or off.",
+    "ref": [
+      "HC 209",
+      "HC Vehicle markings"
+    ],
+    "sign": "other-school-bus"
+  },
+  {
+    "id": "VUL-037",
+    "q": "A school crossing patrol gives this signal as you approach. What does it mean?",
+    "options": [
+      "They aren't ready to cross anyone yet",
+      "Be prepared to stop for pedestrians",
+      "Traffic may carry on with caution",
+      "Pedestrians are being held at the kerb"
+    ],
+    "answer": 1,
+    "explain": "This signal means the school crossing patrol is ready to cross pedestrians and vehicles must be prepared to stop. You MUST obey signals and signs used by school crossing patrols.",
+    "ref": [
+      "HC Signals by authorised persons",
+      "HC 105"
+    ],
+    "sign": "school-crossing-patrol-vehicle-prepare-stop"
+  },
+  {
+    "id": "VUL-038",
+    "q": "You're driving at 30 mph and want to overtake a cyclist. As a guide, what's the minimum space you should leave?",
+    "options": [
+      "At least 0.5 metres",
+      "At least 0.75 metres",
+      "At least 1.5 metres",
+      "At least 1 metre"
+    ],
+    "answer": 2,
+    "explain": "As a guide, leave at least 1.5 metres when overtaking cyclists at speeds of up to 30 mph, and give them more space when overtaking at higher speeds.",
+    "ref": [
+      "HC 163"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-039",
+    "q": "You're driving on a road with a 50 mph speed limit and are about to overtake a cyclist. How much room should you give them?",
+    "options": [
+      "More than you would at 30 mph",
+      "Exactly 1.5 metres, the same as in town",
+      "Less, as you'll pass them more quickly",
+      "Just enough to avoid touching them"
+    ],
+    "answer": 0,
+    "explain": "Leave at least 1.5 metres when overtaking cyclists at speeds of up to 30 mph, and give them more space when overtaking at higher speeds.",
+    "ref": [
+      "HC 163"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-040",
+    "q": "You're following a cyclist along a narrow road. Oncoming traffic means you can't give them enough room to overtake safely. What should you do?",
+    "options": [
+      "Overtake slowly, leaving as much room as you can",
+      "Sound your horn so they move closer to the kerb",
+      "Flash your headlights to ask them to pull in",
+      "Wait behind until it's safe to overtake"
+    ],
+    "answer": 3,
+    "explain": "You should wait behind the cyclist and not overtake if it's unsafe or not possible to meet the recommended clearances. Be patient until there's a safe opportunity.",
+    "ref": [
+      "HC 163"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-041",
+    "q": "A cycle lane is marked by a solid white line and signs show it's in operation. What does this mean for you?",
+    "options": [
+      "You may park in it for up to 20 minutes",
+      "You MUST NOT drive or park in it",
+      "You may drive in it if no cyclists are present",
+      "You may use it to pass slow traffic"
+    ],
+    "answer": 1,
+    "explain": "You MUST NOT drive or park in a cycle lane marked by a solid white line during its times of operation.",
+    "ref": [
+      "HC 140"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-042",
+    "q": "You're driving along a road with a cycle lane marked by a broken white line. When should you drive or park in it?",
+    "options": [
+      "Whenever no cyclists are using it",
+      "At any time outside rush hour",
+      "Only when it's unavoidable",
+      "Whenever you need to pass a queue"
+    ],
+    "answer": 2,
+    "explain": "Don't drive or park in a cycle lane marked by a broken white line unless it's unavoidable. You MUST NOT park in any cycle lane while waiting restrictions apply.",
+    "ref": [
+      "HC 140"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-043",
+    "q": "You're driving along a road that has a cycle lane. A cyclist is riding on the road just outside the lane rather than in it. What should you do?",
+    "options": [
+      "Accept that they don't have to use it",
+      "Sound your horn to tell them to use the lane",
+      "Pass them closely, as they should be in the lane",
+      "Flash your headlights to warn them"
+    ],
+    "answer": 0,
+    "explain": "Cyclists are not obliged to use cycle lanes or cycle tracks. Give them at least as much room as you would a car when you overtake.",
+    "ref": [
+      "HC 140",
+      "HC 61",
+      "HC 163"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-044",
+    "q": "You're approaching traffic lights that have an advanced stop line for cyclists. The lights turn red. Where MUST you stop?",
+    "options": [
+      "At the second white line, next to the cyclists",
+      "Anywhere inside the marked cycle area",
+      "Just beyond the second white line",
+      "At the first white line you reach"
+    ],
+    "answer": 3,
+    "explain": "At advanced stop lines, motorists MUST stop at the first white line reached if the lights are amber or red. You should avoid blocking or encroaching on the marked cyclists' area.",
+    "ref": [
+      "HC 178"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-045",
+    "q": "You've just crossed the first white line of an advanced stop line when the traffic lights turn red. What should you do?",
+    "options": [
+      "Reverse back behind the first white line",
+      "Stop no later than the second white line",
+      "Drive on through the red light",
+      "Wait with your front wheels over the second line"
+    ],
+    "answer": 1,
+    "explain": "If your vehicle has crossed the first white line when the signal goes red, you should stop as soon as possible and MUST stop at the second white line. Allow cyclists enough time and space to move off when the green signal shows.",
+    "ref": [
+      "HC 178"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-046",
+    "q": "You're about to enter a roundabout. A cyclist is in the left-hand lane on the roundabout and is signalling right. What does this mean?",
+    "options": [
+      "They're about to leave at the next exit",
+      "They want you to overtake them",
+      "They're continuing round the roundabout",
+      "They're about to stop at the kerb"
+    ],
+    "answer": 2,
+    "explain": "Cyclists, horse riders and horse-drawn vehicles may stay in the left-hand lane when they intend to continue across or around the roundabout, and should signal right to show they're not leaving. Take extra care not to cut across them.",
+    "ref": [
+      "HC 186",
+      "HC 79"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-047",
+    "q": "You're driving on a roundabout behind a cyclist who is in your lane. What should you do?",
+    "options": [
+      "Stay back and give them plenty of room",
+      "Overtake them within your lane",
+      "Sound your horn so they move left",
+      "Drive close behind to hurry them"
+    ],
+    "answer": 0,
+    "explain": "You should give priority to cyclists on a roundabout, as they'll be travelling more slowly than motorised traffic. Give them plenty of room and don't try to overtake them within their lane.",
+    "ref": [
+      "HC 186"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-048",
+    "q": "You've parked on the left-hand side of a road and want to open the driver's door, which is on your right. Which hand does The Highway Code suggest you use?",
+    "options": [
+      "Your right hand, nearest the door",
+      "Either hand, as long as you're quick",
+      "Both hands, to control the door",
+      "Your left hand, on the opposite side"
+    ],
+    "answer": 3,
+    "explain": "Where you can, open the door using the hand on the opposite side to the door, such as your left hand for a door on your right. This makes you turn your head to look over your shoulder, so you're more likely to see cyclists or motorcyclists passing. You MUST make sure you don't hit anyone when you open your door.",
+    "ref": [
+      "HC 239"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-049",
+    "q": "You're driving along a narrow, quiet road behind a cyclist who is riding in the centre of the lane. What should you do?",
+    "options": [
+      "Sound your horn so they move to the left",
+      "Allow them to ride there for their safety",
+      "Flash your headlights to ask them to move",
+      "Drive close behind to show you want to pass"
+    ],
+    "answer": 1,
+    "explain": "On narrow sections of road, on quiet roads, at junctions and in slower-moving traffic, cyclists may ride in the centre of the lane. Allow them to do so for their own safety, so they can see and be seen.",
+    "ref": [
+      "HC 213",
+      "HC 72"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-050",
+    "q": "You're driving behind a group of cyclists who are riding two abreast on a quiet road. Which of these is true?",
+    "options": [
+      "They're breaking the law by riding side by side",
+      "They must ride in single file at all times",
+      "It can be safer for them to ride two abreast",
+      "They must pull over to let you pass"
+    ],
+    "answer": 2,
+    "explain": "It can be safer for groups of cyclists to ride two abreast, particularly in larger groups or when accompanying children or less experienced riders. Allow them to do so and wait for a safe place to overtake.",
+    "ref": [
+      "HC 213",
+      "HC 66"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-051",
+    "q": "You're driving behind a cyclist who looks over their shoulder. What could this mean?",
+    "options": [
+      "They're about to pull out or turn right",
+      "They want you to overtake them now",
+      "They're about to get off their bike",
+      "They're checking their rear light"
+    ],
+    "answer": 0,
+    "explain": "If a rider looks over their shoulder, it could mean they intend to pull out, turn right or change direction. Give them time and space to do so.",
+    "ref": [
+      "HC 212"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-052",
+    "q": "You're driving behind a cyclist on a road with potholes and drain covers. Why should you give them plenty of room?",
+    "options": [
+      "They might stop to report the potholes",
+      "Their lights may not be working",
+      "They'll want to speed up past you",
+      "They may suddenly change direction"
+    ],
+    "answer": 3,
+    "explain": "Cyclists and motorcyclists may suddenly need to avoid uneven road surfaces and obstacles such as drain covers or oily, wet or icy patches. Give them plenty of room and be ready for a sudden change of direction.",
+    "ref": [
+      "HC 213"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-053",
+    "q": "You're waiting to turn right into a side road across a queue of stationary traffic. A driver in the queue leaves a gap for you. What should you look out for before turning?",
+    "options": [
+      "Traffic lights changing ahead of the queue",
+      "Motorcyclists coming up on the inside of the queue",
+      "Vehicles parked further along the main road",
+      "Buses pulling out from stops behind you"
+    ],
+    "answer": 1,
+    "explain": "When turning right across a line of slow-moving or stationary traffic, look out for and give way to cyclists or motorcyclists on the inside of the traffic you're crossing. Check your mirrors and blind spots carefully.",
+    "ref": [
+      "HC 211"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-054",
+    "q": "You're waiting to emerge from a side road. Why should you look carefully for motorcyclists before you pull out?",
+    "options": [
+      "They always have priority at junctions",
+      "They're not allowed to filter in traffic",
+      "They could be approaching faster than you think",
+      "They usually ride without headlights"
+    ],
+    "answer": 2,
+    "explain": "It's often difficult to see motorcyclists and cyclists, especially when they're coming out of or moving off from junctions. Always look out for them before you emerge; they could be approaching faster than you think.",
+    "ref": [
+      "HC 211"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-055",
+    "q": "You're about to overtake a motorcyclist at night in strong winds. How should the conditions affect the space you leave?",
+    "options": [
+      "Give them more space than usual",
+      "Leave the same space as in daylight",
+      "Pass closer so you're alongside for less time",
+      "Space doesn't matter if you pass quickly"
+    ],
+    "answer": 0,
+    "explain": "Take extra care and give more space when overtaking motorcyclists, cyclists, horse riders, horse-drawn vehicles and pedestrians in bad weather (including high winds) and at night.",
+    "ref": [
+      "HC 212",
+      "HC 163"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-056",
+    "q": "You're driving along a country road and see a horse and rider ahead. What's the maximum speed you should slow down to?",
+    "options": [
+      "15 mph",
+      "20 mph",
+      "25 mph",
+      "10 mph"
+    ],
+    "answer": 3,
+    "explain": "When you see a horse on a road, you should slow down to a maximum of 10 mph. Be patient, and don't sound your horn or rev your engine.",
+    "ref": [
+      "HC 215"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-057",
+    "q": "It's safe for you to overtake a horse rider. As a guide, what's the minimum space you should allow?",
+    "options": [
+      "At least 1 metre",
+      "At least 2 metres",
+      "At least 1.5 metres",
+      "At least 0.5 metres"
+    ],
+    "answer": 1,
+    "explain": "When it's safe to do so, pass horse riders and horse-drawn vehicles wide and slow, at speeds under 10 mph, allowing at least 2 metres of space.",
+    "ref": [
+      "HC 215",
+      "HC 163"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-058",
+    "q": "You're behind a horse rider on a narrow lane and it isn't safe to overtake. What should you do?",
+    "options": [
+      "Sound your horn to ask them to pull in",
+      "Rev your engine so they know you're there",
+      "Be patient and stay well back",
+      "Drive close behind to encourage them on"
+    ],
+    "answer": 2,
+    "explain": "Be patient with horse riders and don't sound your horn or rev your engine. Horses are flight animals and can move incredibly quickly if startled.",
+    "ref": [
+      "HC 215"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-059",
+    "q": "Two horse riders ahead of you are riding side by side. Why might they be doing this?",
+    "options": [
+      "To escort an inexperienced horse or rider",
+      "To prevent traffic from overtaking them",
+      "Because horses must be ridden in pairs",
+      "Because they're about to turn right"
+    ],
+    "answer": 0,
+    "explain": "Horse riders are often children. Riders may ride in double file when escorting a young or inexperienced horse or rider, so take extra care and be patient.",
+    "ref": [
+      "HC 215"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-060",
+    "q": "You see this sign while driving through the New Forest. How should you treat any ponies you come across?",
+    "options": [
+      "Sound your horn to move them off the road",
+      "Pass them at the speed limit",
+      "Flash your lights to scare them away",
+      "The same as you would ridden horses"
+    ],
+    "answer": 3,
+    "explain": "This sign warns of wild horses or ponies. Feral or semi-feral ponies found in areas such as the New Forest, Exmoor and Dartmoor require the same consideration as ridden horses when approaching or passing.",
+    "ref": [
+      "HC 215",
+      "HC Traffic signs"
+    ],
+    "sign": "warning-sign-wild-horses"
+  },
+  {
+    "id": "VUL-061",
+    "q": "You're driving on a country road and a herd of cattle is blocking the road ahead. What should you do?",
+    "options": [
+      "Sound your horn to clear a path",
+      "Stop and switch off your engine",
+      "Edge forward slowly through the herd",
+      "Rev your engine to move them along"
+    ],
+    "answer": 1,
+    "explain": "If a road is blocked by a herd of animals, stop and switch off your engine until they've left the road. Don't scare animals by sounding your horn, revving your engine or accelerating rapidly once you've passed them.",
+    "ref": [
+      "HC 214"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-062",
+    "q": "You're following a car that's being driven by an older driver. What should you bear in mind?",
+    "options": [
+      "They're not allowed to drive at night",
+      "They must display a special plate",
+      "Their reactions may be slower",
+      "They're restricted to 40 mph"
+    ],
+    "answer": 2,
+    "explain": "Older drivers' reactions may be slower than other drivers'. Make allowance for this.",
+    "ref": [
+      "HC 216"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-063",
+    "q": "The learner driver in front of you stalls while pulling out of a junction. What should you do?",
+    "options": [
+      "Be patient and give them time",
+      "Sound your horn to hurry them up",
+      "Overtake them at the junction",
+      "Flash your headlights to help them"
+    ],
+    "answer": 0,
+    "explain": "Learners and inexperienced drivers may not be so skilful at anticipating and responding to events. Be particularly patient with learner drivers and young drivers.",
+    "ref": [
+      "HC 217"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-064",
+    "q": "You're following a car that's displaying a green 'P' plate. What does this tell you?",
+    "options": [
+      "The driver is a qualified instructor",
+      "The driver has a medical condition",
+      "The car has been specially adapted",
+      "The driver has recently passed their test"
+    ],
+    "answer": 3,
+    "explain": "Drivers who have recently passed their test may display a 'new driver' plate, such as a green 'P' plate. They may lack experience, so be patient with them.",
+    "ref": [
+      "HC 217",
+      "GOV.UK driving-lessons-learning-to-drive"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-065",
+    "q": "You catch up with a powered mobility scooter travelling on the road. What's the maximum speed these vehicles can travel at on the road?",
+    "options": [
+      "4 mph",
+      "8 mph",
+      "12 mph",
+      "15 mph"
+    ],
+    "answer": 1,
+    "explain": "Powered wheelchairs and mobility scooters used on the road travel at a maximum speed of 8 mph (12 km/h). Be prepared for them to be moving much more slowly than other traffic.",
+    "ref": [
+      "HC 220",
+      "HC 36"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-066",
+    "q": "You're driving on a dual carriageway with a 70 mph speed limit. A powered wheelchair is travelling ahead of you. What MUST it display?",
+    "options": [
+      "A flashing blue light",
+      "Hazard warning lights",
+      "A flashing amber beacon",
+      "A 'slow vehicle' sign"
+    ],
+    "answer": 2,
+    "explain": "On a dual carriageway where the speed limit exceeds 50 mph (80 km/h), powered vehicles used by disabled people MUST have a flashing amber beacon. On other roads you may not have that advance warning.",
+    "ref": [
+      "HC 220",
+      "HC 46"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-067",
+    "q": "You're driving into a Home Zone. What should you expect?",
+    "options": [
+      "People may be using the whole of the road",
+      "Vehicles have priority over pedestrians",
+      "Children aren't allowed to play there",
+      "The national speed limit applies"
+    ],
+    "answer": 0,
+    "explain": "In Home Zones and Quiet Lanes, people could be using the whole of the road, for example children playing or a community event. Drive slowly and carefully and be prepared to stop.",
+    "ref": [
+      "HC 218"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-068",
+    "q": "You see this sign. What does it warn you about?",
+    "options": [
+      "A school crossing patrol ahead",
+      "A pedestrian zone with no vehicles",
+      "A zebra crossing ahead",
+      "Frail pedestrians likely to cross the road"
+    ],
+    "answer": 3,
+    "explain": "This sign warns that frail (or blind or disabled, if shown) pedestrians are likely to cross the road ahead. Older pedestrians may need more time to cross, so be patient.",
+    "ref": [
+      "HC Traffic signs",
+      "HC 207"
+    ],
+    "sign": "warning-sign-frail-pedestrians-cross-road-ahead"
+  },
+  {
+    "id": "VUL-069",
+    "q": "Which of these is a correct use of your horn?",
+    "options": [
+      "To tell a cyclist to move over",
+      "While moving, to warn others you're there",
+      "To hurry a pedestrian on a crossing",
+      "To tell a learner to move off faster"
+    ],
+    "answer": 1,
+    "explain": "Use the horn only while your vehicle is moving and you need to warn other road users of your presence. Never sound it aggressively, and be patient with pedestrians at crossings rather than sounding your horn.",
+    "ref": [
+      "HC 112",
+      "HC 195"
+    ],
+    "sign": null
+  },
+  {
+    "id": "VUL-070",
+    "q": "You're turning left out of a side road and need to cross a cycle track. What should you be aware of?",
+    "options": [
+      "Cyclists must give way to you at the track",
+      "Cycle tracks are only used during rush hour",
+      "Cyclists may be coming from both directions",
+      "Cyclists on the track can only ride one way"
+    ],
+    "answer": 2,
+    "explain": "You should give way to cyclists approaching or using a cycle track when you're turning into or out of a junction. Be prepared to stop and wait for a safe gap, as the track may be used by cyclists travelling in both directions.",
+    "ref": [
+      "HC 140",
+      "HC H3"
+    ],
+    "sign": null
+  }
+]

@@ -1,0 +1,1075 @@
+[
+  {
+    "id": "HAZ-001",
+    "q": "You're driving slowly along a residential street. An ice-cream van is parked on the left ahead. What's the main hazard you should be ready for?",
+    "options": [
+      "Children running out into the road",
+      "The van sounding its chimes",
+      "Traffic lights hidden behind it",
+      "The van switching its lights on"
+    ],
+    "answer": 0,
+    "explain": "Drive carefully and slowly when passing parked vehicles, especially ice-cream vans. Children are more interested in ice cream than traffic and may run into the road unexpectedly.",
+    "ref": [
+      "HC 206"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-002",
+    "q": "You're driving along a narrow street lined with parked cars. You notice someone sitting in the driver's seat of one of them. What should you be prepared for?",
+    "options": [
+      "Its alarm going off",
+      "Its horn being sounded at you",
+      "A door opening into your path",
+      "Its hazard lights coming on"
+    ],
+    "answer": 2,
+    "explain": "On streets with parked cars you should drive slowly and carefully. Look out for car doors opening, vehicles moving off and children running out from between parked cars.",
+    "ref": [
+      "HC 152"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-003",
+    "q": "You're driving through a busy shopping street. A group of children are standing at the kerb ahead, looking the other way. What should you do?",
+    "options": [
+      "Sound your horn and keep going",
+      "Slow down and be ready to stop",
+      "Flash your headlights at them",
+      "Move out and keep your speed"
+    ],
+    "answer": 1,
+    "explain": "If pedestrians, particularly children, are looking the other way, they may step out into the road without seeing you. Drive at a speed suitable for the conditions and be prepared to stop.",
+    "ref": [
+      "HC 146",
+      "HC 205",
+      "HC 206"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-004",
+    "q": "You're approaching a bus that has stopped at a bus stop on your side of the road. What should you look out for in particular?",
+    "options": [
+      "The bus switching on its hazard lights",
+      "Its exhaust fumes blocking your view",
+      "The bus driver waving you past",
+      "People stepping out in front of it"
+    ],
+    "answer": 3,
+    "explain": "Drive carefully and slowly past bus stops, as pedestrians may emerge suddenly into the road. Look out for people getting off a bus and crossing the road.",
+    "ref": [
+      "HC 206",
+      "HC 223"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-005",
+    "q": "You're driving near a school. There's a flashing amber signal below the 'School' warning sign. What should you do?",
+    "options": [
+      "Drive very slowly until you're clear of the area",
+      "Stop and wait until the signal stops flashing",
+      "Keep to the speed limit and cover your brake",
+      "Sound your horn to warn children you're there"
+    ],
+    "answer": 0,
+    "explain": "A flashing amber signal below the 'School' warning sign tells you there may be children crossing the road ahead. Drive very slowly until you're clear of the area.",
+    "ref": [
+      "HC 208"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-006",
+    "q": "You're approaching a school crossing patrol waiting at the kerb. A slow-moving van is in front of you. What should you do?",
+    "options": [
+      "Overtake it before you reach the patrol",
+      "Stay behind it and don't overtake",
+      "Overtake if no children are in view",
+      "Sound your horn to warn the patrol"
+    ],
+    "answer": 1,
+    "explain": "Don't overtake where you might come into conflict with other road users, such as when approaching a school crossing patrol. You MUST stop if the patrol shows a 'Stop for children' sign.",
+    "ref": [
+      "HC 167",
+      "HC 210"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-007",
+    "q": "A school crossing patrol steps out into the road ahead and holds up this sign. What MUST you do?",
+    "options": [
+      "Slow down and drive past carefully",
+      "Pass if the children are on the far side",
+      "Stop and wait",
+      "Give way only if children are crossing"
+    ],
+    "answer": 2,
+    "explain": "You MUST stop when a school crossing patrol shows a 'Stop for children' sign. You MUST obey signs used by school crossing patrols.",
+    "ref": [
+      "HC 210",
+      "HC 105"
+    ],
+    "sign": "sign-giving-order-school-crossing-patrol"
+  },
+  {
+    "id": "HAZ-008",
+    "q": "You're driving along a country road. Why should you slow down as you approach junctions and turnings?",
+    "options": [
+      "They may be partially hidden",
+      "They always have a stop line",
+      "Traffic in them must give way to you",
+      "They're always on sharp bends"
+    ],
+    "answer": 0,
+    "explain": "On country roads, reduce your speed at junctions and turnings, which may be partially hidden, and on the approach to bends, which can be sharper than they appear.",
+    "ref": [
+      "HC 154"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-009",
+    "q": "You're driving through a quiet housing estate. The junctions have no road markings or signs. What should you be aware of?",
+    "options": [
+      "Traffic from the left always has priority",
+      "Vehicles on the wider road have priority",
+      "Nobody has priority at these junctions",
+      "Traffic going straight on must always stop"
+    ],
+    "answer": 2,
+    "explain": "In side roads and country lanes, look out for unmarked junctions where nobody has priority. Where there are junctions, be prepared for road users emerging.",
+    "ref": [
+      "HC 146"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-010",
+    "q": "You're waiting to emerge from a side road. A car approaching from the right is signalling left, as if to turn into your road. What should you do?",
+    "options": [
+      "Pull out, as the car is turning in",
+      "Wait until you're sure it's turning",
+      "Flash your headlights to let it in",
+      "Pull out quickly before it reaches you"
+    ],
+    "answer": 1,
+    "explain": "When waiting at a junction, don't assume that a vehicle coming from the right and signalling left will actually turn. Wait and make sure, as its indicator may not have been cancelled.",
+    "ref": [
+      "HC 170",
+      "HC 104"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-011",
+    "q": "The car in front has been showing a right-turn signal for some distance but hasn't turned. You want to overtake it. What should you do?",
+    "options": [
+      "Overtake it on the right quickly",
+      "Flash your headlights, then overtake",
+      "Stay behind until the signal is cancelled",
+      "Sound your horn as you overtake"
+    ],
+    "answer": 2,
+    "explain": "Don't overtake when a road user is indicating right, even if you believe the signal should have been cancelled. Don't take a risk; wait for the signal to be cancelled.",
+    "ref": [
+      "HC 167"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-012",
+    "q": "You're in slow-moving traffic approaching a pedestrian crossing. Queuing vehicles are blocking your view of the pavement on both sides. Why should you take extra care?",
+    "options": [
+      "People may be crossing between the vehicles",
+      "The crossing may be closed to pedestrians",
+      "Drivers behind may sound their horns",
+      "The road surface may be slippery"
+    ],
+    "answer": 0,
+    "explain": "Take extra care where the view of either side of a crossing is blocked by queuing traffic or incorrectly parked vehicles. Pedestrians may be crossing between stationary vehicles.",
+    "ref": [
+      "HC 193"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-013",
+    "q": "You're following a large lorry on a single carriageway road. How can you improve your view of the road ahead?",
+    "options": [
+      "Drop back to increase the gap",
+      "Move closer so you can see past it",
+      "Switch your headlights to main beam",
+      "Drive with your wheels on the centre line"
+    ],
+    "answer": 0,
+    "explain": "Large vehicles can block your view. Your ability to see and to plan ahead will be improved if you pull back to increase your separation distance.",
+    "ref": [
+      "HC 222"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-014",
+    "q": "You're following an articulated lorry along a busy road. Why should you keep well back?",
+    "options": [
+      "So you can read its number plate",
+      "So you're clear of its exhaust fumes",
+      "So it can't reverse into you",
+      "So the driver can see you in the mirrors"
+    ],
+    "answer": 3,
+    "explain": "If you're following a large vehicle, be aware that the driver may not be able to see you in the mirrors. Dropping back should allow the driver to see you, and it also improves your view ahead.",
+    "ref": [
+      "HC 221",
+      "HC 164"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-015",
+    "q": "You're driving along a road and see this marking, where the centre line has longer lines and shorter gaps. What does it mean?",
+    "options": [
+      "Overtaking is now allowed",
+      "There's a hazard ahead",
+      "The road is about to widen",
+      "You're approaching a bus lane"
+    ],
+    "answer": 1,
+    "explain": "When the broken white centre line lengthens and the gaps shorten, it means there's a hazard ahead. Don't cross it unless you can see the road is clear and you wish to overtake or turn off.",
+    "ref": [
+      "HC 127",
+      "HC Road markings"
+    ],
+    "sign": "along-carriageway-hazard-warn-line"
+  },
+  {
+    "id": "HAZ-016",
+    "q": "You're driving along a country road and see this sign. What does it warn you of?",
+    "options": [
+      "Road humps",
+      "Uneven road",
+      "Hump bridge",
+      "Steep hill upwards"
+    ],
+    "answer": 2,
+    "explain": "This sign warns of a hump bridge. You can't see far enough ahead as you approach a hump bridge to be sure it's safe, so don't overtake there.",
+    "ref": [
+      "HC Traffic signs",
+      "HC 166"
+    ],
+    "sign": "warning-sign-hump-bridge"
+  },
+  {
+    "id": "HAZ-017",
+    "q": "You've just passed this sign. An older person starts to cross the road slowly in front of you. What should you do?",
+    "options": [
+      "Wait patiently while they cross",
+      "Edge forward to show you want to go",
+      "Rev your engine to warn them",
+      "Sound your horn to hurry them up"
+    ],
+    "answer": 0,
+    "explain": "This sign warns that frail pedestrians are likely to cross the road ahead. Older pedestrians may need more time to cross, so be patient and let them cross in their own time. Don't hurry them by revving your engine or edging forward.",
+    "ref": [
+      "HC 207",
+      "HC Traffic signs"
+    ],
+    "sign": "warning-sign-frail-pedestrians-cross-road-ahead"
+  },
+  {
+    "id": "HAZ-018",
+    "q": "You've been driving in thick fog, which now seems to be clearing. What should you be aware of?",
+    "options": [
+      "You can speed up to make up lost time",
+      "You may suddenly find yourself in thick fog",
+      "You can close up to the vehicle ahead",
+      "You can ignore any further 'Fog' signs"
+    ],
+    "answer": 1,
+    "explain": "Even if fog seems to be clearing, you can suddenly find yourself in thick fog. Keep a safe distance and make sure you can pull up well within the distance you can see clearly.",
+    "ref": [
+      "HC 234",
+      "HC 235"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-019",
+    "q": "You're driving on a country road and see this sign. What should you do?",
+    "options": [
+      "Keep to the right on the bend",
+      "Reduce your speed before the bend",
+      "Brake firmly while on the bend",
+      "Overtake before you reach the bend"
+    ],
+    "answer": 1,
+    "explain": "This sign warns of a bend to the right. On country roads, reduce your speed on the approach to bends, which can be sharper than they appear. Keep well to the left on right-hand bends to improve your view.",
+    "ref": [
+      "HC 154",
+      "HC 160",
+      "HC Traffic signs"
+    ],
+    "sign": "warning-sign-bend-to-right"
+  },
+  {
+    "id": "HAZ-020",
+    "q": "You're following a cyclist and see this sign. Why should you allow them extra room?",
+    "options": [
+      "They'll have to get off and walk",
+      "They aren't allowed on this road",
+      "They may swerve to avoid the surface",
+      "They may ride on the pavement"
+    ],
+    "answer": 2,
+    "explain": "This sign warns of an uneven road. Cyclists and motorcyclists may suddenly need to avoid uneven road surfaces and obstacles, so give them plenty of room and watch for any sudden change of direction.",
+    "ref": [
+      "HC 213",
+      "HC Traffic signs"
+    ],
+    "sign": "warning-sign-uneven-road"
+  },
+  {
+    "id": "HAZ-021",
+    "q": "You're driving on a motorway and the vehicle in front switches on its hazard warning lights, as shown. What does this tell you?",
+    "options": [
+      "The driver is about to change lanes",
+      "There's a hazard or obstruction ahead",
+      "The driver is leaving at the next exit",
+      "The vehicle is towing a trailer"
+    ],
+    "answer": 1,
+    "explain": "On a motorway or unrestricted dual carriageway, drivers may briefly use hazard warning lights to warn drivers behind of a hazard or obstruction ahead. Be ready to slow down.",
+    "ref": [
+      "HC 116",
+      "HC Signals to other road users"
+    ],
+    "sign": "077-Edit_2__v0_2"
+  },
+  {
+    "id": "HAZ-022",
+    "q": "You're waiting to turn right out of a side road. A driver on the main road flashes their headlights at you. What should you do?",
+    "options": [
+      "Pull out, as they're letting you go",
+      "Flash your headlights back and go",
+      "Wave to them and pull out quickly",
+      "Use your own judgement before moving"
+    ],
+    "answer": 3,
+    "explain": "Never assume that flashing headlights is a signal inviting you to proceed. Headlights should only be flashed to let other road users know you're there. Use your own judgement and proceed carefully.",
+    "ref": [
+      "HC 111",
+      "HC 110"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-023",
+    "q": "You're driving along a country lane and see a horse and rider ahead. What's the maximum speed you should slow down to?",
+    "options": [
+      "5 mph",
+      "15 mph",
+      "10 mph",
+      "20 mph"
+    ],
+    "answer": 2,
+    "explain": "When you see a horse on a road, you should slow down to a maximum of 10 mph. Be patient, and don't sound your horn or rev your engine.",
+    "ref": [
+      "HC 215"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-024",
+    "q": "You're about to pass a horse rider on a quiet road and it's safe to do so. How much space should you allow?",
+    "options": [
+      "At least 1 metre",
+      "At least 1.5 metres",
+      "At least 75 centimetres",
+      "At least 2 metres"
+    ],
+    "answer": 3,
+    "explain": "When it's safe to pass a horse rider, pass wide and slow, allowing at least 2 metres of space. The 1.5 metre guide is for overtaking cyclists at speeds of up to 30 mph.",
+    "ref": [
+      "HC 215",
+      "HC 163"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-025",
+    "q": "You're driving on a country road. A herd of cows is being moved along the road and is blocking your way. What should you do?",
+    "options": [
+      "Edge forward slowly through the herd",
+      "Sound your horn to clear a path",
+      "Stop and switch off your engine",
+      "Rev your engine so they move aside"
+    ],
+    "answer": 2,
+    "explain": "If a road is blocked by a herd of animals, stop and switch off your engine until they've left the road. Don't scare animals by sounding your horn or revving your engine.",
+    "ref": [
+      "HC 214"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-026",
+    "q": "You see this sign while driving across Dartmoor. Ponies are grazing by the roadside. How should you treat them?",
+    "options": [
+      "Drive past quickly so as not to scare them",
+      "With the same care as ridden horses",
+      "Sound your horn so they move away",
+      "Ignore them, as they're used to traffic"
+    ],
+    "answer": 1,
+    "explain": "This sign warns of wild horses or ponies. Feral or semi-feral ponies in areas such as the New Forest, Exmoor and Dartmoor need the same consideration as ridden horses when you approach or pass them.",
+    "ref": [
+      "HC 215",
+      "HC Traffic signs"
+    ],
+    "sign": "warning-sign-wild-horses"
+  },
+  {
+    "id": "HAZ-027",
+    "q": "You're driving along a winding country lane. Which of these should you be prepared to find on the road?",
+    "options": [
+      "Trams crossing the road",
+      "Vehicles using a hard shoulder",
+      "Zig-zag lines on the bends",
+      "Mud on the road surface"
+    ],
+    "answer": 3,
+    "explain": "Take extra care on country roads. Be prepared for pedestrians, horse riders, cyclists, slow-moving farm vehicles or mud on the road surface, and make sure you can stop within the distance you can see to be clear.",
+    "ref": [
+      "HC 154"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-028",
+    "q": "You're driving along a narrow country lane with no pavement. A group of walkers is in the road ahead. What should you do?",
+    "options": [
+      "Sound your horn so they move aside",
+      "Slow down and allow at least 2 metres",
+      "Flash your lights and keep your speed",
+      "Keep your speed and pass 1 metre away"
+    ],
+    "answer": 1,
+    "explain": "When approaching pedestrians on narrow rural roads without a footway, slow down and be prepared to stop. Allow at least 2 metres of space and keep to a low speed as you pass.",
+    "ref": [
+      "HC 206",
+      "HC 163"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-029",
+    "q": "You're driving at night on an unlit road. Why should you drive more slowly than you would in daylight?",
+    "options": [
+      "Speed limits are lower at night",
+      "Your brakes work less well in the dark",
+      "Other drivers must dip their headlights",
+      "It's harder to see other road users"
+    ],
+    "answer": 3,
+    "explain": "You should reduce your speed when driving at night, as it's more difficult to see other road users. Drive at a speed that will allow you to stop well within the distance you can see to be clear.",
+    "ref": [
+      "HC 125",
+      "HC 126"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-030",
+    "q": "You're thinking about overtaking a slow-moving van at night. Why do you need to take extra care?",
+    "options": [
+      "It's harder to judge speed and distance",
+      "Overtaking isn't allowed after dark",
+      "You must use main beam as you pass",
+      "The van driver can't see your lights"
+    ],
+    "answer": 0,
+    "explain": "Take extra care when overtaking at night and in poor visibility, when it's harder to judge speed and distance. Keep your headlights dipped until you're level with the other vehicle.",
+    "ref": [
+      "HC 163",
+      "HC 115"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-031",
+    "q": "You're driving towards a low, bright sun and it's dazzling you. What should you do?",
+    "options": [
+      "Slow down, and stop if necessary",
+      "Speed up to get out of the glare",
+      "Switch on your rear fog lights",
+      "Look at the kerb and keep going"
+    ],
+    "answer": 0,
+    "explain": "If you're dazzled by bright sunlight, slow down and, if necessary, stop.",
+    "ref": [
+      "HC 93",
+      "HC 237"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-032",
+    "q": "It's been raining heavily. How will your stopping distance compare with the distance on a dry road?",
+    "options": [
+      "It'll be about the same",
+      "It'll be up to half as much again",
+      "It'll be at least double",
+      "It'll be ten times greater"
+    ],
+    "answer": 2,
+    "explain": "In wet weather, stopping distances will be at least double those required for stopping on dry roads, because your tyres have less grip on the road. They can be ten times greater on icy roads.",
+    "ref": [
+      "HC 227",
+      "HC 230"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-033",
+    "q": "You're driving along a town street. The pavement ahead is closed for street repairs. What should you be prepared for?",
+    "options": [
+      "Traffic lights that aren't working",
+      "Pedestrians walking in the road",
+      "Cyclists riding on the closed pavement",
+      "Buses stopping in the middle of the road"
+    ],
+    "answer": 1,
+    "explain": "Drive carefully and slowly when the pavement is closed due to street repairs, as pedestrians may be directed to use the road.",
+    "ref": [
+      "HC 206"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-034",
+    "q": "You're driving on a cold winter's day. The roads have been gritted, but there are icy patches about. What should you be prepared for?",
+    "options": [
+      "Normal grip, as the road has been treated",
+      "Shorter stopping distances than usual",
+      "Conditions changing over short distances",
+      "Ice only on the busiest stretches of road"
+    ],
+    "answer": 2,
+    "explain": "In icy or snowy weather, drive with care even if the roads have been treated, and be prepared for the road conditions to change over relatively short distances.",
+    "ref": [
+      "HC 230"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-035",
+    "q": "There's snow and ice on the roads and you want to check how much grip your tyres have. What should you do?",
+    "options": [
+      "Accelerate hard on a straight stretch",
+      "Brake gently in a safe place",
+      "Steer sharply from side to side",
+      "Brake hard at a moderate speed"
+    ],
+    "answer": 1,
+    "explain": "When there's snow or ice, check your grip on the road surface by choosing a safe place to brake gently. If the steering feels unresponsive, this may indicate ice and that your vehicle is losing its grip.",
+    "ref": [
+      "HC 231"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-036",
+    "q": "A recovery vehicle is helping a broken-down car at the side of the road ahead. Why should you drive carefully and slowly as you pass?",
+    "options": [
+      "Recovery vehicles always have priority",
+      "People may be working in or beside the road",
+      "The law sets a 10 mph limit when passing",
+      "You MUST stop until it has moved off"
+    ],
+    "answer": 1,
+    "explain": "Drive carefully and slowly when passing roadside rescue and recovery vehicles or going through road works, as there may be people working in or at the side of the road.",
+    "ref": [
+      "HC 206"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-037",
+    "q": "You're driving in thick fog, closely following the rear lights of the car in front. Why could this be dangerous?",
+    "options": [
+      "They give a false sense of security",
+      "They'll stop you seeing road signs",
+      "They'll make the fog seem thicker",
+      "They mean you can't use your headlights"
+    ],
+    "answer": 0,
+    "explain": "When driving in fog, keep a safe distance behind the vehicle in front, as rear lights can give a false sense of security. Make sure you can pull up well within the distance you can see clearly.",
+    "ref": [
+      "HC 235"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-038",
+    "q": "You're driving through road works with a temporary 40 mph speed limit. The road looks clear and nobody seems to be working. What MUST you do?",
+    "options": [
+      "Return to the road's normal speed limit",
+      "Keep to the temporary speed limit",
+      "Exceed it, as no workers are present",
+      "Treat the limit as advice only"
+    ],
+    "answer": 1,
+    "explain": "At road works, take extra care and observe all signs; they're there for your safety and the safety of road workers. You MUST NOT exceed any temporary maximum speed limit.",
+    "ref": [
+      "HC 288"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-039",
+    "q": "You're driving through road works and there's a lot of activity in the works area beside you. Where should your attention be?",
+    "options": [
+      "On the machinery in the works area",
+      "On the road ahead",
+      "On your mirrors the whole time",
+      "On your satnav for a quicker route"
+    ],
+    "answer": 1,
+    "explain": "At road works, concentrate on the road ahead, not the road works. Bear in mind the road ahead may be obstructed by the works or by slow-moving or stationary traffic.",
+    "ref": [
+      "HC 288"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-040",
+    "q": "You're approaching road works where two lanes reduce to one. Traffic is moving very slowly. What should you do?",
+    "options": [
+      "Merge in turn when it's safe",
+      "Speed up to get ahead of the queue",
+      "Block the closing lane so nobody passes",
+      "Drive through the coned-off area"
+    ],
+    "answer": 0,
+    "explain": "Where lanes are restricted due to road works, merge in turn. This is recommended when traffic is moving at a very low speed, but not at high speed. Don't drive through an area marked off by traffic cones.",
+    "ref": [
+      "HC 288",
+      "HC 134"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-041",
+    "q": "You're driving past road works. A works vehicle showing flashing amber lights is travelling in the road ahead of you. What should you do?",
+    "options": [
+      "Overtake it as soon as you can",
+      "Follow it closely through the works",
+      "Flash your lights so it pulls in",
+      "Leave extra space behind it"
+    ],
+    "answer": 3,
+    "explain": "Where vehicles are travelling in the road at road works and displaying amber warning lights, leave extra space and expect them to slow or turn into a works area.",
+    "ref": [
+      "HC 288"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-042",
+    "q": "You're about to enter a contraflow system at road works on a motorway. What should you do?",
+    "options": [
+      "Speed up to keep up with traffic",
+      "Slow down and leave a bigger gap",
+      "Switch on your hazard warning lights",
+      "Change lanes to find the shortest queue"
+    ],
+    "answer": 1,
+    "explain": "At the start and finish of contraflows, slow down and increase the distance to the vehicle in front, because changes in the camber of the road may affect vehicle stability. Lanes may be narrower than normal, with no permanent barrier between you and oncoming traffic.",
+    "ref": [
+      "HC 290"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-043",
+    "q": "You're behind a learner driver who stalls when the traffic lights turn green. What should you do?",
+    "options": [
+      "Sound your horn to hurry them",
+      "Drive round them quickly",
+      "Be patient and wait",
+      "Flash your headlights at them"
+    ],
+    "answer": 2,
+    "explain": "Learners and inexperienced drivers may not be so skilful at anticipating and responding to events. Be particularly patient with learner drivers and young drivers.",
+    "ref": [
+      "HC 217"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-044",
+    "q": "The car in front of you is displaying a 'new driver' plate. What does this tell you?",
+    "options": [
+      "The driver is a qualified instructor",
+      "The driver must be supervised",
+      "The driver recently passed their test",
+      "The car has just been registered"
+    ],
+    "answer": 2,
+    "explain": "Drivers who have recently passed their test may display a 'new driver' plate or sticker. Many newly qualified drivers lack experience, so be patient with them.",
+    "ref": [
+      "HC 217",
+      "HC Annex 8"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-045",
+    "q": "You're behind an older driver who's slow to pull away at a junction. Why should you be patient?",
+    "options": [
+      "Their reactions may be slower",
+      "They must stay below 30 mph",
+      "They aren't allowed on main roads",
+      "They always have priority"
+    ],
+    "answer": 0,
+    "explain": "Older drivers' reactions may be slower than other drivers'. Make allowance for this.",
+    "ref": [
+      "HC 216"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-046",
+    "q": "You're driving in England. What's the legal limit for alcohol in your breath?",
+    "options": [
+      "22 microgrammes per 100 ml of breath",
+      "35 microgrammes per 100 ml of breath",
+      "50 microgrammes per 100 ml of breath",
+      "80 microgrammes per 100 ml of breath"
+    ],
+    "answer": 1,
+    "explain": "In England and Wales you MUST NOT drive with a breath alcohol level higher than 35 microgrammes per 100 millilitres of breath. The limit is lower in Scotland.",
+    "ref": [
+      "HC 95",
+      "GOV.UK drink-drive-limit"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-047",
+    "q": "You're driving in Scotland. What's the legal limit for alcohol in your breath?",
+    "options": [
+      "35 microgrammes per 100 ml of breath",
+      "50 microgrammes per 100 ml of breath",
+      "80 microgrammes per 100 ml of breath",
+      "22 microgrammes per 100 ml of breath"
+    ],
+    "answer": 3,
+    "explain": "In Scotland the legal limits are lower than in the rest of the UK. You MUST NOT drive with a breath alcohol level higher than 22 microgrammes per 100 millilitres of breath.",
+    "ref": [
+      "HC 95",
+      "GOV.UK drink-drive-limit"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-048",
+    "q": "In England and Wales, what's the legal limit for alcohol in your blood when driving?",
+    "options": [
+      "35 milligrammes per 100 ml of blood",
+      "50 milligrammes per 100 ml of blood",
+      "80 milligrammes per 100 ml of blood",
+      "107 milligrammes per 100 ml of blood"
+    ],
+    "answer": 2,
+    "explain": "In England and Wales you MUST NOT drive with a blood alcohol level of more than 80 milligrammes per 100 millilitres of blood. In Scotland the blood limit is 50 milligrammes.",
+    "ref": [
+      "HC 95",
+      "GOV.UK drink-drive-limit"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-049",
+    "q": "You've had a couple of alcoholic drinks and feel fine. How could the alcohol affect your driving?",
+    "options": [
+      "It'll speed up your reactions",
+      "It'll improve your judgement of distance",
+      "It won't affect you below the limit",
+      "It can give you false confidence"
+    ],
+    "answer": 3,
+    "explain": "Alcohol gives a false sense of confidence, reduces co-ordination, slows down reactions and affects judgement of speed, distance and risk. It reduces your driving ability even if you're below the legal limit.",
+    "ref": [
+      "HC 95"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-050",
+    "q": "You drank a lot of alcohol at a party last night. You need to drive to work early this morning. What should you bear in mind?",
+    "options": [
+      "A cold shower will sober you up",
+      "You may still be unfit to drive",
+      "Strong coffee removes the alcohol",
+      "A night's sleep clears all the alcohol"
+    ],
+    "answer": 1,
+    "explain": "Alcohol takes time to leave your body. You may be unfit to drive in the morning after drinking the previous evening, or in the evening after drinking at lunchtime.",
+    "ref": [
+      "HC 95"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-051",
+    "q": "Which of these can make a difference to how alcohol affects you?",
+    "options": [
+      "The size of your car's engine",
+      "How far you're planning to drive",
+      "Your stress levels at the time",
+      "Whether it's daytime or night-time"
+    ],
+    "answer": 2,
+    "explain": "The way alcohol affects you depends on your weight, age, sex and metabolism, the type and amount of alcohol, what you've eaten recently and your stress levels at the time. It's impossible to say exactly how many drinks will take you over the limit.",
+    "ref": [
+      "GOV.UK drink-drive-limit"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-052",
+    "q": "Your pharmacist tells you that a medicine you've been given may impair your driving. What should you do?",
+    "options": [
+      "Don't drive while you're taking it",
+      "Drive only on quiet country roads",
+      "Drive, but take some extra breaks",
+      "Drive only during daylight hours"
+    ],
+    "answer": 0,
+    "explain": "You MUST NOT drive under the influence of drugs or medicine. Check with your doctor or pharmacist, and don't drive if you're advised that you may be impaired.",
+    "ref": [
+      "HC 96"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-053",
+    "q": "Why is it so dangerous to drive after taking illegal drugs?",
+    "options": [
+      "They only affect your eyesight",
+      "They make you drive too slowly",
+      "They're only risky mixed with alcohol",
+      "Their effects are unpredictable"
+    ],
+    "answer": 3,
+    "explain": "Never take illegal drugs if you intend to drive. The effects are unpredictable, but can be even more severe than alcohol and result in fatal or serious road crashes.",
+    "ref": [
+      "HC 96"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-054",
+    "q": "You're planning a long journey by car. How often does the Highway Code recommend taking a break?",
+    "options": [
+      "At least 5 minutes every four hours",
+      "At least 30 minutes every five hours",
+      "At least 15 minutes every two hours",
+      "Only when you start to feel tired"
+    ],
+    "answer": 2,
+    "explain": "Plan your journey to take sufficient breaks. A minimum break of at least 15 minutes after every two hours of driving is recommended.",
+    "ref": [
+      "HC 91"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-055",
+    "q": "You're driving on a motorway and you start to feel sleepy. What should you do?",
+    "options": [
+      "Stop on the hard shoulder and rest",
+      "Pull into an emergency area for a nap",
+      "Turn the radio up and keep going",
+      "Stop at the next service area"
+    ],
+    "answer": 3,
+    "explain": "If you feel sleepy, stop in a safe place. Don't stop in an emergency area or on the hard shoulder of a motorway. Service areas are located along motorways so you can take breaks.",
+    "ref": [
+      "HC 91",
+      "HC 262"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-056",
+    "q": "You're planning a long drive. Between which hours should you avoid driving, because natural alertness is at its lowest?",
+    "options": [
+      "6 pm and midnight",
+      "Midnight and 6 am",
+      "6 am and 9 am",
+      "Noon and 3 pm"
+    ],
+    "answer": 1,
+    "explain": "Avoid undertaking long journeys between midnight and 6 am, when natural alertness is at a minimum. This is also a time of high risk for new drivers.",
+    "ref": [
+      "HC 91",
+      "HC Annex 8"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-057",
+    "q": "In good daylight, from what distance MUST you be able to read a vehicle number plate (current style)?",
+    "options": [
+      "10 metres",
+      "15 metres",
+      "20 metres",
+      "25 metres"
+    ],
+    "answer": 2,
+    "explain": "You MUST be able to read a vehicle number plate, in good daylight, from a distance of 20 metres (20.5 metres for an old-style plate). That's about the length of 5 parked cars.",
+    "ref": [
+      "HC 92",
+      "GOV.UK driving-eyesight-rules"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-058",
+    "q": "You need glasses to read a number plate from the required distance. When MUST you wear them?",
+    "options": [
+      "Only when driving at night",
+      "At all times while driving",
+      "Only on motorways",
+      "Only in poor weather"
+    ],
+    "answer": 1,
+    "explain": "If you need to wear glasses or contact lenses to meet the eyesight standard, you MUST wear them at all times while driving. The police have the power to require you to take an eyesight test.",
+    "ref": [
+      "HC 92",
+      "GOV.UK driving-eyesight-rules"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-059",
+    "q": "You've developed a health condition that's likely to affect your driving. Who MUST you tell?",
+    "options": [
+      "The DVLA",
+      "The DVSA",
+      "The police",
+      "Your local council"
+    ],
+    "answer": 0,
+    "explain": "Make sure you're fit to drive. You MUST report to the Driver and Vehicle Licensing Agency (DVLA) any health condition likely to affect your driving.",
+    "ref": [
+      "HC 90",
+      "GOV.UK legal-obligations-drivers-riders"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-060",
+    "q": "Which of these eyesight conditions do you NOT need to tell the DVLA about?",
+    "options": [
+      "A problem affecting both eyes",
+      "A problem with your only working eye",
+      "Double vision in both eyes",
+      "Being short-sighted"
+    ],
+    "answer": 3,
+    "explain": "You must tell DVLA about any eyesight problem that affects both eyes, or the remaining eye if you only have one. This doesn't include being short-sighted, long-sighted or colour blind.",
+    "ref": [
+      "GOV.UK driving-eyesight-rules"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-061",
+    "q": "Another driver has behaved badly towards you and you feel angry and upset. What should you do?",
+    "options": [
+      "Follow them closely to show how you feel",
+      "Pull over and calm down before going on",
+      "Flash your headlights at them",
+      "Overtake them as soon as you can"
+    ],
+    "answer": 1,
+    "explain": "Don't allow yourself to become agitated or involved if someone is behaving badly on the road; it will only make the situation worse. Pull over, calm down and, when you feel relaxed, continue your journey.",
+    "ref": [
+      "HC 147"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-062",
+    "q": "A car pulls out of a side road into your path, making you slow down. What should you do?",
+    "options": [
+      "Drive close behind to show your annoyance",
+      "Flash your headlights repeatedly",
+      "Hold back and let it get clear",
+      "Overtake it straight away"
+    ],
+    "answer": 2,
+    "explain": "Slow down and hold back if a road user pulls out into your path at a junction. Allow them to get clear. Don't over-react by driving too close behind to intimidate them.",
+    "ref": [
+      "HC 147"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-063",
+    "q": "You passed your driving test last month. Your friends in the car are urging you to drive faster. What should you do?",
+    "options": [
+      "Speed up a little to keep them happy",
+      "Turn the music up to ignore them",
+      "Race another car to impress them",
+      "Tell them you need to concentrate"
+    ],
+    "answer": 3,
+    "explain": "You're responsible for your passengers' safety. Don't let them distract you or encourage you to take risks. Tell them you need to concentrate if you're to get to your destination safely.",
+    "ref": [
+      "HC Annex 8"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-064",
+    "q": "Why is it especially important to look well ahead and use your mirrors early on a motorway?",
+    "options": [
+      "Motorways have no warning signs",
+      "You have less time to react",
+      "Other drivers can't see your signals",
+      "Mirrors don't work well at high speed"
+    ],
+    "answer": 1,
+    "explain": "Traffic on motorways usually travels faster than on other roads, so you have less time to react. Use your mirrors earlier and look much further ahead than you would on other roads.",
+    "ref": [
+      "HC 254"
+    ],
+    "sign": null
+  },
+  {
+    "id": "HAZ-065",
+    "q": "You're driving on a motorway and pass a signal showing flashing amber lights. What should you do?",
+    "options": [
+      "Reduce speed and be ready for a hazard",
+      "Keep to your speed and stay in lane",
+      "Pull onto the hard shoulder and stop",
+      "Leave the motorway at the next exit"
+    ],
+    "answer": 0,
+    "explain": "Amber flashing lights warn of a hazard ahead. Reduce your speed and be prepared for the hazard. Only increase your speed when you pass a signal that isn't flashing, or a sign showing a national speed limit or 'END', and you're sure it's safe.",
+    "ref": [
+      "HC 257"
+    ],
+    "sign": null
+  }
+]

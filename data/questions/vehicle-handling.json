@@ -1,0 +1,702 @@
+[
+  {
+    "id": "HAN-001",
+    "q": "You're driving slowly up a long, steep hill and several vehicles behind want to overtake. There's a climbing lane on your left. What should you do?",
+    "options": [
+      "Use the climbing lane to let them pass",
+      "Stay in the main lane and speed up",
+      "Stop on the hill so they can get by",
+      "Switch on your hazard warning lights"
+    ],
+    "answer": 0,
+    "explain": "Climbing and crawler lanes are provided on some hills. Use the lane if you're driving a slow-moving vehicle or if there are vehicles behind you wishing to overtake, and watch for signs that it's about to end.",
+    "ref": ["HC 139"],
+    "sign": null
+  },
+  {
+    "id": "HAN-002",
+    "q": "You're driving down a long, steep hill. Why shouldn't you rely only on the footbrake to control your speed?",
+    "options": [
+      "It will make your tyres lose pressure",
+      "It can cause the engine to overheat",
+      "Heavy use can reduce its effectiveness",
+      "It will drain the battery quickly"
+    ],
+    "answer": 2,
+    "explain": "Increased use of the footbrake can reduce its effectiveness. Select a lower gear before you reach a long downhill slope and don't coast, so engine braking helps you control your speed.",
+    "ref": ["HC 122", "HC 160"],
+    "sign": null
+  },
+  {
+    "id": "HAN-003",
+    "q": "You're approaching a right-hand bend on a two-way road. Where should you position your car?",
+    "options": [
+      "Well to the left",
+      "Close to the centre line",
+      "Straddling the centre line",
+      "As far right as is safe"
+    ],
+    "answer": 0,
+    "explain": "Keep well to the left on right-hand bends. This will improve your view of the road and help avoid the risk of colliding with traffic approaching from the opposite direction.",
+    "ref": ["HC 160"],
+    "sign": null
+  },
+  {
+    "id": "HAN-004",
+    "q": "You're driving along a winding road. Why should you keep both hands on the steering wheel where possible?",
+    "options": [
+      "To make the steering feel lighter",
+      "To stop the airbag from activating",
+      "To show other drivers you're alert",
+      "To remain in full control of the car"
+    ],
+    "answer": 3,
+    "explain": "Drive with both hands on the wheel where possible. This will help you to remain in full control of the vehicle at all times.",
+    "ref": ["HC 160"],
+    "sign": null
+  },
+  {
+    "id": "HAN-005",
+    "q": "Your car has motorway assist and a lane departure warning system. How should you use them?",
+    "options": [
+      "Rely on them so you can relax",
+      "Use them, but keep full concentration",
+      "Only use them in heavy traffic",
+      "Let them steer while you check messages"
+    ],
+    "answer": 1,
+    "explain": "Driver assistance systems are there to assist, but don't rely on them or reduce your concentration. Use any system according to the manufacturer's instructions.",
+    "ref": ["HC 150", "HC 160"],
+    "sign": null
+  },
+  {
+    "id": "HAN-006",
+    "q": "You're driving on a motorway using a driver assistance system such as motorway assist. Who is responsible for the vehicle?",
+    "options": [
+      "The vehicle manufacturer",
+      "The system's software provider",
+      "You, as the driver",
+      "Nobody while the system is active"
+    ],
+    "answer": 2,
+    "explain": "As the driver, you are still responsible for the vehicle if you use a driver assistance system. You MUST have full control over these systems at all times.",
+    "ref": ["HC 150"],
+    "sign": null
+  },
+  {
+    "id": "HAN-007",
+    "q": "You've just driven through a flooded section of road where the water was deep. What should you do at the first safe opportunity?",
+    "options": [
+      "Check your tyre pressures",
+      "Gently test your brakes",
+      "Rev the engine to dry it",
+      "Check your oil level"
+    ],
+    "answer": 1,
+    "explain": "If you've driven through deep water your brakes may be less effective. Test them at the first safe opportunity by pushing gently on the brake pedal to make sure that they work.",
+    "ref": ["HC 121"],
+    "sign": null
+  },
+  {
+    "id": "HAN-008",
+    "q": "You're driving on a narrow country road with lots of bends. Why should you reduce your speed as you approach each bend?",
+    "options": [
+      "Bends can be sharper than they appear",
+      "Country roads have lower speed limits",
+      "Your tyres grip less on country roads",
+      "Speed cameras are often placed on bends"
+    ],
+    "answer": 0,
+    "explain": "Take extra care on country roads and reduce your speed at approaches to bends, which can be sharper than they appear. Make sure you can stop within the distance you can see to be clear.",
+    "ref": ["HC 154"],
+    "sign": null
+  },
+  {
+    "id": "HAN-009",
+    "q": "You're driving along a country road and approaching a village. What should you do?",
+    "options": [
+      "Keep to the speed you used on the open road",
+      "Speed up to get through the village quickly",
+      "Use main beam to warn people you're coming",
+      "Reduce your speed as you enter the village"
+    ],
+    "answer": 3,
+    "explain": "You should reduce your speed where country roads enter villages. On country roads, be prepared for pedestrians, horse riders, cyclists, slow-moving farm vehicles or mud on the road.",
+    "ref": ["HC 154"],
+    "sign": null
+  },
+  {
+    "id": "HAN-010",
+    "q": "You're on a single-track road and see a car coming towards you. The nearest passing place is on your right. What should you do?",
+    "options": [
+      "Pull into the passing place on your right",
+      "Wait opposite the passing place",
+      "Flash your headlights and carry on",
+      "Drive onto the verge on your left"
+    ],
+    "answer": 1,
+    "explain": "On single-track roads, if you see a vehicle coming towards you, pull into a passing place on your left, or wait opposite a passing place on your right.",
+    "ref": ["HC 155"],
+    "sign": null
+  },
+  {
+    "id": "HAN-011",
+    "q": "You're on a single-track road and the driver behind you wants to overtake. There's a passing place on your left. What should you do?",
+    "options": [
+      "Speed up so you don't hold them up",
+      "Wave them past on the next bend",
+      "Pull into the passing place to let them by",
+      "Carry on, as overtaking isn't allowed"
+    ],
+    "answer": 2,
+    "explain": "If the driver behind wants to overtake on a single-track road, pull into a passing place on your left, or wait opposite a passing place on your right.",
+    "ref": ["HC 155"],
+    "sign": null
+  },
+  {
+    "id": "HAN-012",
+    "q": "You're driving downhill on a narrow single-track road. A vehicle is coming uphill towards you. What should you do?",
+    "options": [
+      "Give way to it whenever you can",
+      "Expect it to reverse for you",
+      "Flash your headlights to claim priority",
+      "Keep going, as downhill has priority"
+    ],
+    "answer": 0,
+    "explain": "Give way to road users coming uphill whenever you can. If necessary, reverse until you reach a passing place to let the other vehicle pass.",
+    "ref": ["HC 155"],
+    "sign": null
+  },
+  {
+    "id": "HAN-013",
+    "q": "You're driving on a single-track road and want to stop for a break. What does the Highway Code say about passing places?",
+    "options": [
+      "You may park in them for up to an hour",
+      "You shouldn't park in them",
+      "You may park in them in daylight",
+      "You may park in ones on your left"
+    ],
+    "answer": 1,
+    "explain": "Do not park in passing places. They're there so vehicles can pass each other or let following traffic overtake.",
+    "ref": ["HC 156", "HC 155"],
+    "sign": null
+  },
+  {
+    "id": "HAN-014",
+    "q": "You're driving along a road with a series of road humps and chicanes. What should you do?",
+    "options": [
+      "Slow down for each hump, then speed up",
+      "Drive at the speed limit between features",
+      "Swerve around the humps to avoid them",
+      "Keep a reduced speed along the whole stretch"
+    ],
+    "answer": 3,
+    "explain": "Traffic-calming features such as road humps, chicanes and narrowings are intended to slow you down. Reduce your speed as you approach them and maintain a reduced speed along the whole stretch of road.",
+    "ref": ["HC 153"],
+    "sign": null
+  },
+  {
+    "id": "HAN-015",
+    "q": "You're driving through a traffic-calmed street with narrowings. A cyclist ahead is riding slowly. What should you do?",
+    "options": [
+      "Overtake before the next narrowing",
+      "Stay behind and don't overtake here",
+      "Sound your horn so they let you by",
+      "Pass them as they ride over a hump"
+    ],
+    "answer": 1,
+    "explain": "Allow cyclists and motorcyclists room to pass through traffic-calming features. You should not overtake other moving road users while in these areas.",
+    "ref": ["HC 153"],
+    "sign": null
+  },
+  {
+    "id": "HAN-016",
+    "q": "You see this sign as you enter a residential street. What does it mean?",
+    "options": [
+      "Hump bridge ahead",
+      "Uneven road surface ahead",
+      "Road humps for the distance shown",
+      "Speed cameras for the distance shown"
+    ],
+    "answer": 2,
+    "explain": "This sign shows the distance over which road humps extend. Reduce your speed and keep it reduced along the whole stretch of road.",
+    "ref": ["HC Traffic signs", "HC 153"],
+    "sign": "warning-sign-distance-humps-extend"
+  },
+  {
+    "id": "HAN-017",
+    "q": "You're driving at night on a country road with no street lighting. What lights MUST you use?",
+    "options": [
+      "Sidelights only",
+      "Headlights",
+      "Front fog lights",
+      "Hazard warning lights"
+    ],
+    "answer": 1,
+    "explain": "You MUST use headlights at night, except on a road which has lit street lighting. Fog lights MUST NOT be used unless visibility is seriously reduced.",
+    "ref": ["HC 113", "HC 114"],
+    "sign": null
+  },
+  {
+    "id": "HAN-018",
+    "q": "Some lighting rules apply at 'night'. How does the Highway Code define night (the hours of darkness)?",
+    "options": [
+      "Sunset to sunrise",
+      "One hour after sunset to one hour before sunrise",
+      "Half an hour before sunset to half an hour after sunrise",
+      "Half an hour after sunset to half an hour before sunrise"
+    ],
+    "answer": 3,
+    "explain": "Night (the hours of darkness) is the period between half an hour after sunset and half an hour before sunrise. Sidelights and rear registration plate lights must be lit between sunset and sunrise.",
+    "ref": ["HC 113"],
+    "sign": null
+  },
+  {
+    "id": "HAN-019",
+    "q": "It's a dull, overcast day. Visibility is poor, but you can still see well over 100 metres. Which lights should you use so others can see you?",
+    "options": [
+      "Dipped headlights",
+      "Rear fog lights",
+      "Front fog lights",
+      "Hazard warning lights"
+    ],
+    "answer": 0,
+    "explain": "Use dipped headlights, or dim-dip if fitted, in dull daytime weather to make sure you can be seen. You MUST NOT use fog lights unless visibility is seriously reduced.",
+    "ref": ["HC 115", "HC 114"],
+    "sign": null
+  },
+  {
+    "id": "HAN-020",
+    "q": "You're overtaking another vehicle at night on an unlit road. When should you change from dipped to main beam?",
+    "options": [
+      "Before you pull out to overtake",
+      "As soon as you start to pull out",
+      "When you're level with the other vehicle",
+      "When you're halfway along its side"
+    ],
+    "answer": 2,
+    "explain": "Keep your headlights dipped when overtaking until you're level with the other vehicle, then change to main beam if necessary, unless this would dazzle oncoming road users.",
+    "ref": ["HC 115"],
+    "sign": null
+  },
+  {
+    "id": "HAN-021",
+    "q": "You're stopped in a long queue of traffic at night and the vehicles behind you have also stopped. What should you do to reduce glare for them?",
+    "options": [
+      "Keep pressing firmly on the footbrake",
+      "Use the parking brake, not the footbrake",
+      "Switch on your rear fog lights",
+      "Switch on your hazard warning lights"
+    ],
+    "answer": 1,
+    "explain": "In stationary queues, apply the parking brake and, once the following traffic has stopped, take your foot off the footbrake to switch off your brake lights. This minimises glare for road users behind.",
+    "ref": ["HC 114"],
+    "sign": null
+  },
+  {
+    "id": "HAN-022",
+    "q": "You're thinking about overtaking a slow vehicle on a single carriageway. Which of these should you make sure of first?",
+    "options": [
+      "There's a suitable gap in front of it",
+      "The vehicle behind can follow you past",
+      "Your hazard warning lights are on",
+      "The driver ahead has flashed their lights"
+    ],
+    "answer": 0,
+    "explain": "Before overtaking, make sure the road is sufficiently clear ahead, road users aren't beginning to overtake you, and there's a suitable gap in front of the road user you plan to overtake.",
+    "ref": ["HC 162", "HC 111"],
+    "sign": null
+  },
+  {
+    "id": "HAN-023",
+    "q": "You're behind a slow-moving tractor as you approach the brow of a hill. What should you do?",
+    "options": [
+      "Overtake quickly before the brow",
+      "Stay behind until you can see it's safe",
+      "Overtake with your hazard lights on",
+      "Sound your horn and then overtake"
+    ],
+    "answer": 1,
+    "explain": "Don't overtake where you can't see far enough ahead to be sure it's safe, for example when approaching a corner or bend, a hump bridge or the brow of a hill.",
+    "ref": ["HC 166"],
+    "sign": null
+  },
+  {
+    "id": "HAN-024",
+    "q": "You're driving on a single carriageway behind another vehicle. When may you overtake it on its left?",
+    "options": [
+      "When it's driving below the speed limit",
+      "When the driver waves you through",
+      "When it's a slow-moving lorry",
+      "When it's signalling right and there's room"
+    ],
+    "answer": 3,
+    "explain": "Only overtake on the left if the vehicle in front is signalling to turn right, and there is room to do so.",
+    "ref": ["HC 163"],
+    "sign": null
+  },
+  {
+    "id": "HAN-025",
+    "q": "You've started to overtake a car on a single carriageway. What should you do?",
+    "options": [
+      "Move quickly past and don't cut in",
+      "Stay alongside until the road widens",
+      "Move back in as soon as you're level",
+      "Slow down to match the car's speed"
+    ],
+    "answer": 0,
+    "explain": "Once you've started to overtake, move quickly past the vehicle and allow plenty of room. Move back to the left as soon as you can, but don't cut in.",
+    "ref": ["HC 163"],
+    "sign": null
+  },
+  {
+    "id": "HAN-026",
+    "q": "You see this sign on a country road. What does it mean?",
+    "options": [
+      "Two-way traffic straight ahead",
+      "Give priority to oncoming traffic",
+      "No overtaking",
+      "No motor vehicles"
+    ],
+    "answer": 2,
+    "explain": "This sign means no overtaking. You MUST NOT overtake after it until you pass a sign cancelling the restriction.",
+    "ref": ["HC Traffic signs", "HC 165"],
+    "sign": "sign-giving-order-no-overtaking"
+  },
+  {
+    "id": "HAN-027",
+    "q": "You're parking a manual car facing uphill next to the kerb. What should you do after applying the handbrake firmly?",
+    "options": [
+      "Reverse gear, wheel turned towards the kerb",
+      "Forward gear, wheel turned away from the kerb",
+      "Neutral, wheels left straight ahead",
+      "Forward gear, wheel turned towards the kerb"
+    ],
+    "answer": 1,
+    "explain": "When parking facing uphill, park close to the kerb, apply the handbrake firmly, select a forward gear and turn your steering wheel away from the kerb.",
+    "ref": ["HC 252"],
+    "sign": null
+  },
+  {
+    "id": "HAN-028",
+    "q": "You're parking a manual car facing downhill next to the kerb. Which gear should you select and which way should you turn the wheel?",
+    "options": [
+      "Reverse gear, wheel towards the kerb",
+      "First gear, wheel away from the kerb",
+      "Neutral, wheels straight ahead",
+      "Reverse gear, wheel away from the kerb"
+    ],
+    "answer": 0,
+    "explain": "When parking facing downhill, apply the handbrake firmly, select reverse gear and turn your steering wheel towards the kerb. In an automatic, use 'park'.",
+    "ref": ["HC 252"],
+    "sign": null
+  },
+  {
+    "id": "HAN-029",
+    "q": "It snowed overnight and your car is covered in snow and ice. Before you set off, what MUST you do?",
+    "options": [
+      "Clear a patch in front of the driver",
+      "Clear the windscreen and nothing else",
+      "Clear all snow and ice from all windows",
+      "Drive slowly until the heater clears it"
+    ],
+    "answer": 2,
+    "explain": "You MUST be able to see, so clear all snow and ice from all your windows. You MUST also make sure lights are clean and number plates are legible, and you should remove snow that might fall off into the path of others.",
+    "ref": ["HC 229"],
+    "sign": null
+  },
+  {
+    "id": "HAN-030",
+    "q": "You have to make an essential journey in snowy weather. Which of these should you take with you?",
+    "options": [
+      "Warm clothing, a torch and a shovel",
+      "Your insurance and MOT certificates",
+      "A set of spare summer tyres",
+      "A full roof box for extra weight"
+    ],
+    "answer": 0,
+    "explain": "Take an emergency kit of de-icer and ice scraper, torch, warm clothing and boots, first aid kit, jump leads and a shovel, together with a warm drink and emergency food in case you get stuck.",
+    "ref": ["HC 228"],
+    "sign": null
+  },
+  {
+    "id": "HAN-031",
+    "q": "You're driving on a road covered in compacted snow and the steering suddenly feels unresponsive. What may this mean?",
+    "options": [
+      "Your power steering fluid is low",
+      "There's ice and you're losing grip",
+      "Your tyres are over-inflated",
+      "The road has just been gritted"
+    ],
+    "answer": 1,
+    "explain": "If the steering feels unresponsive in snow or ice, this may indicate ice and your vehicle losing its grip on the road. Avoid sudden actions and check your grip by braking gently in a safe place.",
+    "ref": ["HC 231"],
+    "sign": null
+  },
+  {
+    "id": "HAN-032",
+    "q": "You're driving in fog and moisture keeps building up on your windscreen. What should you use?",
+    "options": [
+      "Your rear fog lights",
+      "Your main beam headlights",
+      "Your hazard warning lights",
+      "Your wipers and demisters"
+    ],
+    "answer": 3,
+    "explain": "When driving in fog, use your windscreen wipers and demisters. Also beware of other drivers who are not using headlights.",
+    "ref": ["HC 235"],
+    "sign": null
+  },
+  {
+    "id": "HAN-033",
+    "q": "Visibility is good, but another driver has their rear fog lights on. Why MUST fog lights not be used in these conditions?",
+    "options": [
+      "They drain the battery very quickly",
+      "They can make the light units overheat",
+      "They dazzle others and can hide brake lights",
+      "They make indicators harder to see in daylight"
+    ],
+    "answer": 2,
+    "explain": "You MUST NOT use front or rear fog lights unless visibility is seriously reduced, as they dazzle other road users and can obscure your brake lights.",
+    "ref": ["HC 236", "HC 114"],
+    "sign": null
+  },
+  {
+    "id": "HAN-034",
+    "q": "You're waiting to turn out of a junction in thick fog and can't see far in either direction. What should you do?",
+    "options": [
+      "Edge out and wait in the middle of the road",
+      "Stop in the correct position and listen",
+      "Sound your horn and pull out quickly",
+      "Switch on your hazard lights and emerge"
+    ],
+    "answer": 1,
+    "explain": "Stop in the correct position at a junction with limited visibility and listen for traffic. When you're sure it's safe, emerge positively and don't hesitate in a position that puts you in the path of approaching vehicles.",
+    "ref": ["HC 235"],
+    "sign": null
+  },
+  {
+    "id": "HAN-035",
+    "q": "It's foggy and you have no choice but to park on the road. What should you do?",
+    "options": [
+      "Leave your rear fog lights on",
+      "Leave your headlights on main beam",
+      "Switch off all your lights",
+      "Leave your sidelights on"
+    ],
+    "answer": 3,
+    "explain": "It's especially dangerous to park on the road in fog. If it's unavoidable, leave your parking lights or sidelights on.",
+    "ref": ["HC 251"],
+    "sign": null
+  },
+  {
+    "id": "HAN-036",
+    "q": "You see this sign as you approach road works. What does it warn you of?",
+    "options": [
+      "Loose chippings",
+      "Falling or fallen rocks",
+      "Uneven road",
+      "Slippery road"
+    ],
+    "answer": 0,
+    "explain": "This road works sign warns of loose chippings. Take extra care, especially near cyclists and motorcyclists, as they are vulnerable to skidding on grit and other debris at road works.",
+    "ref": ["HC Traffic signs", "HC 288"],
+    "sign": "road-work-sign-loose-chippings"
+  },
+  {
+    "id": "HAN-037",
+    "q": "You see this sign ahead. What should you do before you reach the hill?",
+    "options": [
+      "Select neutral and coast down",
+      "Select a lower gear",
+      "Speed up to gain momentum",
+      "Switch on your fog lights"
+    ],
+    "answer": 1,
+    "explain": "This sign warns of a steep hill downwards. Select a lower gear before you reach a long downhill slope to help control your speed. Coasting removes engine braking.",
+    "ref": ["HC Traffic signs", "HC 160", "HC 122"],
+    "sign": "warning-sign-steep-hill-downwards"
+  },
+  {
+    "id": "HAN-038",
+    "q": "You're approaching a level crossing in slow traffic. The road on the far side of the crossing is congested. What should you do?",
+    "options": [
+      "Drive onto the crossing and wait there",
+      "Cross quickly behind the car in front",
+      "Wait until the road beyond is clear",
+      "Stop on the crossing with hazard lights on"
+    ],
+    "answer": 2,
+    "explain": "Never drive onto a level crossing until the road is clear on the other side, and don't get too close to the car in front. Never stop or park on, or near, a crossing.",
+    "ref": ["HC 291"],
+    "sign": null
+  },
+  {
+    "id": "HAN-039",
+    "q": "You're waiting at a level crossing. A train passes, but the red lights keep flashing. What should you do?",
+    "options": [
+      "Wait, as another train will pass soon",
+      "Cross carefully now the train has gone",
+      "Drive round the barriers if it's clear",
+      "Sound your horn to alert the operator"
+    ],
+    "answer": 0,
+    "explain": "You MUST wait if a train goes by and the red lights continue to flash. This means another train will be passing soon. Only cross when the lights go off and the barriers open.",
+    "ref": ["HC 293"],
+    "sign": null
+  },
+  {
+    "id": "HAN-040",
+    "q": "You've just crossed the white line at a level crossing when the amber light comes on. What should you do?",
+    "options": [
+      "Stop on the crossing and wait",
+      "Reverse back behind the white line",
+      "Keep going and clear the crossing",
+      "Stop and switch on hazard lights"
+    ],
+    "answer": 2,
+    "explain": "Keep going if you've already crossed the white line when the amber light comes on. Don't reverse onto or over a controlled crossing.",
+    "ref": ["HC 293"],
+    "sign": null
+  },
+  {
+    "id": "HAN-041",
+    "q": "The half-barriers at a level crossing start to come down, but you can't see a train. What should you do?",
+    "options": [
+      "Drive round the barriers if it's clear",
+      "Stop and wait behind the white line",
+      "Speed up to cross before they close",
+      "Sound your horn and cross slowly"
+    ],
+    "answer": 1,
+    "explain": "Half-barriers lower automatically because a train is approaching. You MUST obey the flashing red lights and stop behind the white line. Never zig-zag around half-barriers.",
+    "ref": ["HC 293"],
+    "sign": null
+  },
+  {
+    "id": "HAN-042",
+    "q": "Your car breaks down on a level crossing. What should you do first?",
+    "options": [
+      "Try to restart the engine",
+      "Phone your breakdown company",
+      "Switch on your hazard warning lights",
+      "Get everyone out and clear of the crossing"
+    ],
+    "answer": 3,
+    "explain": "Get everyone out of the vehicle and clear of the crossing immediately. Then use a railway telephone, if available, to tell the signal operator, and move the vehicle clear only if there's time before a train arrives.",
+    "ref": ["HC 299"],
+    "sign": null
+  },
+  {
+    "id": "HAN-043",
+    "q": "You're driving along a street where trams run in the road. What should you avoid?",
+    "options": [
+      "Driving on top of the rails",
+      "Driving in the left-hand lane",
+      "Driving close to the kerb",
+      "Driving behind a slow bus"
+    ],
+    "answer": 0,
+    "explain": "Take extra care where trams run along the road. Avoid driving directly on top of the rails, and take care where trams leave the main carriageway so you don't follow them.",
+    "ref": ["HC 300"],
+    "sign": null
+  },
+  {
+    "id": "HAN-044",
+    "q": "You need to cross some tram rails on a wet day. What is the safest way to cross them?",
+    "options": [
+      "At a shallow angle",
+      "While braking firmly",
+      "Along the line of the rails",
+      "Directly at right angles"
+    ],
+    "answer": 3,
+    "explain": "Take extra care when crossing tram tracks, especially if the rails are wet. It's safest to cross the tracks directly at right angles, and cyclists and motorcyclists may need more space to do so.",
+    "ref": ["HC 306"],
+    "sign": null
+  },
+  {
+    "id": "HAN-045",
+    "q": "A tram has stopped to pick up passengers at a stop without a platform. No other route is signed. What should you do?",
+    "options": [
+      "Drive between the tram and the kerb",
+      "Overtake the tram on its right",
+      "Wait until the tram moves off",
+      "Sound your horn to warn passengers"
+    ],
+    "answer": 2,
+    "explain": "At stops without platforms you MUST NOT drive between a tram and the left-hand kerb when it has stopped to pick up passengers. If there's no alternative route signed, don't overtake the tram: wait until it moves off.",
+    "ref": ["HC 303"],
+    "sign": null
+  },
+  {
+    "id": "HAN-046",
+    "q": "You want to stop briefly on a road with a tramway. Why must every part of your car be clear of the tram's path?",
+    "options": [
+      "Trams can't steer round obstructions",
+      "Tram rails can puncture your tyres",
+      "Trams may push vehicles out of the way",
+      "Tram wires may touch your car's roof"
+    ],
+    "answer": 0,
+    "explain": "Don't stop on any part of a tram track except in a designated bay, and make sure all parts of your vehicle are outside the tram path. A tram cannot steer round an obstruction.",
+    "ref": ["HC 302", "HC 224"],
+    "sign": null
+  },
+  {
+    "id": "HAN-047",
+    "q": "A tram at a stop beside your lane is signalling that it's about to pull away. What should you do?",
+    "options": [
+      "Accelerate past before it moves off",
+      "Sound your horn to warn the driver",
+      "Flash your headlights to show you're there",
+      "Give it priority unless it's unsafe"
+    ],
+    "answer": 3,
+    "explain": "Always give priority to trams, especially when they signal to pull away from stops, unless it would be unsafe to do so. They may be carrying standing passengers who could be injured in an emergency stop.",
+    "ref": ["HC 305"],
+    "sign": null
+  },
+  {
+    "id": "HAN-048",
+    "q": "You're following a motorcyclist on a wet road with drain covers and oily patches. What should you do?",
+    "options": [
+      "Follow closely so they can see you",
+      "Overtake them as soon as you can",
+      "Give them plenty of room",
+      "Sound your horn to warn them"
+    ],
+    "answer": 2,
+    "explain": "Motorcyclists and cyclists may suddenly need to avoid uneven surfaces and obstacles such as drain covers or oily, wet or icy patches. Give them plenty of room and watch for any sudden change of direction.",
+    "ref": ["HC 213"],
+    "sign": null
+  },
+  {
+    "id": "HAN-049",
+    "q": "You're driving on a very hot day and the road surface has become soft. What could this affect?",
+    "options": [
+      "Your headlight aim",
+      "Your speedometer accuracy",
+      "Your steering and braking",
+      "Your fuel gauge reading"
+    ],
+    "answer": 2,
+    "explain": "In hot weather the road surface may become soft, or slippery if it rains after a dry spell. These conditions could affect your steering and braking.",
+    "ref": ["HC 237"],
+    "sign": null
+  },
+  {
+    "id": "HAN-050",
+    "q": "You come to a level crossing with user-operated gates. The green light is showing. What should you do?",
+    "options": [
+      "Open the gate on your side and drive across",
+      "Wait for a railway worker to open the gates",
+      "Cross, then leave the gates open for others",
+      "Open both gates, check the light, cross quickly"
+    ],
+    "answer": 3,
+    "explain": "Open the gates or barriers on both sides of the crossing, check the green light is still on and cross quickly. Close the gates or barriers when you're clear of the crossing.",
+    "ref": ["HC 296"],
+    "sign": null
+  }
+]

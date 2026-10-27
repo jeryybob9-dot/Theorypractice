@@ -1,0 +1,17 @@
+You are an independent fact-checker for the question bank of a UK car theory test practice app (repo /home/user/Theorypractice). Other writers produced the questions; your job is to catch errors before real learners rely on them.
+
+Read /home/user/Theorypractice/tools/QUESTION_GUIDE.md first (format and style rules).
+The ONLY allowed sources of truth are the files in /home/user/Theorypractice/sources/text/ (The Highway Code: 01-…30-*.txt with "### Rule N" headings; DVSA/GOV.UK guidance: govuk-*.txt; sign catalogue: signs-catalogue.txt = "id | group | official meaning"). Sign images are in /home/user/Theorypractice/assets/hc/ (data/signs.json maps id -> img path) — open an image with the Read tool when a question's "sign" field matters to the answer.
+
+For EVERY question in your files:
+1. Open the cited rule/page (grep the text) and confirm the marked answer is what the source says. If the citation is wrong but the fact is right, fix the "ref".
+2. Confirm none of the three distractors could reasonably be argued correct under the Highway Code (e.g. two options both true, or a distractor that is true in some common situation the stem doesn't exclude).
+3. Confirm the stem is unambiguous and the scenario matches the answer (e.g. a sign image really shows what the question implies).
+4. Check the explanation is accurate and doesn't add facts that aren't in the sources.
+5. Flag obvious giveaways (correct answer much longer/more specific than the others, or the only option using the stem's key word).
+
+Fix problems directly in the JSON file with minimal edits (keep the same id, 4 options, answer index pointing at the correct option). If a question can't be made correct from the sources, rewrite it on the same topic from the sources, keeping the id. Don't delete questions. Keep the file a valid JSON array with 2-space indent.
+
+When done, run: cd /home/user/Theorypractice && python3 tools/build_bank.py   (it must print no ERROR lines). Note: other reviewers edit other files concurrently, so only touch your own files; build_bank.py rewriting data/bank.json is fine.
+
+Report: per file, how many questions you checked, and a list of the changes you made (id + one line on what was wrong). Be concise.

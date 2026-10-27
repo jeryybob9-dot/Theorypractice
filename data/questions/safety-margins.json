@@ -1,0 +1,702 @@
+[
+  {
+    "id": "MAR-001",
+    "q": "You're driving on a motorway at 70 mph in good, dry conditions. What is the typical overall stopping distance?",
+    "options": [
+      "53 metres (175 feet)",
+      "73 metres (240 feet)",
+      "96 metres (315 feet)",
+      "36 metres (118 feet)"
+    ],
+    "answer": 2,
+    "explain": "At 70 mph on a dry road the typical overall stopping distance is 96 metres (315 feet): 21 metres thinking distance plus 75 metres braking distance. That's about twenty-four car lengths.",
+    "ref": ["HC 126"],
+    "sign": null
+  },
+  {
+    "id": "MAR-002",
+    "q": "You're driving along a dry street with a 30 mph speed limit. What is the typical overall stopping distance at 30 mph?",
+    "options": [
+      "12 metres",
+      "36 metres",
+      "9 metres",
+      "23 metres"
+    ],
+    "answer": 3,
+    "explain": "At 30 mph the typical overall stopping distance is 23 metres (75 feet): 9 metres thinking distance plus 14 metres braking distance, or about six car lengths.",
+    "ref": ["HC 126"],
+    "sign": null
+  },
+  {
+    "id": "MAR-003",
+    "q": "You're driving at 50 mph on a dry road when a hazard appears ahead. What is the typical thinking distance at this speed?",
+    "options": [
+      "15 metres",
+      "12 metres",
+      "38 metres",
+      "18 metres"
+    ],
+    "answer": 0,
+    "explain": "At 50 mph the typical thinking distance is 15 metres. The braking distance adds a further 38 metres, giving a typical overall stopping distance of 53 metres (175 feet).",
+    "ref": ["HC 126"],
+    "sign": null
+  },
+  {
+    "id": "MAR-004",
+    "q": "You're travelling at 60 mph on a dry single carriageway. What is the typical braking distance at this speed, not counting thinking distance?",
+    "options": [
+      "73 metres",
+      "55 metres",
+      "38 metres",
+      "18 metres"
+    ],
+    "answer": 1,
+    "explain": "At 60 mph the typical braking distance is 55 metres. Add the 18 metres thinking distance and the typical overall stopping distance is 73 metres (240 feet).",
+    "ref": ["HC 126"],
+    "sign": null
+  },
+  {
+    "id": "MAR-005",
+    "q": "You're driving at 40 mph on a dry road. What is the typical overall stopping distance?",
+    "options": [
+      "23 metres",
+      "24 metres",
+      "36 metres",
+      "53 metres"
+    ],
+    "answer": 2,
+    "explain": "At 40 mph the typical overall stopping distance is 36 metres (118 feet): 12 metres thinking distance plus 24 metres braking distance, or about nine car lengths.",
+    "ref": ["HC 126"],
+    "sign": null
+  },
+  {
+    "id": "MAR-006",
+    "q": "You're on a dry dual carriageway at 60 mph. Taking an average car length as 4 metres, about how many car lengths is your typical overall stopping distance?",
+    "options": [
+      "Nine",
+      "Thirteen",
+      "Twenty-four",
+      "Eighteen"
+    ],
+    "answer": 3,
+    "explain": "At 60 mph the typical overall stopping distance is 73 metres (240 feet), or about eighteen car lengths. The safe rule is never to get closer than the overall stopping distance to the vehicle in front.",
+    "ref": ["HC 126"],
+    "sign": null
+  },
+  {
+    "id": "MAR-007",
+    "q": "The Highway Code's typical stopping distances are only a general guide. Which factor does it say your thinking distance depends on?",
+    "options": [
+      "The condition of your brakes",
+      "The road surface",
+      "Your attention",
+      "The type of tyres fitted"
+    ],
+    "answer": 2,
+    "explain": "The stopping distances diagram says the distance will depend on your attention (thinking distance), the road surface, the weather conditions and the condition of your vehicle at the time.",
+    "ref": ["HC 126"],
+    "sign": null
+  },
+  {
+    "id": "MAR-008",
+    "q": "You're following another car on a fast road. What does the Highway Code give as the safe rule for how close you should get?",
+    "options": [
+      "Never closer than the typical braking distance",
+      "Never closer than the overall stopping distance",
+      "Never closer than the typical thinking distance",
+      "Never closer than three car lengths away"
+    ],
+    "answer": 1,
+    "explain": "Leave enough space to pull up safely if the vehicle in front suddenly slows down or stops. The safe rule is never to get closer than the overall stopping distance.",
+    "ref": ["HC 126"],
+    "sign": null
+  },
+  {
+    "id": "MAR-009",
+    "q": "You're driving on a dry, high-speed road. What is the minimum time gap you should leave between you and the vehicle in front?",
+    "options": [
+      "One second",
+      "Half a second",
+      "Four seconds",
+      "Two seconds"
+    ],
+    "answer": 3,
+    "explain": "You should allow at least a two-second gap on high-speed roads and in tunnels where visibility is reduced. Use a fixed point, such as a sign, to help you measure it.",
+    "ref": ["HC 126"],
+    "sign": null
+  },
+  {
+    "id": "MAR-010",
+    "q": "It's raining and you're driving on a dual carriageway. In the dry you'd leave a two-second gap. What gap should you now leave?",
+    "options": [
+      "At least four seconds",
+      "About three seconds",
+      "Two seconds is still enough",
+      "About one second"
+    ],
+    "answer": 0,
+    "explain": "The two-second gap should be at least doubled on wet roads. In wet weather stopping distances will be at least double those on dry roads, because your tyres have less grip.",
+    "ref": ["HC 126", "HC 227"],
+    "sign": null
+  },
+  {
+    "id": "MAR-011",
+    "q": "You're driving on an icy road. Compared with a dry road, how much greater might your gap from the vehicle in front need to be?",
+    "options": [
+      "Up to twice as great",
+      "Up to ten times greater",
+      "Up to four times greater",
+      "About the same"
+    ],
+    "answer": 1,
+    "explain": "The gap should be up to ten times greater on icy roads. Stopping distances can be ten times greater than on dry roads, so keep well back from the road user in front.",
+    "ref": ["HC 126", "HC 230"],
+    "sign": null
+  },
+  {
+    "id": "MAR-012",
+    "q": "You're driving through a tunnel and the traffic ahead comes to a stop. What is the minimum gap you should leave between you and the vehicle in front?",
+    "options": [
+      "2 metres",
+      "10 metres",
+      "5 metres",
+      "20 metres"
+    ],
+    "answer": 2,
+    "explain": "If you have to stop in a tunnel, leave at least a 5-metre gap between you and the vehicle in front. While moving, allow at least a two-second gap, as visibility in tunnels is reduced.",
+    "ref": ["HC 126"],
+    "sign": null
+  },
+  {
+    "id": "MAR-013",
+    "q": "Your passenger says the driver behind you is tailgating. What does tailgating mean?",
+    "options": [
+      "Driving with the rear fog lights on",
+      "Overtaking a vehicle on its left",
+      "Towing a trailer that sways",
+      "Following too closely to stop safely"
+    ],
+    "answer": 3,
+    "explain": "Tailgating is where the gap between you and the vehicle in front is too small for you to stop safely if it suddenly brakes. It's dangerous, intimidating and can cause collisions, especially at speed.",
+    "ref": ["HC 126"],
+    "sign": null
+  },
+  {
+    "id": "MAR-014",
+    "q": "You're keeping a safe gap on a dual carriageway when another driver overtakes and pulls into the space in front of you. What should you do?",
+    "options": [
+      "Close up so nobody else cuts in",
+      "Flash your headlights at the driver",
+      "Drop back to regain a two-second gap",
+      "Overtake the driver again"
+    ],
+    "answer": 2,
+    "explain": "If someone overtakes and pulls into the gap in front of you, drop back to maintain a two-second gap. Never speed up or obstruct a driver who is overtaking you.",
+    "ref": ["HC 168"],
+    "sign": null
+  },
+  {
+    "id": "MAR-015",
+    "q": "You're driving in heavy rain behind a lorry. Why should you keep well back from it?",
+    "options": [
+      "To stop your brakes from getting wet",
+      "To see and plan further ahead",
+      "To let your tyres warm up and grip",
+      "To stop your wipers from overloading"
+    ],
+    "answer": 1,
+    "explain": "In wet weather you should keep well back from the vehicle in front. This will increase your ability to see and plan ahead, as rain and spray from vehicles may make it difficult to see and be seen.",
+    "ref": ["HC 227"],
+    "sign": null
+  },
+  {
+    "id": "MAR-016",
+    "q": "You're driving through heavy rain when the steering suddenly feels unresponsive. What should you do?",
+    "options": [
+      "Ease off and slow down gradually",
+      "Brake hard to slow down quickly",
+      "Steer sharply to regain grip",
+      "Accelerate to get through the water"
+    ],
+    "answer": 0,
+    "explain": "If the steering becomes unresponsive in wet weather, it probably means that water is preventing the tyres from gripping the road. Ease off the accelerator and slow down gradually.",
+    "ref": ["HC 227"],
+    "sign": null
+  },
+  {
+    "id": "MAR-017",
+    "q": "You're driving on a wet road and pass a fuel station. Why should you be aware of spilt diesel on the road?",
+    "options": [
+      "It makes your brakes overheat",
+      "It damages your tyre sidewalls",
+      "It causes your engine to stall",
+      "It makes the road very slippery"
+    ],
+    "answer": 3,
+    "explain": "Spilt diesel makes the road surface very slippery, as it significantly reduces the grip between tyres and the road. It's especially dangerous for motorcyclists.",
+    "ref": ["HC 227", "HC Annex 6"],
+    "sign": null
+  },
+  {
+    "id": "MAR-018",
+    "q": "The local forecast warns of snow and ice overnight. You'd planned to drive somewhere the next morning. What should you do?",
+    "options": [
+      "Drive as normal once the roads are gritted",
+      "Drive only if your journey is essential",
+      "Lower your tyre pressures for extra grip",
+      "Follow other vehicles' tracks closely"
+    ],
+    "answer": 1,
+    "explain": "Don't drive in icy or snowy weather unless your journey is essential. If it is, take great care, allow more time and drive with care even if the roads have been treated.",
+    "ref": ["HC 228", "HC 230"],
+    "sign": null
+  },
+  {
+    "id": "MAR-019",
+    "q": "You have to drive on a road that is icy. Which of these is the safest way to drive?",
+    "options": [
+      "Slowly, in the lowest gear possible",
+      "At a steady speed in neutral",
+      "Slowly, in as high a gear as possible",
+      "Briskly, to spend less time on the ice"
+    ],
+    "answer": 2,
+    "explain": "When the roads are icy, drive at a slow speed in as high a gear as possible, and accelerate and brake very gently. Avoid sudden actions, as these could cause loss of control.",
+    "ref": ["HC 231"],
+    "sign": null
+  },
+  {
+    "id": "MAR-020",
+    "q": "You're approaching a bend on an icy road. When should you do your braking?",
+    "options": [
+      "On the straight before the bend",
+      "As you start to steer into the bend",
+      "Halfway round the bend",
+      "As you leave the bend"
+    ],
+    "answer": 0,
+    "explain": "Drive particularly slowly on bends, where loss of control is more likely. Brake progressively on the straight before you reach the bend, then steer smoothly round it, avoiding sudden actions.",
+    "ref": ["HC 231"],
+    "sign": null
+  },
+  {
+    "id": "MAR-021",
+    "q": "It's a freezing winter night and you notice your tyres are making almost no noise on the road. What could this mean?",
+    "options": [
+      "The road is wet with rain",
+      "Your tyres are under-inflated",
+      "You're driving on ice",
+      "The road has just been gritted"
+    ],
+    "answer": 2,
+    "explain": "When travelling on ice, tyres make virtually no noise. Steering that feels unresponsive may also mean ice, and that your vehicle is losing its grip on the road.",
+    "ref": ["HC 231"],
+    "sign": null
+  },
+  {
+    "id": "MAR-022",
+    "q": "You're following a snowplough on a dual carriageway. When could you consider overtaking it?",
+    "options": [
+      "When the lane you'll use has been cleared",
+      "As soon as it slows down for a junction",
+      "When it moves into the left-hand lane",
+      "Whenever there's a long, clear straight"
+    ],
+    "answer": 0,
+    "explain": "Snowploughs may throw out snow on either side. Don't overtake them unless the lane you intend to use has been cleared.",
+    "ref": ["HC 230"],
+    "sign": null
+  },
+  {
+    "id": "MAR-023",
+    "q": "What usually causes a car to skid?",
+    "options": [
+      "Braking early and lightly before bends",
+      "Keeping to a steady speed on the straight",
+      "Steering smoothly on a dry, level road",
+      "Harsh braking, accelerating or steering"
+    ],
+    "answer": 3,
+    "explain": "Skidding is usually caused by the driver braking, accelerating or steering too harshly, or driving too fast for the road conditions.",
+    "ref": ["HC 119"],
+    "sign": null
+  },
+  {
+    "id": "MAR-024",
+    "q": "You're driving on a slippery road and the rear of your car skids to the right. What should you do?",
+    "options": [
+      "Steer to the left",
+      "Brake firmly",
+      "Steer to the right",
+      "Pull the handbrake on"
+    ],
+    "answer": 2,
+    "explain": "Turn the steering wheel in the direction of the skid. If the rear of the vehicle skids to the right, steer immediately to the right to recover.",
+    "ref": ["HC 119"],
+    "sign": null
+  },
+  {
+    "id": "MAR-025",
+    "q": "You brake too harshly on a wet bend and your car starts to skid. What should you do to remove the cause?",
+    "options": [
+      "Press the brake pedal harder",
+      "Release the brake pedal fully",
+      "Apply the handbrake as well",
+      "Switch off the engine"
+    ],
+    "answer": 1,
+    "explain": "If skidding occurs, remove the cause by releasing the brake pedal fully or easing off the accelerator. Then steer in the direction of the skid.",
+    "ref": ["HC 119"],
+    "sign": null
+  },
+  {
+    "id": "MAR-026",
+    "q": "Your car has anti-lock brakes (ABS) and you have to stop in an emergency. How should you use the footbrake?",
+    "options": [
+      "Press firmly and keep the pressure on",
+      "Pump it on and off rapidly",
+      "Press gently, then use the handbrake",
+      "Press firmly, then release it quickly"
+    ],
+    "answer": 0,
+    "explain": "In an emergency, apply the footbrake firmly and don't release the pressure until the vehicle has slowed to the desired speed. Otherwise, follow the advice in your vehicle handbook.",
+    "ref": ["HC 120"],
+    "sign": null
+  },
+  {
+    "id": "MAR-027",
+    "q": "You're driving a car fitted with anti-lock brakes on a wet road. What should you remember?",
+    "options": [
+      "ABS lets you follow more closely",
+      "ABS may not shorten your stopping distance",
+      "ABS halves stopping distances in the wet",
+      "ABS stops the tyres losing grip in water"
+    ],
+    "answer": 1,
+    "explain": "ABS should help you keep steering control, but don't assume a vehicle with ABS will stop in a shorter distance. On wet roads your gap should be at least doubled.",
+    "ref": ["HC 120", "HC 126"],
+    "sign": null
+  },
+  {
+    "id": "MAR-028",
+    "q": "You've just driven through deep water and your brakes don't feel fully effective. What should you do?",
+    "options": [
+      "Brake hard several times at speed",
+      "Pump the handbrake on and off",
+      "Drive fast to blow the water off",
+      "Brake lightly while driving slowly"
+    ],
+    "answer": 3,
+    "explain": "After driving through deep water your brakes may be less effective. If they're not fully effective, gently apply light pressure while driving slowly. This will help to dry them out.",
+    "ref": ["HC 121"],
+    "sign": null
+  },
+  {
+    "id": "MAR-029",
+    "q": "You're driving along a dual carriageway and can see a bank of fog ahead. What should you do before you enter it?",
+    "options": [
+      "Check your mirrors, then slow down",
+      "Speed up to get through it quickly",
+      "Brake sharply to warn drivers behind",
+      "Switch on your hazard warning lights"
+    ],
+    "answer": 0,
+    "explain": "Before entering fog, check your mirrors, then slow down. Even if fog seems to be clearing, you can suddenly find yourself in thick fog.",
+    "ref": ["HC 234"],
+    "sign": null
+  },
+  {
+    "id": "MAR-030",
+    "q": "You pass a sign showing 'Fog', but the road ahead looks clear. What should you do?",
+    "options": [
+      "Ignore it, as the fog must have cleared",
+      "Switch on your rear fog lights straight away",
+      "Be prepared for a bank of fog ahead",
+      "Speed up to get past the area quickly"
+    ],
+    "answer": 2,
+    "explain": "If 'Fog' is shown on a sign but the road is clear, be prepared for a bank of fog or drifting patchy fog ahead. Only use fog lights when visibility is seriously reduced.",
+    "ref": ["HC 234", "HC 236"],
+    "sign": null
+  },
+  {
+    "id": "MAR-031",
+    "q": "You're driving on a motorway in fog. What speed should you be driving at?",
+    "options": [
+      "Fast enough to keep up with the traffic around you",
+      "Slow enough to stop in the distance you can see",
+      "Fast enough to keep the lights ahead in view",
+      "Close to the limit so you aren't hit from behind"
+    ],
+    "answer": 1,
+    "explain": "In fog you should be able to pull up well within the distance you can see clearly. This is particularly important on motorways and dual carriageways, as vehicles are travelling faster.",
+    "ref": ["HC 235"],
+    "sign": null
+  },
+  {
+    "id": "MAR-032",
+    "q": "You MUST use headlights when visibility is seriously reduced. What does 'seriously reduced' generally mean?",
+    "options": [
+      "You can't see for more than 200 metres",
+      "You can't see for more than 300 metres",
+      "You can't see for more than 500 metres",
+      "You can't see for more than 100 metres"
+    ],
+    "answer": 3,
+    "explain": "You MUST use headlights when visibility is seriously reduced, generally when you can't see for more than 100 metres (328 feet). You may also use fog lights, but you MUST switch them off when visibility improves.",
+    "ref": ["HC 226"],
+    "sign": null
+  },
+  {
+    "id": "MAR-033",
+    "q": "You've been using your front and rear fog lights in thick fog. The fog has now cleared. What MUST you do?",
+    "options": [
+      "Switch them off",
+      "Leave them on until you park",
+      "Switch off only the front ones",
+      "Leave only the rear ones on"
+    ],
+    "answer": 0,
+    "explain": "You MUST switch fog lights off when visibility improves. They dazzle other road users and can obscure your brake lights.",
+    "ref": ["HC 236"],
+    "sign": null
+  },
+  {
+    "id": "MAR-034",
+    "q": "It's a very windy day. Which type of vehicle is most affected by the wind?",
+    "options": [
+      "High-sided vehicles",
+      "Large saloon cars",
+      "Low sports cars",
+      "Four-wheel-drive cars"
+    ],
+    "answer": 0,
+    "explain": "High-sided vehicles are most affected by windy weather, but strong gusts can also blow a car, cyclist, motorcyclist or horse rider off course.",
+    "ref": ["HC 232"],
+    "sign": null
+  },
+  {
+    "id": "MAR-035",
+    "q": "You're driving on a windy day. Where are strong gusts most likely to blow you off course?",
+    "options": [
+      "In a sheltered residential street",
+      "On an open stretch of road",
+      "In a queue of slow-moving traffic",
+      "In a multi-storey car park"
+    ],
+    "answer": 1,
+    "explain": "Strong gusts can blow vehicles off course on open stretches of road exposed to strong crosswinds, or when passing bridges or gaps in hedges.",
+    "ref": ["HC 232"],
+    "sign": null
+  },
+  {
+    "id": "MAR-036",
+    "q": "It's very windy. Ahead of you, a motorcyclist is overtaking a high-sided lorry. What should you do?",
+    "options": [
+      "Stay close behind the motorcyclist",
+      "Overtake the motorcyclist straight away",
+      "Sound your horn to warn the rider",
+      "Keep well back from the motorcyclist"
+    ],
+    "answer": 3,
+    "explain": "In very windy weather, turbulence created by large vehicles can affect other road users. Motorcyclists are particularly affected, so keep well back from them when they're overtaking a high-sided vehicle.",
+    "ref": ["HC 233"],
+    "sign": null
+  },
+  {
+    "id": "MAR-037",
+    "q": "You're about to overtake a cyclist on a day with strong winds. How much room should you give them?",
+    "options": [
+      "Less than usual so you pass quickly",
+      "More than you would in calm weather",
+      "The same as you'd give a parked car",
+      "Just enough to clear their handlebars"
+    ],
+    "answer": 1,
+    "explain": "Take extra care and give more space when overtaking cyclists, motorcyclists and horse riders in bad weather, including high winds, and at night. Gusts can blow them off course.",
+    "ref": ["HC 163", "HC 212", "HC 232"],
+    "sign": null
+  },
+  {
+    "id": "MAR-038",
+    "q": "It starts to rain after a long spell of hot, dry weather. What should you be aware of?",
+    "options": [
+      "Your tyres will grip better",
+      "Your brakes will work better",
+      "The road may become slippery",
+      "Your stopping distance will shorten"
+    ],
+    "answer": 2,
+    "explain": "If it rains after a dry spell, the road surface may become slippery. This could affect your steering and braking.",
+    "ref": ["HC 237"],
+    "sign": null
+  },
+  {
+    "id": "MAR-039",
+    "q": "You're on a long drive on a very hot day. Why should you keep your car well ventilated?",
+    "options": [
+      "To avoid becoming drowsy",
+      "To stop the tyres overheating",
+      "To keep the brakes cool",
+      "To stop the engine overheating"
+    ],
+    "answer": 0,
+    "explain": "In hot weather, keep your vehicle well ventilated to avoid drowsiness. If you're dazzled by bright sunlight, slow down and, if necessary, stop.",
+    "ref": ["HC 237"],
+    "sign": null
+  },
+  {
+    "id": "MAR-040",
+    "q": "Your driving instructor warns you not to coast. What does 'coasting' mean?",
+    "options": [
+      "Slowing down by changing to a lower gear",
+      "Driving at a steady speed in top gear",
+      "Travelling in neutral or with the clutch down",
+      "Following close behind another vehicle"
+    ],
+    "answer": 2,
+    "explain": "Coasting describes a vehicle travelling in neutral or with the clutch pressed down. It can reduce your control because engine braking is eliminated.",
+    "ref": ["HC 122"],
+    "sign": null
+  },
+  {
+    "id": "MAR-041",
+    "q": "You're driving down a steep hill. Why is it dangerous to coast in neutral?",
+    "options": [
+      "Your speed will increase quickly",
+      "Your engine may overheat",
+      "Your fuel use will rise sharply",
+      "Your tyres will wear unevenly"
+    ],
+    "answer": 0,
+    "explain": "Coasting eliminates engine braking, so your speed downhill will increase quickly. It can also affect steering response and make it harder to select the right gear when you need it.",
+    "ref": ["HC 122"],
+    "sign": null
+  },
+  {
+    "id": "MAR-042",
+    "q": "You're following a large lorry and would like to overtake it. Why should you drop back?",
+    "options": [
+      "So you can build up speed before pulling out",
+      "So the lorry driver can speed up",
+      "So you can overtake on the left if needed",
+      "So you can see further ahead and be seen"
+    ],
+    "answer": 3,
+    "explain": "Dropping back increases your ability to see ahead and should allow the driver of the large vehicle to see you in their mirrors. Getting too close will obscure your view of the road ahead.",
+    "ref": ["HC 164"],
+    "sign": null
+  },
+  {
+    "id": "MAR-043",
+    "q": "You're behind a car that pulls out to overtake a long lorry. You also want to overtake the lorry. What should you do?",
+    "options": [
+      "Follow the car closely as it passes",
+      "Pull out alongside the car to pass together",
+      "Wait, as the car may abort and pull back in",
+      "Flash your headlights to hurry the car"
+    ],
+    "answer": 2,
+    "explain": "Don't assume you can follow a vehicle ahead that is overtaking a long vehicle. If a problem develops, they may abort the overtake and pull back in.",
+    "ref": ["HC 164"],
+    "sign": null
+  },
+  {
+    "id": "MAR-044",
+    "q": "You're about to overtake a cyclist on a road with a 30 mph limit. As a guide, what is the minimum space you should leave?",
+    "options": [
+      "75 centimetres",
+      "1 metre",
+      "50 centimetres",
+      "1.5 metres"
+    ],
+    "answer": 3,
+    "explain": "As a guide, leave at least 1.5 metres when overtaking cyclists at speeds of up to 30 mph, and give them more space when overtaking at higher speeds.",
+    "ref": ["HC 163"],
+    "sign": null
+  },
+  {
+    "id": "MAR-045",
+    "q": "You're driving along a country road and see a horse rider ahead. How should you pass them?",
+    "options": [
+      "Below 20 mph, leaving at least 1 metre",
+      "Below 10 mph, leaving at least 2 metres",
+      "Below 30 mph, leaving at least 1.5 metres",
+      "Below 15 mph, leaving at least 1 metre"
+    ],
+    "answer": 1,
+    "explain": "Pass horse riders and horse-drawn vehicles at speeds under 10 mph and allow at least 2 metres of space. Always pass wide and slowly.",
+    "ref": ["HC 163", "HC 215"],
+    "sign": null
+  },
+  {
+    "id": "MAR-046",
+    "q": "You're about to overtake a motorcyclist on a single carriageway. How much room should you give them?",
+    "options": [
+      "Less than you'd give a car",
+      "Just enough to clear their mirror",
+      "Half the width of your lane",
+      "At least as much as you'd give a car"
+    ],
+    "answer": 3,
+    "explain": "Give motorcyclists, cyclists, horse riders and horse-drawn vehicles at least as much room as you would when overtaking a car.",
+    "ref": ["HC 163", "HC 212"],
+    "sign": null
+  },
+  {
+    "id": "MAR-047",
+    "q": "You're following a cyclist on a narrow, winding road. There isn't room to pass with a safe gap. What should you do?",
+    "options": [
+      "Wait behind until it's safe to pass",
+      "Pass slowly, leaving less space",
+      "Sound your horn so they move in",
+      "Flash your headlights to warn them"
+    ],
+    "answer": 0,
+    "explain": "You should wait behind the cyclist and not overtake if it's unsafe or not possible to give them the recommended space.",
+    "ref": ["HC 163"],
+    "sign": null
+  },
+  {
+    "id": "MAR-048",
+    "q": "You're approaching the start of a contraflow system at road works. Why should you slow down and increase your distance from the vehicle in front?",
+    "options": [
+      "The lanes will be wider than normal",
+      "Changes in road camber may affect stability",
+      "Speed cameras are only used at the start",
+      "The road surface will always be wet"
+    ],
+    "answer": 1,
+    "explain": "In a contraflow you may be in a narrower lane than normal with no permanent barrier between you and oncoming traffic. At the start and finish, slow down and increase your distance from the vehicle in front, as changes in camber may affect vehicle stability.",
+    "ref": ["HC 290"],
+    "sign": null
+  },
+  {
+    "id": "MAR-049",
+    "q": "You're driving through road works where the lanes are narrower than normal. What should you do?",
+    "options": [
+      "Overtake queuing traffic to get through",
+      "Keep close to the vehicle in front",
+      "Keep a safe distance and watch the lane edges",
+      "Straddle the lanes to give yourself room"
+    ],
+    "answer": 2,
+    "explain": "Narrow lanes at road works are marked by studs or temporary road markings. Keep a safe distance from the vehicle in front and make sure you can clearly see the edges of the lane ahead.",
+    "ref": ["HC 290", "HC 288"],
+    "sign": null
+  },
+  {
+    "id": "MAR-050",
+    "q": "You're driving through road works with grit and mud on the road surface. Which road users are most at risk of skidding?",
+    "options": [
+      "Drivers of large lorries",
+      "Cyclists and motorcyclists",
+      "Drivers of buses and coaches",
+      "Drivers of four-wheel-drive cars"
+    ],
+    "answer": 1,
+    "explain": "Take extra care near cyclists and motorcyclists at road works, as they are vulnerable to skidding on grit, mud or other debris.",
+    "ref": ["HC 288"],
+    "sign": null
+  }
+]

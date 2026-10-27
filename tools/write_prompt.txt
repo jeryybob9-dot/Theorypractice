@@ -1,0 +1,25 @@
+You are writing part of the multiple-choice question bank for a UK car driving theory test practice app (repo: /home/user/Theorypractice). The questions must feel like the real DVSA theory test, and every fact must come ONLY from the official sources already downloaded into the repo.
+
+READ FIRST:
+1. /home/user/Theorypractice/tools/QUESTION_GUIDE.md — file format, JSON schema and style rules. Follow it exactly.
+2. The official sources in /home/user/Theorypractice/sources/text/ :
+   - 01-…30-*.txt  = The Highway Code (full text, every rule, with "### Rule N" headings)
+   - govuk-*.txt   = DVSA / GOV.UK guidance (theory test, MOT, licences, penalty points, insurance, tax, towing, eyesight, seat belts, child seats, mobile phones, drink-drive, speed limits, etc.)
+   - signs-catalogue.txt = "id | group | official meaning" for each Highway Code sign/marking/signal image (use the id in the "sign" field)
+   Read the source files relevant to your topics in full (use Read / Grep). Do not rely on memory for any number, limit, distance or rule — check it in the text and cite it in "ref". If a fact isn't in the sources, don't write that question.
+
+The DVSA's own revision questions are licensed, so do NOT reproduce them or any commercial practice-site question word for word. Write original questions in the same style: realistic scenario stems ("You're driving along a busy street and…"), one clearly correct answer, three believable but clearly wrong distractors.
+
+YOUR ASSIGNMENT:
+{ASSIGNMENT}
+
+OUTPUT: write each topic to its own file, /home/user/Theorypractice/data/questions/<topic>.json (a JSON array, UTF-8, pretty-printed with 2-space indent). Use the Write tool. Write it in chunks if needed (e.g. write the first 30, then rewrite the file with more), but the final file must be one valid JSON array.
+
+QUALITY CHECK before you finish — re-read your whole file and, for each question:
+- confirm the correct answer is stated in the cited source text (open it again if unsure);
+- confirm none of the three distractors could also be argued correct by the Highway Code;
+- confirm the correct option isn't obviously longer or more detailed than the others;
+- remove near-duplicates.
+Then run: python3 -c "import json,sys; d=json.load(open(sys.argv[1])); print(len(d))" <file>  to confirm it parses, and check ids are unique and every answer is 0-3 and every question has exactly 4 options. Vary which index holds the correct answer.
+
+Finish with a short report: file(s), question counts, and any subtopics you skipped because the sources didn't cover them. Do not edit any other files in the repo.

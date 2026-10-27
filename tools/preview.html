@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<base href="../">
+<title>Clip preview</title>
+<style>
+  html, body { margin: 0; background: #000; color: #fff; font: 13px -apple-system, Helvetica, sans-serif; }
+  #frame { width: 960px; height: 540px; position: relative; }
+  #info { padding: 6px; white-space: pre-wrap; }
+</style>
+</head>
+<body>
+<div id="frame"></div>
+<div id="info"></div>
+<script type="module">
+// Developer preview: tools/preview.html?template=zebra&env=town&seed=5&t=20
+import { makeClip } from './js/hpt/scenarios.js';
+import { ClipPlayer } from './js/hpt/player.js';
+const q = new URLSearchParams(location.search);
+const seed = +(q.get('seed') || 1);
+const clip = makeClip(seed, { template: q.get('template') || undefined, env: q.get('env') || undefined, double: q.has('double'), time: q.get('time') || undefined, weather: q.get('weather') || undefined });
+const player = new ClipPlayer(document.getElementById('frame'), { mode: 'review' });
+window.clip = clip;
+window.player = player;
+player.load(clip).then(() => {
+  player.seek(+(q.get('t') || 0));
+  document.getElementById('info').textContent = JSON.stringify({ env: clip.env, time: clip.time, weather: clip.weather, duration: clip.duration, hazards: clip.hazards, actors: clip.actors.length }, null, 1);
+  window.ready = true;
+}).catch((e) => { document.getElementById('info').textContent = 'ERROR ' + e.stack; window.ready = true; });
+</script>
+</body>
+</html>
