@@ -679,10 +679,10 @@
     "id": "ALE-042",
     "q": "You're driving along a busy road. How often should you use your mirrors?",
     "options": [
-      "Only just before you start to turn or stop",
-      "Only when you hear a vehicle sound its horn",
+      "Only just before you turn or stop",
+      "Whenever you hear another vehicle's horn",
       "Frequently, so you know what's behind you",
-      "Only after you've finished an overtaking move"
+      "Once every few miles on a busy road"
     ],
     "answer": 2,
     "explain": "Use your mirrors frequently so that you always know what's behind and to each side of you. Use them in good time before you signal or change direction or speed.",

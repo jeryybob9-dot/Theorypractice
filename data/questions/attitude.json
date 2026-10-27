@@ -28,6 +28,7 @@
     "answer": 2,
     "explain": "The hierarchy doesn't remove the need for everyone to behave responsibly. All road users, including pedestrians, cyclists and horse riders, should have regard for their own and other road users' safety.",
     "ref": [
+      "HC Introduction",
       "HC H1"
     ],
     "sign": null
@@ -557,7 +558,7 @@
     "id": "ATT-035",
     "q": "You're in a slow-moving queue and are about to stop across the end of a side road. What should you do?",
     "options": [
-      "Close the gap to the car in front",
+      "Sound your horn to warn drivers in it",
       "Stop across it, as you're in a queue",
       "Switch on your hazard warning lights",
       "Leave the side road clear"
@@ -636,18 +637,17 @@
   },
   {
     "id": "ATT-040",
-    "q": "You're in slow-moving traffic on a road with two lanes in your direction. The lane to your left is moving slightly faster. What should you NOT do?",
+    "q": "You're in a queue of slow-moving traffic. What does the Highway Code advise about the gap between you and the vehicle ahead?",
     "options": [
-      "Change lanes to the left to overtake",
-      "Stay in the lane you're already in",
-      "Keep a safe gap to the car in front",
-      "Check your mirrors regularly"
+      "Close right up so no one can cut in",
+      "Keep at least a four-second gap",
+      "Reduce it to help keep traffic flowing",
+      "Keep the gap you'd leave at 70 mph"
     ],
-    "answer": 0,
-    "explain": "In slow-moving traffic you should not change lanes to the left to overtake. Stay in your lane and don't change lanes unnecessarily.",
+    "answer": 2,
+    "explain": "In slow-moving traffic, you should reduce the distance between you and the vehicle ahead to maintain traffic flow. But never get so close to the vehicle in front that you can't stop safely.",
     "ref": [
-      "HC 151",
-      "HC 134"
+      "HC 151"
     ],
     "sign": null
   },

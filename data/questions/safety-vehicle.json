@@ -717,9 +717,9 @@
     "id": "SAF-045",
     "q": "It's a warm day and you're leaving your car for a while. Which of these should you never leave in it?",
     "options": [
-      "Your car's handbook",
-      "A first aid kit",
-      "A warning triangle",
+      "The spare wheel",
+      "A first aid kit in the boot",
+      "A warning triangle in the boot",
       "Children or pets"
     ],
     "answer": 3,
@@ -765,7 +765,7 @@
     "id": "SAF-048",
     "q": "You want to make your car more secure against theft. What could you fit?",
     "options": [
-      "Tinted rear windows",
+      "Wider alloy wheels",
       "An alarm or immobiliser",
       "A larger fuel tank",
       "Brighter headlight bulbs"
@@ -911,7 +911,7 @@
     "id": "SAF-057",
     "q": "You're driving in England with your 16-year-old nephew in the car. What does the law say about smoking?",
     "options": [
-      "You may smoke with the windows open",
+      "You may smoke as he's aged 16",
       "You MUST NOT smoke in the car",
       "You may smoke if he agrees to it",
       "You may smoke if he sits in the back"
