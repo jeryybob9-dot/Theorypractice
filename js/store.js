@@ -25,6 +25,7 @@ const DEFAULT_SETTINGS = {
   theme: 'auto',          // auto | light | dark
   voiceover: false,       // read questions aloud (the real test offers an English voiceover)
   practiceFeedback: true, // show the answer straight away in practice mode
+  mockFeedback: true,     // show right/wrong after each mock test question (off = exam conditions)
   hptCountdown: true,     // short countdown before each hazard clip
   extraTime: false,       // 25% extra time on the mock test (as for candidates with reading difficulties)
   quality: 'auto',        // hazard clip render quality: auto | low | high

@@ -149,6 +149,21 @@ function renderTests() {
 function renderMockIntro(full = false) {
   const main = page({ title: full ? 'Full theory test' : 'Mock test', back: '#/tests' });
   const s = store.settings();
+  const feedbackNote = h('li');
+  const setNote = () => {
+    feedbackNote.textContent = s.mockFeedback
+      ? "You'll see straight away whether each answer is right, with the explanation. Once answered, a question can't be changed."
+      : "You won't see whether you're right until the end, as in the real test.";
+  };
+  setNote();
+  const mode = h('div', { class: 'seg', role: 'group', 'aria-label': 'Answers' });
+  const drawMode = () => {
+    clear(mode);
+    for (const [v, label] of [[true, 'Answers as I go'], [false, 'Exam conditions']]) {
+      mode.appendChild(h('button', { 'aria-pressed': s.mockFeedback === v ? 'true' : 'false', onclick: () => { s.mockFeedback = v; store.saveSettings(s); drawMode(); setNote(); } }, label));
+    }
+  };
+  drawMode();
   main.appendChild(h('div', { class: 'card' },
     h('h2', null, full ? 'Part 1: multiple-choice questions' : 'Multiple-choice mock test'),
     h('ul', null,
@@ -156,7 +171,9 @@ function renderMockIntro(full = false) {
       h('li', null, `The pass mark is ${MOCK.pass} out of ${MOCK.questions}.`),
       h('li', null, 'Questions come from all 14 DVSA topics. The last 3 are about a short video clip, which you can watch as many times as you like.'),
       h('li', null, 'Select one answer per question. Flag questions to come back to, and use Review to check before you end the test.'),
-      h('li', null, "You won't see whether you're right until the end, as in the real test.")),
+      feedbackNote),
+    h('div', { class: 'section-title', style: { marginTop: '6px' } }, 'Answers'),
+    mode,
     full ? h('div', { class: 'notice info' }, `After the questions you can have a break of up to 3 minutes, then the hazard perception part: ${HPT.clips} clips, pass mark ${HPT.pass} out of ${HPT.max}.`) : null,
     h('div', { style: { height: '12px' } }),
     h('button', { class: 'btn block', onclick: async (e) => { e.target.disabled = true; e.target.textContent = 'Preparing…'; await startMock({ full }); } }, 'Start test')));
@@ -276,7 +293,8 @@ function renderSettings() {
     h('div', null, h('div', null, label), sub ? h('div', { class: 'small muted' }, sub) : null),
     h('span', { class: 'switch' }, h('input', { type: 'checkbox', checked: !!s[k], onchange: (e) => set(k, e.target.checked) }), h('span')));
   main.appendChild(h('div', { class: 'list' },
-    sw('practiceFeedback', 'Show answers during practice', 'Mock tests always wait until the end'),
+    sw('practiceFeedback', 'Show answers during topic practice', 'Right or wrong straight after each question'),
+    sw('mockFeedback', 'Show answers during mock tests', 'Turn off to practise under exam conditions'),
     sw('voiceover', 'Voiceover', 'Adds a button to read each question aloud'),
     sw('extraTime', 'Extra time on mock tests', 'For candidates DVSA has approved extra time'),
     sw('hptCountdown', 'Countdown before each hazard clip')));

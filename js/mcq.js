@@ -37,7 +37,7 @@ export async function startMock({ full = false } = {}) {
   S = {
     id: `t${Date.now().toString(36)}`, type: full ? 'full' : 'mock', seed, created: Date.now(),
     questions, answers: questions.map(() => null), flags: questions.map(() => false), revealed: questions.map(() => false),
-    current: 0, timeLimit: Math.round(minutes * 60), elapsed: 0, phase: 'q', filter: null, video, feedback: false,
+    current: 0, timeLimit: Math.round(minutes * 60), elapsed: 0, phase: 'q', filter: null, video, feedback: !!settings.mockFeedback,
   };
   save();
   nav('#/test');
