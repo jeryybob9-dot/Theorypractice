@@ -5,7 +5,7 @@
 // solver to make the camera car brake as late as is safe. The scoring window runs from the moment the
 // hazard starts to develop (the cue) to just after the point where a driver would have to act.
 import { rng } from '../util.js';
-import { SpeedProfile, Track } from './road.js';
+import { Route, SpeedProfile, Track } from './road.js';
 import { CAR_COLOURS } from './models.js';
 
 const MPH = 0.44704;
@@ -121,6 +121,10 @@ class Ctx {
     const r = this.r;
     this.E = ENVS[envName](r);
     fixMotorwaySpec(this.E);
+    const w = opts.weather, tm = opts.time;
+    if (w === 'fog') this.E.v0 *= ['dual', 'motorway'].includes(envName) ? 0.6 : 0.68;
+    else if (tm === 'night') this.E.v0 *= ['residential', 'town'].includes(envName) ? 0.95 : 0.85;
+    else if (w === 'rain') this.E.v0 *= 0.92;
     this.v0 = this.E.v0;
     this.keys = [[0, this.v0]];
     this.lastT = 0;
@@ -165,6 +169,7 @@ class Ctx {
       s += bl;
     }
     this.segments = segs;
+    this.routeLen = s;
     // gentle hills on rural roads
     if (this.E.env === 'rural' || this.E.env === 'village') {
       const elev = [];
@@ -172,6 +177,7 @@ class Ctx {
       for (let x = 0; x < s; x += r.range(150, 300)) { elev.push([x, h]); h += r.range(-3.5, 3.5); }
       this.elev = elev;
     }
+    this.route = new Route(segs, this.elev || null, 1);
     return segs;
   }
 
@@ -240,6 +246,59 @@ class Ctx {
     return { s, t, ahead };
   }
 
+  // Height of whatever lines the road beyond sightLimit (you can see over a hedge, not a house).
+  sightHeight(side) {
+    const cfg = side < 0 ? this.E.layout.left : this.E.layout.right;
+    if (cfg.back === 'hedge') return cfg.hedgeH || 1.8;
+    if (cfg.back === 'park') return 1.0;
+    if (cfg.back === 'embankment') return 0;
+    return 9;
+  }
+
+  // How far either side of the road you can see past (hedges, buildings), per side.
+  sightLimit(side) {
+    const E = this.E, L = E.layout;
+    const half = L.road ? L.road.width / 2 : Math.max(...L.carriageways.map((c) => Math.abs(side < 0 ? c.d0 : c.d1)));
+    const cfg = side < 0 ? L.left : L.right;
+    const base = half + (cfg.pavement || 0) + (cfg.verge || 0);
+    if (cfg.back === 'hedge') return base + 0.5;
+    if (cfg.back === 'shops') return base + 0.3;
+    if (cfg.back === 'houses') return base + 3.2;
+    if (cfg.back === 'cottages') return base + 1.6;
+    if (cfg.back === 'park') return base + 6;
+    return base + 25;
+  }
+
+  // Can the driver at (sA, dA) see a road user at (sB, dB)? Checks hedges/buildings on bends and hill crests.
+  canSee(sA, dA, sB, dB, hB = 1.0) {
+    const R = this.route;
+    const A = R.pos(sA, dA, 1.2), B = R.pos(sB, dB, hB);
+    const dist = Math.hypot(B.x - A.x, B.z - A.z);
+    if (dist > this.sightMax()) return false;
+    const n = Math.max(2, Math.ceil(dist / 3));
+    for (let i = 1; i < n; i++) {
+      const u = i / n;
+      if (u > 0.92) break; // the last few metres are next to the road user itself
+      const x = A.x + (B.x - A.x) * u, z = A.z + (B.z - A.z) * u, y = A.y + (B.y - A.y) * u;
+      const pr = R.project(x, z, sA + (sB - sA) * u);
+      if (y < R.height(pr.s) + 0.05) return false; // hidden by a crest
+      const side = pr.d < 0 ? -1 : 1;
+      if (Math.abs(pr.d) > this.sightLimit(side) && y - R.height(pr.s) < this.sightHeight(side)) {
+        // looking into a side road or gateway is fine
+        const open = this.junctions.some((j) => j.side === side && Math.abs(pr.s - j.s) < j.width / 2 + 2);
+        if (!open) return false;
+      }
+    }
+    return true;
+  }
+
+  sightMax() {
+    if (this.weather === 'fog') return 70;
+    if (this.time === 'night') return 140;
+    if (this.weather === 'rain') return 170;
+    return 260;
+  }
+
   // The bend (curved segment) whose start is nearest after s.
   bendNear(s) {
     let acc = 0, best = null;
@@ -260,6 +319,8 @@ class Ctx {
   // Make the camera car respond to a hazard as late as is safe.
   // ev: { cueT, check: [t0, t1], limit(t) -> max s allowed, vMin, decel, accel, resumeT, label, desc, reaction }
   event(ev) {
+    const subject = ev.subject || this.actors.find((a) => a.hazardActor && a.id > (this._lastSubjectId || 0));
+    if (subject) this._lastSubjectId = Math.max(...this.actors.map((a) => a.id));
     const prev = this.keys.slice();
     const vC = this.cruiseV();
     const vMin = ev.vMin ?? 0;
@@ -308,7 +369,7 @@ class Ctx {
     let start = ev.cueT;
     if (end - start < 2.6) end = start + 2.6;
     if (end - start > 6.5) start = end - 6.5;
-    const hz = { start, end, label: ev.label, desc: ev.desc, brake: tb, cue: ev.cueT };
+    const hz = { start, end, label: ev.label, desc: ev.desc, brake: tb, cue: ev.cueT, subject };
     this.hazards.push(hz);
     return hz;
   }
@@ -412,6 +473,23 @@ function finish(ctx, duration) {
     }
   }
   for (const f of ctx.after) f(prof);
+  const egoLat = new Track(ctx.lat.length ? ctx.lat : [[0, E.egoD]]);
+  for (const hz of ctx.hazards) {
+    if (!hz.subject) continue;
+    const tr = new Track(hz.subject.keys);
+    const a = [], l = [];
+    const hgt = { ball: 0.25, dog: 0.5, child: 1.0, person: 1.5, cyclist: 1.5, deer: 1.2, horse: 2.3, car: 1.3, van: 2.0, bus: 3.0, lorry: 3.5, tractor: 2.6, motorbike: 1.5 }[hz.subject.type] || 1.2;
+    let seen = null;
+    for (let t = hz.start; t <= hz.end + 4; t += 0.1) {
+      tr.at(t, a); egoLat.at(t, l);
+      if (ctx.canSee(egoS(t), l[0] + 0.38, a[0], a[1], hgt)) { seen = t; break; }
+    }
+    hz.visibleAt = seen;
+    if (seen != null && seen > hz.start + 0.05) {
+      hz.start = seen;
+      if (hz.end - hz.start < 3.0) hz.end = hz.start + 3.0;
+    }
+  }
   for (const a of ctx.actors) {
     if (!a.leaveAhead) continue;
     const tr = new Track(a.keys);
@@ -422,7 +500,7 @@ function finish(ctx, duration) {
     from = Math.max(from, a.leaveAfter ?? from);
     for (let t = from; t < 160; t += 0.25) {
       tr.at(t, tmp);
-      if (tmp[0] - egoS(Math.min(t, duration + 4)) > 230) { a.visible = [[-10, t]]; break; }
+      if (tmp[0] - egoS(Math.min(t, duration + 4)) > 150) { a.visible = [[-10, t]]; break; }
     }
   }
   // same-lane leftovers can't share a lane with later developing hazards
@@ -445,7 +523,7 @@ function finish(ctx, duration) {
     noScenery: ctx.noScenery,
     ego: { speeds: ctx.keys, lat, s0: 0 },
     actors: ctx.actors,
-    hazards: ctx.hazards.map((h) => ({ start: +h.start.toFixed(2), end: +h.end.toFixed(2), label: h.label, desc: h.desc, brakeLead: +(h.brake - h.cue).toFixed(2) })),
+    hazards: ctx.hazards.map((h) => ({ start: +h.start.toFixed(2), end: +h.end.toFixed(2), label: h.label, desc: h.desc, brakeLead: +(h.brake - h.cue).toFixed(2), late: h.visibleAt == null ? null : +(h.visibleAt - h.cue).toFixed(2) })),
   };
 }
 
@@ -656,8 +734,8 @@ T.carAheadTurns = {
     const r = ctx.r, E = ctx.E;
     const half = E.layout.road.width / 2;
     const v = ctx.cruiseV();
-    const gap = v * 2.2 + 8;
-    const Tb = r.range(5.5, 7);           // the car in front brakes gently over Tb seconds
+    const gap = v * 2.4 + 8;
+    const Tb = (v / r.range(1.7, 2.1));   // the car in front brakes gently, at about 2 m/s²
     let sStop = ctx.straightNear(ctx.egoS(tCue) + gap + (v * Tb) / 2, 40 + gap, 25);
     tCue = ctx.egoT(sStop - (v * Tb) / 2 - gap) ?? tCue;
     if (tCue < ctx.lastT + 3) {
@@ -764,13 +842,27 @@ T.oncomingOvertaker = {
     const v = ctx.cruiseV();
     const half = E.layout.road.width / 2;
     const vO = r.range(16, 19);
-    const slow = r.pick(['tractor', 'cyclist', 'lorry']);
-    const vS = slow === 'cyclist' ? 6 : slow === 'tractor' ? 7.5 : 12;
-    const Ls = slow === 'lorry' ? 11.8 : slow === 'tractor' ? 3.6 : 1.8;
+    const slow = r.pick(['tractor', 'cyclist', 'tractor']);
+    const vS = slow === 'cyclist' ? 6 : 7.5;
+    const Ls = slow === 'tractor' ? 3.6 : 1.8;
     tCue = Math.max(tCue, ctx.lastT + 3);
-    const D = (v + vO) * (W + 1.6) + 35;
-    let sO0 = ctx.straightNear(ctx.egoS(tCue) + D, 10, 60);
-    tCue = Math.max(ctx.lastT + 3, ctx.egoT(sO0 - D) ?? tCue);
+    // far enough away that, at our normal speed, we'd still be 40 m apart when it gets back to its side
+    const moved = (Ls / 2 + 7.2) + (Ls / 2 + 13) + vS * 5.6;
+    let D = 40 + v * 5.6 + moved;
+    const sNow = ctx.egoS(tCue);
+    let best = null;
+    for (const [s0, s1] of ctx.straights) {
+      const a0 = Math.max(s0 + 5, sNow);
+      if (s1 - a0 >= D + 25) { best = a0; break; }
+    }
+    if (best == null) { // use the longest straight ahead and shorten the approach
+      const cands = ctx.straights.filter(([s0, s1]) => s1 > sNow + 60).sort((x, y) => (y[1] - y[0]) - (x[1] - x[0]));
+      const [s0, s1] = cands[0] || [sNow, sNow + D + 25];
+      best = Math.max(s0 + 5, sNow);
+      D = Math.max(120, s1 - best - 25);
+    }
+    tCue = Math.max(ctx.lastT + 3, ctx.egoT(best) ?? tCue);
+    const sO0 = ctx.egoS(tCue) + D;
     // the slow vehicle is ahead of the overtaker in its direction of travel (towards us, so smaller s)
     const behind = Ls / 2 + 2.2 + 5;
     const sSlow = (t) => sO0 - behind - vS * (t - tCue);
@@ -787,7 +879,7 @@ T.oncomingOvertaker = {
       [tCue + 5.6, ahead(tCue + 5.6, Ls / 2 + 13), E.oncomingD],
       [160, ahead(tCue + 5.6, Ls / 2 + 13) - vO * (160 - tCue - 5.6), E.oncomingD],
     ];
-    ctx.actor({ type: 'car', opts: { style: r.pick(['saloon', 'hatch', 'estate']) }, keys: oKeys, indR: [[tCue - 1, tCue + 1.4]], indL: [[tCue + 3.4, tCue + 5]], hazardActor: true });
+    ctx.actor({ type: 'car', opts: { style: r.pick(['saloon', 'hatch', 'estate']) }, keys: oKeys, indR: [[tCue - 1, tCue + 1.4]], indL: [[tCue + 3.4, tCue + 5]], hazardActor: true, visible: [[tCue - 25, 200]] });
     ctx.noOncoming.push([tCue - 3, tCue + 32]);
     const tr = new Track(oKeys);
     const tmp = [];
@@ -847,8 +939,21 @@ T.horses = {
     const slowDist = (v * v - 3.6 * 3.6) / (2 * 3.2) + 15;
     // first seen as we come round the bend; far enough beyond it to give a normal-length window
     const seeAt = bend ? bend.start + bend.len * 0.55 : ctx.egoS(tCue);
-    const sH0 = seeAt + v * W + slowDist;
-    const tSee = ctx.egoT(seeAt) ?? tCue;
+    let sH0 = seeAt + v * W + slowDist;
+    let tSee = ctx.egoT(seeAt) ?? tCue;
+    for (let it = 0; it < 4; it++) {
+      // first moment the riders come into view (they move at vH)
+      let seen = null;
+      for (let t = Math.max(ctx.lastT + 2, tSee - 8); t < tSee + 12; t += 0.1) {
+        if (ctx.canSee(ctx.egoS(t), E.egoD + 0.38, sH0 + vH * (t - tSee), -(half - 0.9), 2.3)) { seen = t; break; }
+      }
+      if (seen == null) { sH0 -= 25; continue; }
+      const gap = sH0 + vH * (seen - tSee) - ctx.egoS(seen);
+      const need = v * W + slowDist;
+      sH0 += need - gap - vH * (seen - tSee);
+      tSee = seen;
+      if (Math.abs(need - gap) < 6) break;
+    }
     ctx.signs.push({ s: (bend ? bend.start : sH0) - 120, side: -1, img: SIGN.horses, size: 0.9, h: 1.6, aspect: 1.15 });
     const two = r.chance(0.6);
     const sAt = (t) => sH0 + vH * (t - tSee);
@@ -912,8 +1017,9 @@ T.deer = {
     ctx.signs.push({ s: sD - 220, side: -1, img: SIGN.wild, size: 0.9, h: 1.6, aspect: 1.15 });
     const side = r.pick([-1, 1]);
     const tc = tCue + W * 0.4;
-    ctx.actor({ type: 'deer', keys: [[0, sD - 4, side * (half + 4)], [tCue - 0.2, sD - 4, side * (half + 3.5)], [tc, sD - 2.5, side * (half + 1)], [tc + 1.2, sD, 0], [tc + 2.4, sD + 2.5, -side * (half + 1.5)], [tc + 6, sD + 9, -side * (half + 12)]], hazardActor: true });
-    if (r.chance(0.5)) ctx.actor({ type: 'deer', keys: [[0, sD - 8, side * (half + 5)], [tc + 0.8, sD - 8, side * (half + 4.5)], [tc + 2.3, sD - 4, 0], [tc + 3.5, sD - 1, -side * (half + 1.5)], [tc + 7, sD + 5, -side * (half + 12)]], hazardActor: true });
+    const hide = ctx.sightLimit(side);
+    ctx.actor({ type: 'deer', keys: [[0, sD - 6, side * (hide + 2.5)], [tCue - 0.6, sD - 5.5, side * (hide + 1.2)], [tCue, sD - 4.5, side * (hide - 0.3)], [tc, sD - 2.5, side * (half + 0.6)], [tc + 1.2, sD, 0], [tc + 2.4, sD + 2.5, -side * (half + 1.5)], [tc + 6, sD + 9, -side * (half + 12)]], hazardActor: true });
+    if (r.chance(0.5)) ctx.actor({ type: 'deer', keys: [[0, sD - 8, side * (hide + 3)], [tc + 0.8, sD - 8, side * (hide + 1)], [tc + 2.3, sD - 4, 0], [tc + 3.5, sD - 1, -side * (half + 1.5)], [tc + 7, sD + 5, -side * (half + 12)]], hazardActor: true });
     ctx.noOncoming.push([tCue - 2, tc + 6]);
     ctx.event({
       cueT: tCue, check: [tCue, tc + 5], vMin: 0, decel: 4.5, limit: (t) => (t < tc + 4.8 ? sD - 9 : null), resumeT: tc + 4.8,
@@ -1177,6 +1283,8 @@ function weighted(r, list) {
 export const TEMPLATE_NAMES = Object.keys(T);
 // templates that start with a road user ahead of us in our lane
 const LEADS = ['carAheadTurns', 'cyclistMovesOut', 'queue', 'laneCutIn'];
+// templates that end with a vehicle driving off ahead of us (it would get in the way of a second hazard)
+const LEAVERS = ['emergingCar', 'parkedCarPullsOut', 'busPullsOut', 'reversing'];
 
 // Make one clip. opts: { template, env, double, time, weather }
 export function makeClip(seed, opts = {}) {
@@ -1199,7 +1307,7 @@ export function makeClip(seed, opts = {}) {
   ctx.makeRoute(ctx.v0 * 75, { sharp: envName === 'rural' });
   tpl.run(ctx, first);
   let second = null;
-  if (opts.double) {
+  if (opts.double && !LEAVERS.includes(name)) {
     const others = TEMPLATE_NAMES.filter((n) => n !== name && T[n].envs.includes(envName) && !LEADS.includes(n));
     if (others.length) {
       second = pre.pick(others);
@@ -1229,8 +1337,9 @@ export function makeTestPlan(seed, n = 14) {
     envCount[env] = (envCount[env] || 0) + 1;
     plan.push({ seed: (seed * 31 + i * 7919) >>> 0, template, env, double: false });
   }
-  // the clip with two hazards must be on an ordinary road (not dual carriageway / motorway)
-  const ok = plan.map((p, i) => i).filter((i) => !['dual', 'motorway'].includes(plan[i].env));
+  // the clip with two hazards must be on an ordinary road (not dual carriageway / motorway),
+  // and its first hazard mustn't leave a vehicle driving off ahead of us
+  const ok = plan.map((p, i) => i).filter((i) => !['dual', 'motorway'].includes(plan[i].env) && !LEAVERS.includes(plan[i].template));
   doubleIdx = ok.includes(doubleIdx) ? doubleIdx : ok[r.int(0, ok.length - 1)];
   plan[doubleIdx].double = true;
   return plan;

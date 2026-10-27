@@ -372,7 +372,7 @@ export function buildWorld(clip, { quality = 'auto' } = {}) {
     if (m.text) {
       const t = TX.textDecal(m.text, m.color || '#efefe8');
       const mt = new THREE.MeshLambertMaterial({ map: t, transparent: true, depthWrite: false, polygonOffset: true, polygonOffsetFactor: -3 });
-      const g = decal(route, m.s, m.d, m.w || 2.4, m.l || 5, 0.013, Math.PI);
+      const g = decal(route, m.s, m.d, m.w || 2.4, m.l || 5, 0.013, 0);
       const mesh = new THREE.Mesh(g, mt);
       scene.add(mesh);
       extraMeshes.push(mesh);

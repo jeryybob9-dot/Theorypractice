@@ -21,14 +21,15 @@ let problems = 0;
 const summary = {};
 for (const name of TEMPLATE_NAMES) {
   if (only && name !== only) continue;
-  const wins = [], starts = [], durs = [], leads = [];
+  const wins = [], starts = [], durs = [], leads = [], lates = [];
+  let unseen = 0;
   for (let k = 0; k < N; k++) {
     const seed = 1000 + k * 7919 + name.length * 31;
     const clip = makeClip(seed, { template: name, double: k % 4 === 3 });
     const ego = new SpeedProfile(clip.ego.speeds, 0, clip.duration + 5);
     const lat = new Track(clip.ego.lat);
     const tracks = clip.actors.map((a) => ({ a, tr: new Track(a.keys) }));
-    for (const h of clip.hazards) { wins.push(h.end - h.start); starts.push(h.start); if (h.brakeLead != null) leads.push(h.brakeLead); }
+    for (const h of clip.hazards) { wins.push(h.end - h.start); starts.push(h.start); if (h.brakeLead != null) leads.push(h.brakeLead); if (h.late == null) unseen++; else lates.push(h.late); }
     durs.push(clip.duration);
     const tmp = [], tmp2 = [], l = [];
     const reported = new Set();
@@ -64,7 +65,7 @@ for (const name of TEMPLATE_NAMES) {
     }
   }
   const f = (xs) => `${Math.min(...xs).toFixed(1)}–${Math.max(...xs).toFixed(1)}`;
-  summary[name] = `windows ${f(wins)}s, brake-after-cue ${leads.length ? f(leads) : '?'}s, starts ${f(starts)}s, durations ${f(durs)}s`;
+  summary[name] = `windows ${f(wins)}s, brake-after-cue ${leads.length ? f(leads) : "?"}s, seen-after-cue ${lates.length ? f(lates) : "-"}s (${unseen} never seen), durations ${f(durs)}s`;
 }
 console.log('\n' + Object.entries(summary).map(([k, v]) => `${k.padEnd(20)} ${v}`).join('\n'));
 console.log(`\n${problems} problems`);

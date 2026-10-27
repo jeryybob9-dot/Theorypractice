@@ -83,6 +83,22 @@ export class Route {
     return out;
   }
 
+  // Road coordinates (s, d) of a world point, refined from a guess of s.
+  project(x, z, sGuess) {
+    let s = Math.max(0, Math.min(this.len, sGuess));
+    const p = { x: 0, y: 0, z: 0 };
+    for (let k = 0; k < 4; k++) {
+      this.pos(s, 0, 0, p);
+      const phi = this.heading(s);
+      const fx = Math.sin(phi), fz = -Math.cos(phi);
+      s += (x - p.x) * fx + (z - p.z) * fz;
+    }
+    this.pos(s, 0, 0, p);
+    const phi = this.heading(Math.max(0, Math.min(this.len, s)));
+    const rx = Math.cos(phi), rz = Math.sin(phi);
+    return { s, d: (x - p.x) * rx + (z - p.z) * rz };
+  }
+
   // Yaw (rotation.y) for an object facing along +s at s, plus a relative heading.
   yaw(s, rel = 0) {
     const phi = this.heading(Math.max(0, Math.min(this.len, s))) + rel;
