@@ -100,7 +100,7 @@ function renderHome() {
   }
   main.appendChild(h('div', { class: 'section-title' }, 'Take a test'));
   main.appendChild(h('div', { class: 'grid-2' },
-    tile('#/full', 'Full theory test', '50 questions, a 3-minute break, then 14 hazard clips', '#0b2e4f', 'test'),
+    tile('#/full', 'Full theory test', '50 questions, a 3-minute break, then 14 hazard clips', '#2a5a96', 'test'),
     tile('#/mock', 'Mock test', '50 questions in 57 minutes, marked like the real test', '#1d70b8', 'test'),
     tile('#/hazard', 'Hazard perception', '14 clips with 15 developing hazards, out of 75', '#d4351c', 'hazard'),
     tile('#/practice', 'Practise by topic', 'Instant feedback with the Highway Code rule', '#00703c', 'check')));
@@ -132,7 +132,7 @@ function renderTests() {
   main.appendChild(h('div', { class: 'grid-2' },
     tile('#/mock', 'Mock test', '50 questions · 57 minutes · pass 43', '#1d70b8', 'test'),
     tile('#/practice', 'Practise by topic', 'Choose topics, see answers as you go', '#00703c', 'check'),
-    tile('#/full', 'Full theory test', 'Both parts, like the test centre', '#0b2e4f', 'test'),
+    tile('#/full', 'Full theory test', 'Both parts, like the test centre', '#2a5a96', 'test'),
     tile('#/hazard', 'Hazard perception', '14 clips · pass 44 of 75', '#d4351c', 'hazard')));
   const tests = store.tests();
   main.appendChild(h('div', { class: 'section-title' }, 'History'));
