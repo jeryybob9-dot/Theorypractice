@@ -180,12 +180,12 @@
     "id": "SAF-012",
     "q": "You turn the ignition key and several warning lights come on. What should normally happen when the engine starts?",
     "options": [
-      "They go out, except the handbrake light",
       "They all stay on until you move off",
+      "They go out, except the handbrake light",
       "They flash until the engine warms up",
       "They stay on for the first few miles"
     ],
-    "answer": 0,
+    "answer": 1,
     "explain": "When you turn the ignition key, warning lights come on but go out when the engine starts (except the handbrake warning light). If they don't, stop and investigate, as you could have a serious fault.",
     "ref": [
       "HC Annex 6"
@@ -293,11 +293,11 @@
     "q": "While you're driving, you notice a smell of burning rubber. What should you do?",
     "options": [
       "Ignore it unless smoke appears",
-      "Investigate it straight away",
       "Wait until your next service",
+      "Investigate it straight away",
       "Open the windows and drive on"
     ],
-    "answer": 1,
+    "answer": 2,
     "explain": "If your vehicle smells of anything unusual, such as burning rubber, petrol or an electrical fault, investigate immediately. Don't risk a fire.",
     "ref": [
       "HC Annex 6"
@@ -621,10 +621,10 @@
     "options": [
       "Only at each service",
       "Once a year at the MOT",
-      "At least weekly",
-      "When a warning light comes on"
+      "When a warning light comes on",
+      "At least weekly"
     ],
-    "answer": 2,
+    "answer": 3,
     "explain": "Check the fluid levels in your vehicle at least weekly, and make sure you recognise any low fluid warning lights.",
     "ref": [
       "HC Annex 6"
@@ -635,12 +635,12 @@
     "id": "SAF-040",
     "q": "You know your car is unroadworthy but decide to drive it anyway. What could this do to your insurance?",
     "options": [
+      "It could make it invalid",
       "It will still cover you in full",
       "It will cover only fire and theft",
-      "It will become comprehensive cover",
-      "It could make it invalid"
+      "It will become comprehensive cover"
     ],
-    "answer": 3,
+    "answer": 0,
     "explain": "You MUST make sure your vehicle is legal and roadworthy. Driving an unroadworthy motor vehicle may invalidate your insurance.",
     "ref": [
       "HC Annex 3",
@@ -652,12 +652,12 @@
     "id": "SAF-041",
     "q": "You've just filled up with fuel. What should you check to help prevent fuel leaks?",
     "options": [
-      "The fuel cap is fastened securely",
       "The tank is filled right to the top",
+      "The fuel cap is fastened securely",
       "The engine is still running",
       "The fuel gauge shows it's full"
     ],
-    "answer": 0,
+    "answer": 1,
     "explain": "Double-check for fuel leaks. Don't overfill your fuel tank, and make sure the fuel cap is fastened securely and its seal isn't torn, perished or missing.",
     "ref": [
       "HC Annex 6"
@@ -686,11 +686,11 @@
     "q": "You need to book your car's MOT. How can you recognise an approved MOT test centre?",
     "options": [
       "A green sign with a white tick",
-      "A blue sign with 3 white triangles",
       "A red sign with the word 'TEST'",
+      "A blue sign with 3 white triangles",
       "A yellow sign showing a black car"
     ],
-    "answer": 1,
+    "answer": 2,
     "explain": "You must use an approved MOT test centre. Only centres showing the blue sign with 3 white triangles can carry out your MOT.",
     "ref": [
       "GOV.UK getting-an-mot"
@@ -719,10 +719,10 @@
     "options": [
       "Your car's handbook",
       "A first aid kit",
-      "Children or pets",
-      "A warning triangle"
+      "A warning triangle",
+      "Children or pets"
     ],
-    "answer": 2,
+    "answer": 3,
     "explain": "When you leave your vehicle, never leave children or pets in an unventilated car.",
     "ref": [
       "HC Annex 6"
@@ -749,12 +749,12 @@
     "id": "SAF-047",
     "q": "You're leaving your car in a town centre. There's a carrier bag of shopping on the back seat. What should you do?",
     "options": [
+      "Take it with you or lock it in the boot",
       "Leave it there, as it's only shopping",
       "Push it under the seat out of the way",
-      "Leave a window open so it can be seen",
-      "Take it with you or lock it in the boot"
+      "Leave a window open so it can be seen"
     ],
-    "answer": 3,
+    "answer": 0,
     "explain": "Take all contents with you, or lock them in the boot. Remember, for all a thief knows a carrier bag may contain valuables.",
     "ref": [
       "HC Annex 6"
@@ -765,12 +765,12 @@
     "id": "SAF-048",
     "q": "You want to make your car more secure against theft. What could you fit?",
     "options": [
-      "An alarm or immobiliser",
       "Tinted rear windows",
+      "An alarm or immobiliser",
       "A larger fuel tank",
       "Brighter headlight bulbs"
     ],
-    "answer": 0,
+    "answer": 1,
     "explain": "For extra security, fit an anti-theft device such as an alarm or immobiliser. If you're buying a new car, it's a good idea to check the level of built-in security features.",
     "ref": [
       "HC Annex 6"
@@ -782,11 +782,11 @@
     "q": "You get a flat tyre while driving on a busy road. What should you do?",
     "options": [
       "Keep driving to the nearest garage",
-      "Stop when safe and get help if needed",
       "Stop at once, wherever you are",
+      "Stop when safe and get help if needed",
       "Change it however close the traffic is"
     ],
-    "answer": 1,
+    "answer": 2,
     "explain": "If you have a flat tyre, stop as soon as it's safe to do so. Only change the tyre if you can do so without putting yourself or others at risk; otherwise call a breakdown service.",
     "ref": [
       "HC Annex 6"
@@ -799,10 +799,10 @@
     "options": [
       "Send it to the DVSA",
       "Display it on the windscreen",
-      "Keep it in your car",
-      "Give it to your MOT tester"
+      "Give it to your MOT tester",
+      "Keep it in your car"
     ],
-    "answer": 2,
+    "answer": 3,
     "explain": "If your doctor says you don't have to wear a seat belt for a medical reason, they'll give you a Certificate of Exemption. You must keep it in your vehicle and show it to the police if you're stopped. You'll also need to tell your insurer.",
     "ref": [
       "GOV.UK seat-belts-law",
@@ -814,12 +814,12 @@
     "id": "SAF-051",
     "q": "You're travelling as a passenger on a coach that has seat belts fitted. What does the law say?",
     "options": [
+      "You MUST wear one if you're 14 or over",
       "They're only needed on motorways",
       "They're only for children under 14",
-      "They're optional for all passengers",
-      "You MUST wear one if you're 14 or over"
+      "They're optional for all passengers"
     ],
-    "answer": 3,
+    "answer": 0,
     "explain": "Adults, and children aged 14 years and over, MUST use a seat belt or child restraint, where fitted, when seated in minibuses, buses and coaches.",
     "ref": [
       "HC 99"
@@ -911,12 +911,12 @@
     "id": "SAF-057",
     "q": "You're driving in England with your 16-year-old nephew in the car. What does the law say about smoking?",
     "options": [
-      "You MUST NOT smoke in the car",
       "You may smoke with the windows open",
+      "You MUST NOT smoke in the car",
       "You may smoke if he agrees to it",
       "You may smoke if he sits in the back"
     ],
-    "answer": 0,
+    "answer": 1,
     "explain": "In England and Wales, the driver MUST NOT smoke or allow anyone to smoke in an enclosed private vehicle carrying someone under 18. Smoking is also a distraction while you're driving.",
     "ref": [
       "HC 148"
@@ -928,11 +928,11 @@
     "q": "Your car was first registered over 40 years ago and hasn't been substantially changed. What's the MOT requirement?",
     "options": [
       "It needs an MOT every year",
-      "It's exempt from the MOT test",
       "It needs an MOT every 3 years",
+      "It's exempt from the MOT test",
       "It needs an MOT every 6 months"
     ],
-    "answer": 1,
+    "answer": 2,
     "explain": "Cars manufactured or first registered over 40 years ago are exempt from the MOT test, unless they've been substantially changed within the previous 30 years.",
     "ref": [
       "HC Annex 3"
@@ -1094,10 +1094,10 @@
     "options": [
       "A spare set of car keys",
       "A full can of petrol",
-      "High-visibility clothing",
-      "A portable tyre compressor"
+      "A portable tyre compressor",
+      "High-visibility clothing"
     ],
-    "answer": 2,
+    "answer": 3,
     "explain": "For emergency use, it's recommended that you have a mobile phone containing emergency contacts (such as breakdown assistance) and high-visibility clothing.",
     "ref": [
       "HC 97"
@@ -1108,12 +1108,12 @@
     "id": "SAF-069",
     "q": "Your windscreen is very dirty and covered in smears. What does the law say?",
     "options": [
+      "It MUST be kept clean and clear",
       "It only matters at night",
       "It only matters before an MOT",
-      "It's fine as long as the wipers work",
-      "It MUST be kept clean and clear"
+      "It's fine as long as the wipers work"
     ],
-    "answer": 3,
+    "answer": 0,
     "explain": "Windscreens and windows MUST be kept clean and free from obstructions to vision. Lights, indicators, reflectors and number plates MUST also be kept clean and clear.",
     "ref": [
       "HC Annex 6"
@@ -1124,12 +1124,12 @@
     "id": "SAF-070",
     "q": "You're caught driving without wearing a seat belt. What's the maximum fine you could get?",
     "options": [
-      "£500",
       "£100",
+      "£500",
       "£1,000",
       "£2,500"
     ],
-    "answer": 0,
+    "answer": 1,
     "explain": "You can be fined up to £500 if you don't wear a seat belt when you're supposed to. The same applies if a child under 14 isn't in the correct car seat or wearing a seat belt while you're driving.",
     "ref": [
       "GOV.UK seat-belts-law",

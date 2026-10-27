@@ -519,17 +519,17 @@
   },
   {
     "id": "HAN-038",
-    "q": "You're approaching a level crossing that has barriers but no traffic lights. The barrier starts to close. What should you do?",
+    "q": "You see this sign on a narrow country road. What does it warn you of?",
     "options": [
-      "Speed up to cross before it closes",
-      "Cross if you can't see a train",
-      "Stop and wait at the barrier",
-      "Drive round the barrier with care"
+      "Falling rocks",
+      "A hump bridge",
+      "Soft verges",
+      "Loose chippings"
     ],
     "answer": 2,
-    "explain": "At level crossings without traffic lights, you should stop and wait at the barrier or gate when it begins to close, and not cross until it opens.",
-    "ref": ["HC 295"],
-    "sign": null
+    "explain": "This warning sign shows that there are soft verges at the side of the road.",
+    "ref": ["HC Traffic signs"],
+    "sign": "warning-sign-soft-verges"
   },
   {
     "id": "HAN-039",
@@ -577,13 +577,13 @@
     "id": "HAN-042",
     "q": "You see this sign on a country road. What does it warn you of?",
     "options": [
-      "A single bend to the left",
-      "A double bend, first to the left",
-      "A sharp turn into a side road",
-      "The road narrowing on the left"
+      "A single sharp bend ahead",
+      "A double bend ahead",
+      "A junction on a bend ahead",
+      "A road that narrows ahead"
     ],
     "answer": 1,
-    "explain": "This sign warns of a double bend, first to the left (the symbol may be reversed). Reduce your speed before the bends, which can be sharper than they appear.",
+    "explain": "This sign warns of a double bend. The first bend may be to the left or the right, as the symbol can be reversed. Reduce your speed before the bends, which can be sharper than they appear.",
     "ref": ["HC Traffic signs", "HC 154"],
     "sign": "warning-sign-double-bend"
   },

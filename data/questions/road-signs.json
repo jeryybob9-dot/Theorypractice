@@ -69,18 +69,18 @@
   },
   {
     "id": "SIG-005",
-    "q": "You drive past this sign. What does it tell you?",
+    "q": "You drive past this sign. When do the waiting restrictions within the zone apply?",
     "options": [
-      "You're entering a 20 mph zone",
-      "You're entering a controlled parking zone",
-      "You're entering a congestion charging zone",
-      "Parking is free in this area"
+      "At all times, every day",
+      "Only on Sundays and bank holidays",
+      "At the times shown on the sign",
+      "Only during school term times"
     ],
-    "answer": 1,
-    "explain": "This sign marks the entrance to a controlled parking zone. Zone entry signs show the times when waiting restrictions within the zone are in force.",
+    "answer": 2,
+    "explain": "This sign marks the entrance to a controlled parking zone. The zone entry signs show the times when the waiting restrictions within the zone are in force. Parking may be allowed in some places at other times.",
     "ref": [
-      "HC Traffic signs",
-      "HC 245"
+      "HC 245",
+      "HC Traffic signs"
     ],
     "sign": "Information-sign-entrance-controlled-parking-zone"
   },
@@ -505,10 +505,10 @@
     "options": [
       "Only to pass a cyclist doing 10 mph or less",
       "Never, as these lines ban overtaking",
-      "If you can get back before a solid line",
-      "Only if the vehicle ahead waves you on"
+      "Only if the vehicle ahead waves you on",
+      "If you can get back before a solid line"
     ],
-    "answer": 2,
+    "answer": 3,
     "explain": "Where the line nearer to you is broken, you may cross the lines to overtake if it's safe, provided you can complete the manoeuvre before reaching a solid white line on your side. White arrows on the road tell you to get back to your side.",
     "ref": [
       "HC 128",
@@ -891,12 +891,12 @@
     "id": "SIG-054",
     "q": "A car ahead of you is showing this signal. What does it mean?",
     "options": [
+      "The driver intends to reverse",
       "The driver is braking",
       "The driver intends to turn left",
-      "The car has broken down",
-      "The driver intends to reverse"
+      "The car has broken down"
     ],
-    "answer": 3,
+    "answer": 0,
     "explain": "Reversing lights mean 'I intend to reverse'. This signal shouldn't be used except for the purpose described.",
     "ref": [
       "HC Signals to other road users"
@@ -907,12 +907,12 @@
     "id": "SIG-055",
     "q": "You're driving along a one-way street and see this sign. What does it mean?",
     "options": [
-      "There's a contraflow bus lane",
       "Buses must use the left lane",
+      "There's a contraflow bus lane",
       "There's a bus stop ahead",
       "Buses have priority at the junction"
     ],
-    "answer": 0,
+    "answer": 1,
     "explain": "This sign shows a contraflow bus lane, where buses travel in the opposite direction to other traffic. In one-way streets, buses and cycles may have a contraflow lane.",
     "ref": [
       "HC Traffic signs",
@@ -976,11 +976,11 @@
     "q": "You see this sign. What does it warn you of?",
     "options": [
       "A level crossing with barriers ahead",
-      "A level crossing without barriers ahead",
       "Trams crossing the road ahead",
+      "A level crossing without barriers ahead",
       "A railway bridge over the road"
     ],
-    "answer": 1,
+    "answer": 2,
     "explain": "This sign warns of a level crossing without a barrier or gate ahead. At crossings with no barriers, a train is approaching when the lights show.",
     "ref": [
       "HC Traffic signs",
@@ -1028,10 +1028,10 @@
     "options": [
       "You must give way to oncoming traffic",
       "The road ahead is one-way",
-      "You have priority over oncoming traffic",
-      "Two-way traffic crosses ahead"
+      "Two-way traffic crosses ahead",
+      "You have priority over oncoming traffic"
     ],
-    "answer": 2,
+    "answer": 3,
     "explain": "This rectangular information sign means traffic has priority over oncoming vehicles. A circular sign with a red border is used where you must give priority to vehicles from the opposite direction.",
     "ref": [
       "HC Traffic signs"

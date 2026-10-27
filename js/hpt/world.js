@@ -411,6 +411,7 @@ export function buildWorld(clip, { quality = 'auto' } = {}) {
     batch.addObject('vc', car, placeMatrix(route, p.s, p.d, p.y || 0, p.flip ? Math.PI : 0), p.s);
   }
   if (clip.env === 'rural' || clip.env === 'village' || clip.env === 'motorway' || clip.env === 'dual') scenery.hills(S0, S1);
+  scenery.buildShopSigns(materials);
 
   const statics = batch.build(materials, scene, { shadows });
 
@@ -615,15 +616,9 @@ class Scenery {
       }
       // flat roof parapet
       add('vc', new THREE.BoxGeometry(w, 0.4, depth), 0, h + 0.2, 0, '#6d6d6d');
-      // sign text
-      const name = r.pick(names);
-      const t = TX.shopSignTexture(name, bg, fg);
-      const sm = new THREE.Mesh(new THREE.PlaneGeometry(Math.min(w - 0.6, 5.5), 0.6), new THREE.MeshLambertMaterial({ map: t }));
-      const p = this.route.pos(s + w / 2, d0 + side * (-0.22), 3.52);
-      sm.position.set(p.x, p.y, p.z);
-      sm.rotation.y = this.route.yaw(s + w / 2) + face;
-      this.env.scene.add(sm);
-      this.env.extraMeshes.push(sm);
+      // sign text (drawn later into one shared atlas texture)
+      this.shopSigns = this.shopSigns || [];
+      this.shopSigns.push({ name: r.pick(names), bg, fg, s: s + w / 2, d: d0 + side * (-0.22), face, w: Math.min(w - 0.6, 5.5) });
       if (r.chance(0.25)) add('vc', new THREE.BoxGeometry(0.5, 0.9, 0.5), r.range(-w / 3, w / 3), 0.45, depth / 2 + 1.5, '#2e4a2e'); // bin
       s += w;
     }
@@ -834,6 +829,36 @@ class Scenery {
     }
   }
 
+  // All shop signs in a clip share one canvas atlas and one merged mesh: one draw call instead of dozens.
+  buildShopSigns(materials) {
+    const list = this.shopSigns || [];
+    if (!list.length) return;
+    const rows = list.length;
+    const c = document.createElement('canvas');
+    c.width = 512; c.height = Math.min(4096, 64 * rows);
+    const rh = c.height / rows;
+    const g = c.getContext('2d');
+    list.forEach((sg, i) => {
+      g.fillStyle = sg.bg; g.fillRect(0, i * rh, 512, rh);
+      g.fillStyle = sg.fg; g.font = `bold ${Math.round(rh * 0.6)}px Georgia, "Times New Roman", serif`;
+      g.textAlign = 'center'; g.textBaseline = 'middle';
+      g.fillText(sg.name, 256, i * rh + rh * 0.53);
+    });
+    const tex = new THREE.CanvasTexture(c);
+    tex.colorSpace = THREE.SRGBColorSpace;
+    tex.anisotropy = 4;
+    materials.shopsign = new THREE.MeshLambertMaterial({ vertexColors: true, map: tex });
+    list.forEach((sg, i) => {
+      const geo = new THREE.PlaneGeometry(sg.w, 0.6);
+      const uv = geo.attributes.uv;
+      const v0 = 1 - (i + 1) / rows, v1 = 1 - i / rows;
+      for (let k = 0; k < uv.count; k++) uv.setY(k, uv.getY(k) > 0.5 ? v1 - 0.002 : v0 + 0.002);
+      const p = this.route.pos(sg.s, sg.d, 3.52);
+      const m = new THREE.Matrix4().makeRotationY(this.route.yaw(sg.s) + sg.face).setPosition(p.x, p.y, p.z);
+      this.batch.add('shopsign', geo, m, '#ffffff', sg.s);
+    });
+  }
+
   blockedRange(side, a, b) {
     for (let s = a; s <= b; s += 2) if (this.env.blocked(side, s)) return true;
     return this.env.blocked(side, b);
@@ -864,7 +889,8 @@ function makeActor(def, route, scene, env) {
   const rnd = rng(def.seed || 1);
   const obj = MAKERS[def.type](def.opts || {}, rnd);
   const parts = obj.userData.parts || {};
-  if (env.shadows) obj.traverse((o) => { if (o.isMesh) o.castShadow = true; });
+  const castsShadow = ['car', 'van', 'bus', 'lorry', 'tractor', 'horse'].includes(def.type) || def.hazardActor;
+  if (env.shadows && castsShadow) obj.traverse((o) => { if (o.isMesh) o.castShadow = true; });
   scene.add(obj);
   const track = new Track(def.keys);
   // Precompute heading and distance travelled at 0.05 s steps, so playback is a pure function of t.
@@ -930,6 +956,8 @@ function makeActor(def, route, scene, env) {
   }
   const out = [];
   const pos = { x: 0, y: 0, z: 0 };
+  const small = ['person', 'child', 'dog', 'ball', 'cyclist', 'pushchair'].includes(def.type);
+  const cullDist = small ? 150 : 420;
   return {
     def, obj,
     update(t, egoS) {
@@ -937,6 +965,9 @@ function makeActor(def, route, scene, env) {
       obj.visible = vis;
       if (!vis) return;
       track.at(t, out);
+      // skip road users that are behind us or too far ahead to make out (saves draw calls on phones)
+      const ahead = out[0] - egoS;
+      if (ahead < -25 || ahead > cullDist) { obj.visible = false; return; }
       route.pos(out[0], out[1], def.y || 0, pos);
       obj.position.set(pos.x, pos.y, pos.z);
       obj.rotation.y = lookupAng(t);

@@ -18,14 +18,14 @@
   },
   {
     "id": "ATT-002",
-    "q": "The hierarchy of road users gives the greatest responsibility to those who can cause the most harm. What does this mean for pedestrians?",
+    "q": "Under the hierarchy of road users, which of these is true about pedestrians?",
     "options": [
       "They no longer need to look before crossing",
       "They have priority everywhere on the road",
-      "They can ignore signals at crossings",
-      "They still need to behave responsibly"
+      "They still need to behave responsibly",
+      "They can ignore signals at crossings"
     ],
-    "answer": 3,
+    "answer": 2,
     "explain": "The hierarchy doesn't remove the need for everyone to behave responsibly. All road users, including pedestrians, cyclists and horse riders, should have regard for their own and other road users' safety.",
     "ref": [
       "HC H1"
@@ -38,10 +38,10 @@
     "options": [
       "Pull out, as you're already moving",
       "Flash your headlights and carry on",
-      "Give way to the oncoming car",
-      "Sound your horn and drive through"
+      "Sound your horn and drive through",
+      "Give way to the oncoming car"
     ],
-    "answer": 2,
+    "answer": 3,
     "explain": "Give way to oncoming vehicles before passing parked vehicles or other obstructions on your side of the road.",
     "ref": [
       "HC 163"
@@ -86,10 +86,10 @@
     "options": [
       "It's only a risk when you're over the limit",
       "It only matters in bad weather or at night",
-      "It mainly increases your fuel costs",
-      "Collisions become more likely and worse"
+      "Collisions become more likely and worse",
+      "It mainly increases your fuel costs"
     ],
-    "answer": 3,
+    "answer": 2,
     "explain": "Unsafe speed increases the chances of causing a collision, or of being unable to avoid one, as well as its severity. The speed limit is the absolute maximum, not a target.",
     "ref": [
       "HC 125"
@@ -200,10 +200,10 @@
     "options": [
       "Count the car lengths between you",
       "Check your speedometer reading",
-      "Use a fixed point, such as a road sign",
-      "Watch the other car's brake lights"
+      "Watch the other car's brake lights",
+      "Use a fixed point, such as a road sign"
     ],
-    "answer": 2,
+    "answer": 3,
     "explain": "Allow at least a two-second gap between you and the vehicle in front on high-speed roads. Use a fixed point, such as a sign, to help you measure it.",
     "ref": [
       "HC 126"
@@ -492,11 +492,11 @@
     "q": "You're waiting at red traffic lights behind an advanced stop line. Cyclists are waiting in the area ahead of you. What should you do when the lights turn green?",
     "options": [
       "Move off quickly to pass them first",
-      "Give them time and space to move off",
       "Sound your horn so they move aside",
+      "Give them time and space to move off",
       "Edge forward into the cyclists' area"
     ],
-    "answer": 1,
+    "answer": 2,
     "explain": "At advanced stop lines, allow cyclists, including any moving or waiting alongside you, enough time and space to move off when the green signal shows.",
     "ref": [
       "HC 178"
@@ -636,17 +636,18 @@
   },
   {
     "id": "ATT-040",
-    "q": "You're on a single carriageway road with three lanes, and no markings give priority to either direction. You want to overtake using the middle lane. What should you remember?",
+    "q": "You're in slow-moving traffic on a road with two lanes in your direction. The lane to your left is moving slightly faster. What should you NOT do?",
     "options": [
-      "Oncoming drivers have as much right to it",
-      "You have priority because you're overtaking",
-      "Oncoming traffic must keep out of it",
-      "You may stay in it for as long as you like"
+      "Change lanes to the left to overtake",
+      "Stay in the lane you're already in",
+      "Keep a safe gap to the car in front",
+      "Check your mirrors regularly"
     ],
     "answer": 0,
-    "explain": "Use the middle lane only for overtaking or turning right. Remember, you have no more right to use the middle lane than a driver coming from the opposite direction.",
+    "explain": "In slow-moving traffic you should not change lanes to the left to overtake. Stay in your lane and don't change lanes unnecessarily.",
     "ref": [
-      "HC 135"
+      "HC 151",
+      "HC 134"
     ],
     "sign": null
   },

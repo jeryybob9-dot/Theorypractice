@@ -3,12 +3,12 @@
     "id": "VUL-001",
     "q": "You're waiting at a pelican crossing. A bleeping sound starts when the green figure shows for pedestrians. Who is it mainly there to help?",
     "options": [
+      "Blind or partially sighted people",
       "Drivers waiting at the crossing",
       "Cyclists using the crossing",
-      "Children crossing on their own",
-      "Blind or partially sighted people"
+      "Children crossing on their own"
     ],
-    "answer": 3,
+    "answer": 0,
     "explain": "At some crossings there's a bleeping sound or voice signal to tell blind or partially sighted people when the steady green figure is showing. There may also be a tactile signal to help deafblind people.",
     "ref": [
       "HC 26"
@@ -251,12 +251,12 @@
     "id": "VUL-016",
     "q": "You're driving at night with your headlights on. How much further away can you see a pedestrian wearing reflective materials?",
     "options": [
-      "Up to three times as far",
       "Up to twice as far",
+      "Up to three times as far",
       "Up to five times as far",
       "About the same distance"
     ],
-    "answer": 0,
+    "answer": 1,
     "explain": "When it's dark, reflective materials such as armbands, sashes and jackets can be seen by drivers using headlights up to three times as far away as non-reflective materials.",
     "ref": [
       "HC 3"
@@ -367,11 +367,11 @@
     "q": "You're driving at night and catch up with a horse-drawn vehicle. Which lights MUST it have fitted?",
     "options": [
       "Amber flashing lights on both sides",
-      "White to the front and red to the rear",
       "Red to the front and white to the rear",
+      "White to the front and red to the rear",
       "A single white light on the horse"
     ],
-    "answer": 1,
+    "answer": 2,
     "explain": "It's safer not to drive horse-drawn vehicles at night, but if they're used, a light showing white to the front and red to the rear MUST be fitted. They should also have two red rear reflectors.",
     "ref": [
       "HC 48"
@@ -417,10 +417,10 @@
     "options": [
       "As one single crossing",
       "As a zebra crossing",
-      "As two separate crossings",
-      "As a toucan crossing"
+      "As a toucan crossing",
+      "As two separate crossings"
     ],
-    "answer": 2,
+    "answer": 3,
     "explain": "When the crossings on each side of the central refuge aren't in line (a 'staggered' crossing), they're two separate crossings. Pelican crossings that go straight across the road are one crossing, even with a central island.",
     "ref": [
       "HC 28",
@@ -482,12 +482,12 @@
     "id": "VUL-030",
     "q": "At some signal-controlled junctions, signs and markings tell cyclists to turn right in two stages. What do the cyclists do first when the lights turn green?",
     "options": [
+      "Go straight ahead and wait at a marked spot",
       "Move to the centre of the road and turn",
       "Ride along the pavement to turn right",
-      "Wait at the stop line for the next green",
-      "Go straight ahead and wait at a marked spot"
+      "Wait at the stop line for the next green"
     ],
-    "answer": 3,
+    "answer": 0,
     "explain": "In a two-stage turn, when the lights turn green cyclists go straight ahead to a spot marked by a cycle symbol and turn arrow, then stop and wait there. They complete the turn when the lights facing them turn green.",
     "ref": [
       "HC 75"
@@ -498,12 +498,12 @@
     "id": "VUL-031",
     "q": "You see this sign. Which road users may use the bus lane ahead as well as buses?",
     "options": [
-      "Cyclists and taxis",
       "Motorcycles only",
+      "Cyclists and taxis",
       "Lorries and vans",
       "Cars with passengers"
     ],
-    "answer": 0,
+    "answer": 1,
     "explain": "This sign shows a with-flow bus lane ahead which pedal cycles and taxis may also use. Most bus lanes may be used by cyclists, as shown on signs.",
     "ref": [
       "HC Traffic signs",
@@ -547,20 +547,20 @@
   },
   {
     "id": "VUL-034",
-    "q": "A school crossing patrol gives this signal. What does it mean?",
+    "q": "A school crossing patrol at the kerb is holding their sign like this. What does it mean?",
     "options": [
-      "Be prepared to stop",
-      "All vehicles must stop",
-      "Pedestrians must not cross",
-      "The patrol isn't ready yet"
+      "All vehicles must stop now",
+      "Children are about to cross the road",
+      "They're holding pedestrians back",
+      "Drivers must give way to the patrol"
     ],
-    "answer": 1,
-    "explain": "This signal from a school crossing patrol means all vehicles must stop. You MUST obey signals given by school crossing patrols.",
+    "answer": 2,
+    "explain": "School crossing patrols use signals to control the crossing. Holding the sign like a barrier means they're stopping pedestrians from crossing. You MUST obey signals given by school crossing patrols.",
     "ref": [
       "HC Signals by authorised persons",
       "HC 105"
     ],
-    "sign": "school-crossing-patrol-all-vehicles-stop"
+    "sign": "school-crossing-patrol-barrier-to-stop"
   },
   {
     "id": "VUL-035",
@@ -568,10 +568,10 @@
     "options": [
       "They aren't allowed on busy roads",
       "Their riders can't give arm signals",
-      "They can move very fast if startled",
-      "They always move into the middle"
+      "They always move into the middle",
+      "They can move very fast if startled"
     ],
-    "answer": 2,
+    "answer": 3,
     "explain": "Treat all horses as a potential hazard; they can be unpredictable despite the efforts of their rider. Horses are flight animals and can move incredibly quickly if startled.",
     "ref": [
       "HC 215"
@@ -664,12 +664,12 @@
     "id": "VUL-041",
     "q": "You're about to leave a roundabout. What should you watch out for at the exit road?",
     "options": [
+      "Pedestrians who may be crossing it",
       "Traffic joining from the right",
       "Vehicles reversing out of it",
-      "Cyclists who must give way to you",
-      "Pedestrians who may be crossing it"
+      "Cyclists who must give way to you"
     ],
-    "answer": 3,
+    "answer": 0,
     "explain": "At roundabouts, watch out for and give plenty of room to pedestrians who may be crossing the approach and exit roads.",
     "ref": [
       "HC 187"
@@ -714,12 +714,12 @@
     "id": "VUL-044",
     "q": "At night, what MUST a bicycle have fitted, as well as front and rear lights?",
     "options": [
-      "A red rear reflector",
       "A white rear reflector",
+      "A red rear reflector",
       "A flashing amber beacon",
       "A green front lamp"
     ],
-    "answer": 0,
+    "answer": 1,
     "explain": "At night a cycle MUST have white front and red rear lights lit. It MUST also be fitted with a red rear reflector, and amber pedal reflectors if it was made after 1 October 1985.",
     "ref": [
       "HC 60"
@@ -894,11 +894,11 @@
     "q": "What does the law say about lights on a powered mobility scooter being used on the road at night?",
     "options": [
       "They're optional",
-      "They MUST be used",
       "Only a rear light is needed",
+      "They MUST be used",
       "They're needed only in fog"
     ],
-    "answer": 1,
+    "answer": 2,
     "explain": "Users of powered wheelchairs and mobility scooters MUST follow the same rules about lights as other vehicles if they're fitted, and at night lights MUST be used. Other road users may not see them, so take extra care.",
     "ref": [
       "HC 43"
@@ -1025,10 +1025,10 @@
     "options": [
       "One in fifty",
       "One in a hundred",
-      "One in five",
-      "One in two"
+      "One in two",
+      "One in five"
     ],
-    "answer": 2,
+    "answer": 3,
     "explain": "Many newly qualified drivers lack experience. As many as one new driver in five has some kind of collision in their first year of driving, so be patient with new drivers.",
     "ref": [
       "HC Annex 8"

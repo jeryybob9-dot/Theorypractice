@@ -463,17 +463,17 @@
   },
   {
     "id": "MAR-034",
-    "q": "You see this sign on a winter's evening. What does it warn you of?",
+    "q": "You're towing a heavily loaded trailer. How could this affect your stopping distance?",
     "options": [
-      "Risk of flooding",
-      "Snowploughs working",
-      "Risk of ice",
-      "Oil spills on the road"
+      "It will be shorter than usual",
+      "It will stay about the same",
+      "It may increase significantly",
+      "It only changes in wet weather"
     ],
     "answer": 2,
-    "explain": "This sign warns of a risk of ice. Drive extremely carefully: drive slowly in as high a gear as possible and avoid sudden actions.",
-    "ref": ["HC Traffic signs", "HC 231"],
-    "sign": "warning-sign-risk-of-ice"
+    "explain": "When towing, be aware that your stopping distance may increase significantly. Leave more space between you and the vehicle in front.",
+    "ref": ["HC 98", "HC 126"],
+    "sign": null
   },
   {
     "id": "MAR-035",

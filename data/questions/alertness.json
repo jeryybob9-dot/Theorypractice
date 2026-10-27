@@ -584,10 +584,10 @@
     "options": [
       "Lorries often change lanes without signalling",
       "You must signal before you use your mirrors",
-      "Traffic may be coming up behind very quickly",
-      "The left-hand lane may be about to end"
+      "The left-hand lane may be about to end",
+      "Traffic may be coming up behind very quickly"
     ],
-    "answer": 2,
+    "answer": 3,
     "explain": "Before overtaking on a motorway, remember that traffic may be coming up behind you very quickly. Check all your mirrors carefully, look out for motorcyclists and signal in plenty of time.",
     "ref": [
       "HC 267"
@@ -661,12 +661,12 @@
   },
   {
     "id": "ALE-041",
-    "q": "You're thinking about overtaking a slow-moving van. Before you pull out, what should you make sure of behind you?",
+    "q": "You're following a slow van and want to overtake it. You check your mirrors before pulling out. What are you making sure of?",
     "options": [
       "The driver behind has flashed you out",
       "The car behind is close enough to follow",
       "Nobody is starting to overtake you",
-      "Your hazard lights are switched on"
+      "Your indicator is already flashing"
     ],
     "answer": 2,
     "explain": "Before overtaking, make sure the road is clear enough ahead, that road users aren't beginning to overtake you, and that there's a suitable gap in front of the road user you plan to overtake.",
@@ -681,10 +681,10 @@
     "options": [
       "Only just before you start to turn or stop",
       "Only when you hear a vehicle sound its horn",
-      "Only after you've finished an overtaking move",
-      "Frequently, so you know what's behind you"
+      "Frequently, so you know what's behind you",
+      "Only after you've finished an overtaking move"
     ],
-    "answer": 3,
+    "answer": 2,
     "explain": "Use your mirrors frequently so that you always know what's behind and to each side of you. Use them in good time before you signal or change direction or speed.",
     "ref": [
       "HC 161"
@@ -697,10 +697,10 @@
     "options": [
       "Answering an urgent call from work",
       "Checking a map in slow-moving traffic",
-      "Calling 999 when it's unsafe to stop",
-      "Texting while stopped at traffic lights"
+      "Texting while stopped at traffic lights",
+      "Calling 999 when it's unsafe to stop"
     ],
-    "answer": 2,
+    "answer": 3,
     "explain": "You MUST NOT use a hand-held phone while driving, even when stationary in traffic. There's an exception to call 999 or 112 in a genuine emergency when it's unsafe or impractical to stop.",
     "ref": [
       "HC 149",

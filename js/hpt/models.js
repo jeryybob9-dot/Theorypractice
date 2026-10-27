@@ -1,5 +1,29 @@
 // Low-poly models for road users and street furniture, built from primitives at load time.
 import * as THREE from '../../vendor/three.module.min.js';
+import { mergeGeometries } from '../../vendor/BufferGeometryUtils.js';
+
+// Merge a model's direct, non-animated meshes that share a material into one mesh each,
+// so a car costs ~20 draw calls instead of ~35. Groups (wheels, doors) are left alone.
+function mergeStatic(g) {
+  const byMat = new Map();
+  for (const c of [...g.children]) {
+    if (!c.isMesh) continue;
+    c.updateMatrix();
+    let geo = c.geometry.index ? c.geometry.toNonIndexed() : c.geometry.clone();
+    geo.applyMatrix4(c.matrix);
+    for (const name of Object.keys(geo.attributes)) if (!['position', 'normal', 'uv'].includes(name)) geo.deleteAttribute(name);
+    if (!geo.attributes.uv) geo.setAttribute('uv', new THREE.Float32BufferAttribute(new Float32Array(geo.attributes.position.count * 2), 2));
+    if (!byMat.has(c.material)) byMat.set(c.material, []);
+    byMat.get(c.material).push(geo);
+    g.remove(c);
+  }
+  for (const [m, geos] of byMat) {
+    const merged = mergeGeometries(geos, false);
+    geos.forEach((x) => x.dispose());
+    g.add(new THREE.Mesh(merged, m));
+  }
+  return g;
+}
 
 const matCache = new Map();
 export function mat(color, opts = {}) {
@@ -128,7 +152,7 @@ export function makeCar({ color = '#c9ccd1', style = 'hatch', parts = true } = {
   }
   g.userData.parts = { wheels, lights, wheelR: 0.32, length: S.len, width: S.wid };
   g.userData.kind = 'car';
-  return g;
+  return mergeStatic(g);
 }
 
 export function makeBus({ color = '#c8102e', decks = 1, length = 11.5 } = {}) {
@@ -151,7 +175,7 @@ export function makeBus({ color = '#c8102e', decks = 1, length = 11.5 } = {}) {
   const lights = vehicleLights(g, 2.5, length, 0.7, 0.9);
   g.userData.parts = { wheels, lights, wheelR: 0.5, length, width: 2.5 };
   g.userData.kind = 'bus';
-  return g;
+  return mergeStaticExcept(g, wheels);
 }
 
 export function makeLorry({ color = '#e8e8e8', cab = '#1f4e8c' } = {}) {
@@ -172,7 +196,7 @@ export function makeLorry({ color = '#e8e8e8', cab = '#1f4e8c' } = {}) {
   const lights = vehicleLights(g, 2.5, 11.8, 0.9, 1.1, -5.95, 5.92);
   g.userData.parts = { wheels, lights, wheelR: 0.52, length: 11.8, width: 2.55 };
   g.userData.kind = 'lorry';
-  return g;
+  return mergeStaticExcept(g, wheels);
 }
 
 export function makeTractor({ color = '#2f6b2f' } = {}) {
@@ -195,6 +219,15 @@ export function makeTractor({ color = '#2f6b2f' } = {}) {
   lights.beacon = [beacon];
   g.userData.parts = { wheels, lights, wheelR: 0.8, length: 3.6, width: 2.0 };
   g.userData.kind = 'tractor';
+  return mergeStaticExcept(g, wheels);
+}
+
+// as mergeStatic, but keeps the given meshes (e.g. wheels that are direct children) separate
+function mergeStaticExcept(g, keep) {
+  const holder = new THREE.Group();
+  for (const k of keep) { g.remove(k); holder.add(k); }
+  mergeStatic(g);
+  for (const k of keep) { holder.remove(k); g.add(k); }
   return g;
 }
 

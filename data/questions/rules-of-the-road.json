@@ -57,7 +57,7 @@
       "Right side to right side",
       "Left side to left side",
       "Whichever lets you go first",
-      "Turning in front of each other"
+      "Cutting the corner to turn sooner"
     ],
     "answer": 0,
     "explain": "Turning right side to right side, keeping the other vehicle on your right and turning behind it, is generally safer as you have a clear view of approaching traffic. Turning left side to left side can block your view of oncoming vehicles.",
@@ -674,17 +674,17 @@
   },
   {
     "id": "RUL-042",
-    "q": "You're driving along a country road and the car behind starts to overtake you. What should you do?",
+    "q": "You need to stop briefly to let a passenger out. The only space is a taxi bay shown by signs and road markings. What does the law say?",
     "options": [
-      "Speed up so that it can't get past you",
-      "Move out towards the centre of the road",
-      "Brake sharply to let it in quickly",
-      "Keep a steady course, slowing if needed"
+      "You MUST NOT stop or park in it",
+      "You may stop to set down a passenger",
+      "You may stop there for up to 2 minutes",
+      "You may stop there outside rush hour"
     ],
-    "answer": 3,
-    "explain": "If a driver is trying to overtake you, maintain a steady course and speed, slowing down if necessary to let them pass. Speeding up or driving unpredictably while someone is overtaking you is dangerous.",
+    "answer": 0,
+    "explain": "You MUST NOT stop or park in taxi bays, as indicated by upright signs and markings. Find a safe, legal place to stop instead.",
     "ref": [
-      "HC 168"
+      "HC 240"
     ],
     "sign": null
   },
@@ -692,12 +692,12 @@
     "id": "RUL-043",
     "q": "You want to overtake a slow vehicle, but you'd have to drive in a bus lane during its hours of operation. What does the law say?",
     "options": [
-      "You MUST NOT overtake",
       "You may if no buses are coming",
+      "You MUST NOT overtake",
       "You may if it's only for a short way",
       "You may if you signal first"
     ],
-    "answer": 0,
+    "answer": 1,
     "explain": "You MUST NOT overtake if you would have to enter a lane reserved for buses, trams or cycles during its hours of operation.",
     "ref": [
       "HC 165"
@@ -742,11 +742,11 @@
     "q": "You've found a parking space on the road, but it's directly opposite a traffic island. What should you do?",
     "options": [
       "Park there with your hazard lights on",
-      "Find somewhere else to park",
       "Park there, as it isn't a junction",
+      "Find somewhere else to park",
       "Park partly on the pavement instead"
     ],
-    "answer": 1,
+    "answer": 2,
     "explain": "Don't stop or park opposite a traffic island. Other places to avoid include bends, near the brow of a hill and within 10 metres of a junction, except in an authorised parking space.",
     "ref": [
       "HC 243"
@@ -886,18 +886,18 @@
   },
   {
     "id": "RUL-055",
-    "q": "You see this sign at the entrance to a street. What does it mean?",
+    "q": "You see this sign by some parking bays. You don't have a permit. What should you do?",
     "options": [
-      "No parking for motorcycles",
-      "Free parking for all vehicles",
-      "Parking for permit holders only",
-      "Parking for disabled drivers only"
+      "Park for up to 20 minutes",
+      "Park if you're only loading",
+      "Park if the bays are empty",
+      "Park somewhere else"
     ],
-    "answer": 2,
-    "explain": "This sign means parking is restricted to permit holders. You MUST NOT park in spaces reserved for specific users, such as residents or Blue Badge holders, unless you're entitled to.",
+    "answer": 3,
+    "explain": "You MUST NOT park in parking spaces reserved for specific users, such as permit holders, residents, Blue Badge holders or motorcycles, unless you're entitled to do so.",
     "ref": [
-      "HC Traffic signs",
-      "HC 241"
+      "HC 241",
+      "HC Traffic signs"
     ],
     "sign": "sign-giving-order-park-restrict-permit-holders"
   },
@@ -1002,12 +1002,12 @@
     "id": "RUL-062",
     "q": "You're driving on a single carriageway road that has four lanes. Which lanes should you use?",
     "options": [
+      "Only those signs or markings show",
       "Any lane that's clear of traffic",
       "The two lanes nearest the kerb",
-      "Whichever lane is moving fastest",
-      "Only those signs or markings show"
+      "Whichever lane is moving fastest"
     ],
-    "answer": 3,
+    "answer": 0,
     "explain": "Where a single carriageway has four or more lanes, use only the lanes that signs or markings indicate.",
     "ref": [
       "HC 136"
@@ -1083,12 +1083,12 @@
     "id": "RUL-067",
     "q": "You've overtaken using the right-hand lane of a three-lane dual carriageway. What should you do next?",
     "options": [
-      "Return to the middle, then the left lane",
       "Stay in the right-hand lane",
+      "Return to the middle, then the left lane",
       "Cut straight across to the left lane",
       "Stay in the middle lane from now on"
     ],
-    "answer": 0,
+    "answer": 1,
     "explain": "On a dual carriageway with three or more lanes, you may use the middle lanes or the right-hand lane to overtake, but you should return to the middle lanes and then the left-hand lane when it's safe.",
     "ref": [
       "HC 138"
@@ -1100,11 +1100,11 @@
     "q": "When are you allowed to drive on or over a pavement?",
     "options": [
       "To get past a queue of traffic",
-      "To reach a property or in an emergency",
       "To let a bus pass on a narrow road",
+      "To reach a property or in an emergency",
       "To park there for a short time"
     ],
-    "answer": 1,
+    "answer": 2,
     "explain": "You MUST NOT drive on or over a pavement, footpath or bridleway except to gain lawful access to property, or in the case of an emergency.",
     "ref": [
       "HC 145"
@@ -1117,10 +1117,10 @@
     "options": [
       "Drive through, as it's out of use",
       "Expect pedestrians to wait for you",
-      "Proceed with extreme caution",
-      "Stop and wait until it's repaired"
+      "Stop and wait until it's repaired",
+      "Proceed with extreme caution"
     ],
-    "answer": 2,
+    "answer": 3,
     "explain": "If a signal-controlled crossing isn't working, proceed with extreme caution. Don't enter the crossing if you can't completely clear it.",
     "ref": [
       "HC 199"
@@ -1164,12 +1164,12 @@
     "id": "RUL-072",
     "q": "Road markings show that you can join a roundabout without giving way. What should you still do?",
     "options": [
+      "Look to the right before joining",
       "Stop at the line before joining",
       "Sound your horn as you join",
-      "Signal left as you join",
-      "Look to the right before joining"
+      "Signal left as you join"
     ],
-    "answer": 3,
+    "answer": 0,
     "explain": "Check whether road markings allow you to enter the roundabout without giving way. If so, proceed, but still look to the right before joining.",
     "ref": [
       "HC 185"

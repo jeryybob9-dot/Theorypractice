@@ -122,11 +122,15 @@ export function fieldTexture(tone) {
 }
 
 export function hedgeTexture() {
-  return solidTexture('hedge2', '#d8e6c4', 70, 128, (g, s) => {
-    for (let i = 0; i < 520; i++) {
-      g.fillStyle = i % 3 ? 'rgba(70,95,50,0.45)' : 'rgba(250,255,230,0.45)';
+  return solidTexture('hedge3', '#d8e6c4', 50, 256, (g, size) => {
+    let seed = 12345;
+    const rnd = () => { seed = (seed * 16807) % 2147483647; return seed / 2147483647; };
+    for (let i = 0; i < 2600; i++) {
+      const x = rnd() * size, y = rnd() * size, r = 1.5 + rnd() * 4.5;
+      const tone = rnd();
+      g.fillStyle = tone < 0.55 ? `rgba(60,85,45,${0.35 + rnd() * 0.3})` : tone < 0.85 ? `rgba(150,180,110,${0.3 + rnd() * 0.3})` : `rgba(245,250,225,${0.25 + rnd() * 0.25})`;
       g.beginPath();
-      g.arc((i * 37) % s, (i * 91) % s, 2 + (i % 4), 0, Math.PI * 2);
+      g.ellipse(x, y, r, r * (0.6 + rnd() * 0.6), rnd() * Math.PI, 0, Math.PI * 2);
       g.fill();
     }
   });

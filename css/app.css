@@ -108,7 +108,7 @@ p { margin: 0 0 .8em; }
 }
 
 /* ---------- App chrome ---------- */
-.screen { min-height: 100vh; display: flex; flex-direction: column; }
+.screen { min-height: 100vh; min-height: 100dvh; display: flex; flex-direction: column; }
 .topbar {
   position: sticky; top: 0; z-index: 20;
   padding: calc(var(--safe-top) + 10px) calc(16px + var(--safe-right)) 10px calc(16px + var(--safe-left));
@@ -221,7 +221,7 @@ p { margin: 0 0 .8em; }
 .seg button[aria-pressed="true"] { background: var(--surface); color: var(--text); box-shadow: var(--shadow); }
 
 /* ---------- Test screen (mirrors the real test layout) ---------- */
-.test { background: var(--surface); min-height: 100vh; display: flex; flex-direction: column; }
+.test { background: var(--surface); min-height: 100vh; min-height: 100dvh; display: flex; flex-direction: column; }
 .test-head {
   position: sticky; top: 0; z-index: 10; background: var(--brand); color: #fff;
   padding: calc(var(--safe-top) + 8px) calc(14px + var(--safe-right)) 8px calc(14px + var(--safe-left));
@@ -355,6 +355,9 @@ mark { background: var(--focus); color: #000; border-radius: 3px; padding: 0 2px
 }
 .hpt-stage { position: relative; flex: 1; display: flex; align-items: center; justify-content: center; overflow: hidden; }
 .hpt-frame { position: relative; aspect-ratio: 16 / 9; width: 100%; max-height: 100%; max-width: calc((100vh - var(--safe-top) - var(--safe-bottom) - 44px) * 16 / 9); background: #000; }
+@supports (height: 100dvh) {
+  .hpt-frame { max-width: calc((100dvh - var(--safe-top) - var(--safe-bottom) - 44px) * 16 / 9); }
+}
 .hpt-frame canvas { width: 100%; height: 100%; display: block; }
 .hpt-flags { height: 44px; display: flex; align-items: center; position: relative; background: #111; border-top: 1px solid #222; }
 .hpt-flags .flag { position: absolute; bottom: 8px; width: 18px; height: 26px; transform: translateX(-3px); }
