@@ -2,6 +2,7 @@
 import { h, icon, esc } from './util.js';
 import { page, openSheet, errorBox } from './ui.js';
 import { loadHC, loadSigns, refInfo, sectionSlugFor } from './data.js';
+import { go } from './nav.js';
 
 const ATTRIB = 'The Highway Code © Crown copyright, from GOV.UK under the Open Government Licence v3.0.';
 
@@ -154,7 +155,6 @@ export async function ruleHtml(rule) {
 
 export async function openRef(ref) {
   const info = refInfo(ref);
-  if (info.kind === 'url') { window.open(info.url, '_blank', 'noopener'); return; }
   if (info.kind === 'rule') {
     const body = h('div', { class: 'hc-content' }, h('p', { class: 'muted' }, 'Loading…'));
     openSheet(`Rule ${info.rule}`, body);
@@ -170,14 +170,17 @@ export async function openRef(ref) {
   if (info.kind === 'section') {
     const hc = await loadHC();
     const slug = sectionSlugFor(info.name, hc);
-    if (slug) { document.querySelector('.sheet-backdrop')?.remove(); location.hash = `#/hc/${slug}`; }
+    if (slug) { document.querySelector('.sheet-backdrop')?.remove(); go(`#/hc/${slug}`); }
   }
 }
 
 export function refButtons(refs) {
   if (!refs || !refs.length) return null;
-  return h('div', { class: 'refs' }, refs.map((r) =>
-    h('button', { class: 'ref-link', onclick: () => openRef(r) }, refInfo(r).label)));
+  return h('div', { class: 'refs' }, refs.map((r) => {
+    const info = refInfo(r);
+    if (info.kind === 'url') return h('a', { class: 'ref-link', href: info.url, target: '_blank', rel: 'noopener' }, info.label);
+    return h('button', { class: 'ref-link', onclick: () => openRef(r) }, info.label);
+  }));
 }
 
 export async function renderSigns(group = 'all') {
@@ -188,7 +191,7 @@ export async function renderSigns(group = 'all') {
   const sel = h('select', { 'aria-label': 'Sign group', style: { width: '100%', padding: '12px', borderRadius: '12px', border: '1px solid var(--line)', background: 'var(--surface)' } },
     h('option', { value: 'all' }, 'All signs, markings and signals'),
     groups.map(([g, t]) => h('option', { value: g, selected: g === group }, t)));
-  sel.addEventListener('change', () => { location.hash = `#/signs/${sel.value}`; });
+  sel.addEventListener('change', () => { go(`#/signs/${sel.value}`); });
   main.appendChild(sel);
   main.appendChild(h('div', { style: { height: '12px' } }));
   const shown = group === 'all' ? groups : groups.filter(([g]) => g === group);

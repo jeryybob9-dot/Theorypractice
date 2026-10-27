@@ -69,20 +69,20 @@
   },
   {
     "id": "SIG-005",
-    "q": "You're driving in England and haven't seen any speed limit signs. Where does a 30 mph limit generally apply?",
+    "q": "You drive past this sign. What does it tell you?",
     "options": [
-      "On any road with a pavement",
-      "On any single carriageway road",
-      "On roads with street lights",
-      "On any road with a centre line"
+      "You're entering a 20 mph zone",
+      "You're entering a controlled parking zone",
+      "You're entering a congestion charging zone",
+      "Parking is free in this area"
     ],
-    "answer": 2,
-    "explain": "In England and Scotland, a 30 mph limit generally applies to all roads with street lights (excluding motorways) unless signs show otherwise. In Wales it's generally 20 mph.",
+    "answer": 1,
+    "explain": "This sign marks the entrance to a controlled parking zone. Zone entry signs show the times when waiting restrictions within the zone are in force.",
     "ref": [
-      "HC 124",
-      "GOV.UK speed-limits"
+      "HC Traffic signs",
+      "HC 245"
     ],
-    "sign": null
+    "sign": "Information-sign-entrance-controlled-parking-zone"
   },
   {
     "id": "SIG-006",
@@ -501,20 +501,20 @@
   },
   {
     "id": "SIG-031",
-    "q": "You see this sign. How should you drive over the next half mile?",
+    "q": "You're on a road with these lines, and the broken line is on your side. You want to overtake. When may you cross the lines?",
     "options": [
-      "Speed up between the humps",
-      "Slow down for the first hump only",
-      "Overtake slower vehicles between humps",
-      "Keep your speed down the whole way"
+      "Only to pass a cyclist doing 10 mph or less",
+      "Never, as these lines ban overtaking",
+      "If you can get back before a solid line",
+      "Only if the vehicle ahead waves you on"
     ],
-    "answer": 3,
-    "explain": "This sign shows the distance over which road humps extend. Keep to a reduced speed along the whole stretch, and don't overtake other moving road users while you're in the area.",
+    "answer": 2,
+    "explain": "Where the line nearer to you is broken, you may cross the lines to overtake if it's safe, provided you can complete the manoeuvre before reaching a solid white line on your side. White arrows on the road tell you to get back to your side.",
     "ref": [
-      "HC 153",
-      "HC Traffic signs"
+      "HC 128",
+      "HC Road markings"
     ],
-    "sign": "warning-sign-distance-humps-extend"
+    "sign": "along-carriageway-double-white-broken-line"
   },
   {
     "id": "SIG-032",
@@ -889,36 +889,36 @@
   },
   {
     "id": "SIG-054",
-    "q": "You're in slow-moving, queuing traffic approaching a pelican crossing. The traffic ahead stops. What should you do?",
+    "q": "A car ahead of you is showing this signal. What does it mean?",
     "options": [
-      "Stop on the crossing if the lights are green",
-      "Stop before the crossing to keep it clear",
-      "Move onto the crossing to close the gap",
-      "Stop on it if no pedestrians are waiting"
+      "The driver is braking",
+      "The driver intends to turn left",
+      "The car has broken down",
+      "The driver intends to reverse"
     ],
-    "answer": 1,
-    "explain": "In slow-moving and queuing traffic you should keep crossings completely clear. Don't enter a pedestrian crossing if you can't completely clear it, as blocking it makes crossing difficult and dangerous for pedestrians.",
+    "answer": 3,
+    "explain": "Reversing lights mean 'I intend to reverse'. This signal shouldn't be used except for the purpose described.",
     "ref": [
-      "HC 192"
+      "HC Signals to other road users"
     ],
-    "sign": null
+    "sign": "reverse-light-signals"
   },
   {
     "id": "SIG-055",
-    "q": "You're approaching a zebra crossing that has a central island. How should you treat it?",
+    "q": "You're driving along a one-way street and see this sign. What does it mean?",
     "options": [
-      "As two separate crossings",
-      "As one single crossing",
-      "As a crossing with no priority",
-      "As a give way junction"
+      "There's a contraflow bus lane",
+      "Buses must use the left lane",
+      "There's a bus stop ahead",
+      "Buses have priority at the junction"
     ],
     "answer": 0,
-    "explain": "A zebra crossing with a central island is two separate crossings. This is different from a pelican crossing that goes straight across the road, which is one crossing even when there's a central island.",
+    "explain": "This sign shows a contraflow bus lane, where buses travel in the opposite direction to other traffic. In one-way streets, buses and cycles may have a contraflow lane.",
     "ref": [
-      "HC 195",
-      "HC 197"
+      "HC Traffic signs",
+      "HC 143"
     ],
-    "sign": null
+    "sign": "sign-giving-order-contra-flow-bus-lane"
   },
   {
     "id": "SIG-056",
@@ -973,19 +973,20 @@
   },
   {
     "id": "SIG-059",
-    "q": "You've stopped at a pelican crossing. The amber light starts flashing, but a pedestrian is still crossing. What MUST you do?",
+    "q": "You see this sign. What does it warn you of?",
     "options": [
-      "Drive on, as flashing amber lets you go",
-      "Give way to the pedestrian",
-      "Edge forward to show you're waiting",
-      "Drive round behind the pedestrian"
+      "A level crossing with barriers ahead",
+      "A level crossing without barriers ahead",
+      "Trams crossing the road ahead",
+      "A railway bridge over the road"
     ],
     "answer": 1,
-    "explain": "At a pelican crossing, flashing amber follows the red light. When it's flashing you MUST give way to any pedestrians on the crossing; if there are none, you may go on with caution.",
+    "explain": "This sign warns of a level crossing without a barrier or gate ahead. At crossings with no barriers, a train is approaching when the lights show.",
     "ref": [
-      "HC 196"
+      "HC Traffic signs",
+      "HC 293"
     ],
-    "sign": null
+    "sign": "warning-sign-level-crossing-ahead-without-barrier"
   },
   {
     "id": "SIG-060",
@@ -1023,20 +1024,19 @@
   },
   {
     "id": "SIG-062",
-    "q": "You see this signal on a motorway and soon afterwards see fog ahead. What should you do before you enter it?",
+    "q": "You're approaching a narrow section of road and see this sign. What does it mean?",
     "options": [
-      "Check your mirrors, then slow down",
-      "Brake hard, then check your mirrors",
-      "Switch off your lights to reduce glare",
-      "Close up so you can follow tail lights"
+      "You must give way to oncoming traffic",
+      "The road ahead is one-way",
+      "You have priority over oncoming traffic",
+      "Two-way traffic crosses ahead"
     ],
-    "answer": 0,
-    "explain": "Before entering fog, check your mirrors and then slow down. Keep a safe distance behind the vehicle in front, as rear lights can give a false sense of security.",
+    "answer": 2,
+    "explain": "This rectangular information sign means traffic has priority over oncoming vehicles. A circular sign with a red border is used where you must give priority to vehicles from the opposite direction.",
     "ref": [
-      "HC 234",
-      "HC 235"
+      "HC Traffic signs"
     ],
-    "sign": "motorway-signal-fog"
+    "sign": "Information-sign-traffic-priority-over-oncoming-vehicles"
   },
   {
     "id": "SIG-063",

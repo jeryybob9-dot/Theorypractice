@@ -683,17 +683,17 @@
   },
   {
     "id": "INC-043",
-    "q": "You're driving through a tunnel when the traffic ahead comes to a stop. What's the minimum gap you should leave between you and the vehicle in front?",
+    "q": "You hit a dog that ran into the road, and it's injured. What MUST you do?",
     "options": [
-      "At least 1 metre",
-      "At least 2 metres",
-      "At least 3 metres",
-      "At least 5 metres"
+      "Carry on if your car isn't damaged",
+      "Stop at the scene",
+      "Report it only if the dog dies",
+      "Drive on and phone the police later"
     ],
-    "answer": 3,
-    "explain": "If you have to stop in a tunnel, leave at least a 5-metre gap between you and the vehicle in front. When moving, allow at least a two-second gap in tunnels where visibility is reduced.",
+    "answer": 1,
+    "explain": "If you're involved in a collision that causes damage or injury to any other person, vehicle, animal or property, you MUST stop. You must also give your details to anyone with reasonable grounds for requiring them.",
     "ref": [
-      "HC 126"
+      "HC 286"
     ],
     "sign": null
   },

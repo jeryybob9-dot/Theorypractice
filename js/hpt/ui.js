@@ -5,6 +5,7 @@ import { store } from '../store.js';
 import { HPT, MOCK } from '../data.js';
 import { makeClip, makeTestPlan, TEMPLATE_NAMES } from './scenarios.js';
 import { scoreClip, BAND_COLOURS } from './scoring.js';
+import { go } from '../nav.js';
 
 let player = null;
 let cleanup = [];
@@ -32,7 +33,7 @@ export function route(p1, p2) {
   if (p1 === 'review') { const [id, i] = (p2 || '').split('~'); return renderReview(id, +i); }
   if (p1 === 'full') return renderBreak(p2);
   if (p1 === 'final') { const [mid, hid] = (p2 || '').split('~'); return renderFinal(mid, hid); }
-  location.hash = '#/hazard';
+  go('#/hazard');
 }
 
 const LABELS = {
@@ -145,7 +146,7 @@ async function runTest({ mcqId = null }) {
   const shell = overlayShell({ onClose: async () => {
     if (player) player.pause();
     const ok = await confirmDialog({ title: 'End the hazard perception test?', text: "Your answers so far won't be saved.", ok: 'End test', cancel: 'Carry on', danger: true });
-    if (ok) { aborted = true; leave(); location.hash = mcqId ? `#/results/${mcqId}` : '#/hazard'; } else if (player && player.world && shell.started) player.play();
+    if (ok) { aborted = true; leave(); go(mcqId ? `#/results/${mcqId}` : '#/hazard'); } else if (player && player.world && shell.started) player.play();
   } });
   const results = [];
   try {
@@ -189,7 +190,7 @@ async function runTest({ mcqId = null }) {
   const rec = { id: `h${Date.now().toString(36)}`, ts: Date.now(), full: true, mcqId, total, max, pass: total >= HPT.pass, clips: results };
   store.addHpt(rec);
   leave();
-  location.hash = mcqId ? `#/hazard/final/${mcqId}~${rec.id}` : `#/hazard/results/${rec.id}`;
+  go(mcqId ? `#/hazard/final/${mcqId}~${rec.id}` : `#/hazard/results/${rec.id}`);
 }
 
 function playClip(shell, clip) {
@@ -215,7 +216,7 @@ function playClip(shell, clip) {
 
 async function runPractice(template) {
   const seed = newSeed();
-  const shell = overlayShell({ onClose: () => { leave(); location.hash = '#/hazard/practice'; }, closeLabel: 'Close' });
+  const shell = overlayShell({ onClose: () => { leave(); go('#/hazard/practice'); }, closeLabel: 'Close' });
   try { await getPlayer(shell.frame, { mode: 'test' }); } catch (e) { showOverlay(shell.overlay, errorBox(e)); return; }
   showOverlay(shell.overlay, h('h2', null, 'Practice clip'), h('p', null, 'Loading…'));
   const clip = makeClip(seed, { template: template || undefined });
@@ -229,7 +230,7 @@ async function runPractice(template) {
     clips: [{ seed, template: clip.template, env: clip.env, double: false, time: clip.time, weather: clip.weather, hazards: clip.hazards, clicks, scores: sc.scores, raw: sc.rawScores, pattern: sc.pattern }] };
   store.addHpt(rec);
   leave();
-  location.hash = `#/hazard/review/${rec.id}~0`;
+  go(`#/hazard/review/${rec.id}~0`);
 }
 
 // ---- Results and review --------------------------------------------------------------------

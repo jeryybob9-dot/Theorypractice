@@ -127,16 +127,16 @@
   },
   {
     "id": "MOT-010",
-    "q": "You're following a large lorry on a motorway. Many large vehicles are fitted with speed limiters. What speed might a limiter restrict it to?",
+    "q": "You've just joined a motorway from a slip road. When should you consider overtaking?",
     "options": [
-      "46 mph",
-      "66 mph",
-      "50 mph",
-      "56 mph"
+      "Straight away, while still accelerating",
+      "As soon as you reach the left-hand lane",
+      "Only after you pass the next junction",
+      "After adjusting to the speed of traffic"
     ],
     "answer": 3,
-    "explain": "Many large vehicles are fitted with speed limiting devices that restrict their speed to 56 mph (90 km/h), even on a motorway. You should be patient and only overtake when it's safe.",
-    "ref": ["HC 222"],
+    "explain": "When joining a motorway, remain in the left-hand lane long enough to adjust to the speed of traffic before considering overtaking.",
+    "ref": ["HC 259"],
     "sign": null
   },
   {
@@ -449,16 +449,16 @@
   },
   {
     "id": "MOT-033",
-    "q": "You're driving on a motorway and begin to feel sleepy. What should you do?",
+    "q": "You're stuck in a stationary queue on a motorway. You want to see what's causing the delay. What does the law say?",
     "options": [
-      "Stop on the hard shoulder for a short nap",
-      "Pull into an emergency area and rest",
-      "Stop at a service area or leave at an exit",
-      "Open a window and carry on to your destination"
+      "You MUST NOT walk on the motorway",
+      "You may walk along the hard shoulder",
+      "You may walk if your hazards are on",
+      "You may walk on the verge only"
     ],
-    "answer": 2,
-    "explain": "If you feel sleepy, stop in a safe place, but not in an emergency area or on the hard shoulder. Service areas are provided for breaks, and rest facilities may also be reached from motorway exits.",
-    "ref": ["HC 91", "HC 262"],
+    "answer": 0,
+    "explain": "You MUST NOT pick up or set down anyone, or walk on a motorway, except in an emergency.",
+    "ref": ["HC 272"],
     "sign": null
   },
   {
@@ -547,17 +547,17 @@
   },
   {
     "id": "MOT-040",
-    "q": "You're approaching an exit on a motorway and see these countdown markers. About how far from the exit is the marker with three bars?",
+    "q": "You're travelling alone and have broken down on a motorway. You're calling for help. What should you tell them?",
     "options": [
-      "300 yards",
-      "150 yards",
-      "3 miles",
-      "600 yards"
+      "Your car's MOT expiry date",
+      "That you're travelling alone",
+      "The name of your insurer",
+      "How fast you were driving"
     ],
-    "answer": 0,
-    "explain": "Countdown markers show the distance to an exit from the motorway. Each bar represents about 100 yards, so the three-bar marker is about 300 yards from the exit.",
-    "ref": ["HC Traffic signs"],
-    "sign": "information-sign-motorway-exit-countdown-markers"
+    "answer": 1,
+    "explain": "When you get help, tell them if you're a vulnerable motorist, such as disabled, older or travelling alone. Wait well away from your vehicle and moving traffic, behind the safety barrier if there is one.",
+    "ref": ["HC 277"],
+    "sign": null
   },
   {
     "id": "MOT-041",
@@ -757,16 +757,16 @@
   },
   {
     "id": "MOT-055",
-    "q": "You're approaching road works on a motorway where a lane is closed. Traffic is queuing and moving very slowly. What should you do?",
+    "q": "You're on a motorway in good conditions and can see well ahead. How should you drive?",
     "options": [
-      "Merge in turn when it's safe",
-      "Change lanes to pass the queue",
-      "Drive along the coned-off area",
-      "Use the hard shoulder to get past"
+      "Varying your speed to stay alert",
+      "As close to 70 mph as you can",
+      "At a steady speed within the limit",
+      "At 50 mph to stay in the left lane"
     ],
-    "answer": 0,
-    "explain": "Where lanes are restricted due to road works, merge in turn when it's safe. Merging in turn is recommended when traffic is moving at very low speed, but not at high speed. Don't switch lanes to overtake queuing traffic or drive through an area marked off by cones.",
-    "ref": ["HC 288", "HC 134"],
+    "answer": 2,
+    "explain": "When you can see well ahead and road conditions are good, drive at a steady cruising speed which you and your vehicle can handle safely and is within the speed limit.",
+    "ref": ["HC 260"],
     "sign": null
   },
   {
@@ -785,16 +785,16 @@
   },
   {
     "id": "MOT-057",
-    "q": "At motorway road works, you're behind a vehicle displaying the sign 'CONVOY VEHICLE NO OVERTAKING'. What MUST you do?",
+    "q": "You've broken down on a motorway with your dog in the car. You and your passengers are going to wait behind the safety barrier. What should you do with the dog?",
     "options": [
-      "Overtake on the right when it's clear",
-      "Flash your lights so it pulls over",
-      "Stay behind and don't pass it",
-      "Pass it using the hard shoulder"
+      "Let it off the lead on the verge",
+      "Tie it to the safety barrier",
+      "Walk it along the hard shoulder",
+      "Keep it in the car"
     ],
-    "answer": 2,
-    "explain": "Where a vehicle displays the sign 'CONVOY VEHICLE NO OVERTAKING', you MUST NOT pass it.",
-    "ref": ["HC 289"],
+    "answer": 3,
+    "explain": "Animals MUST be kept in the vehicle or, in an emergency, under control on the verge.",
+    "ref": ["HC 277"],
     "sign": null
   },
   {

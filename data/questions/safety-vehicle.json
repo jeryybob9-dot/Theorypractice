@@ -178,17 +178,17 @@
   },
   {
     "id": "SAF-012",
-    "q": "Your car is fitted with anti-lock brakes (ABS). You have to stop in an emergency. What should you do?",
+    "q": "You turn the ignition key and several warning lights come on. What should normally happen when the engine starts?",
     "options": [
-      "Pump the brake pedal on and off",
-      "Use the handbrake and footbrake together",
-      "Brake gently, then release the pedal",
-      "Brake firmly and keep the pressure on"
+      "They go out, except the handbrake light",
+      "They all stay on until you move off",
+      "They flash until the engine warms up",
+      "They stay on for the first few miles"
     ],
-    "answer": 3,
-    "explain": "In an emergency, apply the footbrake firmly and don't release the pressure until the vehicle has slowed to the desired speed. You should also follow the advice in your vehicle handbook.",
+    "answer": 0,
+    "explain": "When you turn the ignition key, warning lights come on but go out when the engine starts (except the handbrake warning light). If they don't, stop and investigate, as you could have a serious fault.",
     "ref": [
-      "HC 120"
+      "HC Annex 6"
     ],
     "sign": null
   },
@@ -290,15 +290,15 @@
   },
   {
     "id": "SAF-019",
-    "q": "Smoke and flames are coming from under the bonnet of your car. What should you do?",
+    "q": "While you're driving, you notice a smell of burning rubber. What should you do?",
     "options": [
-      "Open the bonnet and use an extinguisher",
-      "Pour water through the front grille",
-      "Get everyone out and call the fire brigade",
-      "Keep driving to the nearest garage"
+      "Ignore it unless smoke appears",
+      "Investigate it straight away",
+      "Wait until your next service",
+      "Open the windows and drive on"
     ],
-    "answer": 2,
-    "explain": "You should get the occupants out of the vehicle quickly and to a safe place, then call the fire brigade. Don't try to put out a fire in the engine compartment, as opening the bonnet will make the fire flare.",
+    "answer": 1,
+    "explain": "If your vehicle smells of anything unusual, such as burning rubber, petrol or an electrical fault, investigate immediately. Don't risk a fire.",
     "ref": [
       "HC Annex 6"
     ],
@@ -617,50 +617,50 @@
   },
   {
     "id": "SAF-039",
-    "q": "You're driving in fog. Visibility is seriously reduced when you generally can't see for more than what distance?",
+    "q": "How often should you check the fluid levels in your car?",
     "options": [
-      "10 metres",
-      "50 metres",
-      "100 metres",
-      "200 metres"
+      "Only at each service",
+      "Once a year at the MOT",
+      "At least weekly",
+      "When a warning light comes on"
     ],
     "answer": 2,
-    "explain": "You MUST use headlights when visibility is seriously reduced, generally when you can't see for more than 100 metres (328 feet).",
+    "explain": "Check the fluid levels in your vehicle at least weekly, and make sure you recognise any low fluid warning lights.",
     "ref": [
-      "HC 226"
+      "HC Annex 6"
     ],
     "sign": null
   },
   {
     "id": "SAF-040",
-    "q": "You've been using your rear fog lights in thick fog, but the fog has now cleared. What MUST you do?",
+    "q": "You know your car is unroadworthy but decide to drive it anyway. What could this do to your insurance?",
     "options": [
-      "Switch them off",
-      "Keep them on until the end of your journey",
-      "Change to front fog lights only",
-      "Keep them on in case the fog returns"
+      "It will still cover you in full",
+      "It will cover only fire and theft",
+      "It will become comprehensive cover",
+      "It could make it invalid"
     ],
-    "answer": 0,
-    "explain": "You MUST switch off fog lights when visibility improves. They dazzle other road users and can obscure your brake lights.",
+    "answer": 3,
+    "explain": "You MUST make sure your vehicle is legal and roadworthy. Driving an unroadworthy motor vehicle may invalidate your insurance.",
     "ref": [
-      "HC 236",
-      "HC 114"
+      "HC Annex 3",
+      "HC 97"
     ],
     "sign": null
   },
   {
     "id": "SAF-041",
-    "q": "It's a dull, overcast day. Which lights should you use to make sure other road users can see you?",
+    "q": "You've just filled up with fuel. What should you check to help prevent fuel leaks?",
     "options": [
-      "Main beam headlights",
-      "Rear fog lights",
-      "Dipped headlights",
-      "Hazard warning lights"
+      "The fuel cap is fastened securely",
+      "The tank is filled right to the top",
+      "The engine is still running",
+      "The fuel gauge shows it's full"
     ],
-    "answer": 2,
-    "explain": "You should use dipped headlights, or dim-dip if fitted, in dull daytime weather and at night in built-up areas, to make sure you can be seen.",
+    "answer": 0,
+    "explain": "Double-check for fuel leaks. Don't overfill your fuel tank, and make sure the fuel cap is fastened securely and its seal isn't torn, perished or missing.",
     "ref": [
-      "HC 115"
+      "HC Annex 6"
     ],
     "sign": null
   },
@@ -683,17 +683,17 @@
   },
   {
     "id": "SAF-043",
-    "q": "You're in a stationary queue of traffic at night and the drivers behind have stopped. How can you reduce glare for them?",
+    "q": "You need to book your car's MOT. How can you recognise an approved MOT test centre?",
     "options": [
-      "Switch off all your lights",
-      "Switch on your hazard warning lights",
-      "Use the parking brake, not the footbrake",
-      "Keep your foot firmly on the footbrake"
+      "A green sign with a white tick",
+      "A blue sign with 3 white triangles",
+      "A red sign with the word 'TEST'",
+      "A yellow sign showing a black car"
     ],
-    "answer": 2,
-    "explain": "In stationary queues, you should apply the parking brake and, once the traffic behind has stopped, take your foot off the footbrake to turn off the brake lights. This minimises glare for road users behind.",
+    "answer": 1,
+    "explain": "You must use an approved MOT test centre. Only centres showing the blue sign with 3 white triangles can carry out your MOT.",
     "ref": [
-      "HC 114"
+      "GOV.UK getting-an-mot"
     ],
     "sign": null
   },
@@ -715,17 +715,17 @@
   },
   {
     "id": "SAF-045",
-    "q": "You're driving on a motorway when the traffic ahead suddenly slows right down. Why might you briefly switch on your hazard warning lights?",
+    "q": "It's a warm day and you're leaving your car for a while. Which of these should you never leave in it?",
     "options": [
-      "To show you're about to change lanes",
-      "To ask the driver ahead to move over",
-      "To show you're leaving at the next exit",
-      "To warn drivers behind of the hazard ahead"
+      "Your car's handbook",
+      "A first aid kit",
+      "Children or pets",
+      "A warning triangle"
     ],
-    "answer": 3,
-    "explain": "You MUST NOT use hazard warning lights while driving, unless you're on a motorway or unrestricted dual carriageway and need to warn drivers behind of a hazard or obstruction ahead. Only use them for long enough for your warning to be seen.",
+    "answer": 2,
+    "explain": "When you leave your vehicle, never leave children or pets in an unventilated car.",
     "ref": [
-      "HC 116"
+      "HC Annex 6"
     ],
     "sign": null
   },
@@ -747,81 +747,82 @@
   },
   {
     "id": "SAF-047",
-    "q": "You're waiting in a queue of stationary traffic. When may you sound your horn?",
+    "q": "You're leaving your car in a town centre. There's a carrier bag of shopping on the back seat. What should you do?",
     "options": [
-      "When another road user poses a danger",
-      "To tell the driver ahead the lights have changed",
-      "To greet a friend on the pavement",
-      "When the traffic is moving too slowly"
+      "Leave it there, as it's only shopping",
+      "Push it under the seat out of the way",
+      "Leave a window open so it can be seen",
+      "Take it with you or lock it in the boot"
     ],
-    "answer": 0,
-    "explain": "You MUST NOT use your horn while stationary on the road, except when another road user poses a danger. Never sound your horn aggressively.",
+    "answer": 3,
+    "explain": "Take all contents with you, or lock them in the boot. Remember, for all a thief knows a carrier bag may contain valuables.",
     "ref": [
-      "HC 112"
+      "HC Annex 6"
     ],
     "sign": null
   },
   {
     "id": "SAF-048",
-    "q": "You arrive home late at night and want to park on the road. The only space would mean facing against the traffic flow. When may you park there?",
+    "q": "You want to make your car more secure against theft. What could you fit?",
     "options": [
-      "Only if you leave your sidelights on",
-      "Only if it's a recognised parking space",
-      "Only if the speed limit is 30 mph",
-      "Only if your hazard lights are on"
+      "An alarm or immobiliser",
+      "Tinted rear windows",
+      "A larger fuel tank",
+      "Brighter headlight bulbs"
     ],
-    "answer": 1,
-    "explain": "You MUST NOT park on a road at night facing against the direction of the traffic flow unless you're in a recognised parking space.",
+    "answer": 0,
+    "explain": "For extra security, fit an anti-theft device such as an alarm or immobiliser. If you're buying a new car, it's a good idea to check the level of built-in security features.",
     "ref": [
-      "HC 248"
+      "HC Annex 6"
     ],
     "sign": null
   },
   {
     "id": "SAF-049",
-    "q": "You're parking at night in a lay-by on a road with a 50 mph speed limit. What MUST you do?",
+    "q": "You get a flat tyre while driving on a busy road. What should you do?",
     "options": [
-      "Leave your dipped headlights on",
-      "Switch on your hazard warning lights",
-      "Switch on your rear fog lights",
-      "Display parking lights"
+      "Keep driving to the nearest garage",
+      "Stop when safe and get help if needed",
+      "Stop at once, wherever you are",
+      "Change it however close the traffic is"
     ],
-    "answer": 3,
-    "explain": "All vehicles MUST display parking lights when parked on a road, or a lay-by on a road, with a speed limit greater than 30 mph.",
+    "answer": 1,
+    "explain": "If you have a flat tyre, stop as soon as it's safe to do so. Only change the tyre if you can do so without putting yourself or others at risk; otherwise call a breakdown service.",
     "ref": [
-      "HC 249"
+      "HC Annex 6"
     ],
     "sign": null
   },
   {
     "id": "SAF-050",
-    "q": "You're leaving your car overnight, without lights, on a road with a 30 mph speed limit. Where must it be parked?",
+    "q": "Your doctor has given you a certificate exempting you from wearing a seat belt. What must you do with it?",
     "options": [
-      "At least 5 metres from any junction",
-      "Facing against the traffic flow",
-      "Directly under a street light",
-      "At least 10 metres from any junction"
+      "Send it to the DVSA",
+      "Display it on the windscreen",
+      "Keep it in your car",
+      "Give it to your MOT tester"
     ],
-    "answer": 3,
-    "explain": "Cars may be parked without lights on a road with a speed limit of 30 mph or less if they're at least 10 metres from any junction, close to the kerb and facing in the direction of the traffic flow, or in a recognised parking place or lay-by.",
+    "answer": 2,
+    "explain": "If your doctor says you don't have to wear a seat belt for a medical reason, they'll give you a Certificate of Exemption. You must keep it in your vehicle and show it to the police if you're stopped. You'll also need to tell your insurer.",
     "ref": [
-      "HC 250"
+      "GOV.UK seat-belts-law",
+      "HC 99"
     ],
     "sign": null
   },
   {
     "id": "SAF-051",
-    "q": "You have no choice but to park on the road in fog. What should you do?",
+    "q": "You're travelling as a passenger on a coach that has seat belts fitted. What does the law say?",
     "options": [
-      "Switch on your rear fog lights",
-      "Leave your sidelights on",
-      "Leave your headlights on main beam",
-      "Switch all lights off to save the battery"
+      "They're only needed on motorways",
+      "They're only for children under 14",
+      "They're optional for all passengers",
+      "You MUST wear one if you're 14 or over"
     ],
-    "answer": 1,
-    "explain": "It's especially dangerous to park on the road in fog. If it's unavoidable, you should leave your parking lights or sidelights on.",
+    "answer": 3,
+    "explain": "Adults, and children aged 14 years and over, MUST use a seat belt or child restraint, where fitted, when seated in minibuses, buses and coaches.",
     "ref": [
-      "HC 251"
+      "HC 99"
     ],
     "sign": null
   },
@@ -908,34 +909,32 @@
   },
   {
     "id": "SAF-057",
-    "q": "You've bought a brand-new car. When must it have its first MOT?",
+    "q": "You're driving in England with your 16-year-old nephew in the car. What does the law say about smoking?",
     "options": [
-      "One year after first registration",
-      "Three years after first registration",
-      "Four years after first registration",
-      "Five years after first registration"
+      "You MUST NOT smoke in the car",
+      "You may smoke with the windows open",
+      "You may smoke if he agrees to it",
+      "You may smoke if he sits in the back"
     ],
-    "answer": 1,
-    "explain": "Cars MUST normally pass an MOT test three years from the date of first registration, and every year after that.",
+    "answer": 0,
+    "explain": "In England and Wales, the driver MUST NOT smoke or allow anyone to smoke in an enclosed private vehicle carrying someone under 18. Smoking is also a distraction while you're driving.",
     "ref": [
-      "HC Annex 3",
-      "GOV.UK getting-an-mot"
+      "HC 148"
     ],
     "sign": null
   },
   {
     "id": "SAF-058",
-    "q": "Your car's MOT certificate has run out. When may you drive it on the road?",
+    "q": "Your car was first registered over 40 years ago and hasn't been substantially changed. What's the MOT requirement?",
     "options": [
-      "To visit friends within five miles",
-      "Only on roads with a 30 mph limit",
-      "To a pre-arranged MOT test",
-      "At any time, as long as it's insured"
+      "It needs an MOT every year",
+      "It's exempt from the MOT test",
+      "It needs an MOT every 3 years",
+      "It needs an MOT every 6 months"
     ],
-    "answer": 2,
-    "explain": "You can't drive your vehicle on the road if the MOT has run out. The only exceptions are driving it to a pre-arranged MOT test, or to or from somewhere to be repaired.",
+    "answer": 1,
+    "explain": "Cars manufactured or first registered over 40 years ago are exempt from the MOT test, unless they've been substantially changed within the previous 30 years.",
     "ref": [
-      "GOV.UK getting-an-mot",
       "HC Annex 3"
     ],
     "sign": null
@@ -1091,51 +1090,50 @@
   },
   {
     "id": "SAF-068",
-    "q": "You need glasses to read a number plate at the required distance. When must you wear them?",
+    "q": "Which of these does the Highway Code recommend you carry for use in an emergency?",
     "options": [
-      "Every time you drive",
-      "Only when driving at night",
-      "Only on motorways",
-      "Only in poor weather"
+      "A spare set of car keys",
+      "A full can of petrol",
+      "High-visibility clothing",
+      "A portable tyre compressor"
     ],
-    "answer": 0,
-    "explain": "If you need to wear glasses or contact lenses to read a number plate at the required distance, you MUST wear them at all times while driving.",
+    "answer": 2,
+    "explain": "For emergency use, it's recommended that you have a mobile phone containing emergency contacts (such as breakdown assistance) and high-visibility clothing.",
     "ref": [
-      "HC 92",
-      "GOV.UK driving-eyesight-rules"
+      "HC 97"
     ],
     "sign": null
   },
   {
     "id": "SAF-069",
-    "q": "Your optician says you have an eyesight problem affecting both eyes. It isn't short or long sight. What must you do?",
+    "q": "Your windscreen is very dirty and covered in smears. What does the law say?",
     "options": [
-      "Drive only in daylight",
-      "Tell DVLA",
-      "Nothing, if you can still read signs",
-      "Wait until your licence is renewed"
+      "It only matters at night",
+      "It only matters before an MOT",
+      "It's fine as long as the wipers work",
+      "It MUST be kept clean and clear"
     ],
-    "answer": 1,
-    "explain": "You must tell DVLA if you've got any problem with your eyesight that affects both of your eyes. This doesn't include being short or long sighted or colour blind.",
+    "answer": 3,
+    "explain": "Windscreens and windows MUST be kept clean and free from obstructions to vision. Lights, indicators, reflectors and number plates MUST also be kept clean and clear.",
     "ref": [
-      "GOV.UK driving-eyesight-rules",
-      "HC 90"
+      "HC Annex 6"
     ],
     "sign": null
   },
   {
     "id": "SAF-070",
-    "q": "It's a frosty morning and your car windows are covered in ice. What MUST you do before setting off?",
+    "q": "You're caught driving without wearing a seat belt. What's the maximum fine you could get?",
     "options": [
-      "Clear a patch in front of you",
-      "Clear just the windscreen",
-      "Clear it with the wipers as you go",
-      "Clear the ice from all windows"
+      "£500",
+      "£100",
+      "£1,000",
+      "£2,500"
     ],
-    "answer": 3,
-    "explain": "Before you set off, you MUST be able to see, so clear all snow and ice from all your windows. You should also make sure the mirrors are clear and the windows are demisted thoroughly.",
+    "answer": 0,
+    "explain": "You can be fined up to £500 if you don't wear a seat belt when you're supposed to. The same applies if a child under 14 isn't in the correct car seat or wearing a seat belt while you're driving.",
     "ref": [
-      "HC 229"
+      "GOV.UK seat-belts-law",
+      "HC Annex 5"
     ],
     "sign": null
   }

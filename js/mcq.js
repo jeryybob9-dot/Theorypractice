@@ -6,6 +6,7 @@ import { store } from './store.js';
 import { MOCK, topicById, TOPICS } from './data.js';
 import { mockTest, practiceSet, rebuild } from './questions.js';
 import { refButtons } from './hc.js';
+import { go as nav } from './nav.js';
 
 let S = null;          // active test state
 let timerHandle = null;
@@ -39,7 +40,7 @@ export async function startMock({ full = false } = {}) {
     current: 0, timeLimit: Math.round(minutes * 60), elapsed: 0, phase: 'q', filter: null, video, feedback: false,
   };
   save();
-  location.hash = '#/test';
+  nav('#/test');
 }
 
 export function startPractice({ topics, count, mode, title }) {
@@ -52,13 +53,13 @@ export function startPractice({ topics, count, mode, title }) {
     current: 0, timeLimit: 0, elapsed: 0, phase: 'q', filter: null, video: null, feedback: store.settings().practiceFeedback,
   };
   save();
-  location.hash = '#/test';
+  nav('#/test');
   return true;
 }
 
 export function renderTest() {
   activeTest();
-  if (!S) { location.hash = '#/tests'; return; }
+  if (!S) { nav('#/tests'); return; }
   startTimer();
   if (S.phase === 'review') renderReview(); else renderQuestion();
 }
@@ -318,8 +319,8 @@ function finish(timedOut) {
   const full = S.type === 'full';
   S = null;
   store.clearActive();
-  if (!total) { location.hash = '#/tests'; return; }
-  location.hash = full ? `#/hazard/full/${record.id}` : `#/results/${record.id}`;
+  if (!total) { nav('#/tests'); return; }
+  nav(full ? `#/hazard/full/${record.id}` : `#/results/${record.id}`);
 }
 
 // ---------------------------------------------------------------------------------------------
@@ -351,7 +352,7 @@ export function renderResults(id, { page: makePage }) {
   main.appendChild(topicCard);
   const actions = h('div', { class: 'btn-row', style: { margin: '14px 0' } });
   if (weak.length) actions.appendChild(h('button', { class: 'btn', onclick: () => startPractice({ topics: weak, count: 20, mode: 'mixed', title: 'Weak topics' }) }, 'Practise weak topics'));
-  actions.appendChild(h('button', { class: 'btn secondary', onclick: () => (mock ? startMock() : (location.hash = '#/practice')) }, mock ? 'New mock test' : 'Practise again'));
+  actions.appendChild(h('button', { class: 'btn secondary', onclick: () => (mock ? startMock() : (nav('#/practice'))) }, mock ? 'New mock test' : 'Practise again'));
   main.appendChild(actions);
 
   if (!t.items) return;

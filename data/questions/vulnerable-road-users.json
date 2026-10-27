@@ -1,18 +1,17 @@
 [
   {
     "id": "VUL-001",
-    "q": "The Highway Code describes a 'hierarchy of road users'. Who has the most responsibility to reduce the danger they pose to others?",
+    "q": "You're waiting at a pelican crossing. A bleeping sound starts when the green figure shows for pedestrians. Who is it mainly there to help?",
     "options": [
-      "Pedestrians and cyclists, as they are most at risk",
-      "Drivers who have held a licence for the longest",
-      "Road users travelling at the lowest speeds",
-      "Drivers of vehicles that can cause the greatest harm"
+      "Drivers waiting at the crossing",
+      "Cyclists using the crossing",
+      "Children crossing on their own",
+      "Blind or partially sighted people"
     ],
     "answer": 3,
-    "explain": "Those in charge of vehicles that can cause the greatest harm in a collision bear the greatest responsibility to take care and reduce the danger they pose to others. This applies most strongly to drivers of large vehicles, vans, cars and motorcycles.",
+    "explain": "At some crossings there's a bleeping sound or voice signal to tell blind or partially sighted people when the steady green figure is showing. There may also be a tactile signal to help deafblind people.",
     "ref": [
-      "HC H1",
-      "HC 204"
+      "HC 26"
     ],
     "sign": null
   },
@@ -250,17 +249,17 @@
   },
   {
     "id": "VUL-016",
-    "q": "You're driving through a housing estate and see an ice-cream van parked at the side of the road. Why should you drive slowly and carefully?",
+    "q": "You're driving at night with your headlights on. How much further away can you see a pedestrian wearing reflective materials?",
     "options": [
-      "Ice-cream vans have priority when moving off",
-      "Children may run into the road unexpectedly",
-      "The van is likely to be parked illegally",
-      "There's a lower speed limit near the van"
+      "Up to three times as far",
+      "Up to twice as far",
+      "Up to five times as far",
+      "About the same distance"
     ],
-    "answer": 1,
-    "explain": "Drive carefully and slowly when passing parked vehicles, especially ice-cream vans. Children are more interested in ice cream than traffic and may run into the road unexpectedly.",
+    "answer": 0,
+    "explain": "When it's dark, reflective materials such as armbands, sashes and jackets can be seen by drivers using headlights up to three times as far away as non-reflective materials.",
     "ref": [
-      "HC 206"
+      "HC 3"
     ],
     "sign": null
   },
@@ -365,17 +364,17 @@
   },
   {
     "id": "VUL-023",
-    "q": "You've stopped at a zebra crossing for a pedestrian who's waiting to cross. Why shouldn't you wave them across?",
+    "q": "You're driving at night and catch up with a horse-drawn vehicle. Which lights MUST it have fitted?",
     "options": [
-      "It's an offence to signal to pedestrians",
-      "Another vehicle may be approaching",
-      "It will encourage them to cross slowly",
-      "It means you'll lose your priority"
+      "Amber flashing lights on both sides",
+      "White to the front and red to the rear",
+      "Red to the front and white to the rear",
+      "A single white light on the horse"
     ],
     "answer": 1,
-    "explain": "Don't wave, flash your lights or use your horn to invite pedestrians across a zebra crossing. This could be dangerous if another vehicle is approaching.",
+    "explain": "It's safer not to drive horse-drawn vehicles at night, but if they're used, a light showing white to the front and red to the rear MUST be fitted. They should also have two red rear reflectors.",
     "ref": [
-      "HC 195"
+      "HC 48"
     ],
     "sign": null
   },
@@ -414,16 +413,17 @@
   },
   {
     "id": "VUL-026",
-    "q": "You're at a pelican crossing that goes straight across the road, with a central island. The amber light is flashing and a pedestrian is crossing from the other side of the island. What MUST you do?",
+    "q": "You're approaching a pelican crossing where the two halves on each side of the central island aren't in line. How is it treated?",
     "options": [
-      "Drive on, as it's a separate crossing",
-      "Drive on if your half is clear",
-      "Sound your horn to warn them",
-      "Wait for the pedestrian to cross"
+      "As one single crossing",
+      "As a zebra crossing",
+      "As two separate crossings",
+      "As a toucan crossing"
     ],
-    "answer": 3,
-    "explain": "Pelican crossings that go straight across the road are one crossing, even when there's a central island. You MUST wait for pedestrians who are crossing from the other side of the island.",
+    "answer": 2,
+    "explain": "When the crossings on each side of the central refuge aren't in line (a 'staggered' crossing), they're two separate crossings. Pelican crossings that go straight across the road are one crossing, even with a central island.",
     "ref": [
+      "HC 28",
       "HC 197"
     ],
     "sign": null
@@ -480,36 +480,37 @@
   },
   {
     "id": "VUL-030",
-    "q": "You're following a car towards a zebra crossing. The car stops to let a pedestrian cross. What should you do?",
+    "q": "At some signal-controlled junctions, signs and markings tell cyclists to turn right in two stages. What do the cyclists do first when the lights turn green?",
     "options": [
-      "Overtake it if the crossing looks clear",
-      "Pass it on the left-hand side",
-      "Stop and wait behind it",
-      "Sound your horn to hurry it"
+      "Move to the centre of the road and turn",
+      "Ride along the pavement to turn right",
+      "Wait at the stop line for the next green",
+      "Go straight ahead and wait at a marked spot"
     ],
-    "answer": 2,
-    "explain": "You MUST NOT overtake the moving vehicle nearest the crossing, or the vehicle nearest the crossing that has stopped to give way to pedestrians.",
+    "answer": 3,
+    "explain": "In a two-stage turn, when the lights turn green cyclists go straight ahead to a spot marked by a cycle symbol and turn arrow, then stop and wait there. They complete the turn when the lights facing them turn green.",
     "ref": [
-      "HC 191",
-      "HC 165"
+      "HC 75"
     ],
     "sign": null
   },
   {
     "id": "VUL-031",
-    "q": "You're in a queue of slow-moving traffic approaching a pelican crossing. The traffic ahead is stopping just beyond the crossing. What should you do?",
+    "q": "You see this sign. Which road users may use the bus lane ahead as well as buses?",
     "options": [
-      "Wait until you can clear the crossing",
-      "Stop on the crossing if the lights are green",
-      "Edge onto the crossing to keep up",
-      "Stop with your front wheels on the crossing"
+      "Cyclists and taxis",
+      "Motorcycles only",
+      "Lorries and vans",
+      "Cars with passengers"
     ],
     "answer": 0,
-    "explain": "In slow-moving and queuing traffic you should keep crossings completely clear. Don't enter a pedestrian crossing if you're unable to clear it completely, as blocking it makes it difficult and dangerous for pedestrians to cross.",
+    "explain": "This sign shows a with-flow bus lane ahead which pedal cycles and taxis may also use. Most bus lanes may be used by cyclists, as shown on signs.",
     "ref": [
-      "HC 192"
+      "HC Traffic signs",
+      "HC 141",
+      "HC 65"
     ],
-    "sign": null
+    "sign": "Information-sign-with-flow-bus-lane-ahead"
   },
   {
     "id": "VUL-032",
@@ -546,35 +547,34 @@
   },
   {
     "id": "VUL-034",
-    "q": "A school crossing patrol steps into the road holding up this sign. What MUST you do?",
+    "q": "A school crossing patrol gives this signal. What does it mean?",
     "options": [
-      "Slow down and carry on",
-      "Drive on if no children are visible",
-      "Stop and wait",
-      "Sound your horn and proceed"
+      "Be prepared to stop",
+      "All vehicles must stop",
+      "Pedestrians must not cross",
+      "The patrol isn't ready yet"
     ],
-    "answer": 2,
-    "explain": "You MUST stop when a school crossing patrol shows a 'Stop for children' sign. You MUST obey signs used by school crossing patrols.",
+    "answer": 1,
+    "explain": "This signal from a school crossing patrol means all vehicles must stop. You MUST obey signals given by school crossing patrols.",
     "ref": [
-      "HC 210",
+      "HC Signals by authorised persons",
       "HC 105"
     ],
-    "sign": "sign-giving-order-school-crossing-patrol"
+    "sign": "school-crossing-patrol-all-vehicles-stop"
   },
   {
     "id": "VUL-035",
-    "q": "You're approaching a 'School crossing patrol ahead' warning sign. The amber lights on it are flashing. What does this mean?",
+    "q": "Why should you treat all horses as a potential hazard, even when they have an experienced rider?",
     "options": [
-      "Children may be crossing the road ahead",
-      "The school is closed for the day",
-      "There are road works near the school",
-      "The speed limit no longer applies"
+      "They aren't allowed on busy roads",
+      "Their riders can't give arm signals",
+      "They can move very fast if startled",
+      "They always move into the middle"
     ],
-    "answer": 0,
-    "explain": "Some 'School crossing patrol ahead' signs have amber lights that flash when the crossing is in use. A flashing amber signal below the 'School' warning sign tells you there may be children crossing the road ahead, so drive very slowly until you're clear of the area.",
+    "answer": 2,
+    "explain": "Treat all horses as a potential hazard; they can be unpredictable despite the efforts of their rider. Horses are flight animals and can move incredibly quickly if startled.",
     "ref": [
-      "HC 208",
-      "HC Traffic signs"
+      "HC 215"
     ],
     "sign": null
   },
@@ -662,17 +662,17 @@
   },
   {
     "id": "VUL-041",
-    "q": "A cycle lane is marked by a solid white line and signs show it's in operation. What does this mean for you?",
+    "q": "You're about to leave a roundabout. What should you watch out for at the exit road?",
     "options": [
-      "You may park in it for up to 20 minutes",
-      "You MUST NOT drive or park in it",
-      "You may drive in it if no cyclists are present",
-      "You may use it to pass slow traffic"
+      "Traffic joining from the right",
+      "Vehicles reversing out of it",
+      "Cyclists who must give way to you",
+      "Pedestrians who may be crossing it"
     ],
-    "answer": 1,
-    "explain": "You MUST NOT drive or park in a cycle lane marked by a solid white line during its times of operation.",
+    "answer": 3,
+    "explain": "At roundabouts, watch out for and give plenty of room to pedestrians who may be crossing the approach and exit roads.",
     "ref": [
-      "HC 140"
+      "HC 187"
     ],
     "sign": null
   },
@@ -712,17 +712,17 @@
   },
   {
     "id": "VUL-044",
-    "q": "You're approaching traffic lights that have an advanced stop line for cyclists. The lights turn red. Where MUST you stop?",
+    "q": "At night, what MUST a bicycle have fitted, as well as front and rear lights?",
     "options": [
-      "At the second white line, next to the cyclists",
-      "Anywhere inside the marked cycle area",
-      "Just beyond the second white line",
-      "At the first white line you reach"
+      "A red rear reflector",
+      "A white rear reflector",
+      "A flashing amber beacon",
+      "A green front lamp"
     ],
-    "answer": 3,
-    "explain": "At advanced stop lines, motorists MUST stop at the first white line reached if the lights are amber or red. You should avoid blocking or encroaching on the marked cyclists' area.",
+    "answer": 0,
+    "explain": "At night a cycle MUST have white front and red rear lights lit. It MUST also be fitted with a red rear reflector, and amber pedal reflectors if it was made after 1 October 1985.",
     "ref": [
-      "HC 178"
+      "HC 60"
     ],
     "sign": null
   },
@@ -891,18 +891,17 @@
   },
   {
     "id": "VUL-055",
-    "q": "You're about to overtake a motorcyclist at night in strong winds. How should the conditions affect the space you leave?",
+    "q": "What does the law say about lights on a powered mobility scooter being used on the road at night?",
     "options": [
-      "Give them more space than usual",
-      "Leave the same space as in daylight",
-      "Pass closer so you're alongside for less time",
-      "Space doesn't matter if you pass quickly"
+      "They're optional",
+      "They MUST be used",
+      "Only a rear light is needed",
+      "They're needed only in fog"
     ],
-    "answer": 0,
-    "explain": "Take extra care and give more space when overtaking motorcyclists, cyclists, horse riders, horse-drawn vehicles and pedestrians in bad weather (including high winds) and at night.",
+    "answer": 1,
+    "explain": "Users of powered wheelchairs and mobility scooters MUST follow the same rules about lights as other vehicles if they're fitted, and at night lights MUST be used. Other road users may not see them, so take extra care.",
     "ref": [
-      "HC 212",
-      "HC 163"
+      "HC 43"
     ],
     "sign": null
   },
@@ -1022,17 +1021,17 @@
   },
   {
     "id": "VUL-063",
-    "q": "The learner driver in front of you stalls while pulling out of a junction. What should you do?",
+    "q": "According to the Highway Code, about how many new drivers have some kind of collision in their first year of driving?",
     "options": [
-      "Be patient and give them time",
-      "Sound your horn to hurry them up",
-      "Overtake them at the junction",
-      "Flash your headlights to help them"
+      "One in fifty",
+      "One in a hundred",
+      "One in five",
+      "One in two"
     ],
-    "answer": 0,
-    "explain": "Learners and inexperienced drivers may not be so skilful at anticipating and responding to events. Be particularly patient with learner drivers and young drivers.",
+    "answer": 2,
+    "explain": "Many newly qualified drivers lack experience. As many as one new driver in five has some kind of collision in their first year of driving, so be patient with new drivers.",
     "ref": [
-      "HC 217"
+      "HC Annex 8"
     ],
     "sign": null
   },

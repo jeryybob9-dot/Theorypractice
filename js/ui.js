@@ -1,5 +1,6 @@
 // Shared page chrome: top bar, tab bar, bottom sheets and dialogs.
 import { h, icon, clear } from './util.js';
+import { go, back as navBack, current } from './nav.js';
 
 export const app = () => document.getElementById('app');
 
@@ -13,7 +14,7 @@ const TABS = [
 
 export function page({ title, back, actions, tabs = true }, ...content) {
   const top = h('header', { class: 'topbar' },
-    back ? h('button', { class: 'icon-btn', 'aria-label': 'Back', html: icon('back'), onclick: () => (typeof back === 'string' ? (location.hash = back) : history.back()) }) : null,
+    back ? h('button', { class: 'icon-btn', 'aria-label': 'Back', html: icon('back'), onclick: () => (typeof back === 'string' ? go(back) : navBack()) }) : null,
     h('h1', null, title),
     actions || null,
   );
@@ -27,7 +28,7 @@ export function page({ title, back, actions, tabs = true }, ...content) {
 }
 
 function tabbar() {
-  const hash = location.hash || '#/';
+  const hash = current();
   return h('nav', { class: 'tabbar', 'aria-label': 'Sections' },
     TABS.map((t) => {
       const a = h('a', { href: t.href, class: t.match.test(hash) ? 'active' : '' });

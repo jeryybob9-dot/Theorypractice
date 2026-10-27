@@ -68,17 +68,17 @@
   },
   {
     "id": "DOC-005",
-    "q": "You're a learner driver in England. When are you allowed to drive on a motorway?",
+    "q": "Your family car has L plates on it for your son, who is learning. You're driving it on your own. What should you do with the plates?",
     "options": [
-      "Once you've passed your theory test",
-      "With an approved instructor in a dual-control car",
-      "With a family member who's held a licence for 3 years",
-      "Whenever you're displaying L plates"
+      "Leave them on for safety",
+      "Move them to the back only",
+      "Remove or cover them",
+      "Swap them for P plates"
     ],
-    "answer": 1,
-    "explain": "Learners can only drive on motorways in England, Scotland or Wales if they're with an approved driving instructor and the car is fitted with dual controls. It's illegal to drive on a motorway when practising with family or friends.",
+    "answer": 2,
+    "explain": "L plates should be removed or covered when the vehicle isn't being driven by a learner (except on driving school vehicles).",
     "ref": [
-      "GOV.UK driving-lessons-learning-to-drive"
+      "HC Annex 3"
     ],
     "sign": null
   },

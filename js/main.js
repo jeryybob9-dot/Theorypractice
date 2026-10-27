@@ -6,6 +6,7 @@ import { TOPICS, topicById, loadBank, loadSigns, MOCK, HPT } from './data.js';
 import { buildPools, topicCounts, countWrong } from './questions.js';
 import { renderTest, leaveTest, startMock, startPractice, renderResults, activeTest } from './mcq.js';
 import { renderLearn, renderHCIndex, renderHCSection, renderSigns, ATTRIB } from './hc.js';
+import { go, current, onChange } from './nav.js';
 
 let ready = false;
 let leaveHook = null;
@@ -26,7 +27,7 @@ async function boot() {
     clear(app()).appendChild(h('div', { class: 'content' }, errorBox(e), h('p', null, 'Check your connection and reload.')));
     return;
   }
-  window.addEventListener('hashchange', route);
+  onChange(route);
   route();
   if ('serviceWorker' in navigator && location.protocol === 'https:') {
     navigator.serviceWorker.register('sw.js').catch(() => {});
@@ -37,7 +38,7 @@ async function route() {
   if (!ready) return;
   if (leaveHook) { try { leaveHook(); } catch (e) { /* ignore */ } leaveHook = null; }
   leaveTest();
-  const hash = location.hash || '#/';
+  const hash = current();
   const parts = hash.replace(/^#\/?/, '').split('/').map(decodeURIComponent);
   const [p0, p1, p2] = parts;
   try {
@@ -60,7 +61,7 @@ async function route() {
       case 'progress': return renderProgress();
       case 'settings': return renderSettings();
       case 'about': return renderAbout();
-      default: location.hash = '#/';
+      default: go('#/');
     }
   } catch (e) {
     console.error(e);
@@ -110,7 +111,7 @@ function renderHome() {
       h('div', { class: 'grow' }, h('div', null, 'Questions you got wrong'), h('div', { class: 'sub' }, `${wrong} to retry`)), h('span', { class: 'chev', html: icon('chev') })) : null,
     h('a', { class: 'list-row', href: '#/signs' }, h('div', { class: 'grow' }, h('div', null, 'Traffic signs'), h('div', { class: 'sub' }, 'The official sign images from the Highway Code')), h('span', { class: 'chev', html: icon('chev') })),
     h('a', { class: 'list-row', href: '#/hc' }, h('div', { class: 'grow' }, h('div', null, 'The Highway Code'), h('div', { class: 'sub' }, 'Every rule, searchable and works offline')), h('span', { class: 'chev', html: icon('chev') }))));
-  if (!isStandalone()) {
+  if (!isStandalone() && !window.__MEMORY_ROUTER__) {
     main.appendChild(h('div', { class: 'notice info', style: { marginTop: '16px' } },
       h('b', null, 'Install on your iPhone: '), 'in Safari, tap the Share button, then ', h('b', null, 'Add to Home Screen'), '. It then opens full screen and works offline.'));
   }
@@ -299,7 +300,7 @@ function renderSettings() {
   main.appendChild(h('div', { class: 'list' },
     h('a', { class: 'list-row', href: '#/about' }, h('div', { class: 'grow' }, 'About and sources'), h('span', { class: 'chev', html: icon('chev') })),
     h('button', { class: 'list-row', style: { color: 'var(--bad)' }, onclick: async () => {
-      if (await confirmDialog({ title: 'Reset all progress?', text: 'This deletes your test history and question statistics on this device.', ok: 'Reset', danger: true })) { store.resetAll(); location.hash = '#/'; }
+      if (await confirmDialog({ title: 'Reset all progress?', text: 'This deletes your test history and question statistics on this device.', ok: 'Reset', danger: true })) { store.resetAll(); go('#/'); }
     } }, h('div', { class: 'grow' }, 'Reset all progress'))));
 }
 

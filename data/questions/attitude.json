@@ -18,15 +18,15 @@
   },
   {
     "id": "ATT-002",
-    "q": "Under the hierarchy of road users, which of these is most at risk in the event of a collision?",
+    "q": "The hierarchy of road users gives the greatest responsibility to those who can cause the most harm. What does this mean for pedestrians?",
     "options": [
-      "A lorry driver",
-      "A van driver",
-      "A car driver",
-      "A pedestrian"
+      "They no longer need to look before crossing",
+      "They have priority everywhere on the road",
+      "They can ignore signals at crossings",
+      "They still need to behave responsibly"
     ],
     "answer": 3,
-    "explain": "The hierarchy places those most at risk in a collision at the top. The road users most likely to be injured are pedestrians, cyclists, horse riders and motorcyclists.",
+    "explain": "The hierarchy doesn't remove the need for everyone to behave responsibly. All road users, including pedestrians, cyclists and horse riders, should have regard for their own and other road users' safety.",
     "ref": [
       "HC H1"
     ],
@@ -34,69 +34,65 @@
   },
   {
     "id": "ATT-003",
-    "q": "A pedestrian is crossing slowly in front of you and doesn't seem to react to your car. What should you bear in mind?",
+    "q": "There's a line of parked cars on your side of the road. An oncoming car is approaching and there isn't room for you both to pass. What should you do?",
     "options": [
-      "They may have impaired sight or hearing",
-      "They're trying to hold up the traffic",
-      "They'll move faster if you sound your horn",
-      "They should have waited for you to pass"
+      "Pull out, as you're already moving",
+      "Flash your headlights and carry on",
+      "Give way to the oncoming car",
+      "Sound your horn and drive through"
     ],
-    "answer": 0,
-    "explain": "Always remember that the people you meet may have impaired sight, hearing or mobility, and that this may not be obvious. People with hearing impairments may not be aware of your vehicle approaching.",
+    "answer": 2,
+    "explain": "Give way to oncoming vehicles before passing parked vehicles or other obstructions on your side of the road.",
     "ref": [
-      "HC H1",
-      "HC 207"
+      "HC 163"
     ],
     "sign": null
   },
   {
     "id": "ATT-004",
-    "q": "You're turning left into a side road. A pedestrian is waiting to cross the side road. What should you do?",
+    "q": "You've just passed your driving test. What's one benefit of taking further training such as Pass Plus?",
     "options": [
-      "Carry on, as you're on the main road",
-      "Sound your horn to warn them you're there",
-      "Give way and let them cross",
-      "Wave them back onto the pavement"
+      "It removes any penalty points you have",
+      "It lets you drive on motorways sooner",
+      "It means the new driver rules don't apply",
+      "It could lower your insurance costs"
     ],
-    "answer": 2,
-    "explain": "At a junction you should give way to pedestrians crossing or waiting to cross a road into which or from which you're turning. If they've started to cross, they have priority.",
+    "answer": 3,
+    "explain": "Further training such as Pass Plus could save you money on your insurance, as well as helping you reduce your risk of being involved in a collision.",
     "ref": [
-      "HC H2",
-      "HC 170"
+      "HC Annex 8"
     ],
     "sign": null
   },
   {
     "id": "ATT-005",
-    "q": "You're approaching a parallel crossing and a cyclist has moved onto it. What MUST you do?",
+    "q": "You're visiting a friend outside London and the only space is partly on the pavement. No signs allow pavement parking. Why shouldn't you park there?",
     "options": [
-      "Carry on, as it's only for pedestrians",
-      "Give way to the cyclist",
-      "Sound your horn to warn them",
-      "Drive slowly round behind them"
+      "It could damage your tyres on the kerb",
+      "It's only allowed for delivery vans",
+      "It can block wheelchairs and prams",
+      "It blocks the view of speed cameras"
     ],
-    "answer": 1,
-    "explain": "Parallel crossings include a cycle route alongside the black and white stripes. You MUST give way when a pedestrian or cyclist has moved onto the crossing.",
+    "answer": 2,
+    "explain": "You shouldn't park partially or wholly on the pavement unless signs permit it. It can obstruct and seriously inconvenience pedestrians, people in wheelchairs or with visual impairments, and people with prams or pushchairs.",
     "ref": [
-      "HC 195",
-      "HC H2"
+      "HC 244"
     ],
     "sign": null
   },
   {
     "id": "ATT-006",
-    "q": "You're on a roundabout. A cyclist in the left-hand lane ahead of you is signalling right. What should you do?",
+    "q": "Why does the Highway Code say that driving at an unsafe speed is so dangerous?",
     "options": [
-      "Overtake them within their lane",
-      "Sound your horn so they move over",
-      "Cut in front of them to take your exit",
-      "Give them plenty of room to go round"
+      "It's only a risk when you're over the limit",
+      "It only matters in bad weather or at night",
+      "It mainly increases your fuel costs",
+      "Collisions become more likely and worse"
     ],
     "answer": 3,
-    "explain": "Cyclists may stay in the left-hand lane when continuing around a roundabout and should signal right to show this. Give them priority and plenty of room, and don't try to overtake them within their lane.",
+    "explain": "Unsafe speed increases the chances of causing a collision, or of being unable to avoid one, as well as its severity. The speed limit is the absolute maximum, not a target.",
     "ref": [
-      "HC 186",
-      "HC H3"
+      "HC 125"
     ],
     "sign": null
   },
@@ -200,15 +196,15 @@
   },
   {
     "id": "ATT-013",
-    "q": "You're driving on a dual carriageway in dry, clear conditions. What's the minimum gap you should leave behind the vehicle in front?",
+    "q": "You want to check that you're keeping at least a two-second gap behind the vehicle in front. How can you measure it?",
     "options": [
-      "One second",
-      "Two seconds",
-      "Half a second",
-      "One car length"
+      "Count the car lengths between you",
+      "Check your speedometer reading",
+      "Use a fixed point, such as a road sign",
+      "Watch the other car's brake lights"
     ],
-    "answer": 1,
-    "explain": "Allow at least a two-second gap between you and the vehicle in front on high-speed roads. You can use a fixed point, such as a sign, to help measure it.",
+    "answer": 2,
+    "explain": "Allow at least a two-second gap between you and the vehicle in front on high-speed roads. Use a fixed point, such as a sign, to help you measure it.",
     "ref": [
       "HC 126"
     ],
@@ -216,18 +212,17 @@
   },
   {
     "id": "ATT-014",
-    "q": "It's raining heavily and you're on a fast road. How should your two-second gap change?",
+    "q": "You're about to overtake, but doing so would force an oncoming driver to slow down. What should you do?",
     "options": [
-      "It can stay at two seconds",
-      "It can be reduced, as you'll drive slower",
-      "It should increase by half a second",
-      "It should be at least doubled"
+      "Overtake, as they'll have time to brake",
+      "Flash your headlights and then overtake",
+      "Overtake quickly with your hazards on",
+      "Stay behind and don't overtake"
     ],
     "answer": 3,
-    "explain": "The two-second gap should be at least doubled on wet roads, because stopping distances are at least double those on dry roads. Keeping well back also helps you see and plan ahead.",
+    "explain": "Don't overtake where you might come into conflict with other road users; for example, when you would force another road user to swerve or slow down.",
     "ref": [
-      "HC 126",
-      "HC 227"
+      "HC 167"
     ],
     "sign": null
   },
@@ -411,19 +406,17 @@
   },
   {
     "id": "ATT-026",
-    "q": "You've stopped at a zebra crossing for an older pedestrian who is crossing very slowly. What should you do?",
+    "q": "You're approaching a horse rider on a narrow road. The rider signals to you to slow down. What should you do?",
     "options": [
-      "Edge forward to show you're waiting",
-      "Rev your engine to hurry them up",
-      "Drive round behind them once they pass",
-      "Wait patiently until they've crossed"
+      "Sound your horn so the horse hears you",
+      "Slow down, as they've asked",
+      "Pass quickly to get it over with",
+      "Flash your headlights to say thanks"
     ],
-    "answer": 3,
-    "explain": "Older pedestrians may need more time to cross. Be patient and let them cross in their own time – don't hurry them by revving your engine or edging forward.",
+    "answer": 1,
+    "explain": "Look out for horse riders' and horse drivers' signals and heed a request to slow down or stop. Treat all horses as a potential hazard, as they can be unpredictable.",
     "ref": [
-      "HC 207",
-      "HC 194",
-      "HC 195"
+      "HC 215"
     ],
     "sign": null
   },
@@ -496,18 +489,17 @@
   },
   {
     "id": "ATT-031",
-    "q": "You're driving out of a driveway across the pavement. Someone is walking along the pavement towards you. What should you do?",
+    "q": "You're waiting at red traffic lights behind an advanced stop line. Cyclists are waiting in the area ahead of you. What should you do when the lights turn green?",
     "options": [
-      "Give way to the pedestrian",
-      "Sound your horn and drive out",
-      "Drive out, as they'll see you",
-      "Edge out to make them stop"
+      "Move off quickly to pass them first",
+      "Give them time and space to move off",
+      "Sound your horn so they move aside",
+      "Edge forward into the cyclists' area"
     ],
-    "answer": 0,
-    "explain": "Drive carefully and slowly when you need to cross a pavement to reach or leave a driveway, and give way to pedestrians on the pavement.",
+    "answer": 1,
+    "explain": "At advanced stop lines, allow cyclists, including any moving or waiting alongside you, enough time and space to move off when the green signal shows.",
     "ref": [
-      "HC 206",
-      "HC H2"
+      "HC 178"
     ],
     "sign": null
   },
@@ -530,18 +522,17 @@
   },
   {
     "id": "ATT-033",
-    "q": "You're following an older driver who is slow to react at junctions. What should you do?",
+    "q": "You passed your test last month in a small hatchback. A friend offers to lend you their high-powered sports car. What does the Highway Code advise?",
     "options": [
-      "Overtake them as you reach the next junction",
-      "Make allowance for their slower reactions",
-      "Drive close behind so they notice you",
-      "Sound your horn at each junction you reach"
+      "Drive it on a motorway to get used to it",
+      "Drive it only with your friend beside you",
+      "Get plenty of experience driving alone first",
+      "Take it out late at night when it's quiet"
     ],
-    "answer": 1,
-    "explain": "Older drivers' reactions may be slower than other drivers'. Make allowance for this and be patient. Don't overtake at or approaching a junction.",
+    "answer": 2,
+    "explain": "Most new drivers have no experience of driving high-powered or sporty cars. Unless you learnt to drive in one, you need to get plenty of experience driving on your own before driving a more powerful car.",
     "ref": [
-      "HC 216",
-      "HC 167"
+      "HC Annex 8"
     ],
     "sign": null
   },
@@ -564,18 +555,17 @@
   },
   {
     "id": "ATT-035",
-    "q": "A long lorry ahead of you moves out to the right before turning left into a side road. What should you do?",
+    "q": "You're in a slow-moving queue and are about to stop across the end of a side road. What should you do?",
     "options": [
-      "Hold back and give it room to turn",
-      "Pass on its left as it moves over",
-      "Sound your horn to warn the driver",
-      "Overtake it quickly on the right"
+      "Close the gap to the car in front",
+      "Stop across it, as you're in a queue",
+      "Switch on your hazard warning lights",
+      "Leave the side road clear"
     ],
-    "answer": 0,
-    "explain": "Long vehicles may need extra road space to turn and may use the whole width of the road. Be prepared to stop and wait if it needs room or time to turn.",
+    "answer": 3,
+    "explain": "In slow-moving traffic, allow access into and from side roads, as blocking these will add to congestion.",
     "ref": [
-      "HC 221",
-      "HC 170"
+      "HC 151"
     ],
     "sign": null
   },
@@ -646,33 +636,33 @@
   },
   {
     "id": "ATT-040",
-    "q": "You're approaching a bus stop. The bus there signals that it's about to pull away. What should you do?",
+    "q": "You're on a single carriageway road with three lanes, and no markings give priority to either direction. You want to overtake using the middle lane. What should you remember?",
     "options": [
-      "Speed up to pass it first",
-      "Sound your horn to warn the driver",
-      "Give way to it if it's safe",
-      "Flash your lights to hurry it"
+      "Oncoming drivers have as much right to it",
+      "You have priority because you're overtaking",
+      "Oncoming traffic must keep out of it",
+      "You may stay in it for as long as you like"
     ],
-    "answer": 2,
-    "explain": "Give priority to buses, coaches and trams when you can do so safely, especially when they signal to pull away from stops. Look out for people getting off and crossing the road.",
+    "answer": 0,
+    "explain": "Use the middle lane only for overtaking or turning right. Remember, you have no more right to use the middle lane than a driver coming from the opposite direction.",
     "ref": [
-      "HC 223"
+      "HC 135"
     ],
     "sign": null
   },
   {
     "id": "ATT-041",
-    "q": "Why should you give priority to a tram that signals to pull away from a stop?",
+    "q": "You're approaching road works and the traffic in your lane is queuing. The next lane is moving a little faster. What should you do?",
     "options": [
-      "It will be running to a strict timetable",
-      "Standing passengers could be injured",
-      "Its driver can't see any traffic behind",
-      "Trams can't brake once they're moving"
+      "Switch lanes to get past the queue",
+      "Stay in your lane and wait",
+      "Use the hard shoulder to pass the queue",
+      "Move over, then cut back in later"
     ],
     "answer": 1,
-    "explain": "Always give priority to trams, especially when they signal to pull away from stops, unless it would be unsafe. They may be carrying many standing passengers who could be injured if the tram had to make an emergency stop.",
+    "explain": "At road works, get into the correct lane in good time and as signs direct. Do not switch lanes to overtake queuing traffic.",
     "ref": [
-      "HC 305"
+      "HC 288"
     ],
     "sign": null
   },
@@ -727,34 +717,33 @@
   },
   {
     "id": "ATT-045",
-    "q": "You see a horse rider on the road ahead. What's the maximum speed you should slow down to?",
+    "q": "Some Highway Code rules use advisory wording such as 'should' or 'do not'. What could happen if you ignore them?",
     "options": [
-      "15 mph",
-      "10 mph",
-      "20 mph",
-      "25 mph"
+      "Nothing, as they're only suggestions",
+      "You'll automatically get penalty points",
+      "They could be used in court to show liability",
+      "Your licence will be revoked straight away"
     ],
-    "answer": 1,
-    "explain": "When you see a horse on the road, slow down to a maximum of 10 mph. Be patient, don't sound your horn or rev your engine, and pass wide and slow when it's safe.",
+    "answer": 2,
+    "explain": "Failing to follow advisory rules won't in itself cause you to be prosecuted, but The Highway Code may be used in evidence in court proceedings to establish liability.",
     "ref": [
-      "HC 215"
+      "HC Introduction"
     ],
     "sign": null
   },
   {
     "id": "ATT-046",
-    "q": "It's now safe to pass a horse rider ahead of you. What's the minimum space you should allow?",
+    "q": "You're parking on the road behind a car that's displaying a Blue Badge. Why shouldn't you park too close to it?",
     "options": [
-      "1 metre",
-      "1.5 metres",
-      "Half a metre",
-      "2 metres"
+      "It may need to reverse out in a hurry",
+      "Its driver could get a parking fine",
+      "It's illegal to park within 10 metres of it",
+      "Its occupant may need more room to get out"
     ],
     "answer": 3,
-    "explain": "Pass horse riders and horse-drawn vehicles wide and slowly, at speeds under 10 mph, allowing at least 2 metres of space.",
+    "explain": "Don't stop too close to a vehicle displaying a Blue Badge: remember, the occupant may need more room to get in or out.",
     "ref": [
-      "HC 215",
-      "HC 163"
+      "HC 239"
     ],
     "sign": null
   },
@@ -777,34 +766,33 @@
   },
   {
     "id": "ATT-048",
-    "q": "A herd of cows is blocking the road ahead of you. What should you do?",
+    "q": "You're in a queue of slow-moving traffic. A pedestrian is waiting to cross the road between your car and the one in front. What should you do?",
     "options": [
-      "Sound your horn to move them on",
-      "Edge forward slowly through the herd",
-      "Stop and switch off your engine",
-      "Rev your engine so they hear you"
+      "Let them cross in front of you",
+      "Close the gap so they use a crossing",
+      "Sound your horn to warn them off",
+      "Edge forward so they cross behind you"
     ],
-    "answer": 2,
-    "explain": "If a road is blocked by a herd of animals, stop and switch off your engine until they've left the road. Don't scare animals by sounding your horn or revving your engine.",
+    "answer": 0,
+    "explain": "In slow-moving traffic, you should allow pedestrians and cyclists to cross in front of you.",
     "ref": [
-      "HC 214"
+      "HC 151"
     ],
     "sign": null
   },
   {
     "id": "ATT-049",
-    "q": "You're about to overtake a cyclist on a road with a 30 mph limit. What's the minimum space you should leave?",
+    "q": "You park your electric car at a roadside charge point. What should you do with the charging cable?",
     "options": [
-      "1 metre",
-      "1.5 metres",
-      "0.5 metres",
-      "A door's width"
+      "Run it across the pavement at full length",
+      "Make sure it doesn't create a trip hazard",
+      "Leave it on the ground when you've finished",
+      "Hang it over a nearby fence or railing"
     ],
     "answer": 1,
-    "explain": "Leave at least 1.5 metres when overtaking cyclists at speeds of up to 30 mph, and give them more space at higher speeds. If you can't leave this clearance safely, wait behind.",
+    "explain": "When using an electric vehicle charge point, park close to it and avoid creating a trip hazard for pedestrians from trailing cables. Display a warning sign if you can, and put cables away neatly afterwards.",
     "ref": [
-      "HC 163",
-      "HC 212"
+      "HC 239"
     ],
     "sign": null
   },

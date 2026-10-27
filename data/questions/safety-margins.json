@@ -183,30 +183,30 @@
   },
   {
     "id": "MAR-014",
-    "q": "You're keeping a safe gap on a dual carriageway when another driver overtakes and pulls into the space in front of you. What should you do?",
+    "q": "You're driving at 20 mph on a dry road. What's the typical overall stopping distance?",
     "options": [
-      "Close up so nobody else cuts in",
-      "Flash your headlights at the driver",
-      "Drop back to regain a two-second gap",
-      "Overtake the driver again"
+      "6 metres",
+      "12 metres",
+      "23 metres",
+      "9 metres"
     ],
-    "answer": 2,
-    "explain": "If someone overtakes and pulls into the gap in front of you, drop back to maintain a two-second gap. Never speed up or obstruct a driver who is overtaking you.",
-    "ref": ["HC 168"],
+    "answer": 1,
+    "explain": "At 20 mph the typical overall stopping distance is 12 metres (40 feet): 6 metres thinking distance plus 6 metres braking distance, or about three car lengths.",
+    "ref": ["HC 126"],
     "sign": null
   },
   {
     "id": "MAR-015",
-    "q": "You're driving in heavy rain behind a lorry. Why should you keep well back from it?",
+    "q": "Which of these does the Highway Code say need a greater distance to stop than a car?",
     "options": [
-      "To stop your brakes from getting wet",
-      "To see and plan further ahead",
-      "To let your tyres warm up and grip",
-      "To stop your wipers from overloading"
+      "Small cars and vans",
+      "Cars with automatic gearboxes",
+      "Large vehicles and motorcycles",
+      "Cars that have ABS fitted"
     ],
-    "answer": 1,
-    "explain": "In wet weather you should keep well back from the vehicle in front. This will increase your ability to see and plan ahead, as rain and spray from vehicles may make it difficult to see and be seen.",
-    "ref": ["HC 227"],
+    "answer": 2,
+    "explain": "Remember, large vehicles and motorcycles need a greater distance to stop. Leave enough space so that you can pull up safely if the vehicle in front suddenly slows down or stops.",
+    "ref": ["HC 126"],
     "sign": null
   },
   {
@@ -295,16 +295,16 @@
   },
   {
     "id": "MAR-022",
-    "q": "You're following a snowplough on a dual carriageway. When could you consider overtaking it?",
+    "q": "You're planning to overtake a slow-moving vehicle. What does the Highway Code say about your position behind it?",
     "options": [
-      "When the lane you'll use has been cleared",
-      "As soon as it slows down for a junction",
-      "When it moves into the left-hand lane",
-      "Whenever there's a long, clear straight"
+      "Get as close as you can",
+      "Straddle the centre line",
+      "Drive with your hazards on",
+      "Don't get too close to it"
     ],
-    "answer": 0,
-    "explain": "Snowploughs may throw out snow on either side. Don't overtake them unless the lane you intend to use has been cleared.",
-    "ref": ["HC 230"],
+    "answer": 3,
+    "explain": "Overtake only when it's safe and legal. Don't get too close to the vehicle you intend to overtake; use your mirrors, signal when it's safe and then start to move out.",
+    "ref": ["HC 163"],
     "sign": null
   },
   {
@@ -379,16 +379,16 @@
   },
   {
     "id": "MAR-028",
-    "q": "You've just driven through deep water and your brakes don't feel fully effective. What should you do?",
+    "q": "It's an icy morning and you're approaching a zebra crossing where people are waiting to cross. What should you allow for?",
     "options": [
-      "Brake hard several times at speed",
-      "Pump the handbrake on and off",
-      "Drive fast to blow the water off",
-      "Brake lightly while driving slowly"
+      "More time to stop",
+      "Less time to stop",
+      "No need to slow down",
+      "Using your horn to warn them"
     ],
-    "answer": 3,
-    "explain": "After driving through deep water your brakes may be less effective. If they're not fully effective, gently apply light pressure while driving slowly. This will help to dry them out.",
-    "ref": ["HC 121"],
+    "answer": 0,
+    "explain": "As you approach a zebra crossing, look out for pedestrians waiting to cross and be ready to slow down or stop. Allow more time for stopping on wet or icy roads.",
+    "ref": ["HC 195"],
     "sign": null
   },
   {
@@ -407,17 +407,17 @@
   },
   {
     "id": "MAR-030",
-    "q": "You pass a sign showing 'Fog', but the road ahead looks clear. What should you do?",
+    "q": "You see this sign on an exposed stretch of road. What does it warn you of?",
     "options": [
-      "Ignore it, as the fog must have cleared",
-      "Switch on your rear fog lights straight away",
-      "Be prepared for a bank of fog ahead",
-      "Speed up to get past the area quickly"
+      "Low bridge",
+      "Side winds",
+      "Road works",
+      "Ice"
     ],
-    "answer": 2,
-    "explain": "If 'Fog' is shown on a sign but the road is clear, be prepared for a bank of fog or drifting patchy fog ahead. Only use fog lights when visibility is seriously reduced.",
-    "ref": ["HC 234", "HC 236"],
-    "sign": null
+    "answer": 1,
+    "explain": "This sign warns of side winds. Strong gusts can blow a car, cyclist, motorcyclist or horse rider off course.",
+    "ref": ["HC Traffic signs", "HC 232"],
+    "sign": "warning-sign-side-winds"
   },
   {
     "id": "MAR-031",
@@ -463,17 +463,17 @@
   },
   {
     "id": "MAR-034",
-    "q": "It's a very windy day. Which type of vehicle is most affected by the wind?",
+    "q": "You see this sign on a winter's evening. What does it warn you of?",
     "options": [
-      "High-sided vehicles",
-      "Large saloon cars",
-      "Low sports cars",
-      "Four-wheel-drive cars"
+      "Risk of flooding",
+      "Snowploughs working",
+      "Risk of ice",
+      "Oil spills on the road"
     ],
-    "answer": 0,
-    "explain": "High-sided vehicles are most affected by windy weather, but strong gusts can also blow a car, cyclist, motorcyclist or horse rider off course.",
-    "ref": ["HC 232"],
-    "sign": null
+    "answer": 2,
+    "explain": "This sign warns of a risk of ice. Drive extremely carefully: drive slowly in as high a gear as possible and avoid sudden actions.",
+    "ref": ["HC Traffic signs", "HC 231"],
+    "sign": "warning-sign-risk-of-ice"
   },
   {
     "id": "MAR-035",
@@ -589,44 +589,44 @@
   },
   {
     "id": "MAR-043",
-    "q": "You're behind a car that pulls out to overtake a long lorry. You also want to overtake the lorry. What should you do?",
+    "q": "You're making an essential journey in snowy weather. How can you find out about conditions on the roads ahead?",
     "options": [
-      "Follow the car closely as it passes",
-      "Pull out alongside the car to pass together",
-      "Wait, as the car may abort and pull back in",
-      "Flash your headlights to hurry the car"
+      "Follow the vehicle in front",
+      "Watch other cars' brake lights",
+      "Phone the police on 101",
+      "Listen to travel bulletins"
     ],
-    "answer": 2,
-    "explain": "Don't assume you can follow a vehicle ahead that is overtaking a long vehicle. If a problem develops, they may abort the overtake and pull back in.",
-    "ref": ["HC 164"],
+    "answer": 3,
+    "explain": "In icy or snowy weather, listen to travel bulletins and take note of variable message signs that may give information about weather, road and traffic conditions ahead.",
+    "ref": ["HC 230"],
     "sign": null
   },
   {
     "id": "MAR-044",
-    "q": "You're about to overtake a cyclist on a road with a 30 mph limit. As a guide, what is the minimum space you should leave?",
+    "q": "It's raining heavily. Which road users should you take extra care around?",
     "options": [
-      "75 centimetres",
-      "1 metre",
-      "50 centimetres",
-      "1.5 metres"
+      "Pedestrians, cyclists and horse riders",
+      "Cars that have their headlights on",
+      "Buses and coaches at bus stops",
+      "Lorries using the left-hand lane"
     ],
-    "answer": 3,
-    "explain": "As a guide, leave at least 1.5 metres when overtaking cyclists at speeds of up to 30 mph, and give them more space when overtaking at higher speeds.",
-    "ref": ["HC 163"],
+    "answer": 0,
+    "explain": "In wet weather, take extra care around pedestrians, cyclists, motorcyclists and horse riders. Rain and spray can make it difficult to see and be seen.",
+    "ref": ["HC 227"],
     "sign": null
   },
   {
     "id": "MAR-045",
-    "q": "You're driving along a country road and see a horse rider ahead. How should you pass them?",
+    "q": "It's an icy day and you're behind a gritter that's spreading salt. What should you do?",
     "options": [
-      "Below 20 mph, leaving at least 1 metre",
-      "Below 10 mph, leaving at least 2 metres",
-      "Below 30 mph, leaving at least 1.5 metres",
-      "Below 15 mph, leaving at least 1 metre"
+      "Overtake it as soon as you can",
+      "Keep back and only overtake with care",
+      "Follow closely to use its tracks",
+      "Flash your lights so it pulls in"
     ],
     "answer": 1,
-    "explain": "Pass horse riders and horse-drawn vehicles at speeds under 10 mph and allow at least 2 metres of space. Always pass wide and slowly.",
-    "ref": ["HC 163", "HC 215"],
+    "explain": "In icy or snowy weather, take care when overtaking vehicles spreading salt or other de-icer, particularly if you're riding a motorcycle or cycle.",
+    "ref": ["HC 230"],
     "sign": null
   },
   {
@@ -645,16 +645,16 @@
   },
   {
     "id": "MAR-047",
-    "q": "You're following a cyclist on a narrow, winding road. There isn't room to pass with a safe gap. What should you do?",
+    "q": "It snowed overnight and you have to make an essential journey. What should you check before you set off?",
     "options": [
-      "Wait behind until it's safe to pass",
-      "Pass slowly, leaving less space",
-      "Sound your horn so they move in",
-      "Flash your headlights to warn them"
+      "That your tyre pressures are reduced",
+      "That your fuel tank is almost empty",
+      "That your route is clear of delays",
+      "That your rear fog lights are on"
     ],
-    "answer": 0,
-    "explain": "You should wait behind the cyclist and not overtake if it's unsafe or not possible to give them the recommended space.",
-    "ref": ["HC 163"],
+    "answer": 2,
+    "explain": "Before you set off in snowy weather, check your planned route is clear of delays and that no further snowfalls or severe weather are predicted.",
+    "ref": ["HC 229"],
     "sign": null
   },
   {

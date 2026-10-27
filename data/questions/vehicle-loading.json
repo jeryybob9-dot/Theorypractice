@@ -267,30 +267,30 @@
   },
   {
     "id": "LOA-020",
-    "q": "You're towing a trailer on a motorway. What's the maximum speed you're allowed to drive at?",
+    "q": "Your car's maximum authorised mass (MAM) is under 3,500 kg. What's the longest trailer you can tow with it?",
     "options": [
-      "50 mph",
-      "55 mph",
-      "60 mph",
-      "70 mph"
+      "5 metres",
+      "10 metres",
+      "7 metres",
+      "12 metres"
     ],
     "answer": 2,
-    "explain": "Cars towing caravans or trailers have a speed limit of 60 mph on motorways and dual carriageways.",
-    "ref": ["HC 124", "GOV.UK speed-limits"],
+    "explain": "If your vehicle's maximum authorised mass is 3,500 kg or less, you can't tow a trailer that's longer than 7 metres. This doesn't include the A-frame.",
+    "ref": ["GOV.UK towing-with-car"],
     "sign": null
   },
   {
     "id": "LOA-021",
-    "q": "You're towing a trailer on a motorway with three lanes. Which lanes may you use?",
+    "q": "Your friend's car has broken down and they ask you to tow it home with a tow rope. What does the Highway Code advise?",
     "options": [
-      "Left-hand and middle lanes only",
-      "All three lanes",
-      "Left-hand lane only",
-      "Middle and right-hand lanes only"
+      "Use the rope and keep under 40 mph",
+      "Use the rope with your hazard lights on",
+      "Use the longest rope you can find",
+      "Consider professional recovery instead"
     ],
-    "answer": 0,
-    "explain": "You MUST NOT use the right-hand lane of a motorway with three or more lanes if you're drawing a trailer, except in prescribed circumstances.",
-    "ref": ["HC 265", "HC 98"],
+    "answer": 3,
+    "explain": "Towing a vehicle on a tow rope is potentially dangerous. You should consider using a solid tow bar or professional recovery.",
+    "ref": ["HC 98"],
     "sign": null
   },
   {
@@ -309,17 +309,17 @@
   },
   {
     "id": "LOA-023",
-    "q": "You see this marker on the side of a vehicle's load. When must markers like this be fitted?",
+    "q": "You're having a tow bar fitted to your car, which was first used in 2015. What must the tow bar be?",
     "options": [
-      "When the load overhangs by more than 1 metre",
-      "When the vehicle carries dangerous goods",
-      "When the vehicle is longer than 13 metres",
-      "When the load overhangs by more than 2 metres"
+      "Type-approved for your car",
+      "Painted the same colour as the car",
+      "Fitted by a DVLA garage",
+      "Removable when not in use"
     ],
-    "answer": 3,
-    "explain": "Side and end projection markers are both required when a load or equipment overhangs the front or rear by more than 2 metres.",
-    "ref": ["HC Vehicle markings"],
-    "sign": "projection-marker-side"
+    "answer": 0,
+    "explain": "If you get a tow bar for your car, it needs to be type-approved, meaning it meets EU regulations and is designed for your car. It will have a label with an approval number and details of the vehicles it's approved for.",
+    "ref": ["GOV.UK towing-with-car"],
+    "sign": null
   },
   {
     "id": "LOA-024",

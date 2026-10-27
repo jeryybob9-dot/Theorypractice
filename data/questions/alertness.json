@@ -18,34 +18,34 @@
   },
   {
     "id": "ALE-002",
-    "q": "You're driving on a motorway. Why should you use your mirrors earlier and look much further ahead than you would on other roads?",
+    "q": "You're driving along a country road and see this sign. What should you be prepared for?",
     "options": [
-      "There's less time to react at motorway speeds",
-      "Motorway signs are smaller and harder to read",
-      "Mirrors show less when you're at high speed",
-      "Motorway junctions are much closer together"
+      "A roundabout just past the bend",
+      "The road narrowing on the bend",
+      "A double bend, first to the left",
+      "A junction on the bend ahead"
     ],
-    "answer": 0,
-    "explain": "Traffic on motorways usually travels faster than on other roads, so you have less time to react. That's why you should use your mirrors earlier and look much further ahead.",
+    "answer": 3,
+    "explain": "This sign warns of a junction on a bend ahead. Where there are junctions, be prepared for road users emerging, and adjust your speed as a precaution.",
     "ref": [
-      "HC 254"
+      "HC Traffic signs",
+      "HC 146"
     ],
-    "sign": null
+    "sign": "warning-sign-junction-on-bend-ahead"
   },
   {
     "id": "ALE-003",
-    "q": "You're following a large lorry on a single carriageway road and it's blocking your view of the road ahead. What should you do?",
+    "q": "You're in a queue of slow-moving traffic. Why should you leave enough space between you and the vehicle in front?",
     "options": [
-      "Move closer so you're ready to overtake",
-      "Flash your headlights to ask it to pull in",
-      "Keep pulling out to look past it",
-      "Drop back to increase the gap"
+      "So drivers can't pull in front of you",
+      "So you can build up speed between stops",
+      "So you don't need to use your brakes",
+      "So you can get round it if it breaks down"
     ],
     "answer": 3,
-    "explain": "You should drop back. Pulling back to increase your separation distance improves your ability to see and plan ahead, and helps the lorry driver see you in their mirrors.",
+    "explain": "In slow-moving traffic, leave enough space to be able to manoeuvre if the vehicle in front breaks down or an emergency vehicle needs to get past. Never get so close that you can't stop safely.",
     "ref": [
-      "HC 222",
-      "HC 164"
+      "HC 151"
     ],
     "sign": null
   },
@@ -166,52 +166,53 @@
   },
   {
     "id": "ALE-011",
-    "q": "You've parked on the left of a busy road and are about to open your driver's door. Which method does the Highway Code recommend?",
+    "q": "You've just hired a car you haven't driven before. Your licence and insurance are in order. What should you do before you set off?",
     "options": [
-      "Use your right hand and open it quickly",
-      "Open it slightly and listen for traffic",
-      "Open it fully, then check your mirror",
-      "Use your left hand so you turn your head"
+      "Rely on the hire company's checks",
+      "Set the mirrors once you're moving",
+      "Test the brakes hard on the main road",
+      "Find out where all the controls are"
     ],
     "answer": 3,
-    "explain": "You MUST make sure you don't hit anyone when you open your door. Where you can, open it with the hand on the opposite side, so you turn your head to look over your shoulder for cyclists and motorcyclists.",
+    "explain": "Before setting off, you should make sure you know where all the controls are and how to use them, and that your mirrors and seat are adjusted correctly.",
     "ref": [
-      "HC 239"
+      "HC 97"
     ],
     "sign": null
   },
   {
     "id": "ALE-012",
-    "q": "You want to pull up on the left just after a side road. When should you signal?",
+    "q": "You've just turned right at a junction and your indicator is still flashing. Why should you make sure it's cancelled?",
     "options": [
-      "Well before you reach the side road",
-      "As you're passing the side road",
-      "Only once you've come to a stop",
-      "There's no need to signal here"
+      "It will flatten the car's battery",
+      "It's illegal to signal on a straight road",
+      "It will distract your passengers",
+      "It could mislead other road users"
     ],
-    "answer": 1,
-    "explain": "If you want to stop after a side road, don't signal until you're passing it. Signalling earlier may make other road users think you're turning into the side road.",
+    "answer": 3,
+    "explain": "Signals warn and inform other road users of what you intend to do. Cancel them after use and make sure they won't confuse others, who may think you're about to turn.",
     "ref": [
-      "HC 103"
+      "HC 103",
+      "HC 104"
     ],
     "sign": null
   },
   {
     "id": "ALE-013",
-    "q": "You're waiting to emerge from a side road. A car approaching from your right is signalling left. What should you do?",
+    "q": "You're driving along a main road and see this sign. What does it warn you about?",
     "options": [
-      "Pull out, as it will be turning in",
-      "Flash your lights and then pull out",
-      "Wait until you're sure it's turning in",
-      "Pull out quickly before it gets to you"
+      "The road narrowing on the left",
+      "A lane closing on the right",
+      "A sharp bend to the left ahead",
+      "Traffic merging from the left ahead"
     ],
-    "answer": 2,
-    "explain": "Don't assume that a vehicle coming from the right and signalling left will actually turn. Wait and make sure – its indicator may not have been cancelled.",
+    "answer": 3,
+    "explain": "This sign warns that traffic will be merging from the left ahead. Where there are junctions, be prepared for road users joining and adjust your speed if necessary.",
     "ref": [
-      "HC 170",
-      "HC 104"
+      "HC Traffic signs",
+      "HC 146"
     ],
-    "sign": null
+    "sign": "warning-sign-traffic-merging-left"
   },
   {
     "id": "ALE-014",
@@ -249,17 +250,17 @@
   },
   {
     "id": "ALE-016",
-    "q": "You're taking an exit to the right at a roundabout. When should you signal left?",
+    "q": "You're waiting to join a roundabout. A car on the roundabout to your right isn't signalling. What should you bear in mind?",
     "options": [
-      "As soon as you join the roundabout",
-      "After passing the exit before yours",
-      "Only as you reach your own exit",
-      "There's no need to signal to leave"
+      "It must be going straight ahead",
+      "It's certain to pass your road",
+      "It has to give way to you",
+      "It may not be signalling correctly"
     ],
-    "answer": 1,
-    "explain": "When taking an exit to the right, signal right and approach in the right-hand lane. Signal left after you've passed the exit before the one you want.",
+    "answer": 3,
+    "explain": "Watch out for all other road users already on the roundabout, and be aware that they may not be signalling correctly or at all. Wait until you're sure what they're doing.",
     "ref": [
-      "HC 186"
+      "HC 185"
     ],
     "sign": null
   },
@@ -415,18 +416,17 @@
   },
   {
     "id": "ALE-026",
-    "q": "You're supervising a friend who is learning to drive. Can you use a hand-held mobile phone?",
+    "q": "You're about to drive home wearing a pair of heavy walking boots. What should you consider first?",
     "options": [
-      "Yes, because you're not driving",
-      "Yes, if the learner is driving slowly",
-      "No, it's illegal while supervising",
-      "Yes, but only to send short texts"
+      "Whether they'll keep your feet warm enough",
+      "Whether they'll leave mud on the floor mats",
+      "Whether you'll need them at the other end",
+      "Whether you can use the pedals properly"
     ],
-    "answer": 2,
-    "explain": "You MUST NOT use a hand-held phone or similar device when supervising a learner driver. The law applies to you just as it does to someone driving.",
+    "answer": 3,
+    "explain": "Before setting off, you should make sure your clothing and footwear don't prevent you from using the controls in the correct manner.",
     "ref": [
-      "HC 149",
-      "GOV.UK driving-lessons-learning-to-drive"
+      "HC 97"
     ],
     "sign": null
   },
@@ -498,18 +498,17 @@
   },
   {
     "id": "ALE-031",
-    "q": "You're driving towards a low, bright sun and it's dazzling you. What should you do?",
+    "q": "Your phone is in a cradle fixed to the dashboard. You want to call a friend while you're driving. What does the law say?",
     "options": [
-      "Slow down, and stop if necessary",
-      "Speed up to get past the glare",
-      "Close one eye until it passes",
-      "Switch on your main beam headlights"
+      "You may dial if one hand stays on the wheel",
+      "You may dial while stopped in a queue",
+      "You may dial if the call will be short",
+      "You mustn't pick it up to dial the number"
     ],
-    "answer": 0,
-    "explain": "If you're dazzled by bright sunlight, slow down and, if necessary, stop.",
+    "answer": 3,
+    "explain": "You MUST NOT pick up a phone while driving to dial a number and then put it in the cradle for the conversation. It's far safer not to use any phone while driving: find a safe place to stop first.",
     "ref": [
-      "HC 93",
-      "HC 237"
+      "HC 149"
     ],
     "sign": null
   },
@@ -548,69 +547,66 @@
   },
   {
     "id": "ALE-034",
-    "q": "You see this sign. Once you're in the tunnel, the traffic in front of you comes to a stop. What's the minimum gap you should leave between you and the vehicle in front?",
+    "q": "You see this sign on the approach to a busy junction. What should you be prepared for?",
     "options": [
-      "1 metre",
-      "2 metres",
-      "5 metres",
-      "3 metres"
+      "A lane for slow vehicles",
+      "A closed hard shoulder",
+      "Traffic lights out of order",
+      "Queuing traffic ahead"
     ],
-    "answer": 2,
-    "explain": "This sign warns of a tunnel ahead. If you have to stop in a tunnel, leave at least a 5-metre gap between you and the vehicle in front. When moving, keep at least a two-second gap.",
+    "answer": 3,
+    "explain": "This sign warns that traffic queues are likely ahead. Be prepared to slow down or stop, and adjust your speed as a precaution.",
     "ref": [
-      "HC 126",
-      "HC Traffic signs"
+      "HC Traffic signs",
+      "HC 146"
     ],
-    "sign": "warning-sign-tunnel-ahead"
+    "sign": "warning-sign-traffic-queues"
   },
   {
     "id": "ALE-035",
-    "q": "You're waiting to emerge from a junction. Why should you look especially carefully for motorcyclists?",
+    "q": "You're waiting behind another car to join a roundabout. You see a safe gap in the traffic from the right. What should you check before you move off?",
     "options": [
-      "They may be approaching faster than you think",
-      "They must give way to you at junctions",
-      "They always ride close to the kerb",
-      "They aren't allowed to filter past traffic"
+      "That your hazard lights are on",
+      "That the car behind is well back",
+      "That the next exit is clear",
+      "That the car in front has moved off"
     ],
-    "answer": 0,
-    "explain": "Motorcyclists and cyclists are often difficult to see, especially at junctions. Always look out for them before you emerge – they could be approaching faster than you think.",
+    "answer": 3,
+    "explain": "When reaching a roundabout, give priority to traffic approaching from your right, and look forward before moving off to make sure the traffic in front has moved off.",
     "ref": [
-      "HC 211",
-      "HC 170"
+      "HC 185"
     ],
     "sign": null
   },
   {
     "id": "ALE-036",
-    "q": "You're about to turn left into a side road. A cyclist is riding in the cycle lane on your left, going straight ahead. What should you do?",
+    "q": "You're about to move out to overtake on a motorway. Why should you check your mirrors carefully first?",
     "options": [
-      "Overtake the cyclist, then turn quickly",
-      "Turn in front, as you've signalled left",
-      "Sound your horn so the cyclist stops",
-      "Give way and let the cyclist go first"
+      "Lorries often change lanes without signalling",
+      "You must signal before you use your mirrors",
+      "Traffic may be coming up behind very quickly",
+      "The left-hand lane may be about to end"
     ],
-    "answer": 3,
-    "explain": "Don't cut across cyclists going ahead when you're turning, whether they're in a cycle lane or on the road. Give way to them, and watch out for traffic coming up on your left before you turn.",
+    "answer": 2,
+    "explain": "Before overtaking on a motorway, remember that traffic may be coming up behind you very quickly. Check all your mirrors carefully, look out for motorcyclists and signal in plenty of time.",
     "ref": [
-      "HC H3",
-      "HC 182",
-      "HC 183"
+      "HC 267"
     ],
     "sign": null
   },
   {
     "id": "ALE-037",
-    "q": "You're turning right into a side road across a queue of stationary traffic. A driver in the queue has left a gap for you. What should you do?",
+    "q": "You need to reverse out of a parking space, but a van parked next to you blocks your view. What should you do?",
     "options": [
-      "Turn quickly, as the driver has let you through",
-      "Turn slowly, looking for cyclists on the inside",
-      "Turn straight away before the queue moves",
-      "Sound your horn and then turn quickly"
+      "Reverse out quickly before traffic comes",
+      "Sound your horn and reverse slowly",
+      "Rely on your door mirrors only",
+      "Get someone to guide you out"
     ],
-    "answer": 1,
-    "explain": "When turning right across a line of slow-moving or stationary traffic, look out for and give way to cyclists or motorcyclists on the inside of the traffic you're crossing.",
+    "answer": 3,
+    "explain": "Look carefully before you reverse: use all your mirrors and check all around. If you can't see clearly, get someone to guide you.",
     "ref": [
-      "HC 211"
+      "HC 202"
     ],
     "sign": null
   },
@@ -665,84 +661,83 @@
   },
   {
     "id": "ALE-041",
-    "q": "You're following a slow tractor up a hill and are nearing the brow. Why shouldn't you overtake here?",
+    "q": "You're thinking about overtaking a slow-moving van. Before you pull out, what should you make sure of behind you?",
     "options": [
-      "Tractors must never be overtaken",
-      "You can't see far enough ahead",
-      "It's illegal to overtake on any hill",
-      "Your car will lose power on a hill"
+      "The driver behind has flashed you out",
+      "The car behind is close enough to follow",
+      "Nobody is starting to overtake you",
+      "Your hazard lights are switched on"
     ],
-    "answer": 1,
-    "explain": "Don't overtake if there's any doubt, or where you can't see far enough ahead to be sure it's safe – for example, when approaching a bend, a hump bridge or the brow of a hill.",
+    "answer": 2,
+    "explain": "Before overtaking, make sure the road is clear enough ahead, that road users aren't beginning to overtake you, and that there's a suitable gap in front of the road user you plan to overtake.",
     "ref": [
-      "HC 166"
+      "HC 162"
     ],
     "sign": null
   },
   {
     "id": "ALE-042",
-    "q": "You're approaching a right-hand bend. Where should you position your car?",
+    "q": "You're driving along a busy road. How often should you use your mirrors?",
     "options": [
-      "Close to the centre line",
-      "In the middle of the road",
-      "Well to the left",
-      "Wherever gives the straightest line"
+      "Only just before you start to turn or stop",
+      "Only when you hear a vehicle sound its horn",
+      "Only after you've finished an overtaking move",
+      "Frequently, so you know what's behind you"
     ],
-    "answer": 2,
-    "explain": "Keep well to the left on right-hand bends. This improves your view of the road and helps avoid the risk of colliding with traffic coming the other way.",
+    "answer": 3,
+    "explain": "Use your mirrors frequently so that you always know what's behind and to each side of you. Use them in good time before you signal or change direction or speed.",
     "ref": [
-      "HC 160"
+      "HC 161"
     ],
     "sign": null
   },
   {
     "id": "ALE-043",
-    "q": "You see this sign ahead. What should you do before you reach the slope?",
+    "q": "Which of these is an exception to the ban on using a hand-held phone while driving?",
     "options": [
-      "Select a lower gear",
-      "Select neutral and coast",
-      "Select a higher gear",
-      "Switch on your hazard lights"
+      "Answering an urgent call from work",
+      "Checking a map in slow-moving traffic",
+      "Calling 999 when it's unsafe to stop",
+      "Texting while stopped at traffic lights"
     ],
-    "answer": 0,
-    "explain": "This sign warns of a steep hill downwards. Select a lower gear before you reach a long downhill slope to help control your speed. Coasting reduces your control.",
+    "answer": 2,
+    "explain": "You MUST NOT use a hand-held phone while driving, even when stationary in traffic. There's an exception to call 999 or 112 in a genuine emergency when it's unsafe or impractical to stop.",
     "ref": [
-      "HC 160",
-      "HC 122",
-      "HC Traffic signs"
+      "HC 149",
+      "GOV.UK using-mobile-phones-when-driving-the-law"
     ],
-    "sign": "warning-sign-steep-hill-downwards"
+    "sign": null
   },
   {
     "id": "ALE-044",
-    "q": "You're driving along a road and see this marking. The broken centre line has become longer, with shorter gaps. What does this mean?",
+    "q": "Your passenger starts a heated argument with you while you're driving. What should you do?",
     "options": [
-      "You may overtake whenever you wish",
-      "The speed limit is about to change",
-      "You're entering a one-way street",
-      "There's a hazard ahead"
+      "Argue back so it's settled quickly",
+      "Turn to face them while you talk",
+      "Drive faster to end the journey",
+      "Avoid arguing so you can concentrate"
     ],
     "answer": 3,
-    "explain": "When the broken white centre line lengthens and the gaps shorten, it means there's a hazard ahead. Don't cross it unless you can see the road is clear and you wish to overtake or turn off.",
+    "explain": "Safe driving needs concentration. Avoid distractions such as arguing with your passengers or other road users, loud music, eating and drinking, or trying to read maps.",
     "ref": [
-      "HC 127",
-      "HC Road markings"
+      "HC 148"
     ],
-    "sign": "along-carriageway-hazard-warn-line"
+    "sign": null
   },
   {
     "id": "ALE-045",
-    "q": "You're passing the scene of a crash on the other side of a dual carriageway. What should you do?",
+    "q": "The police stop you because you didn't have a full view of the road ahead or proper control of your car. How many penalty points could you get?",
     "options": [
-      "Slow right down to get a good look",
-      "Concentrate on the road ahead",
-      "Take a photo for the emergency services",
-      "Pull onto the verge to watch"
+      "6",
+      "2",
+      "3",
+      "9"
     ],
-    "answer": 1,
-    "explain": "When passing an incident, stay alert for hazards and don't slow down unnecessarily. Focus on the road ahead – a lack of attention may cause another incident, collision or congestion.",
+    "answer": 2,
+    "explain": "You can get 3 penalty points if you don't have a full view of the road and traffic ahead or proper control of the vehicle. The police can stop you if they think you're not in control because you're distracted.",
     "ref": [
-      "HC 282"
+      "GOV.UK using-mobile-phones-when-driving-the-law",
+      "HC Annex 5"
     ],
     "sign": null
   }

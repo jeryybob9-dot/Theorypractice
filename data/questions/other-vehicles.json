@@ -247,19 +247,20 @@
   },
   {
     "id": "OTH-016",
-    "q": "You see a diamond-shaped sign beside a tramway. Who does it give instructions to?",
+    "q": "You see this symbol on a hazard warning plate on a tanker. What does it mean?",
     "options": [
-      "All drivers",
-      "Cyclists only",
-      "Bus drivers only",
-      "Tram drivers only"
+      "Corrosive substance",
+      "Toxic substance",
+      "Radioactive substance",
+      "Compressed gas"
     ],
-    "answer": 3,
-    "explain": "Diamond-shaped signs and white light signals give instructions to tram drivers only.",
+    "answer": 0,
+    "explain": "Certain tank vehicles carrying dangerous goods must display hazard information panels. This diamond symbol shows a corrosive substance. If such a vehicle is involved in an incident, keep well away.",
     "ref": [
-      "HC 300"
+      "HC Vehicle markings",
+      "HC 284"
     ],
-    "sign": null
+    "sign": "hazard-warning-corrosive-plate"
   },
   {
     "id": "OTH-017",
@@ -427,20 +428,19 @@
   },
   {
     "id": "OTH-027",
-    "q": "You're driving on a dual carriageway and see this sign on the back of a slow-moving works vehicle. What MUST you do?",
+    "q": "Which of these is true about mini motos and motorised 'go ped' scooters?",
     "options": [
-      "Stop behind it until it moves off",
-      "Pass it on the side the arrow shows",
-      "Pass it on whichever side is clearer",
-      "Overtake it using the hard shoulder"
+      "They may be used in cycle lanes",
+      "They MUST NOT be used on roads",
+      "They may be used on pavements",
+      "They're legal on quiet roads"
     ],
     "answer": 1,
-    "explain": "Works vehicles may be used to close lanes for repairs. Where 'Keep Left' or 'Keep Right' signs are displayed on the back, you MUST pass the vehicle on the side indicated and not return to the closed lane until you can see it's safe.",
+    "explain": "Most mini motos (miniature motorcycles) and motorised scooters (go peds) don't meet the requirements for road vehicles. They MUST NOT be used on roads, pavements, footpaths or bridleways.",
     "ref": [
-      "HC 289",
-      "HC Traffic signs"
+      "HC 157"
     ],
-    "sign": "road-work-sign-back-vehicle-direction-arrow"
+    "sign": null
   },
   {
     "id": "OTH-028",
@@ -492,19 +492,20 @@
   },
   {
     "id": "OTH-031",
-    "q": "A police car behind you is flashing its blue lights and headlights, and the officer points for you to pull over. What MUST you do?",
+    "q": "You see this sign. What does it warn you of?",
     "options": [
-      "Stop at once, wherever you happen to be",
-      "Stop when safe, then switch off your engine",
-      "Drive to the nearest police station",
-      "Keep driving until you reach a car park"
+      "A bus lane ahead",
+      "A level crossing ahead",
+      "Trams crossing ahead",
+      "A tram stop ahead"
     ],
-    "answer": 1,
-    "explain": "If the police want to stop you, they'll attract your attention by flashing blue lights or headlights or sounding their siren or horn, usually from behind. You MUST pull over and stop as soon as it's safe to do so, then switch off your engine.",
+    "answer": 2,
+    "explain": "This sign warns of trams crossing ahead. Take extra care: trams move quickly but silently and can't steer to avoid you.",
     "ref": [
-      "HC 106"
+      "HC Traffic signs",
+      "HC 224"
     ],
-    "sign": null
+    "sign": "warning-sign-trams-crossing-ahead"
   },
   {
     "id": "OTH-032",

@@ -57,30 +57,30 @@
   },
   {
     "id": "HAN-005",
-    "q": "Your car has motorway assist and a lane departure warning system. How should you use them?",
+    "q": "You're in a listed self-driving vehicle with its self-driving function switched on. It prompts you to take back control. What MUST you do?",
     "options": [
-      "Rely on them so you can relax",
-      "Use them, but keep full concentration",
-      "Only use them in heavy traffic",
-      "Let them steer while you check messages"
+      "Let it carry on driving itself",
+      "Wait until the end of the journey",
+      "Ignore it unless the road is busy",
+      "Take control when it prompts you"
     ],
-    "answer": 1,
-    "explain": "Driver assistance systems are there to assist, but don't rely on them or reduce your concentration. Use any system according to the manufacturer's instructions.",
-    "ref": ["HC 150", "HC 160"],
+    "answer": 3,
+    "explain": "If a self-driving vehicle needs to hand control back to you, it will give you enough warning. You MUST always be able and ready to take control, and do it when the vehicle prompts you, so stay in the driving seat and stay awake.",
+    "ref": ["HC Introduction"],
     "sign": null
   },
   {
     "id": "HAN-006",
-    "q": "You're driving on a motorway using a driver assistance system such as motorway assist. Who is responsible for the vehicle?",
+    "q": "You're coming to a normal stop at traffic lights. What's the safest way to brake?",
     "options": [
-      "The vehicle manufacturer",
-      "The system's software provider",
-      "You, as the driver",
-      "Nobody while the system is active"
+      "Early and lightly, then more firmly",
+      "Late and hard, then release it",
+      "Pump the brake pedal on and off",
+      "Handbrake first, then footbrake"
     ],
-    "answer": 2,
-    "explain": "As the driver, you are still responsible for the vehicle if you use a driver assistance system. You MUST have full control over these systems at all times.",
-    "ref": ["HC 150"],
+    "answer": 0,
+    "explain": "In normal circumstances, the safest way to brake is early and lightly. Brake more firmly as you begin to stop, then ease the pressure off just before the vehicle comes to rest to avoid a jerky stop.",
+    "ref": ["HC 117"],
     "sign": null
   },
   {
@@ -141,16 +141,16 @@
   },
   {
     "id": "HAN-011",
-    "q": "You're on a single-track road and the driver behind you wants to overtake. There's a passing place on your left. What should you do?",
+    "q": "Your car doesn't have anti-lock brakes. A child runs out in front of you and you have to stop in an emergency. What should you try to avoid?",
     "options": [
-      "Speed up so you don't hold them up",
-      "Wave them past on the next bend",
-      "Pull into the passing place to let them by",
-      "Carry on, as overtaking isn't allowed"
+      "Braking as soon as you see the hazard",
+      "Braking so hard that the wheels lock",
+      "Keeping both hands on the steering wheel",
+      "Holding the car straight as you stop"
     ],
-    "answer": 2,
-    "explain": "If the driver behind wants to overtake on a single-track road, pull into a passing place on your left, or wait opposite a passing place on your right.",
-    "ref": ["HC 155"],
+    "answer": 1,
+    "explain": "In an emergency, brake immediately. Try to avoid braking so harshly that you lock your wheels, as locked wheels can lead to loss of control.",
+    "ref": ["HC 118"],
     "sign": null
   },
   {
@@ -225,31 +225,31 @@
   },
   {
     "id": "HAN-017",
-    "q": "You're driving at night on a country road with no street lighting. What lights MUST you use?",
+    "q": "You're carrying a tall load on your roof rack in a city with trams. How high above the road are tram overhead wires normally?",
     "options": [
-      "Sidelights only",
-      "Headlights",
-      "Front fog lights",
-      "Hazard warning lights"
+      "4.5 metres",
+      "3.5 metres",
+      "5.8 metres",
+      "6.5 metres"
     ],
-    "answer": 1,
-    "explain": "You MUST use headlights at night, except on a road which has lit street lighting. Fog lights MUST NOT be used unless visibility is seriously reduced.",
-    "ref": ["HC 113", "HC 114"],
+    "answer": 2,
+    "explain": "Tramway overhead wires are normally 5.8 metres above the carriageway, but can be lower, in which case height clearance markings are shown. Make sure there's enough clearance for your vehicle and any load before driving under them.",
+    "ref": ["HC 307"],
     "sign": null
   },
   {
     "id": "HAN-018",
-    "q": "Some lighting rules apply at 'night'. How does the Highway Code define night (the hours of darkness)?",
+    "q": "You're approaching a low arched bridge and see this sign. What does it show?",
     "options": [
-      "Sunset to sunrise",
-      "One hour after sunset to one hour before sunrise",
-      "Half an hour before sunset to half an hour after sunrise",
-      "Half an hour after sunset to half an hour before sunrise"
+      "The bridge is closed to traffic",
+      "The road narrows on both sides",
+      "There's a weight limit on the bridge",
+      "The available width of headroom"
     ],
     "answer": 3,
-    "explain": "Night (the hours of darkness) is the period between half an hour after sunset and half an hour before sunrise. Sidelights and rear registration plate lights must be lit between sunset and sunrise.",
-    "ref": ["HC 113"],
-    "sign": null
+    "explain": "This warning sign shows the available width of headroom. Check that your vehicle, including any load, can pass safely.",
+    "ref": ["HC Traffic signs"],
+    "sign": "warning-sign-available-width-head-room"
   },
   {
     "id": "HAN-019",
@@ -309,31 +309,31 @@
   },
   {
     "id": "HAN-023",
-    "q": "You're behind a slow-moving tractor as you approach the brow of a hill. What should you do?",
+    "q": "You've parked at the side of the road and are about to leave your car. What MUST you switch off?",
     "options": [
-      "Overtake quickly before the brow",
-      "Stay behind until you can see it's safe",
-      "Overtake with your hazard lights on",
-      "Sound your horn and then overtake"
+      "The engine, headlights and fog lights",
+      "Only the engine, as lights don't matter",
+      "Only the fog lights, if they're on",
+      "Only the headlights and the radio"
     ],
-    "answer": 1,
-    "explain": "Don't overtake where you can't see far enough ahead to be sure it's safe, for example when approaching a corner or bend, a hump bridge or the brow of a hill.",
-    "ref": ["HC 166"],
+    "answer": 0,
+    "explain": "If you stop on the roadside, you MUST switch off the engine, headlights and fog lights, and you MUST apply the handbrake before leaving the vehicle.",
+    "ref": ["HC 239"],
     "sign": null
   },
   {
     "id": "HAN-024",
-    "q": "You're driving on a single carriageway behind another vehicle. When may you overtake it on its left?",
+    "q": "You see this sign. What should you be prepared for?",
     "options": [
-      "When it's driving below the speed limit",
-      "When the driver waves you through",
-      "When it's a slow-moving lorry",
-      "When it's signalling right and there's room"
+      "A hump bridge",
+      "A bumpy road surface",
+      "Road humps for a set distance",
+      "A steep hill downwards"
     ],
-    "answer": 3,
-    "explain": "Only overtake on the left if the vehicle in front is signalling to turn right, and there is room to do so.",
-    "ref": ["HC 163"],
-    "sign": null
+    "answer": 1,
+    "explain": "This sign warns of an uneven road. Slow down, and remember that motorcyclists and cyclists may suddenly need to avoid uneven road surfaces.",
+    "ref": ["HC Traffic signs", "HC 213"],
+    "sign": "warning-sign-uneven-road"
   },
   {
     "id": "HAN-025",
@@ -519,44 +519,44 @@
   },
   {
     "id": "HAN-038",
-    "q": "You're approaching a level crossing in slow traffic. The road on the far side of the crossing is congested. What should you do?",
+    "q": "You're approaching a level crossing that has barriers but no traffic lights. The barrier starts to close. What should you do?",
     "options": [
-      "Drive onto the crossing and wait there",
-      "Cross quickly behind the car in front",
-      "Wait until the road beyond is clear",
-      "Stop on the crossing with hazard lights on"
+      "Speed up to cross before it closes",
+      "Cross if you can't see a train",
+      "Stop and wait at the barrier",
+      "Drive round the barrier with care"
     ],
     "answer": 2,
-    "explain": "Never drive onto a level crossing until the road is clear on the other side, and don't get too close to the car in front. Never stop or park on, or near, a crossing.",
-    "ref": ["HC 291"],
+    "explain": "At level crossings without traffic lights, you should stop and wait at the barrier or gate when it begins to close, and not cross until it opens.",
+    "ref": ["HC 295"],
     "sign": null
   },
   {
     "id": "HAN-039",
-    "q": "You're waiting at a level crossing. A train passes, but the red lights keep flashing. What should you do?",
+    "q": "You come to a level crossing with user-operated gates but no lights. There's a railway telephone beside it. What should you do before crossing?",
     "options": [
-      "Wait, as another train will pass soon",
-      "Cross carefully now the train has gone",
-      "Drive round the barriers if it's clear",
-      "Sound your horn to alert the operator"
+      "Open the gates and cross quickly",
+      "Sound your horn and wait for a reply",
+      "Cross if you can't hear a train",
+      "Phone the signal operator"
     ],
-    "answer": 0,
-    "explain": "You MUST wait if a train goes by and the red lights continue to flash. This means another train will be passing soon. Only cross when the lights go off and the barriers open.",
-    "ref": ["HC 293"],
+    "answer": 3,
+    "explain": "If there are no lights, stop, look both ways and listen before you cross. If there's a railway telephone, always use it to contact the signal operator to make sure it's safe to cross, and tell them again when you're clear.",
+    "ref": ["HC 297", "HC 296"],
     "sign": null
   },
   {
     "id": "HAN-040",
-    "q": "You've just crossed the white line at a level crossing when the amber light comes on. What should you do?",
+    "q": "You come to an open level crossing. It has a 'Give Way' sign but no gates, barriers, attendant or lights. What should you do?",
     "options": [
-      "Stop on the crossing and wait",
-      "Reverse back behind the white line",
-      "Keep going and clear the crossing",
-      "Stop and switch on hazard lights"
+      "Look both ways and listen before crossing",
+      "Cross quickly, as trains will give way",
+      "Wait for a signal from the operator",
+      "Sound your horn and then cross"
     ],
-    "answer": 2,
-    "explain": "Keep going if you've already crossed the white line when the amber light comes on. Don't reverse onto or over a controlled crossing.",
-    "ref": ["HC 293"],
+    "answer": 0,
+    "explain": "Open crossings have no gates, barriers, attendant or traffic lights but will have a 'Give Way' sign. Look both ways, listen and make sure there's no train coming before you cross.",
+    "ref": ["HC 298"],
     "sign": null
   },
   {
@@ -575,17 +575,17 @@
   },
   {
     "id": "HAN-042",
-    "q": "Your car breaks down on a level crossing. What should you do first?",
+    "q": "You see this sign on a country road. What does it warn you of?",
     "options": [
-      "Try to restart the engine",
-      "Phone your breakdown company",
-      "Switch on your hazard warning lights",
-      "Get everyone out and clear of the crossing"
+      "A single bend to the left",
+      "A double bend, first to the left",
+      "A sharp turn into a side road",
+      "The road narrowing on the left"
     ],
-    "answer": 3,
-    "explain": "Get everyone out of the vehicle and clear of the crossing immediately. Then use a railway telephone, if available, to tell the signal operator, and move the vehicle clear only if there's time before a train arrives.",
-    "ref": ["HC 299"],
-    "sign": null
+    "answer": 1,
+    "explain": "This sign warns of a double bend, first to the left (the symbol may be reversed). Reduce your speed before the bends, which can be sharper than they appear.",
+    "ref": ["HC Traffic signs", "HC 154"],
+    "sign": "warning-sign-double-bend"
   },
   {
     "id": "HAN-043",
@@ -617,16 +617,16 @@
   },
   {
     "id": "HAN-045",
-    "q": "A tram has stopped to pick up passengers at a stop without a platform. No other route is signed. What should you do?",
+    "q": "You're driving in a city where trams share the road. How might the width taken up by the trams be shown?",
     "options": [
-      "Drive between the tram and the kerb",
-      "Overtake the tram on its right",
-      "Wait until the tram moves off",
-      "Sound your horn to warn passengers"
+      "By red lines along the edge of the road",
+      "By lines of orange cones along the track",
+      "By yellow dots or a different road surface",
+      "By blue signs placed every 100 metres"
     ],
     "answer": 2,
-    "explain": "At stops without platforms you MUST NOT drive between a tram and the left-hand kerb when it has stopped to pick up passengers. If there's no alternative route signed, don't overtake the tram: wait until it moves off.",
-    "ref": ["HC 303"],
+    "explain": "The width taken up by trams is often shown by tram lanes marked by white lines, yellow dots or a different type of road surface. You MUST NOT enter a road, lane or route reserved for trams.",
+    "ref": ["HC 300"],
     "sign": null
   },
   {
@@ -645,30 +645,30 @@
   },
   {
     "id": "HAN-047",
-    "q": "A tram at a stop beside your lane is signalling that it's about to pull away. What should you do?",
+    "q": "You're driving along a road with tram tracks. Where should you take extra care?",
     "options": [
-      "Accelerate past before it moves off",
-      "Sound your horn to warn the driver",
-      "Flash your headlights to show you're there",
-      "Give it priority unless it's unsafe"
+      "Only at the tram stops",
+      "Only where trams have their own lane",
+      "Only when a tram is in sight",
+      "Where the tracks cross the road"
     ],
     "answer": 3,
-    "explain": "Always give priority to trams, especially when they signal to pull away from stops, unless it would be unsafe to do so. They may be carrying standing passengers who could be injured in an emergency stop.",
-    "ref": ["HC 305"],
+    "explain": "Take extra care where the track crosses from one side of the road to the other, and where the road narrows and the tracks come close to the kerb.",
+    "ref": ["HC 301"],
     "sign": null
   },
   {
     "id": "HAN-048",
-    "q": "You're following a motorcyclist on a wet road with drain covers and oily patches. What should you do?",
+    "q": "You're driving at night along a street in a built-up area with street lighting. Which lights should you use?",
     "options": [
-      "Follow closely so they can see you",
-      "Overtake them as soon as you can",
-      "Give them plenty of room",
-      "Sound your horn to warn them"
+      "Dipped headlights",
+      "Sidelights only",
+      "Main beam headlights",
+      "Front fog lights"
     ],
-    "answer": 2,
-    "explain": "Motorcyclists and cyclists may suddenly need to avoid uneven surfaces and obstacles such as drain covers or oily, wet or icy patches. Give them plenty of room and watch for any sudden change of direction.",
-    "ref": ["HC 213"],
+    "answer": 0,
+    "explain": "You should use dipped headlights, or dim-dip if fitted, at night in built-up areas to make sure you can be seen.",
+    "ref": ["HC 115"],
     "sign": null
   },
   {
